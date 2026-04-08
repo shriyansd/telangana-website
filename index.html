@@ -1,27 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Telangana Nonprofit</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telangana Initiative — Celebrating Telugu Culture</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <nav>
-  <h2>Telangana Initiative</h2>
-  <div>
+  <a href="index.html" class="nav-logo">Telangana <span>Initiative</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="learn.html">Learn Telugu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="learn.html" class="nav-cta">Learn Telugu →</a>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="mandala-bg" viewBox="0 0 900 900" fill="none" aria-hidden="true">
+      <g class="spin">
+        <circle cx="450" cy="450" r="340" stroke="#D95F0A" stroke-width="1"/>
+        <circle cx="450" cy="450" r="260" stroke="#D95F0A" stroke-width="0.5"/>
+        <circle cx="450" cy="450" r="170" stroke="#D95F0A" stroke-width="0.7"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(0 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(45 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(90 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(135 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(180 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(225 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(270 450 450)"/>
+        <ellipse cx="450" cy="170" rx="16" ry="55" fill="#D95F0A" transform="rotate(315 450 450)"/>
+        <line x1="450" y1="110" x2="450" y2="790" stroke="#C8880A" stroke-width="0.4" transform="rotate(22.5 450 450)"/>
+        <line x1="450" y1="110" x2="450" y2="790" stroke="#C8880A" stroke-width="0.4" transform="rotate(67.5 450 450)"/>
+        <line x1="450" y1="110" x2="450" y2="790" stroke="#C8880A" stroke-width="0.4" transform="rotate(112.5 450 450)"/>
+        <line x1="450" y1="110" x2="450" y2="790" stroke="#C8880A" stroke-width="0.4" transform="rotate(157.5 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(0 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(45 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(90 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(135 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(180 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(225 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(270 450 450)"/>
+        <circle cx="450" cy="110" r="5" fill="#D95F0A" transform="rotate(315 450 450)"/>
+        <circle cx="450" cy="450" r="28" stroke="#D95F0A" stroke-width="1.5"/>
+        <circle cx="450" cy="450" r="10" fill="#D95F0A"/>
+      </g>
+    </svg>
+
+    <span class="hero-badge">Youth-Led Nonprofit · Telangana &amp; Telugu Culture</span>
+    <h1 class="hero-title">Celebrating<br>the Soul of <em>Telangana</em></h1>
+    <p class="hero-sub">A youth-led nonprofit preserving Telugu language, honoring India's festivals, and building community — one celebration at a time.</p>
+    <div class="hero-btns">
+      <a href="about.html" class="btn-primary">Our Story</a>
+      <a href="learn.html" class="btn-outline">Learn Telugu Free →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-n">4</span><span class="hstat-l">Years Active</span></div>
+      <div class="hstat"><span class="hstat-n">$5K+</span><span class="hstat-l">Raised Yearly</span></div>
+      <div class="hstat"><span class="hstat-n">10+</span><span class="hstat-l">Festivals Celebrated</span></div>
+      <div class="hstat"><span class="hstat-n">∞</span><span class="hstat-l">Heritage Shared</span></div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section style="background: var(--white);">
+    <div class="container">
+      <p class="sec-label">What We Do</p>
+      <h2 class="sec-title">Gathering Around<br>India's Great Traditions</h2>
+      <p class="sec-body">From the burst of colors at Holi to the glow of a thousand diyas at Diwali, we bring our community together through India's sacred and joyful calendar of celebrations.</p>
+
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-bar" style="background: var(--saffron);"></div>
+          <span class="pillar-icon">🎉</span>
+          <div class="pillar-title">Festival Gatherings</div>
+          <p class="pillar-body">We organize celebrations for India's most beloved holidays — bringing food, music, dance, and community together throughout the year.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-bar" style="background: var(--teal);"></div>
+          <span class="pillar-icon">🙏</span>
+          <div class="pillar-title">Religious Observances</div>
+          <p class="pillar-body">We honor India's spiritual heritage through puja gatherings, bhajan evenings, and reverent observances of sacred occasions.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-bar" style="background: var(--gold);"></div>
+          <span class="pillar-icon">🏛️</span>
+          <div class="pillar-title">Temple Stall &amp; Fundraising</div>
+          <p class="pillar-body">Every year we set up our stall at the local temple, raising over $5,000 annually through handmade goods, food, and cultural offerings.</p>
+        </div>
+      </div>
+
+      <div class="ornament">✦ ✦ ✦</div>
+      <p class="sec-label" style="text-align:center; margin-bottom:1rem;">Festivals We Celebrate</p>
+      <div class="festivals">
+        <div class="fest-card" style="background:rgba(217,95,10,0.07);">
+          <span class="fest-icon">🪔</span>
+          <div class="fest-name">Diwali</div>
+          <div class="fest-desc">Festival of Lights</div>
+        </div>
+        <div class="fest-card" style="background:rgba(0,110,109,0.07);">
+          <span class="fest-icon">🌸</span>
+          <div class="fest-name">Ugadi</div>
+          <div class="fest-desc">Telugu New Year</div>
+        </div>
+        <div class="fest-card" style="background:rgba(200,136,10,0.07);">
+          <span class="fest-icon">🎨</span>
+          <div class="fest-name">Holi</div>
+          <div class="fest-desc">Festival of Colors</div>
+        </div>
+        <div class="fest-card" style="background:rgba(92,20,21,0.06);">
+          <span class="fest-icon">🌟</span>
+          <div class="fest-name">Navaratri</div>
+          <div class="fest-desc">Nine Nights of Devotion</div>
+        </div>
+        <div class="fest-card" style="background:rgba(217,95,10,0.05);">
+          <span class="fest-icon">🌾</span>
+          <div class="fest-name">Sankranti</div>
+          <div class="fest-desc">Harvest Celebration</div>
+        </div>
+        <div class="fest-card" style="background:rgba(0,110,109,0.05);">
+          <span class="fest-icon">🐘</span>
+          <div class="fest-name">Ganesh Chaturthi</div>
+          <div class="fest-desc">New Beginnings</div>
+        </div>
+        <div class="fest-card" style="background:rgba(200,136,10,0.06);">
+          <span class="fest-icon">🏮</span>
+          <div class="fest-name">Janmashtami</div>
+          <div class="fest-desc">Lord Krishna's Birthday</div>
+        </div>
+        <div class="fest-card" style="background:rgba(92,20,21,0.05);">
+          <span class="fest-icon">🌺</span>
+          <div class="fest-name">Bathukamma</div>
+          <div class="fest-desc">Telangana's Floral Festival</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <div class="impact-band">
+    <div class="container">
+      <p class="sec-label">Our Impact</p>
+      <h2 class="sec-title">Four Years of Culture,<br>Community &amp; Giving Back</h2>
+      <div class="impact-grid">
+        <div class="istat"><span class="istat-n">$20K+</span><span class="istat-l">Total Raised</span></div>
+        <div class="istat"><span class="istat-n">4</span><span class="istat-l">Years Running</span></div>
+        <div class="istat"><span class="istat-n">10+</span><span class="istat-l">Annual Events</span></div>
+        <div class="istat"><span class="istat-n">1</span><span class="istat-l">Community Temple</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEARN CTA -->
+  <section style="background: var(--cream-dk); text-align: center;">
+    <div class="container">
+      <p class="sec-label">Free &amp; Interactive</p>
+      <h2 class="sec-title">Learn Telugu Online</h2>
+      <p class="sec-body" style="margin: 0 auto 2rem;">Explore the Telugu alphabet, learn essential phrases, count to 1,000, and test yourself — all free, no sign-up needed.</p>
+      <div style="font-family:'Noto Sans Telugu',sans-serif; font-size:2.8rem; color:var(--saffron); letter-spacing:0.2em; margin-bottom:2rem;">అ ఆ ఇ ఈ ఉ ఊ</div>
+      <a href="learn.html" class="btn-primary">Start Learning →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-logo">Telangana Initiative</span>
+  <nav class="footer-links">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="gallery.html">Gallery</a>
     <a href="learn.html">Learn Telugu</a>
     <a href="contact.html">Contact</a>
-  </div>
-</nav>
-
-<section class="hero">
-  <h1>Empowering Communities Through Culture & Education</h1>
-  <p>Preserving Telugu language and supporting local communities.</p>
-</section>
+  </nav>
+  <div class="footer-ornament">🪷 🌟 🪷</div>
+  <p class="footer-copy">© 2025 Telangana Initiative · Youth Nonprofit · telanganaday.com</p>
+</footer>
 
 </body>
 </html>

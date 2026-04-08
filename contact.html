@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Telangana Initiative</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Telangana <span>Initiative</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="learn.html">Learn Telugu</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <a href="learn.html" class="nav-cta">Learn Telugu →</a>
+</nav>
+
+<main>
+
+  <div class="page-hero">
+    <p class="sec-label">Get In Touch</p>
+    <h1 class="sec-title">We'd Love to<br>Hear From You</h1>
+    <p>Questions, event ideas, collaborations, or just want to say hello — reach out anytime.</p>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: info -->
+        <div>
+          <p class="sec-label">Contact Info</p>
+          <h2 class="sec-title" style="font-size:2rem; margin-bottom:2rem;">Let's Connect</h2>
+
+          <div class="contact-info-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-val">hello@telanganaday.com</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="ci-icon">🌐</div>
+            <div>
+              <div class="ci-label">Website</div>
+              <div class="ci-val">www.telanganaday.com</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <div class="ci-label">Based In</div>
+              <div class="ci-val">United States</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="ci-icon">🏛️</div>
+            <div>
+              <div class="ci-label">Annual Temple Event</div>
+              <div class="ci-val">Local Hindu Temple — Every Year</div>
+            </div>
+          </div>
+
+          <div class="ornament" style="text-align:left; margin:2rem 0;">· · ·</div>
+
+          <p class="sec-label" style="margin-bottom:0.75rem;">What to reach out about</p>
+          <ul style="list-style:none; color:var(--muted); font-size:1rem; line-height:2.2;">
+            <li>🎉 &nbsp;Attending or hosting an event</li>
+            <li>🤝 &nbsp;Collaborations &amp; partnerships</li>
+            <li>📸 &nbsp;Sharing photos for the gallery</li>
+            <li>📚 &nbsp;Telugu lesson suggestions</li>
+            <li>💬 &nbsp;General questions</li>
+          </ul>
+        </div>
+
+        <!-- Right: form -->
+        <div>
+          <div class="contact-form" id="contact-form-wrap">
+            <p class="sec-label" style="margin-bottom:1.25rem;">Send a Message</p>
+
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="e.g. Priya Reddy" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">Choose a topic...</option>
+                <option>Attending an event</option>
+                <option>Collaboration or partnership</option>
+                <option>Sharing a photo</option>
+                <option>Telugu lesson suggestion</option>
+                <option>General question</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us what's on your mind..." required></textarea>
+            </div>
+
+            <button class="form-submit" onclick="submitForm()">Send Message →</button>
+          </div>
+
+          <div class="form-success" id="form-success">
+            <div class="check">🙏</div>
+            <h3 style="font-family:'Yeseva One',serif; font-size:1.5rem; margin-bottom:0.5rem;">Thank You!</h3>
+            <p>Your message has been received. We'll be in touch soon — <em>dhanyavaadaalu!</em></p>
+            <button onclick="resetForm()" style="margin-top:1.5rem; font-family:'DM Sans',sans-serif; font-size:0.8rem; background:none; border:1px solid var(--border); border-radius:2px; padding:8px 20px; cursor:pointer; color:var(--muted);">Send another message</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-logo">Telangana Initiative</span>
+  <nav class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="learn.html">Learn Telugu</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="footer-ornament">🪷 🌟 🪷</div>
+  <p class="footer-copy">© 2025 Telangana Initiative · Youth Nonprofit · telanganaday.com</p>
+</footer>
+
+<script>
+function submitForm() {
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const msg = document.getElementById('message').value.trim();
+  if (!name || !email || !msg) {
+    alert('Please fill in your name, email, and message.');
+    return;
+  }
+  // In a real deployment, send to a service like Formspree:
+  // fetch('https://formspree.io/f/YOUR_ID', { method:'POST', body: new FormData(form) })
+  document.getElementById('contact-form-wrap').style.display = 'none';
+  document.getElementById('form-success').style.display = 'block';
+}
+
+function resetForm() {
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('subject').value = '';
+  document.getElementById('message').value = '';
+  document.getElementById('contact-form-wrap').style.display = 'block';
+  document.getElementById('form-success').style.display = 'none';
+}
+</script>
+
+</body>
+</html>

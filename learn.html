@@ -1,24 +1,373 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Learn Telugu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Telugu — Telangana Initiative</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <nav>
-  <a href="index.html">Home</a>
+  <a href="index.html" class="nav-logo">Telangana <span>Initiative</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="learn.html" class="active">Learn Telugu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="learn.html" class="nav-cta">Learn Telugu →</a>
 </nav>
 
-<h1>Learn Telugu</h1>
+<main>
 
-<h2>Lesson 1: Vowels</h2>
-<p>అ ఆ ఇ ఈ ఉ ఊ</p>
-<p>A Aa I Ee U Oo</p>
+  <div class="page-hero">
+    <p class="sec-label">Free Interactive Lessons</p>
+    <h1 class="sec-title">Learn Telugu —<br>India's Classical Tongue</h1>
+    <p>Explore the alphabet, learn phrases, count to 1,000, and test yourself. No sign-up needed.</p>
+  </div>
 
-<h2>Lesson 2: Greetings</h2>
-<p>నమస్తే (Namaste)</p>
+  <section style="background: var(--cream-dk);">
+    <div class="container">
+
+      <div class="learn-intro">
+        <div>
+          <p class="sec-label">About Telugu</p>
+          <h2 class="sec-title" style="font-size:2rem;">The "Italian of the East"</h2>
+          <p class="sec-body">Telugu is one of India's oldest classical languages, spoken by over 80 million people across Telangana and Andhra Pradesh. Its script is uniquely melodic — every letter ends in a vowel sound, giving the language its famously flowing, musical quality. Whether you're reconnecting with your roots or learning for the first time, these free lessons are for you.</p>
+        </div>
+        <div class="did-you-know">
+          <p class="dyk-label">Did You Know?</p>
+          <p class="dyk-text">Telugu is the only Indian language where every single letter ends in a vowel sound — which is why linguists nicknamed it the "Italian of the East." It has been a classical language since 2008.</p>
+          <div class="dyk-tel">అ ఆ ఇ ఈ ఉ</div>
+        </div>
+      </div>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab on" onclick="switchTab('vowels', this)">Vowels (అచ్చులు)</button>
+        <button class="tab" onclick="switchTab('consonants', this)">Consonants (హల్లులు)</button>
+        <button class="tab" onclick="switchTab('phrases', this)">Phrases</button>
+        <button class="tab" onclick="switchTab('numbers', this)">Numbers</button>
+        <button class="tab" onclick="switchTab('quiz', this)">Quiz</button>
+      </div>
+
+      <!-- VOWELS -->
+      <div class="panel on" id="panel-vowels">
+        <p class="panel-desc">Telugu has 16 vowels called <strong>achullu</strong> (అచ్చులు). They are the foundation of the script — click any letter to see its name and pronunciation.</p>
+        <div class="alpha-group-label">అచ్చులు · Vowels</div>
+        <div class="alpha-grid" id="vowel-grid"></div>
+        <div class="letter-detail" id="vowel-detail">
+          <div class="ld-big" id="vd-tel"></div>
+          <div>
+            <div class="ld-name" id="vd-name"></div>
+            <div class="ld-rom" id="vd-rom"></div>
+            <div class="ld-hint" id="vd-hint"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONSONANTS -->
+      <div class="panel" id="panel-consonants">
+        <p class="panel-desc">Telugu has 36 consonants called <strong>hallulu</strong> (హల్లులు). Each consonant carries an inherent "a" vowel sound. Click any letter to explore it.</p>
+        <div class="alpha-group-label">హల్లులు · Consonants</div>
+        <div class="alpha-grid" id="consonant-grid"></div>
+        <div class="letter-detail" id="consonant-detail">
+          <div class="ld-big" id="cd-tel"></div>
+          <div>
+            <div class="ld-name" id="cd-name"></div>
+            <div class="ld-rom" id="cd-rom"></div>
+            <div class="ld-hint" id="cd-hint"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHRASES -->
+      <div class="panel" id="panel-phrases">
+        <p class="panel-desc">Essential Telugu phrases to start speaking right away. Each card shows the Telugu script, romanization, and English meaning.</p>
+        <div class="phrase-grid" id="phrase-grid"></div>
+      </div>
+
+      <!-- NUMBERS -->
+      <div class="panel" id="panel-numbers">
+        <p class="panel-desc">Count in Telugu from 1 to 1,000. Learning numbers is one of the fastest ways to build confidence in a new language.</p>
+        <div class="num-grid" id="num-grid"></div>
+      </div>
+
+      <!-- QUIZ -->
+      <div class="panel" id="panel-quiz">
+        <div class="quiz-wrap">
+          <div class="quiz-progress" id="quiz-prog">Question 1 of 10</div>
+          <div class="quiz-q" id="quiz-q"></div>
+          <div class="quiz-prompt" id="quiz-prompt"></div>
+          <div class="quiz-opts" id="quiz-opts"></div>
+          <div class="quiz-fb" id="quiz-fb"></div>
+          <button class="quiz-next" id="quiz-next" onclick="nextQuestion()">Next Question →</button>
+          <div id="quiz-done" style="display:none;">
+            <div class="quiz-score" id="quiz-final"></div>
+            <p style="font-family:'DM Sans',sans-serif;font-size:0.95rem;color:var(--muted);margin:0.75rem 0 1.25rem;" id="quiz-msg"></p>
+            <button class="quiz-restart" onclick="startQuiz()">Try Again</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-logo">Telangana Initiative</span>
+  <nav class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="learn.html">Learn Telugu</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="footer-ornament">🪷 🌟 🪷</div>
+  <p class="footer-copy">© 2025 Telangana Initiative · Youth Nonprofit · telanganaday.com</p>
+</footer>
+
+<script>
+const vowels = [
+  {t:'అ',r:'a',n:'A',h:'Like "a" in "about"'},
+  {t:'ఆ',r:'aa',n:'Aa',h:'Like "a" in "father" — held longer'},
+  {t:'ఇ',r:'i',n:'I',h:'Like "i" in "bit"'},
+  {t:'ఈ',r:'ee',n:'Ee',h:'Like "ee" in "feet" — held longer'},
+  {t:'ఉ',r:'u',n:'U',h:'Like "u" in "put"'},
+  {t:'ఊ',r:'oo',n:'Oo',h:'Like "oo" in "food" — held longer'},
+  {t:'ఋ',r:'ru',n:'Ru',h:'A vocalic R — like "ru" in "ruby"'},
+  {t:'ఎ',r:'e',n:'E',h:'Like "e" in "bed"'},
+  {t:'ఏ',r:'ae',n:'Ae',h:'Like "a" in "make"'},
+  {t:'ఐ',r:'ai',n:'Ai',h:'Like "i" in "bite"'},
+  {t:'ఒ',r:'o',n:'O',h:'Like "o" in "off"'},
+  {t:'ఓ',r:'oo',n:'Oo',h:'Like "o" in "go"'},
+  {t:'ఔ',r:'au',n:'Au',h:'Like "ow" in "cow"'},
+  {t:'అం',r:'am',n:'Am (Anusvara)',h:'Nasal ending — hum through your nose'},
+  {t:'అః',r:'aha',n:'Aha (Visarga)',h:'A light aspirated breath at the end'},
+];
+
+const consonants = [
+  {t:'క',r:'ka',n:'Ka',h:'Like "k" in "kite"'},
+  {t:'ఖ',r:'kha',n:'Kha',h:'Aspirated K — with a puff of air'},
+  {t:'గ',r:'ga',n:'Ga',h:'Like "g" in "go"'},
+  {t:'ఘ',r:'gha',n:'Gha',h:'Aspirated G — with a puff of air'},
+  {t:'చ',r:'cha',n:'Cha',h:'Like "ch" in "chair"'},
+  {t:'జ',r:'ja',n:'Ja',h:'Like "j" in "jar"'},
+  {t:'ట',r:'ta',n:'Ta',h:'Retroflex T — tongue curls back to roof'},
+  {t:'డ',r:'da',n:'Da',h:'Retroflex D — tongue curls back to roof'},
+  {t:'ణ',r:'na',n:'Na (Retroflex)',h:'Retroflex N — tongue curls back'},
+  {t:'త',r:'tha',n:'Tha',h:'Soft T — like "th" in "Thomas"'},
+  {t:'ద',r:'dha',n:'Dha',h:'Soft D sound — dental'},
+  {t:'న',r:'na',n:'Na',h:'Like "n" in "name"'},
+  {t:'ప',r:'pa',n:'Pa',h:'Like "p" in "pen"'},
+  {t:'ఫ',r:'pha',n:'Pha',h:'Aspirated P — like "ph" in "phone"'},
+  {t:'బ',r:'ba',n:'Ba',h:'Like "b" in "ball"'},
+  {t:'భ',r:'bha',n:'Bha',h:'Aspirated B — with breath'},
+  {t:'మ',r:'ma',n:'Ma',h:'Like "m" in "mom"'},
+  {t:'య',r:'ya',n:'Ya',h:'Like "y" in "yes"'},
+  {t:'ర',r:'ra',n:'Ra',h:'A rolled or flapped R'},
+  {t:'ల',r:'la',n:'La',h:'Like "l" in "love"'},
+  {t:'వ',r:'va',n:'Va',h:'Like "v" in "vine"'},
+  {t:'శ',r:'sha',n:'Sha (Palatal)',h:'Like "sh" in "shore" — palatal'},
+  {t:'ష',r:'sha',n:'Sha (Retroflex)',h:'Retroflex "sh" — tongue curled back'},
+  {t:'స',r:'sa',n:'Sa',h:'Like "s" in "sun"'},
+  {t:'హ',r:'ha',n:'Ha',h:'Like "h" in "hello"'},
+  {t:'ళ',r:'lla',n:'Lla',h:'Retroflex L — tongue curls back'},
+  {t:'క్ష',r:'ksha',n:'Ksha',h:'Combined K + Sha sound'},
+  {t:'ఱ',r:'rra',n:'Rra',h:'A trilled R — stronger than regular R'},
+];
+
+const phrases = [
+  {t:'నమస్కారం',r:'Namaskaram',e:'Hello / Greetings'},
+  {t:'ధన్యవాదాలు',r:'Dhanyavaadaalu',e:'Thank you'},
+  {t:'శుభోదయం',r:'Shubhodayam',e:'Good morning'},
+  {t:'శుభరాత్రి',r:'Shubha Raatri',e:'Good night'},
+  {t:'మీ పేరు ఏమిటి?',r:'Mee peru emiti?',e:'What is your name?'},
+  {t:'నా పేరు ___',r:'Naa peru ___',e:'My name is ___'},
+  {t:'ఎలా ఉన్నారు?',r:'Ela unnaru?',e:'How are you?'},
+  {t:'నేను బాగున్నాను',r:'Nenu baagunnaanu',e:'I am doing well'},
+  {t:'దయచేసి',r:'Dayachesi',e:'Please'},
+  {t:'క్షమించండి',r:'Kshaminchandi',e:'Sorry / Excuse me'},
+  {t:'సరే',r:'Sare',e:'Okay'},
+  {t:'అర్థమైందా?',r:'Arthamayindaa?',e:'Do you understand?'},
+  {t:'మళ్ళీ చెప్పండి',r:'Malli cheppandi',e:'Please say it again'},
+  {t:'నాకు తెలుగు నేర్చుకోవాలి',r:'Naaku Telugu nerchukovaali',e:'I want to learn Telugu'},
+  {t:'మీరు ఎక్కడ నుండి?',r:'Meeru ekkada nundi?',e:'Where are you from?'},
+  {t:'చాలా మంచిది',r:'Chaala manchidi',e:'Very good / Excellent'},
+  {t:'నాకు అర్థం కాలేదు',r:'Naaku artham kaledu',e:"I don't understand"},
+  {t:'శుభాకాంక్షలు',r:'Shubhaakaankshalu',e:'Congratulations / Best wishes'},
+];
+
+const numbers = [
+  {d:1,t:'ఒకటి',r:'Okati'},{d:2,t:'రెండు',r:'Rendu'},{d:3,t:'మూడు',r:'Mudu'},
+  {d:4,t:'నాలుగు',r:'Nalugu'},{d:5,t:'అయిదు',r:'Ayidu'},{d:6,t:'ఆరు',r:'Aaru'},
+  {d:7,t:'ఏడు',r:'Edu'},{d:8,t:'ఎనిమిది',r:'Enimidi'},{d:9,t:'తొమ్మిది',r:'Tommidi'},
+  {d:10,t:'పది',r:'Padi'},{d:11,t:'పదకొండు',r:'Padakondu'},{d:12,t:'పన్నెండు',r:'Pannendu'},
+  {d:13,t:'పదమూడు',r:'Padamudu'},{d:14,t:'పదనాలుగు',r:'Padanalugu'},{d:15,t:'పదిహేను',r:'Padihenu'},
+  {d:20,t:'ఇరవై',r:'Iravai'},{d:25,t:'ఇరవైఐదు',r:'Iravai Ayidu'},{d:30,t:'ముప్పై',r:'Muppai'},
+  {d:40,t:'నలభై',r:'Nalabhai'},{d:50,t:'యాభై',r:'Yaabhai'},{d:60,t:'అరవై',r:'Aravai'},
+  {d:70,t:'డెభ్భై',r:'Debbai'},{d:80,t:'ఎనభై',r:'Enabhai'},{d:90,t:'తొంభై',r:'Tombhai'},
+  {d:100,t:'వంద',r:'Vanda'},{d:200,t:'రెండు వందలు',r:'Rendu Vandalu'},{d:500,t:'ఐదు వందలు',r:'Ayidu Vandalu'},
+  {d:1000,t:'వేయి',r:'Veyi'},
+];
+
+const quizItems = [
+  {q:'అ',prompt:'What sound does this vowel make?',a:'a',c:['a','aa','i','u']},
+  {q:'ఆ',prompt:'What sound does this vowel make?',a:'aa',c:['a','aa','e','o']},
+  {q:'ఇ',prompt:'What sound does this vowel make?',a:'i',c:['i','ee','u','a']},
+  {q:'ఈ',prompt:'What sound does this vowel make?',a:'ee',c:['i','ee','u','aa']},
+  {q:'క',prompt:'How is this consonant pronounced?',a:'ka',c:['ka','ga','cha','pa']},
+  {q:'మ',prompt:'How is this consonant pronounced?',a:'ma',c:['na','ba','ma','la']},
+  {q:'ర',prompt:'How is this consonant pronounced?',a:'ra',c:['la','ya','ra','va']},
+  {q:'హ',prompt:'How is this consonant pronounced?',a:'ha',c:['sa','ha','pa','ma']},
+  {q:'నమస్కారం',prompt:'What does this phrase mean?',a:'Hello / Greetings',c:['Thank you','Hello / Greetings','Good night','Good morning']},
+  {q:'ధన్యవాదాలు',prompt:'What does this phrase mean?',a:'Thank you',c:['Please','Sorry','Thank you','Okay']},
+  {q:'శుభోదయం',prompt:'What does this phrase mean?',a:'Good morning',c:['Good night','Good morning','How are you?','Please']},
+  {q:'రెండు',prompt:'What number is this?',a:'2',c:['1','2','3','4']},
+  {q:'మూడు',prompt:'What number is this?',a:'3',c:['2','3','5','7']},
+  {q:'పది',prompt:'What number is this?',a:'10',c:['5','7','9','10']},
+  {q:'వంద',prompt:'What number is this?',a:'100',c:['10','50','100','1000']},
+];
+
+// Build letter grids
+function buildGrid(data, gridId, detailId, telId, nameId, romId, hintId) {
+  const grid = document.getElementById(gridId);
+  if (!grid) return;
+  data.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'lcard';
+    card.innerHTML = `<span class="lcard-tel">${item.t}</span><span class="lcard-rom">${item.r}</span>`;
+    card.onclick = () => {
+      grid.querySelectorAll('.lcard').forEach(c => c.classList.remove('sel'));
+      card.classList.add('sel');
+      const det = document.getElementById(detailId);
+      document.getElementById(telId).textContent = item.t;
+      document.getElementById(nameId).textContent = item.n;
+      document.getElementById(romId).textContent = 'Romanization: ' + item.r;
+      document.getElementById(hintId).textContent = item.h;
+      det.classList.add('show');
+    };
+    grid.appendChild(card);
+  });
+}
+
+buildGrid(vowels,     'vowel-grid',     'vowel-detail',     'vd-tel', 'vd-name', 'vd-rom', 'vd-hint');
+buildGrid(consonants, 'consonant-grid', 'consonant-detail', 'cd-tel', 'cd-name', 'cd-rom', 'cd-hint');
+
+// Build phrases
+const pg = document.getElementById('phrase-grid');
+if (pg) phrases.forEach(p => {
+  const card = document.createElement('div');
+  card.className = 'pcard';
+  card.innerHTML = `<span class="p-tel">${p.t}</span><div class="p-rom">${p.r}</div><div class="p-eng">${p.e}</div>`;
+  pg.appendChild(card);
+});
+
+// Build numbers
+const ng = document.getElementById('num-grid');
+if (ng) numbers.forEach(n => {
+  const card = document.createElement('div');
+  card.className = 'ncard';
+  card.innerHTML = `<div class="n-dig">${n.d}</div><span class="n-tel">${n.t}</span><div class="n-rom">${n.r}</div>`;
+  ng.appendChild(card);
+});
+
+// Tab switching
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('on'));
+  btn.classList.add('on');
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('on'));
+  document.getElementById('panel-' + name).classList.add('on');
+  if (name === 'quiz') startQuiz();
+}
+
+// Quiz
+let qIdx = 0, score = 0, answered = false, shuffled = [];
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startQuiz() {
+  shuffled = shuffle(quizItems).slice(0, 10);
+  qIdx = 0; score = 0;
+  document.getElementById('quiz-done').style.display = 'none';
+  ['quiz-prog','quiz-q','quiz-prompt','quiz-opts'].forEach(id => {
+    document.getElementById(id).style.display = '';
+  });
+  renderQuestion();
+}
+
+function renderQuestion() {
+  answered = false;
+  const item = shuffled[qIdx];
+  document.getElementById('quiz-prog').textContent = `Question ${qIdx + 1} of ${shuffled.length}`;
+  document.getElementById('quiz-q').textContent = item.q;
+  document.getElementById('quiz-prompt').textContent = item.prompt;
+  document.getElementById('quiz-fb').textContent = '';
+  document.getElementById('quiz-next').style.display = 'none';
+  const opts = document.getElementById('quiz-opts');
+  opts.innerHTML = '';
+  shuffle(item.c).forEach(ch => {
+    const btn = document.createElement('button');
+    btn.className = 'qopt';
+    btn.textContent = ch;
+    btn.onclick = () => checkAnswer(ch, item.a);
+    opts.appendChild(btn);
+  });
+}
+
+function checkAnswer(chosen, correct) {
+  if (answered) return;
+  answered = true;
+  document.querySelectorAll('.qopt').forEach(b => {
+    b.disabled = true;
+    if (b.textContent === correct) b.classList.add('correct');
+    if (b.textContent === chosen && chosen !== correct) b.classList.add('wrong');
+  });
+  const fb = document.getElementById('quiz-fb');
+  if (chosen === correct) {
+    score++;
+    fb.textContent = '✓ Correct! Well done.';
+    fb.style.color = '#1A6B3F';
+  } else {
+    fb.textContent = `✗ The answer was "${correct}"`;
+    fb.style.color = '#8B1A1A';
+  }
+  const next = document.getElementById('quiz-next');
+  next.style.display = 'inline-block';
+  next.textContent = qIdx === shuffled.length - 1 ? 'See Results →' : 'Next Question →';
+}
+
+function nextQuestion() {
+  qIdx++;
+  if (qIdx >= shuffled.length) {
+    ['quiz-prog','quiz-q','quiz-prompt','quiz-opts'].forEach(id => {
+      document.getElementById(id).style.display = 'none';
+    });
+    document.getElementById('quiz-fb').textContent = '';
+    document.getElementById('quiz-next').style.display = 'none';
+    const pct = Math.round((score / shuffled.length) * 100);
+    document.getElementById('quiz-final').textContent = `${score} / ${shuffled.length} — ${pct}%`;
+    document.getElementById('quiz-msg').textContent =
+      pct === 100 ? 'Perfect score! మీరు గొప్పవారు! 🎉' :
+      pct >= 70  ? 'Great job! Keep practicing.' : 'Keep going — you are making progress!';
+    document.getElementById('quiz-done').style.display = 'block';
+  } else {
+    renderQuestion();
+  }
+}
+
+startQuiz();
+</script>
 
 </body>
 </html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Telangana Initiative</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Telangana <span>Initiative</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html" class="active">Gallery</a></li>
+    <li><a href="learn.html">Learn Telugu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="learn.html" class="nav-cta">Learn Telugu →</a>
+</nav>
+
+<main>
+
+  <div class="page-hero">
+    <p class="sec-label">Memories &amp; Moments</p>
+    <h1 class="sec-title">Four Years of<br>Celebrations &amp; Community</h1>
+    <p>A look at the festivals, fundraisers, and gatherings that have brought us together.</p>
+  </div>
+
+  <section>
+    <div class="container">
+
+      <!-- Filter buttons -->
+      <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-bottom:2.5rem;" id="filter-bar">
+        <button class="gfilter on" onclick="filterGallery('all', this)">All</button>
+        <button class="gfilter" onclick="filterGallery('diwali', this)">Diwali</button>
+        <button class="gfilter" onclick="filterGallery('holi', this)">Holi</button>
+        <button class="gfilter" onclick="filterGallery('ugadi', this)">Ugadi</button>
+        <button class="gfilter" onclick="filterGallery('temple', this)">Temple Stall</button>
+        <button class="gfilter" onclick="filterGallery('other', this)">Other</button>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Populated by JS — replace src with real image paths when ready -->
+      </div>
+
+      <div class="ornament" style="margin-top:3rem;">· · ·</div>
+      <p style="text-align:center; font-family:'DM Sans',sans-serif; font-size:0.85rem; color:var(--muted);">
+        More photos coming soon. Have a photo to share? <a href="contact.html" style="color:var(--saffron);">Send it our way →</a>
+      </p>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="footer-logo">Telangana Initiative</span>
+  <nav class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="learn.html">Learn Telugu</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="footer-ornament">🪷 🌟 🪷</div>
+  <p class="footer-copy">© 2025 Telangana Initiative · Youth Nonprofit · telanganaday.com</p>
+</footer>
+
+<style>
+.gfilter {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 7px 18px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all .2s;
+}
+.gfilter:hover { border-color: var(--saffron); color: var(--saffron); }
+.gfilter.on { background: var(--saffron); border-color: var(--saffron); color: #fff; }
+.gallery-item { cursor: pointer; }
+</style>
+
+<script>
+// Gallery data — replace 'src' with real image paths (e.g. "images/diwali-2023.jpg")
+// Leave src empty or null to show the placeholder
+const photos = [
+  { cat: 'diwali', label: 'Diwali Celebration', year: '2024', src: null },
+  { cat: 'diwali', label: 'Diya Lighting', year: '2023', src: null },
+  { cat: 'holi',   label: 'Holi Color Run', year: '2024', src: null },
+  { cat: 'holi',   label: 'Holi Powder Toss', year: '2023', src: null },
+  { cat: 'ugadi',  label: 'Ugadi Gathering', year: '2024', src: null },
+  { cat: 'ugadi',  label: 'Ugadi Pachadi', year: '2023', src: null },
+  { cat: 'temple', label: 'Temple Stall Setup', year: '2024', src: null },
+  { cat: 'temple', label: 'Fundraiser Booth', year: '2023', src: null },
+  { cat: 'temple', label: 'Temple Stall Day 2', year: '2022', src: null },
+  { cat: 'other',  label: 'Navaratri Night', year: '2023', src: null },
+  { cat: 'other',  label: 'Bathukamma Making', year: '2024', src: null },
+  { cat: 'other',  label: 'Sankranti Kite Flying', year: '2023', src: null },
+];
+
+const catColors = {
+  diwali: 'rgba(217,95,10,0.08)',
+  holi:   'rgba(200,136,10,0.08)',
+  ugadi:  'rgba(0,110,109,0.08)',
+  temple: 'rgba(92,20,21,0.07)',
+  other:  'rgba(0,110,109,0.06)',
+};
+const catIcons = {
+  diwali:'🪔', holi:'🎨', ugadi:'🌸', temple:'🏛️', other:'🌟'
+};
+
+function renderGallery(filter) {
+  const grid = document.getElementById('gallery-grid');
+  const filtered = filter === 'all' ? photos : photos.filter(p => p.cat === filter);
+  grid.innerHTML = '';
+  filtered.forEach(p => {
+    const div = document.createElement('div');
+    div.className = 'gallery-item';
+    div.style.cssText = `
+      aspect-ratio: 4/3;
+      background: ${p.src ? '#000' : catColors[p.cat]};
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: transform .2s, box-shadow .2s;
+    `;
+    div.onmouseenter = () => { div.style.transform = 'translateY(-3px)'; div.style.boxShadow = '0 10px 30px rgba(92,20,21,0.1)'; };
+    div.onmouseleave = () => { div.style.transform = ''; div.style.boxShadow = ''; };
+
+    if (p.src) {
+      div.innerHTML = `<img src="${p.src}" alt="${p.label}" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+        <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(37,18,8,0.7));padding:1rem;color:#fff;">
+          <div style="font-family:'DM Sans',sans-serif;font-size:0.78rem;letter-spacing:0.08em;">${p.label}</div>
+          <div style="font-family:'DM Sans',sans-serif;font-size:0.65rem;opacity:0.7;">${p.year}</div>
+        </div>`;
+    } else {
+      div.innerHTML = `
+        <div style="font-size:2rem;opacity:0.35;">${catIcons[p.cat]}</div>
+        <div style="font-family:'Yeseva One',serif;font-size:0.95rem;color:var(--muted);opacity:0.6;text-align:center;padding:0 1rem;">${p.label}</div>
+        <div style="font-family:'DM Sans',sans-serif;font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);opacity:0.4;">${p.year}</div>
+        <div style="font-family:'DM Sans',sans-serif;font-size:0.65rem;color:var(--saffron);opacity:0.7;margin-top:0.25rem;">Add photo →</div>`;
+    }
+    grid.appendChild(div);
+  });
+}
+
+function filterGallery(cat, btn) {
+  document.querySelectorAll('.gfilter').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  renderGallery(cat);
+}
+
+renderGallery('all');
+</script>
+
+</body>
+</html>
