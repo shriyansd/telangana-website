@@ -1,0 +1,289 @@
+{
+  "id": "c5-u2-review",
+  "courseId": "course-5",
+  "unitId": "c5-u2",
+  "title": "Unit Review: Around Town",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c5-u2-l1",
+    "c5-u2-l2"
+  ],
+  "conceptIds": [
+    "place-uru",
+    "place-badi",
+    "place-gudi",
+    "place-dukanam",
+    "place-asupatri",
+    "dir-here",
+    "dir-there",
+    "dir-near"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c5-u2-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-uru"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఊరు",
+        "transliteration": "ūru"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "village / hometown"
+        },
+        {
+          "id": "b",
+          "english": "school"
+        },
+        {
+          "id": "c",
+          "english": "temple"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-badi"
+      ],
+      "prompt": "How do you say “school”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "బడి",
+          "transliteration": "baḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "గుడి",
+          "transliteration": "guḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "దుకాణం",
+          "transliteration": "dukāṇam"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "place-gudi"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "గుడి",
+        "transliteration": "guḍi"
+      },
+      "acceptedAnswers": [
+        "temple"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-dukanam"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "దుకాణం",
+        "transliteration": "dukāṇam"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "shop / store"
+        },
+        {
+          "id": "b",
+          "english": "hospital"
+        },
+        {
+          "id": "c",
+          "english": "here"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-asupatri"
+      ],
+      "prompt": "How do you say “hospital”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆసుపత్రి",
+          "transliteration": "āsupatri"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇక్కడ",
+          "transliteration": "ikkaḍa"
+        },
+        {
+          "id": "c",
+          "telugu": "అక్కడ",
+          "transliteration": "akkaḍa"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "dir-here"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇక్కడ",
+        "transliteration": "ikkaḍa"
+      },
+      "acceptedAnswers": [
+        "here"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dir-there"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అక్కడ",
+        "transliteration": "akkaḍa"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "there"
+        },
+        {
+          "id": "b",
+          "english": "near"
+        },
+        {
+          "id": "c",
+          "english": "village / hometown"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dir-near"
+      ],
+      "prompt": "How do you say “near”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "దగ్గర",
+          "transliteration": "daggara"
+        },
+        {
+          "id": "b",
+          "telugu": "ఊరు",
+          "transliteration": "ūru"
+        },
+        {
+          "id": "c",
+          "telugu": "బడి",
+          "transliteration": "baḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "place-uru",
+        "place-badi",
+        "place-gudi",
+        "place-dukanam"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఊరు",
+            "transliteration": "ūru"
+          },
+          "b": {
+            "telugu": "village / hometown"
+          }
+        },
+        {
+          "a": {
+            "telugu": "బడి",
+            "transliteration": "baḍi"
+          },
+          "b": {
+            "telugu": "school"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గుడి",
+            "transliteration": "guḍi"
+          },
+          "b": {
+            "telugu": "temple"
+          }
+        },
+        {
+          "a": {
+            "telugu": "దుకాణం",
+            "transliteration": "dukāṇam"
+          },
+          "b": {
+            "telugu": "shop / store"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

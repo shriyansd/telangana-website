@@ -1,0 +1,82 @@
+{
+  "id": "c11-u1-task",
+  "courseId": "course-11",
+  "unitId": "c11-u1",
+  "title": "Show What You Can Do: Making Weekend Plans",
+  "teluguTitle": "ప్లాన్ చేద్దాం",
+  "description": "A friend calls about the weekend — questions, plurals, past and future, all in one chat.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": ["complete-beginner", "heritage-learner", "family"],
+  "prerequisites": ["c11-u1-review"],
+  "conceptIds": ["gram-q-vastara", "verb-will-come", "verb-went", "conj-kuda", "plural-pustakalu", "time-tomorrow"],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c11u1t-e1",
+      "type": "dialogue",
+      "conceptIds": ["gram-q-vastara", "verb-will-come"],
+      "newContext": true,
+      "context": "Your friend calls: there's a festival at the temple tomorrow.",
+      "turns": [
+        { "speaker": "స్నేహితుడు", "line": { "telugu": "రేపు గుడికి వస్తారా?", "transliteration": "rēpu guḍiki vastārā?", "english": "Will you come to the temple tomorrow?" } }
+      ],
+      "responseMode": "tiles",
+      "tiles": ["అవును", "రేపు", "వస్తాను"],
+      "acceptedAnswers": ["అవును రేపు వస్తాను", "రేపు వస్తాను అవును"],
+      "feedback": { "grammar": "వస్తారా? (will you come?) → వస్తాను (I will come). The -ా asks; the -ను answers." }
+    },
+    {
+      "id": "c11u1t-e2",
+      "type": "dialogue",
+      "conceptIds": ["verb-went"],
+      "newContext": true,
+      "turns": [
+        { "speaker": "స్నేహితుడు", "line": { "telugu": "నిన్న ఎక్కడికి వెళ్ళారు?", "transliteration": "ninna ekkaḍiki veḷḷāru?", "english": "Where did you go yesterday?" } }
+      ],
+      "responseMode": "select",
+      "choices": [
+        { "id": "a", "telugu": "నిన్న బడికి వెళ్ళాను", "transliteration": "ninna baḍiki veḷḷānu", "english": "Yesterday I went to school" },
+        { "id": "b", "telugu": "రేపు బడికి వెళ్తాను", "transliteration": "rēpu baḍiki veḷtānu", "whyWrong": "That's the future — వెళ్తాను — but they asked about yesterday." },
+        { "id": "c", "telugu": "బడి అక్కడ ఉంది", "whyWrong": "“The school is there” — true, but not what they asked." }
+      ],
+      "correctChoiceIds": ["a"]
+    },
+    {
+      "id": "c11u1t-e3",
+      "type": "dialogue",
+      "conceptIds": ["conj-kuda", "plural-pustakalu"],
+      "newContext": true,
+      "context": "They're stopping by the shop on the way.",
+      "turns": [
+        { "speaker": "స్నేహితుడు", "line": { "telugu": "నేను పండ్లు తీసుకుంటాను. మీకు ఏమి కావాలి?", "transliteration": "nēnu paṇḍlu tīsukuṇṭānu. mīku ēmi kāvāli?", "english": "I'm getting fruit. What do you want?" } }
+      ],
+      "responseMode": "tiles",
+      "tiles": ["నాకు", "కూడా", "పండ్లు", "కావాలి"],
+      "acceptedAnswers": ["నాకు కూడా పండ్లు కావాలి"],
+      "feedback": { "grammar": "కూడా right after నాకు: “I too want fruit.”" }
+    },
+    {
+      "id": "c11u1t-e4",
+      "type": "translate",
+      "conceptIds": ["verb-will-come", "time-tomorrow"],
+      "newContext": true,
+      "prompt": "Wrap up the call: tell them you'll come tomorrow.",
+      "source": { "english": "I will come tomorrow" },
+      "direction": "to-telugu",
+      "acceptedAnswers": ["రేపు వస్తాను", "నేను రేపు వస్తాను"],
+      "acceptedRomanizations": ["repu vastanu", "rēpu vastānu", "nenu repu vastanu"]
+    }
+  ],
+  "cultureCards": [
+    {
+      "id": "cc-sentences",
+      "title": "You're building sentences now",
+      "body": "Questions, answers, past, future, plurals, and 'me too' — you just used the core machinery of Telugu grammar in one phone call."
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

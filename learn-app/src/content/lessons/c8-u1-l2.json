@@ -1,0 +1,298 @@
+{
+  "id": "c8-u1-l2",
+  "courseId": "course-8",
+  "unitId": "c8-u1",
+  "title": "Polite Requests",
+  "teluguTitle": "మర్యాద మాటలు",
+  "description": "Add -ండి and any verb becomes a respectful request.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "req-randi",
+    "req-kurchondi",
+    "req-ivvandi",
+    "req-cheppandi",
+    "req-vinandi"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c8-u1-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "req-randi"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-8/c8-u1/req-randi-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "రండి",
+        "transliteration": "raṇḍi",
+        "english": "please come"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రండి",
+          "transliteration": "raṇḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "కూర్చోండి",
+          "transliteration": "kūrchōṇḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "ఇవ్వండి",
+          "transliteration": "ivvaṇḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "req-kurchondi"
+      ],
+      "prompt": "How do you say “please sit”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కూర్చోండి",
+          "transliteration": "kūrchōṇḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇవ్వండి",
+          "transliteration": "ivvaṇḍi",
+          "whyWrong": "ఇవ్వండి means “please give”."
+        },
+        {
+          "id": "c",
+          "telugu": "చెప్పండి",
+          "transliteration": "cheppaṇḍi",
+          "whyWrong": "చెప్పండి means “please tell / go ahead”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "req-ivvandi"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-8/c8-u1/req-ivvandi-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఇవ్వండి",
+        "transliteration": "ivvaṇḍi",
+        "english": "please give"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇవ్వండి",
+          "transliteration": "ivvaṇḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "చెప్పండి",
+          "transliteration": "cheppaṇḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "వినండి",
+          "transliteration": "vinaṇḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "req-randi",
+        "req-kurchondi",
+        "req-ivvandi",
+        "req-cheppandi"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "రండి",
+            "transliteration": "raṇḍi"
+          },
+          "b": {
+            "telugu": "please come"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కూర్చోండి",
+            "transliteration": "kūrchōṇḍi"
+          },
+          "b": {
+            "telugu": "please sit"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇవ్వండి",
+            "transliteration": "ivvaṇḍi"
+          },
+          "b": {
+            "telugu": "please give"
+          }
+        },
+        {
+          "a": {
+            "telugu": "చెప్పండి",
+            "transliteration": "cheppaṇḍi"
+          },
+          "b": {
+            "telugu": "please tell / go ahead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "req-cheppandi"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "చెప్పండి",
+        "transliteration": "cheppaṇḍi"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "please tell / go ahead"
+        },
+        {
+          "id": "b",
+          "english": "please listen",
+          "whyWrong": "“please listen” is వినండి."
+        },
+        {
+          "id": "c",
+          "english": "please come",
+          "whyWrong": "“please come” is రండి."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "req-vinandi"
+      ],
+      "prompt": "How do you say “please listen”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "వినండి",
+          "transliteration": "vinaṇḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "రండి",
+          "transliteration": "raṇḍi",
+          "whyWrong": "రండి means “please come”."
+        },
+        {
+          "id": "c",
+          "telugu": "కూర్చోండి",
+          "transliteration": "kūrchōṇḍi",
+          "whyWrong": "కూర్చోండి means “please sit”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "req-randi",
+        "req-kurchondi"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "దయచేసి ___",
+        "transliteration": "dayachēsi kūrchōṇḍi",
+        "english": "Please sit down"
+      },
+      "answer": "కూర్చోండి",
+      "choices": [
+        "కూర్చోండి",
+        "రండి",
+        "ఇవ్వండి"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "req-randi",
+        "req-kurchondi"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "దయచేసి కూర్చోండి",
+        "transliteration": "dayachēsi kūrchōṇḍi",
+        "english": "Please sit down"
+      },
+      "tiles": [
+        "దయచేసి",
+        "కూర్చోండి"
+      ]
+    },
+    {
+      "id": "c8-u1-l2-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "req-randi"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "రండి",
+        "transliteration": "raṇḍi"
+      },
+      "acceptedAnswers": [
+        "please come"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

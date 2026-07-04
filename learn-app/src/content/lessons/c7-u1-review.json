@@ -1,0 +1,212 @@
+{
+  "id": "c7-u1-review",
+  "courseId": "course-7",
+  "unitId": "c7-u1",
+  "title": "Unit Review: With Family Elders",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c7-u1-l1"
+  ],
+  "conceptIds": [
+    "come-here",
+    "eat-respectful",
+    "hunger",
+    "well-done",
+    "what-is-this"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c7-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "come-here"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఇక్కడికి రండి",
+        "transliteration": "ikkaḍiki raṇḍi"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "come here (respectful)"
+        },
+        {
+          "id": "b",
+          "english": "eat (respectful request)"
+        },
+        {
+          "id": "c",
+          "english": "I am hungry"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c7-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "eat-respectful"
+      ],
+      "prompt": "How do you say “eat (respectful request)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తినండి",
+          "transliteration": "tinaṇḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "నాకు ఆకలిగా ఉంది",
+          "transliteration": "nāku ākaligā undi"
+        },
+        {
+          "id": "c",
+          "telugu": "చాలా బాగుంది",
+          "transliteration": "chālā bāgundi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c7-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "hunger"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "నాకు ఆకలిగా ఉంది",
+        "transliteration": "nāku ākaligā undi"
+      },
+      "acceptedAnswers": [
+        "I am hungry"
+      ]
+    },
+    {
+      "id": "c7-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "well-done"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "చాలా బాగుంది",
+        "transliteration": "chālā bāgundi"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "very good / that's great"
+        },
+        {
+          "id": "b",
+          "english": "what is this?"
+        },
+        {
+          "id": "c",
+          "english": "come here (respectful)"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c7-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "what-is-this"
+      ],
+      "prompt": "How do you say “what is this?”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇది ఏమిటి?",
+          "transliteration": "idi ēmiṭi?"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇక్కడికి రండి",
+          "transliteration": "ikkaḍiki raṇḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "తినండి",
+          "transliteration": "tinaṇḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c7-u1-review-e6",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "come-here",
+        "eat-respectful",
+        "hunger",
+        "well-done"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఇక్కడికి రండి",
+            "transliteration": "ikkaḍiki raṇḍi"
+          },
+          "b": {
+            "telugu": "come here (respectful)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "తినండి",
+            "transliteration": "tinaṇḍi"
+          },
+          "b": {
+            "telugu": "eat (respectful request)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నాకు ఆకలిగా ఉంది",
+            "transliteration": "nāku ākaligā undi"
+          },
+          "b": {
+            "telugu": "I am hungry"
+          }
+        },
+        {
+          "a": {
+            "telugu": "చాలా బాగుంది",
+            "transliteration": "chālā bāgundi"
+          },
+          "b": {
+            "telugu": "very good / that's great"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

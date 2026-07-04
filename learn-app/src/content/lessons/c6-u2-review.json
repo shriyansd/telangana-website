@@ -1,0 +1,290 @@
+{
+  "id": "c6-u2-review",
+  "courseId": "course-6",
+  "unitId": "c6-u2",
+  "title": "Unit Review: Vowels",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c6-u2-l1",
+    "c6-u2-l2",
+    "c6-u2-l3"
+  ],
+  "conceptIds": [
+    "script-a",
+    "script-aa",
+    "script-i",
+    "script-ii",
+    "script-u",
+    "script-uu",
+    "script-e",
+    "script-ee"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c6-u2-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-a"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అ",
+        "transliteration": "a"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the vowel a"
+        },
+        {
+          "id": "b",
+          "english": "the vowel ā (long)"
+        },
+        {
+          "id": "c",
+          "english": "the vowel i"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-aa"
+      ],
+      "prompt": "How do you say “the vowel ā (long)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆ",
+          "transliteration": "ā"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇ",
+          "transliteration": "i"
+        },
+        {
+          "id": "c",
+          "telugu": "ఈ",
+          "transliteration": "ī"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-i"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇ",
+        "transliteration": "i"
+      },
+      "acceptedAnswers": [
+        "the vowel i"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ii"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఈ",
+        "transliteration": "ī"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the letter ī"
+        },
+        {
+          "id": "b",
+          "english": "the letter u"
+        },
+        {
+          "id": "c",
+          "english": "the letter ū"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-u"
+      ],
+      "prompt": "How do you say “the letter u”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఉ",
+          "transliteration": "u"
+        },
+        {
+          "id": "b",
+          "telugu": "ఊ",
+          "transliteration": "ū"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎ",
+          "transliteration": "e"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-uu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఊ",
+        "transliteration": "ū"
+      },
+      "acceptedAnswers": [
+        "the letter ū"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-e"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఎ",
+        "transliteration": "e"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the letter e"
+        },
+        {
+          "id": "b",
+          "english": "the letter ē"
+        },
+        {
+          "id": "c",
+          "english": "the vowel a"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ee"
+      ],
+      "prompt": "How do you say “the letter ē”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఏ",
+          "transliteration": "ē"
+        },
+        {
+          "id": "b",
+          "telugu": "అ",
+          "transliteration": "a"
+        },
+        {
+          "id": "c",
+          "telugu": "ఆ",
+          "transliteration": "ā"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u2-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "script-a",
+        "script-aa",
+        "script-i",
+        "script-ii"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "అ",
+            "transliteration": "a"
+          },
+          "b": {
+            "telugu": "the vowel a"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఆ",
+            "transliteration": "ā"
+          },
+          "b": {
+            "telugu": "the vowel ā (long)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇ",
+            "transliteration": "i"
+          },
+          "b": {
+            "telugu": "the vowel i"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఈ",
+            "transliteration": "ī"
+          },
+          "b": {
+            "telugu": "the letter ī"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

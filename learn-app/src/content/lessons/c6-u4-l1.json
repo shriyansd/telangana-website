@@ -1,0 +1,424 @@
+{
+  "id": "c6-u4-l1",
+  "courseId": "course-6",
+  "unitId": "c6-u4",
+  "title": "Vowel Signs: కా to కూ",
+  "teluguTitle": "కా కి కీ కు కూ",
+  "description": "Every consonant carries a built-in “a”. Vowel signs swap it out.",
+  "estimatedMinutes": 10,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "script-gun-kaa",
+    "script-gun-ki",
+    "script-gun-kii",
+    "script-gun-ku",
+    "script-gun-kuu"
+  ],
+  "newConceptLimit": 5,
+  "kind": "script",
+  "exercises": [
+    {
+      "id": "c6-u4-l1-e1",
+      "type": "script_build",
+      "mode": "combine",
+      "conceptIds": [
+        "script-gun-kaa"
+      ],
+      "prompt": "క + the sign ా = ? It sounds like “kā”.",
+      "parts": [
+        "క",
+        "ా"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కా",
+          "transliteration": "kā"
+        },
+        {
+          "id": "b",
+          "telugu": "కి",
+          "whyWrong": "కి is “ki” — that uses the sign ి."
+        },
+        {
+          "id": "c",
+          "telugu": "కీ",
+          "whyWrong": "కీ is “kī” — that uses the sign ీ."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-gun-kaa"
+      ],
+      "prompt": "కాకి (kāki) means “crow”. Which sound does it start with?",
+      "question": {
+        "telugu": "కాకి",
+        "transliteration": "kāki",
+        "english": "crow"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కా",
+          "transliteration": "kā"
+        },
+        {
+          "id": "b",
+          "telugu": "కి"
+        },
+        {
+          "id": "c",
+          "telugu": "కీ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e3",
+      "type": "script_build",
+      "mode": "combine",
+      "conceptIds": [
+        "script-gun-ki"
+      ],
+      "prompt": "క + the sign ి = ? It sounds like “ki”.",
+      "parts": [
+        "క",
+        "ి"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కి",
+          "transliteration": "ki"
+        },
+        {
+          "id": "b",
+          "telugu": "కీ",
+          "whyWrong": "కీ is “kī” — that uses the sign ీ."
+        },
+        {
+          "id": "c",
+          "telugu": "కు",
+          "whyWrong": "కు is “ku” — that uses the sign ు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-gun-ki"
+      ],
+      "prompt": "కిటికీ (kiṭikī) means “window”. Which sound does it start with?",
+      "question": {
+        "telugu": "కిటికీ",
+        "transliteration": "kiṭikī",
+        "english": "window"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కి",
+          "transliteration": "ki"
+        },
+        {
+          "id": "b",
+          "telugu": "కీ"
+        },
+        {
+          "id": "c",
+          "telugu": "కు"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e5",
+      "type": "script_build",
+      "mode": "combine",
+      "conceptIds": [
+        "script-gun-kii"
+      ],
+      "prompt": "క + the sign ీ = ? It sounds like “kī”.",
+      "parts": [
+        "క",
+        "ీ"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కీ",
+          "transliteration": "kī"
+        },
+        {
+          "id": "b",
+          "telugu": "కు",
+          "whyWrong": "కు is “ku” — that uses the sign ు."
+        },
+        {
+          "id": "c",
+          "telugu": "కూ",
+          "whyWrong": "కూ is “kū” — that uses the sign ూ."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e6",
+      "type": "script_build",
+      "mode": "combine",
+      "conceptIds": [
+        "script-gun-ku"
+      ],
+      "prompt": "క + the sign ు = ? It sounds like “ku”.",
+      "parts": [
+        "క",
+        "ు"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కు",
+          "transliteration": "ku"
+        },
+        {
+          "id": "b",
+          "telugu": "కూ",
+          "whyWrong": "కూ is “kū” — that uses the sign ూ."
+        },
+        {
+          "id": "c",
+          "telugu": "కా",
+          "whyWrong": "కా is “kā” — that uses the sign ా."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-gun-ku"
+      ],
+      "prompt": "కుక్క (kukka) means “dog”. Which sound does it start with?",
+      "question": {
+        "telugu": "కుక్క",
+        "transliteration": "kukka",
+        "english": "dog"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కు",
+          "transliteration": "ku"
+        },
+        {
+          "id": "b",
+          "telugu": "కూ"
+        },
+        {
+          "id": "c",
+          "telugu": "కా"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e8",
+      "type": "script_build",
+      "mode": "combine",
+      "conceptIds": [
+        "script-gun-kuu"
+      ],
+      "prompt": "క + the sign ూ = ? It sounds like “kū”.",
+      "parts": [
+        "క",
+        "ూ"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కూ",
+          "transliteration": "kū"
+        },
+        {
+          "id": "b",
+          "telugu": "కా",
+          "whyWrong": "కా is “kā” — that uses the sign ా."
+        },
+        {
+          "id": "c",
+          "telugu": "కి",
+          "whyWrong": "కి is “ki” — that uses the sign ి."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e9",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-gun-kuu"
+      ],
+      "prompt": "కూర (kūra) means “curry / vegetable dish”. Which sound does it start with?",
+      "question": {
+        "telugu": "కూర",
+        "transliteration": "kūra",
+        "english": "curry / vegetable dish"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కూ",
+          "transliteration": "kū"
+        },
+        {
+          "id": "b",
+          "telugu": "కా"
+        },
+        {
+          "id": "c",
+          "telugu": "కి"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e10",
+      "type": "dictation",
+      "conceptIds": [
+        "script-gun-kaa"
+      ],
+      "prompt": "Listen, then write the syllable you hear.",
+      "audio": {
+        "normal": "audio/course-6/c6-u4/syl-kaa-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "కా",
+        "transliteration": "kā"
+      },
+      "acceptedAnswers": [
+        "కా"
+      ],
+      "tiles": [
+        "కా",
+        "కి",
+        "కీ",
+        "కు",
+        "కూ"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e11",
+      "type": "dictation",
+      "conceptIds": [
+        "script-gun-ku"
+      ],
+      "prompt": "Listen, then write the syllable you hear.",
+      "audio": {
+        "normal": "audio/course-6/c6-u4/syl-ku-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "కు",
+        "transliteration": "ku"
+      },
+      "acceptedAnswers": [
+        "కు"
+      ],
+      "tiles": [
+        "కా",
+        "కి",
+        "కీ",
+        "కు",
+        "కూ"
+      ]
+    },
+    {
+      "id": "c6-u4-l1-e12",
+      "type": "match_pairs",
+      "mode": "telugu-transliteration",
+      "conceptIds": [
+        "script-gun-kaa",
+        "script-gun-ki",
+        "script-gun-kii",
+        "script-gun-ku",
+        "script-gun-kuu"
+      ],
+      "prompt": "Match each syllable to its sound.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "కా"
+          },
+          "b": {
+            "telugu": "kā"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కి"
+          },
+          "b": {
+            "telugu": "ki"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కీ"
+          },
+          "b": {
+            "telugu": "kī"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కు"
+          },
+          "b": {
+            "telugu": "ku"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కూ"
+          },
+          "b": {
+            "telugu": "kū"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

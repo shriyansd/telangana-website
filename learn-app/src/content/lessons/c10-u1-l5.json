@@ -1,0 +1,278 @@
+{
+  "id": "c10-u1-l5",
+  "courseId": "course-10",
+  "unitId": "c10-u1",
+  "title": "To Me, To You",
+  "teluguTitle": "నాకు నీకు మీకు",
+  "description": "The pattern behind “I want” and “I like”.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "dat-naaku",
+    "dat-neeku",
+    "dat-meeku",
+    "want-kavali"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c10-u1-l5-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "dat-naaku"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-10/c10-u1/dat-naaku-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "నాకు",
+        "transliteration": "nāku",
+        "english": "to me"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నాకు",
+          "transliteration": "nāku"
+        },
+        {
+          "id": "b",
+          "telugu": "నీకు",
+          "transliteration": "nīku"
+        },
+        {
+          "id": "c",
+          "telugu": "మీకు",
+          "transliteration": "mīku"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dat-neeku"
+      ],
+      "prompt": "How do you say “to you (casual)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నీకు",
+          "transliteration": "nīku"
+        },
+        {
+          "id": "b",
+          "telugu": "మీకు",
+          "transliteration": "mīku",
+          "whyWrong": "మీకు means “to you (respectful)”."
+        },
+        {
+          "id": "c",
+          "telugu": "కావాలి",
+          "transliteration": "kāvāli",
+          "whyWrong": "కావాలి means “want / need”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "dat-meeku"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-10/c10-u1/dat-meeku-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "మీకు",
+        "transliteration": "mīku",
+        "english": "to you (respectful)"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మీకు",
+          "transliteration": "mīku"
+        },
+        {
+          "id": "b",
+          "telugu": "కావాలి",
+          "transliteration": "kāvāli"
+        },
+        {
+          "id": "c",
+          "telugu": "నాకు",
+          "transliteration": "nāku"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "dat-naaku",
+        "dat-neeku",
+        "dat-meeku",
+        "want-kavali"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "నాకు",
+            "transliteration": "nāku"
+          },
+          "b": {
+            "telugu": "to me"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నీకు",
+            "transliteration": "nīku"
+          },
+          "b": {
+            "telugu": "to you (casual)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మీకు",
+            "transliteration": "mīku"
+          },
+          "b": {
+            "telugu": "to you (respectful)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కావాలి",
+            "transliteration": "kāvāli"
+          },
+          "b": {
+            "telugu": "want / need"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "want-kavali"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "కావాలి",
+        "transliteration": "kāvāli"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "want / need"
+        },
+        {
+          "id": "b",
+          "english": "to me",
+          "whyWrong": "“to me” is నాకు."
+        },
+        {
+          "id": "c",
+          "english": "to you (casual)",
+          "whyWrong": "“to you (casual)” is నీకు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e6",
+      "type": "fill_blank",
+      "conceptIds": [
+        "dat-naaku",
+        "dat-neeku"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "___ నీళ్లు కావాలి",
+        "transliteration": "nāku nīḷḷu kāvāli",
+        "english": "I want water"
+      },
+      "answer": "నాకు",
+      "choices": [
+        "నాకు",
+        "నీకు",
+        "మీకు"
+      ],
+      "feedback": {
+        "grammar": "Literally “to me, water is wanted” — the wanter takes -కు."
+      }
+    },
+    {
+      "id": "c10-u1-l5-e7",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "dat-naaku",
+        "dat-neeku"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నాకు నీళ్లు కావాలి",
+        "transliteration": "nāku nīḷḷu kāvāli",
+        "english": "I want water"
+      },
+      "tiles": [
+        "నాకు",
+        "నీళ్లు",
+        "కావాలి"
+      ]
+    },
+    {
+      "id": "c10-u1-l5-e8",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "dat-naaku"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "నాకు",
+        "transliteration": "nāku"
+      },
+      "acceptedAnswers": [
+        "to me"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02",
+  "grammarNotes": [
+    {
+      "id": "c10-u1-l5-g1",
+      "title": "Wanting happens TO you",
+      "body": "Telugu says “to me, water is wanted”: నాకు నీళ్లు కావాలి. That -కు on నాకు means “to”. You’ll see this pattern with wanting, liking, and feeling — it’s one of the most Telugu things about Telugu."
+    }
+  ]
+}

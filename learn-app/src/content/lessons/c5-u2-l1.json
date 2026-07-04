@@ -1,0 +1,261 @@
+{
+  "id": "c5-u2-l1",
+  "courseId": "course-5",
+  "unitId": "c5-u2",
+  "title": "Places in Town",
+  "teluguTitle": "ఊళ్లో",
+  "description": "School, temple, shop, hospital — and the town itself.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "place-uru",
+    "place-badi",
+    "place-gudi",
+    "place-dukanam",
+    "place-asupatri"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c5-u2-l1-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "place-uru"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-5/c5-u2/place-uru-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఊరు",
+        "transliteration": "ūru",
+        "english": "village / hometown"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఊరు",
+          "transliteration": "ūru"
+        },
+        {
+          "id": "b",
+          "telugu": "బడి",
+          "transliteration": "baḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "గుడి",
+          "transliteration": "guḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-badi"
+      ],
+      "prompt": "How do you say “school”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "బడి",
+          "transliteration": "baḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "గుడి",
+          "transliteration": "guḍi",
+          "whyWrong": "గుడి means “temple”."
+        },
+        {
+          "id": "c",
+          "telugu": "దుకాణం",
+          "transliteration": "dukāṇam",
+          "whyWrong": "దుకాణం means “shop / store”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "place-gudi"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-5/c5-u2/place-gudi-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "గుడి",
+        "transliteration": "guḍi",
+        "english": "temple"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "గుడి",
+          "transliteration": "guḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "దుకాణం",
+          "transliteration": "dukāṇam"
+        },
+        {
+          "id": "c",
+          "telugu": "ఆసుపత్రి",
+          "transliteration": "āsupatri"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "place-uru",
+        "place-badi",
+        "place-gudi",
+        "place-dukanam"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఊరు",
+            "transliteration": "ūru"
+          },
+          "b": {
+            "telugu": "village / hometown"
+          }
+        },
+        {
+          "a": {
+            "telugu": "బడి",
+            "transliteration": "baḍi"
+          },
+          "b": {
+            "telugu": "school"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గుడి",
+            "transliteration": "guḍi"
+          },
+          "b": {
+            "telugu": "temple"
+          }
+        },
+        {
+          "a": {
+            "telugu": "దుకాణం",
+            "transliteration": "dukāṇam"
+          },
+          "b": {
+            "telugu": "shop / store"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-dukanam"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "దుకాణం",
+        "transliteration": "dukāṇam"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "shop / store"
+        },
+        {
+          "id": "b",
+          "english": "hospital",
+          "whyWrong": "“hospital” is ఆసుపత్రి."
+        },
+        {
+          "id": "c",
+          "english": "village / hometown",
+          "whyWrong": "“village / hometown” is ఊరు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "place-asupatri"
+      ],
+      "prompt": "How do you say “hospital”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆసుపత్రి",
+          "transliteration": "āsupatri"
+        },
+        {
+          "id": "b",
+          "telugu": "ఊరు",
+          "transliteration": "ūru",
+          "whyWrong": "ఊరు means “village / hometown”."
+        },
+        {
+          "id": "c",
+          "telugu": "బడి",
+          "transliteration": "baḍi",
+          "whyWrong": "బడి means “school”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l1-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "place-uru"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఊరు",
+        "transliteration": "ūru"
+      },
+      "acceptedAnswers": [
+        "village / hometown",
+        "village",
+        "hometown"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

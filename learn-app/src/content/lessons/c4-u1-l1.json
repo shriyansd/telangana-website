@@ -1,0 +1,228 @@
+{
+  "id": "c4-u1-l1",
+  "courseId": "course-4",
+  "unitId": "c4-u1",
+  "title": "Days: Monday–Thursday",
+  "teluguTitle": "వారంలో రోజులు",
+  "description": "The week begins. Every day ends in -వారం.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "day-mon",
+    "day-tue",
+    "day-wed",
+    "day-thu"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c4-u1-l1-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "day-mon"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u1/day-mon-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "సోమవారం",
+        "transliteration": "sōmavāram",
+        "english": "Monday"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "సోమవారం",
+          "transliteration": "sōmavāram"
+        },
+        {
+          "id": "b",
+          "telugu": "మంగళవారం",
+          "transliteration": "maṅgaḷavāram"
+        },
+        {
+          "id": "c",
+          "telugu": "బుధవారం",
+          "transliteration": "budhavāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-tue"
+      ],
+      "prompt": "How do you say “Tuesday”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మంగళవారం",
+          "transliteration": "maṅgaḷavāram"
+        },
+        {
+          "id": "b",
+          "telugu": "బుధవారం",
+          "transliteration": "budhavāram",
+          "whyWrong": "బుధవారం means “Wednesday”."
+        },
+        {
+          "id": "c",
+          "telugu": "గురువారం",
+          "transliteration": "guruvāram",
+          "whyWrong": "గురువారం means “Thursday”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l1-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "day-wed"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u1/day-wed-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "బుధవారం",
+        "transliteration": "budhavāram",
+        "english": "Wednesday"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "బుధవారం",
+          "transliteration": "budhavāram"
+        },
+        {
+          "id": "b",
+          "telugu": "గురువారం",
+          "transliteration": "guruvāram"
+        },
+        {
+          "id": "c",
+          "telugu": "సోమవారం",
+          "transliteration": "sōmavāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l1-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "day-mon",
+        "day-tue",
+        "day-wed",
+        "day-thu"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "సోమవారం",
+            "transliteration": "sōmavāram"
+          },
+          "b": {
+            "telugu": "Monday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మంగళవారం",
+            "transliteration": "maṅgaḷavāram"
+          },
+          "b": {
+            "telugu": "Tuesday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "బుధవారం",
+            "transliteration": "budhavāram"
+          },
+          "b": {
+            "telugu": "Wednesday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గురువారం",
+            "transliteration": "guruvāram"
+          },
+          "b": {
+            "telugu": "Thursday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4-u1-l1-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-thu"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "గురువారం",
+        "transliteration": "guruvāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "Thursday"
+        },
+        {
+          "id": "b",
+          "english": "Monday",
+          "whyWrong": "“Monday” is సోమవారం."
+        },
+        {
+          "id": "c",
+          "english": "Tuesday",
+          "whyWrong": "“Tuesday” is మంగళవారం."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l1-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "day-mon"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "సోమవారం",
+        "transliteration": "sōmavāram"
+      },
+      "acceptedAnswers": [
+        "Monday"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

@@ -1,0 +1,301 @@
+{
+  "id": "c5-u2-l2",
+  "courseId": "course-5",
+  "unitId": "c5-u2",
+  "title": "Here & There",
+  "teluguTitle": "ఇక్కడ అక్కడ",
+  "description": "Point at the world: here, there, near, far, left, right.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "dir-here",
+    "dir-there",
+    "dir-near",
+    "dir-far",
+    "dir-right",
+    "dir-left"
+  ],
+  "newConceptLimit": 6,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c5-u2-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "dir-here"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-5/c5-u2/dir-here-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఇక్కడ",
+        "transliteration": "ikkaḍa",
+        "english": "here"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇక్కడ",
+          "transliteration": "ikkaḍa"
+        },
+        {
+          "id": "b",
+          "telugu": "అక్కడ",
+          "transliteration": "akkaḍa"
+        },
+        {
+          "id": "c",
+          "telugu": "దగ్గర",
+          "transliteration": "daggara"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dir-there"
+      ],
+      "prompt": "How do you say “there”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "అక్కడ",
+          "transliteration": "akkaḍa"
+        },
+        {
+          "id": "b",
+          "telugu": "దగ్గర",
+          "transliteration": "daggara",
+          "whyWrong": "దగ్గర means “near”."
+        },
+        {
+          "id": "c",
+          "telugu": "దూరం",
+          "transliteration": "dūram",
+          "whyWrong": "దూరం means “far”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "dir-near"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-5/c5-u2/dir-near-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "దగ్గర",
+        "transliteration": "daggara",
+        "english": "near"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "దగ్గర",
+          "transliteration": "daggara"
+        },
+        {
+          "id": "b",
+          "telugu": "దూరం",
+          "transliteration": "dūram"
+        },
+        {
+          "id": "c",
+          "telugu": "కుడి",
+          "transliteration": "kuḍi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "dir-here",
+        "dir-there",
+        "dir-near",
+        "dir-far"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఇక్కడ",
+            "transliteration": "ikkaḍa"
+          },
+          "b": {
+            "telugu": "here"
+          }
+        },
+        {
+          "a": {
+            "telugu": "అక్కడ",
+            "transliteration": "akkaḍa"
+          },
+          "b": {
+            "telugu": "there"
+          }
+        },
+        {
+          "a": {
+            "telugu": "దగ్గర",
+            "transliteration": "daggara"
+          },
+          "b": {
+            "telugu": "near"
+          }
+        },
+        {
+          "a": {
+            "telugu": "దూరం",
+            "transliteration": "dūram"
+          },
+          "b": {
+            "telugu": "far"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dir-far"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "దూరం",
+        "transliteration": "dūram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "far"
+        },
+        {
+          "id": "b",
+          "english": "right (side)",
+          "whyWrong": "“right (side)” is కుడి."
+        },
+        {
+          "id": "c",
+          "english": "left (side)",
+          "whyWrong": "“left (side)” is ఎడమ."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "dir-right"
+      ],
+      "prompt": "How do you say “right (side)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కుడి",
+          "transliteration": "kuḍi"
+        },
+        {
+          "id": "b",
+          "telugu": "ఎడమ",
+          "transliteration": "eḍama",
+          "whyWrong": "ఎడమ means “left (side)”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఇక్కడ",
+          "transliteration": "ikkaḍa",
+          "whyWrong": "ఇక్కడ means “here”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "dir-here",
+        "dir-there"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "గుడి ఇక్కడ ___ ఉంది",
+        "transliteration": "guḍi ikkaḍa daggara undi",
+        "english": "The temple is near here"
+      },
+      "answer": "దగ్గర",
+      "choices": [
+        "దగ్గర",
+        "అక్కడ",
+        "దూరం"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "dir-here",
+        "dir-there"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "గుడి ఇక్కడ దగ్గర ఉంది",
+        "transliteration": "guḍi ikkaḍa daggara undi",
+        "english": "The temple is near here"
+      },
+      "tiles": [
+        "గుడి",
+        "ఇక్కడ",
+        "దగ్గర",
+        "ఉంది"
+      ]
+    },
+    {
+      "id": "c5-u2-l2-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "dir-here"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇక్కడ",
+        "transliteration": "ikkaḍa"
+      },
+      "acceptedAnswers": [
+        "here"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

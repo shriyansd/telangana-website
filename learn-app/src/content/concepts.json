@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "greet-namaskaram",
+    "telugu": "నమస్కారం",
+    "transliteration": "namaskāram",
+    "english": "hello / greetings"
+  },
+  {
+    "id": "greet-good-morning",
+    "telugu": "శుభోదయం",
+    "transliteration": "śubhōdayam",
+    "english": "good morning"
+  },
+  {
+    "id": "greet-goodbye",
+    "telugu": "వెళ్ళొస్తాను",
+    "transliteration": "veḷḷostānu",
+    "english": "goodbye (I'll go and come back)",
+    "notes": "The usual Telugu way to say goodbye — literally a promise to return."
+  },
+  {
+    "id": "thanks",
+    "telugu": "ధన్యవాదాలు",
+    "transliteration": "dhanyavādālu",
+    "english": "thank you"
+  },
+  {
+    "id": "please",
+    "telugu": "దయచేసి",
+    "transliteration": "dayachēsi",
+    "english": "please"
+  },
+  {
+    "id": "sorry",
+    "telugu": "క్షమించండి",
+    "transliteration": "kṣaminchaṇḍi",
+    "english": "sorry / excuse me (respectful)"
+  },
+  {
+    "id": "yes",
+    "telugu": "అవును",
+    "transliteration": "avunu",
+    "english": "yes"
+  },
+  {
+    "id": "no",
+    "telugu": "కాదు",
+    "transliteration": "kādu",
+    "english": "no (it is not)",
+    "confusableWith": [
+      "no-ledu"
+    ]
+  },
+  {
+    "id": "no-ledu",
+    "telugu": "లేదు",
+    "transliteration": "lēdu",
+    "english": "no (there isn't / didn't)",
+    "confusableWith": [
+      "no"
+    ]
+  },
+  {
+    "id": "okay",
+    "telugu": "సరే",
+    "transliteration": "sarē",
+    "english": "okay"
+  },
+  {
+    "id": "ask-name-respectful",
+    "telugu": "మీ పేరు ఏమిటి?",
+    "transliteration": "mī pēru ēmiṭi?",
+    "english": "what is your name? (respectful)"
+  },
+  {
+    "id": "say-my-name",
+    "telugu": "నా పేరు ___",
+    "transliteration": "nā pēru ___",
+    "english": "my name is ___"
+  },
+  {
+    "id": "word-name",
+    "telugu": "పేరు",
+    "transliteration": "pēru",
+    "english": "name"
+  },
+  {
+    "id": "how-are-you",
+    "telugu": "ఎలా ఉన్నారు?",
+    "transliteration": "elā unnāru?",
+    "english": "how are you? (respectful)"
+  },
+  {
+    "id": "i-am-fine",
+    "telugu": "నేను బాగున్నాను",
+    "transliteration": "nēnu bāgunnānu",
+    "english": "I am fine"
+  },
+  {
+    "id": "pron-i",
+    "telugu": "నేను",
+    "transliteration": "nēnu",
+    "english": "I"
+  },
+  {
+    "id": "pron-you-respectful",
+    "telugu": "మీరు",
+    "transliteration": "mīru",
+    "english": "you (respectful)"
+  },
+  {
+    "id": "fam-amma",
+    "telugu": "అమ్మ",
+    "transliteration": "amma",
+    "english": "mother"
+  },
+  {
+    "id": "fam-nanna",
+    "telugu": "నాన్న",
+    "transliteration": "nānna",
+    "english": "father"
+  },
+  {
+    "id": "fam-akka",
+    "telugu": "అక్క",
+    "transliteration": "akka",
+    "english": "older sister"
+  },
+  {
+    "id": "fam-anna",
+    "telugu": "అన్న",
+    "transliteration": "anna",
+    "english": "older brother"
+  },
+  {
+    "id": "fam-thammudu",
+    "telugu": "తమ్ముడు",
+    "transliteration": "tammuḍu",
+    "english": "younger brother"
+  },
+  {
+    "id": "fam-chelli",
+    "telugu": "చెల్లి",
+    "transliteration": "chelli",
+    "english": "younger sister"
+  },
+  {
+    "id": "fam-tata",
+    "telugu": "తాత",
+    "transliteration": "tāta",
+    "english": "grandfather"
+  },
+  {
+    "id": "fam-ammamma",
+    "telugu": "అమ్మమ్మ",
+    "transliteration": "ammamma",
+    "english": "grandmother (mother's mother)"
+  },
+  {
+    "id": "fam-nanamma",
+    "telugu": "నానమ్మ",
+    "transliteration": "nānamma",
+    "english": "grandmother (father's mother)"
+  },
+  {
+    "id": "want-kavali",
+    "telugu": "కావాలి",
+    "transliteration": "kāvāli",
+    "english": "want / need"
+  },
+  {
+    "id": "want-water",
+    "telugu": "నాకు నీళ్లు కావాలి",
+    "transliteration": "nāku nīḷḷu kāvāli",
+    "english": "I want water"
+  },
+  {
+    "id": "word-water",
+    "telugu": "నీళ్లు",
+    "transliteration": "nīḷḷu",
+    "english": "water"
+  },
+  {
+    "id": "word-rice-food",
+    "telugu": "అన్నం",
+    "transliteration": "annam",
+    "english": "rice / food (a meal)"
+  },
+  {
+    "id": "word-milk",
+    "telugu": "పాలు",
+    "transliteration": "pālu",
+    "english": "milk"
+  },
+  {
+    "id": "word-fruit",
+    "telugu": "పండు",
+    "transliteration": "paṇḍu",
+    "english": "fruit"
+  },
+  {
+    "id": "word-tea",
+    "telugu": "టీ",
+    "transliteration": "ṭī",
+    "english": "tea"
+  },
+  {
+    "id": "hunger",
+    "telugu": "నాకు ఆకలిగా ఉంది",
+    "transliteration": "nāku ākaligā undi",
+    "english": "I am hungry"
+  },
+  {
+    "id": "script-a",
+    "telugu": "అ",
+    "transliteration": "a",
+    "english": "the vowel a"
+  },
+  {
+    "id": "script-aa",
+    "telugu": "ఆ",
+    "transliteration": "ā",
+    "english": "the vowel ā (long)"
+  },
+  {
+    "id": "script-i",
+    "telugu": "ఇ",
+    "transliteration": "i",
+    "english": "the vowel i"
+  },
+  {
+    "id": "script-ka",
+    "telugu": "క",
+    "transliteration": "ka",
+    "english": "the consonant ka"
+  },
+  {
+    "id": "script-ka-matra",
+    "telugu": "కా",
+    "transliteration": "kā",
+    "english": "ka + ā vowel sign"
+  },
+  {
+    "id": "script-ma",
+    "telugu": "మ",
+    "transliteration": "ma",
+    "english": "the consonant ma"
+  },
+  {
+    "id": "sound-ta-dental",
+    "telugu": "త",
+    "transliteration": "ta (soft, dental)",
+    "english": "soft ta — tongue touches the teeth",
+    "confusableWith": [
+      "sound-ta-retroflex"
+    ]
+  },
+  {
+    "id": "sound-ta-retroflex",
+    "telugu": "ట",
+    "transliteration": "ṭa (retroflex)",
+    "english": "hard ṭa — tongue curls back",
+    "confusableWith": [
+      "sound-ta-dental"
+    ]
+  },
+  {
+    "id": "sound-da-dental",
+    "telugu": "ద",
+    "transliteration": "da (soft, dental)",
+    "english": "soft da",
+    "confusableWith": [
+      "sound-da-retroflex"
+    ]
+  },
+  {
+    "id": "sound-da-retroflex",
+    "telugu": "డ",
+    "transliteration": "ḍa (retroflex)",
+    "english": "hard ḍa",
+    "confusableWith": [
+      "sound-da-dental"
+    ]
+  },
+  {
+    "id": "sound-la",
+    "telugu": "ల",
+    "transliteration": "la",
+    "english": "plain la",
+    "confusableWith": [
+      "sound-lla"
+    ]
+  },
+  {
+    "id": "sound-lla",
+    "telugu": "ళ",
+    "transliteration": "ḷa (retroflex)",
+    "english": "retroflex ḷa as in నీళ్లు",
+    "confusableWith": [
+      "sound-la"
+    ]
+  },
+  {
+    "id": "come-here",
+    "telugu": "ఇక్కడికి రండి",
+    "transliteration": "ikkaḍiki raṇḍi",
+    "english": "come here (respectful)"
+  },
+  {
+    "id": "eat-respectful",
+    "telugu": "తినండి",
+    "transliteration": "tinaṇḍi",
+    "english": "eat (respectful request)"
+  },
+  {
+    "id": "well-done",
+    "telugu": "చాలా బాగుంది",
+    "transliteration": "chālā bāgundi",
+    "english": "very good / that's great"
+  },
+  {
+    "id": "what-is-this",
+    "telugu": "ఇది ఏమిటి?",
+    "transliteration": "idi ēmiṭi?",
+    "english": "what is this?"
+  },
+  {
+    "id": "script-ii",
+    "telugu": "ఈ",
+    "transliteration": "ī",
+    "english": "the letter ī",
+    "notes": "a long “ee”, as in feet"
+  },
+  {
+    "id": "script-u",
+    "telugu": "ఉ",
+    "transliteration": "u",
+    "english": "the letter u",
+    "notes": "like “u” in put"
+  },
+  {
+    "id": "script-uu",
+    "telugu": "ఊ",
+    "transliteration": "ū",
+    "english": "the letter ū",
+    "notes": "a long “oo”, as in food"
+  },
+  {
+    "id": "script-e",
+    "telugu": "ఎ",
+    "transliteration": "e",
+    "english": "the letter e",
+    "notes": "like “e” in bed"
+  },
+  {
+    "id": "script-ee",
+    "telugu": "ఏ",
+    "transliteration": "ē",
+    "english": "the letter ē",
+    "notes": "a long “ay”, as in make"
+  },
+  {
+    "id": "script-ai",
+    "telugu": "ఐ",
+    "transliteration": "ai",
+    "english": "the letter ai",
+    "notes": "like “i” in bite"
+  },
+  {
+    "id": "script-o",
+    "telugu": "ఒ",
+    "transliteration": "o",
+    "english": "the letter o",
+    "notes": "like “o” in off"
+  },
+  {
+    "id": "script-oo",
+    "telugu": "ఓ",
+    "transliteration": "ō",
+    "english": "the letter ō",
+    "notes": "a long “o”, as in go"
+  },
+  {
+    "id": "script-au",
+    "telugu": "ఔ",
+    "transliteration": "au",
+    "english": "the letter au",
+    "notes": "like “ow” in cow"
+  },
+  {
+    "id": "script-ru",
+    "telugu": "ఋ",
+    "transliteration": "ru",
+    "english": "the letter ru",
+    "notes": "vocalic r — rare, as in ఋషి (sage)"
+  },
+  {
+    "id": "script-am",
+    "telugu": "అం",
+    "transliteration": "aṁ",
+    "english": "the letter aṁ",
+    "notes": "a nasal hum at the end — the anusvāra"
+  },
+  {
+    "id": "script-ah",
+    "telugu": "అః",
+    "transliteration": "aḥ",
+    "english": "the letter aḥ",
+    "notes": "a light breath at the end — the visarga"
+  },
+  {
+    "id": "script-kha",
+    "telugu": "ఖ",
+    "transliteration": "kha",
+    "english": "the letter kha",
+    "notes": "ka with a puff of breath"
+  },
+  {
+    "id": "script-ga",
+    "telugu": "గ",
+    "transliteration": "ga",
+    "english": "the letter ga"
+  },
+  {
+    "id": "script-gha",
+    "telugu": "ఘ",
+    "transliteration": "gha",
+    "english": "the letter gha",
+    "notes": "ga with a puff of breath"
+  },
+  {
+    "id": "script-nga",
+    "telugu": "ఙ",
+    "transliteration": "ṅa",
+    "english": "the letter ṅa",
+    "notes": "the “ng” sound — rare on its own"
+  },
+  {
+    "id": "script-cha",
+    "telugu": "చ",
+    "transliteration": "cha",
+    "english": "the letter cha"
+  },
+  {
+    "id": "script-chha",
+    "telugu": "ఛ",
+    "transliteration": "chha",
+    "english": "the letter chha",
+    "notes": "cha with a puff of breath"
+  },
+  {
+    "id": "script-ja",
+    "telugu": "జ",
+    "transliteration": "ja",
+    "english": "the letter ja"
+  },
+  {
+    "id": "script-jha",
+    "telugu": "ఝ",
+    "transliteration": "jha",
+    "english": "the letter jha",
+    "notes": "ja with a puff of breath — rare"
+  },
+  {
+    "id": "script-nya",
+    "telugu": "ఞ",
+    "transliteration": "ña",
+    "english": "the letter ña",
+    "notes": "the “ny” sound — appears in combinations"
+  },
+  {
+    "id": "script-tta",
+    "telugu": "ట",
+    "transliteration": "ṭa",
+    "english": "the letter ṭa",
+    "notes": "hard t — tongue curls back"
+  },
+  {
+    "id": "script-ttha",
+    "telugu": "ఠ",
+    "transliteration": "ṭha",
+    "english": "the letter ṭha",
+    "notes": "ṭa with a puff of breath — rare"
+  },
+  {
+    "id": "script-dda",
+    "telugu": "డ",
+    "transliteration": "ḍa",
+    "english": "the letter ḍa",
+    "notes": "hard d — tongue curls back"
+  },
+  {
+    "id": "script-ddha",
+    "telugu": "ఢ",
+    "transliteration": "ḍha",
+    "english": "the letter ḍha",
+    "notes": "ḍa with a puff of breath — rare"
+  },
+  {
+    "id": "script-nna-retro",
+    "telugu": "ణ",
+    "transliteration": "ṇa",
+    "english": "the letter ṇa",
+    "notes": "hard n — shows up inside words like బాణం"
+  },
+  {
+    "id": "script-ta",
+    "telugu": "త",
+    "transliteration": "ta",
+    "english": "the letter ta",
+    "notes": "soft t — tongue on the teeth"
+  },
+  {
+    "id": "script-tha",
+    "telugu": "థ",
+    "transliteration": "tha",
+    "english": "the letter tha",
+    "notes": "ta with a puff of breath — rare"
+  },
+  {
+    "id": "script-da",
+    "telugu": "ద",
+    "transliteration": "da",
+    "english": "the letter da",
+    "notes": "soft d"
+  },
+  {
+    "id": "script-dha",
+    "telugu": "ధ",
+    "transliteration": "dha",
+    "english": "the letter dha",
+    "notes": "da with a puff of breath"
+  },
+  {
+    "id": "script-na",
+    "telugu": "న",
+    "transliteration": "na",
+    "english": "the letter na"
+  },
+  {
+    "id": "script-pa",
+    "telugu": "ప",
+    "transliteration": "pa",
+    "english": "the letter pa"
+  },
+  {
+    "id": "script-pha",
+    "telugu": "ఫ",
+    "transliteration": "pha",
+    "english": "the letter pha",
+    "notes": "pa with a puff of breath"
+  },
+  {
+    "id": "script-ba",
+    "telugu": "బ",
+    "transliteration": "ba",
+    "english": "the letter ba"
+  },
+  {
+    "id": "script-bha",
+    "telugu": "భ",
+    "transliteration": "bha",
+    "english": "the letter bha",
+    "notes": "ba with a puff of breath"
+  },
+  {
+    "id": "script-ya",
+    "telugu": "య",
+    "transliteration": "ya",
+    "english": "the letter ya"
+  },
+  {
+    "id": "script-ra",
+    "telugu": "ర",
+    "transliteration": "ra",
+    "english": "the letter ra"
+  },
+  {
+    "id": "script-la",
+    "telugu": "ల",
+    "transliteration": "la",
+    "english": "the letter la"
+  },
+  {
+    "id": "script-va",
+    "telugu": "వ",
+    "transliteration": "va",
+    "english": "the letter va"
+  },
+  {
+    "id": "script-ha",
+    "telugu": "హ",
+    "transliteration": "ha",
+    "english": "the letter ha"
+  },
+  {
+    "id": "script-sha",
+    "telugu": "శ",
+    "transliteration": "śa",
+    "english": "the letter śa",
+    "notes": "sh as in ship"
+  },
+  {
+    "id": "script-ssa",
+    "telugu": "ష",
+    "transliteration": "ṣa",
+    "english": "the letter ṣa",
+    "notes": "a harder sh — tongue curled back"
+  },
+  {
+    "id": "script-sa",
+    "telugu": "స",
+    "transliteration": "sa",
+    "english": "the letter sa"
+  },
+  {
+    "id": "script-lla",
+    "telugu": "ళ",
+    "transliteration": "ḷa",
+    "english": "the letter ḷa",
+    "notes": "retroflex l — the special Telugu l"
+  },
+  {
+    "id": "script-rra",
+    "telugu": "ఱ",
+    "transliteration": "ṟa",
+    "english": "the letter ṟa",
+    "notes": "a strong trilled r — rare today"
+  },
+  {
+    "id": "script-ksha",
+    "telugu": "క్ష",
+    "transliteration": "kṣa",
+    "english": "the letter kṣa",
+    "notes": "k + ṣa fused into one sign"
+  },
+  {
+    "id": "script-gun-kaa",
+    "telugu": "కా",
+    "transliteration": "kā",
+    "english": "ka + the ā vowel sign"
+  },
+  {
+    "id": "script-gun-ki",
+    "telugu": "కి",
+    "transliteration": "ki",
+    "english": "ka + the i vowel sign"
+  },
+  {
+    "id": "script-gun-kii",
+    "telugu": "కీ",
+    "transliteration": "kī",
+    "english": "ka + the ī vowel sign"
+  },
+  {
+    "id": "script-gun-ku",
+    "telugu": "కు",
+    "transliteration": "ku",
+    "english": "ka + the u vowel sign"
+  },
+  {
+    "id": "script-gun-kuu",
+    "telugu": "కూ",
+    "transliteration": "kū",
+    "english": "ka + the ū vowel sign"
+  },
+  {
+    "id": "script-gun-ke",
+    "telugu": "కె",
+    "transliteration": "ke",
+    "english": "ka + the e vowel sign"
+  },
+  {
+    "id": "script-gun-kee",
+    "telugu": "కే",
+    "transliteration": "kē",
+    "english": "ka + the ē vowel sign"
+  },
+  {
+    "id": "script-gun-kai",
+    "telugu": "కై",
+    "transliteration": "kai",
+    "english": "ka + the ai vowel sign"
+  },
+  {
+    "id": "script-gun-ko",
+    "telugu": "కొ",
+    "transliteration": "ko",
+    "english": "ka + the o vowel sign"
+  },
+  {
+    "id": "script-gun-koo",
+    "telugu": "కో",
+    "transliteration": "kō",
+    "english": "ka + the ō vowel sign"
+  },
+  {
+    "id": "script-gun-kau",
+    "telugu": "కౌ",
+    "transliteration": "kau",
+    "english": "ka + the au vowel sign"
+  },
+  {
+    "id": "script-gun-kam",
+    "telugu": "కం",
+    "transliteration": "kaṁ",
+    "english": "ka + the aṁ vowel sign"
+  },
+  {
+    "id": "script-vattu-kka",
+    "telugu": "క్క",
+    "transliteration": "kka",
+    "english": "the doubled kka",
+    "notes": "as in అక్క (older sister)"
+  },
+  {
+    "id": "script-vattu-mma",
+    "telugu": "మ్మ",
+    "transliteration": "mma",
+    "english": "the doubled mma",
+    "notes": "as in అమ్మ (mother)"
+  },
+  {
+    "id": "script-vattu-nna",
+    "telugu": "న్న",
+    "transliteration": "nna",
+    "english": "the doubled nna",
+    "notes": "as in అన్నం (rice / a meal)"
+  },
+  {
+    "id": "script-vattu-lla-v",
+    "telugu": "ల్ల",
+    "transliteration": "lla",
+    "english": "the doubled lla",
+    "notes": "as in చెల్లి (younger sister)"
+  },
+  {
+    "id": "script-vattu-tta-v",
+    "telugu": "ట్ట",
+    "transliteration": "ṭṭa",
+    "english": "the doubled ṭṭa",
+    "notes": "as in పట్టు (silk / hold)"
+  },
+  {
+    "id": "script-vattu-dda-v",
+    "telugu": "ద్ద",
+    "transliteration": "dda",
+    "english": "the doubled dda",
+    "notes": "as in పెద్ద (big / elder)"
+  },
+  {
+    "id": "num-1",
+    "telugu": "ఒకటి",
+    "transliteration": "okaṭi",
+    "english": "one"
+  },
+  {
+    "id": "num-2",
+    "telugu": "రెండు",
+    "transliteration": "reṇḍu",
+    "english": "two"
+  },
+  {
+    "id": "num-3",
+    "telugu": "మూడు",
+    "transliteration": "mūḍu",
+    "english": "three"
+  },
+  {
+    "id": "num-4",
+    "telugu": "నాలుగు",
+    "transliteration": "nālugu",
+    "english": "four"
+  },
+  {
+    "id": "num-5",
+    "telugu": "ఐదు",
+    "transliteration": "aidu",
+    "english": "five"
+  },
+  {
+    "id": "num-6",
+    "telugu": "ఆరు",
+    "transliteration": "āru",
+    "english": "six"
+  },
+  {
+    "id": "num-7",
+    "telugu": "ఏడు",
+    "transliteration": "ēḍu",
+    "english": "seven"
+  },
+  {
+    "id": "num-8",
+    "telugu": "ఎనిమిది",
+    "transliteration": "enimidi",
+    "english": "eight"
+  },
+  {
+    "id": "num-9",
+    "telugu": "తొమ్మిది",
+    "transliteration": "tommidi",
+    "english": "nine"
+  },
+  {
+    "id": "num-10",
+    "telugu": "పది",
+    "transliteration": "padi",
+    "english": "ten"
+  },
+  {
+    "id": "num-11",
+    "telugu": "పదకొండు",
+    "transliteration": "padakoṇḍu",
+    "english": "eleven"
+  },
+  {
+    "id": "num-12",
+    "telugu": "పన్నెండు",
+    "transliteration": "panneṇḍu",
+    "english": "twelve"
+  },
+  {
+    "id": "num-13",
+    "telugu": "పదమూడు",
+    "transliteration": "padamūḍu",
+    "english": "thirteen"
+  },
+  {
+    "id": "num-14",
+    "telugu": "పద్నాలుగు",
+    "transliteration": "padnālugu",
+    "english": "fourteen"
+  },
+  {
+    "id": "num-15",
+    "telugu": "పదిహేను",
+    "transliteration": "padihēnu",
+    "english": "fifteen"
+  },
+  {
+    "id": "num-20",
+    "telugu": "ఇరవై",
+    "transliteration": "iravai",
+    "english": "twenty"
+  },
+  {
+    "id": "num-30",
+    "telugu": "ముప్పై",
+    "transliteration": "muppai",
+    "english": "thirty"
+  },
+  {
+    "id": "num-40",
+    "telugu": "నలభై",
+    "transliteration": "nalabhai",
+    "english": "forty"
+  },
+  {
+    "id": "num-50",
+    "telugu": "యాభై",
+    "transliteration": "yābhai",
+    "english": "fifty"
+  },
+  {
+    "id": "num-100",
+    "telugu": "వంద",
+    "transliteration": "vanda",
+    "english": "one hundred"
+  },
+  {
+    "id": "food-kura",
+    "telugu": "కూర",
+    "transliteration": "kūra",
+    "english": "curry / vegetable dish"
+  },
+  {
+    "id": "food-pappu",
+    "telugu": "పప్పు",
+    "transliteration": "pappu",
+    "english": "dal (lentils)"
+  },
+  {
+    "id": "food-perugu",
+    "telugu": "పెరుగు",
+    "transliteration": "perugu",
+    "english": "yogurt"
+  },
+  {
+    "id": "food-rotte",
+    "telugu": "రొట్టె",
+    "transliteration": "roṭṭe",
+    "english": "flatbread / roti"
+  },
+  {
+    "id": "food-karam",
+    "telugu": "కారం",
+    "transliteration": "kāram",
+    "english": "spicy / chili heat"
+  },
+  {
+    "id": "like-ishtam",
+    "telugu": "నాకు ఇష్టం",
+    "transliteration": "nāku iṣṭam",
+    "english": "I like (it)"
+  },
+  {
+    "id": "want-vaddu",
+    "telugu": "వద్దు",
+    "transliteration": "vaddu",
+    "english": "don’t want / no thanks"
+  },
+  {
+    "id": "more-inka",
+    "telugu": "ఇంకా",
+    "transliteration": "iṅkā",
+    "english": "more / still"
+  },
+  {
+    "id": "enough-chalu",
+    "telugu": "చాలు",
+    "transliteration": "chālu",
+    "english": "enough"
+  },
+  {
+    "id": "taste-ruchi",
+    "telugu": "రుచి",
+    "transliteration": "ruchi",
+    "english": "taste"
+  },
+  {
+    "id": "house-illu",
+    "telugu": "ఇల్లు",
+    "transliteration": "illu",
+    "english": "house / home"
+  },
+  {
+    "id": "house-gadi",
+    "telugu": "గది",
+    "transliteration": "gadi",
+    "english": "room"
+  },
+  {
+    "id": "house-talupu",
+    "telugu": "తలుపు",
+    "transliteration": "talupu",
+    "english": "door"
+  },
+  {
+    "id": "house-kitiki",
+    "telugu": "కిటికీ",
+    "transliteration": "kiṭikī",
+    "english": "window"
+  },
+  {
+    "id": "house-mancham",
+    "telugu": "మంచం",
+    "transliteration": "mañcham",
+    "english": "bed"
+  },
+  {
+    "id": "color-red",
+    "telugu": "ఎరుపు",
+    "transliteration": "erupu",
+    "english": "red"
+  },
+  {
+    "id": "color-green",
+    "telugu": "పచ్చ",
+    "transliteration": "pachcha",
+    "english": "green"
+  },
+  {
+    "id": "color-blue",
+    "telugu": "నీలం",
+    "transliteration": "nīlam",
+    "english": "blue"
+  },
+  {
+    "id": "color-white",
+    "telugu": "తెలుపు",
+    "transliteration": "telupu",
+    "english": "white",
+    "notes": "Careful: తెలుపు (white) vs తలుపు (door)!"
+  },
+  {
+    "id": "color-black",
+    "telugu": "నలుపు",
+    "transliteration": "nalupu",
+    "english": "black"
+  },
+  {
+    "id": "color-yellow",
+    "telugu": "పసుపు",
+    "transliteration": "pasupu",
+    "english": "yellow / turmeric"
+  },
+  {
+    "id": "day-mon",
+    "telugu": "సోమవారం",
+    "transliteration": "sōmavāram",
+    "english": "Monday"
+  },
+  {
+    "id": "day-tue",
+    "telugu": "మంగళవారం",
+    "transliteration": "maṅgaḷavāram",
+    "english": "Tuesday"
+  },
+  {
+    "id": "day-wed",
+    "telugu": "బుధవారం",
+    "transliteration": "budhavāram",
+    "english": "Wednesday"
+  },
+  {
+    "id": "day-thu",
+    "telugu": "గురువారం",
+    "transliteration": "guruvāram",
+    "english": "Thursday"
+  },
+  {
+    "id": "day-fri",
+    "telugu": "శుక్రవారం",
+    "transliteration": "śukravāram",
+    "english": "Friday"
+  },
+  {
+    "id": "day-sat",
+    "telugu": "శనివారం",
+    "transliteration": "śanivāram",
+    "english": "Saturday"
+  },
+  {
+    "id": "day-sun",
+    "telugu": "ఆదివారం",
+    "transliteration": "ādivāram",
+    "english": "Sunday"
+  },
+  {
+    "id": "word-varam",
+    "telugu": "వారం",
+    "transliteration": "vāram",
+    "english": "week"
+  },
+  {
+    "id": "time-today",
+    "telugu": "ఈరోజు",
+    "transliteration": "īrōju",
+    "english": "today"
+  },
+  {
+    "id": "time-tomorrow",
+    "telugu": "రేపు",
+    "transliteration": "rēpu",
+    "english": "tomorrow"
+  },
+  {
+    "id": "time-yesterday",
+    "telugu": "నిన్న",
+    "transliteration": "ninna",
+    "english": "yesterday"
+  },
+  {
+    "id": "time-now",
+    "telugu": "ఇప్పుడు",
+    "transliteration": "ippuḍu",
+    "english": "now"
+  },
+  {
+    "id": "time-later",
+    "telugu": "తరువాత",
+    "transliteration": "taruvāta",
+    "english": "later / afterwards"
+  },
+  {
+    "id": "time-morning",
+    "telugu": "ఉదయం",
+    "transliteration": "udayam",
+    "english": "morning"
+  },
+  {
+    "id": "time-night",
+    "telugu": "రాత్రి",
+    "transliteration": "rātri",
+    "english": "night"
+  },
+  {
+    "id": "time-hour",
+    "telugu": "గంట",
+    "transliteration": "gaṇṭa",
+    "english": "hour / o’clock"
+  },
+  {
+    "id": "time-minute",
+    "telugu": "నిమిషం",
+    "transliteration": "nimiṣam",
+    "english": "minute"
+  },
+  {
+    "id": "q-when",
+    "telugu": "ఎప్పుడు?",
+    "transliteration": "eppuḍu?",
+    "english": "when?"
+  },
+  {
+    "id": "q-what",
+    "telugu": "ఏమిటి?",
+    "transliteration": "ēmiṭi?",
+    "english": "what?"
+  },
+  {
+    "id": "q-who",
+    "telugu": "ఎవరు?",
+    "transliteration": "evaru?",
+    "english": "who?"
+  },
+  {
+    "id": "q-where",
+    "telugu": "ఎక్కడ?",
+    "transliteration": "ekkaḍa?",
+    "english": "where?"
+  },
+  {
+    "id": "q-why",
+    "telugu": "ఎందుకు?",
+    "transliteration": "enduku?",
+    "english": "why?"
+  },
+  {
+    "id": "q-how",
+    "telugu": "ఎలా?",
+    "transliteration": "elā?",
+    "english": "how?"
+  },
+  {
+    "id": "place-uru",
+    "telugu": "ఊరు",
+    "transliteration": "ūru",
+    "english": "village / hometown"
+  },
+  {
+    "id": "place-badi",
+    "telugu": "బడి",
+    "transliteration": "baḍi",
+    "english": "school"
+  },
+  {
+    "id": "place-gudi",
+    "telugu": "గుడి",
+    "transliteration": "guḍi",
+    "english": "temple"
+  },
+  {
+    "id": "place-dukanam",
+    "telugu": "దుకాణం",
+    "transliteration": "dukāṇam",
+    "english": "shop / store"
+  },
+  {
+    "id": "place-asupatri",
+    "telugu": "ఆసుపత్రి",
+    "transliteration": "āsupatri",
+    "english": "hospital"
+  },
+  {
+    "id": "dir-here",
+    "telugu": "ఇక్కడ",
+    "transliteration": "ikkaḍa",
+    "english": "here"
+  },
+  {
+    "id": "dir-there",
+    "telugu": "అక్కడ",
+    "transliteration": "akkaḍa",
+    "english": "there"
+  },
+  {
+    "id": "dir-near",
+    "telugu": "దగ్గర",
+    "transliteration": "daggara",
+    "english": "near"
+  },
+  {
+    "id": "dir-far",
+    "telugu": "దూరం",
+    "transliteration": "dūram",
+    "english": "far"
+  },
+  {
+    "id": "dir-right",
+    "telugu": "కుడి",
+    "transliteration": "kuḍi",
+    "english": "right (side)"
+  },
+  {
+    "id": "dir-left",
+    "telugu": "ఎడమ",
+    "transliteration": "eḍama",
+    "english": "left (side)"
+  },
+  {
+    "id": "verb-eat",
+    "telugu": "తిను",
+    "transliteration": "tinu",
+    "english": "eat"
+  },
+  {
+    "id": "verb-drink",
+    "telugu": "తాగు",
+    "transliteration": "tāgu",
+    "english": "drink"
+  },
+  {
+    "id": "verb-go",
+    "telugu": "వెళ్ళు",
+    "transliteration": "veḷḷu",
+    "english": "go"
+  },
+  {
+    "id": "verb-come",
+    "telugu": "రా",
+    "transliteration": "rā",
+    "english": "come"
+  },
+  {
+    "id": "verb-see",
+    "telugu": "చూడు",
+    "transliteration": "chūḍu",
+    "english": "see / look"
+  },
+  {
+    "id": "req-randi",
+    "telugu": "రండి",
+    "transliteration": "raṇḍi",
+    "english": "please come"
+  },
+  {
+    "id": "req-kurchondi",
+    "telugu": "కూర్చోండి",
+    "transliteration": "kūrchōṇḍi",
+    "english": "please sit"
+  },
+  {
+    "id": "req-ivvandi",
+    "telugu": "ఇవ్వండి",
+    "transliteration": "ivvaṇḍi",
+    "english": "please give"
+  },
+  {
+    "id": "req-cheppandi",
+    "telugu": "చెప్పండి",
+    "transliteration": "cheppaṇḍi",
+    "english": "please tell / go ahead"
+  },
+  {
+    "id": "req-vinandi",
+    "telugu": "వినండి",
+    "transliteration": "vinaṇḍi",
+    "english": "please listen"
+  },
+  {
+    "id": "sent-eating",
+    "telugu": "నేను తింటున్నాను",
+    "transliteration": "nēnu tiṇṭunnānu",
+    "english": "I am eating"
+  },
+  {
+    "id": "sent-going",
+    "telugu": "నేను వెళ్తున్నాను",
+    "transliteration": "nēnu veḷtunnānu",
+    "english": "I am going"
+  },
+  {
+    "id": "sent-drinking",
+    "telugu": "నేను నీళ్లు తాగుతున్నాను",
+    "transliteration": "nēnu nīḷḷu tāgutunnānu",
+    "english": "I am drinking water"
+  },
+  {
+    "id": "sent-reading",
+    "telugu": "నేను చదువుతున్నాను",
+    "transliteration": "nēnu chaduvutunnānu",
+    "english": "I am reading / studying"
+  },
+  {
+    "id": "script-gun-syl-maa",
+    "telugu": "మా",
+    "transliteration": "mā",
+    "english": "the syllable mā (మ + vowel sign)"
+  },
+  {
+    "id": "script-gun-syl-ni",
+    "telugu": "ని",
+    "transliteration": "ni",
+    "english": "the syllable ni (న + vowel sign)"
+  },
+  {
+    "id": "script-gun-syl-to",
+    "telugu": "తో",
+    "transliteration": "tō",
+    "english": "the syllable tō (త + vowel sign)"
+  },
+  {
+    "id": "script-gun-syl-ru",
+    "telugu": "రు",
+    "transliteration": "ru",
+    "english": "the syllable ru (ర + vowel sign)"
+  },
+  {
+    "id": "script-gun-syl-lee",
+    "telugu": "లే",
+    "transliteration": "lē",
+    "english": "the syllable lē (ల + vowel sign)"
+  },
+  {
+    "id": "script-gun-syl-puu",
+    "telugu": "పూ",
+    "transliteration": "pū",
+    "english": "the syllable pū (ప + vowel sign)"
+  },
+  {
+    "id": "word-telugu",
+    "telugu": "తెలుగు",
+    "transliteration": "telugu",
+    "english": "Telugu (the language)"
+  },
+  {
+    "id": "pron-you",
+    "telugu": "నువ్వు",
+    "transliteration": "nuvvu",
+    "english": "you (casual)"
+  },
+  {
+    "id": "pron-he",
+    "telugu": "అతను",
+    "transliteration": "atanu",
+    "english": "he"
+  },
+  {
+    "id": "pron-she",
+    "telugu": "ఆమె",
+    "transliteration": "āme",
+    "english": "she"
+  },
+  {
+    "id": "pron-this",
+    "telugu": "ఇది",
+    "transliteration": "idi",
+    "english": "this"
+  },
+  {
+    "id": "pron-that",
+    "telugu": "అది",
+    "transliteration": "adi",
+    "english": "that"
+  },
+  {
+    "id": "q-which",
+    "telugu": "ఏది?",
+    "transliteration": "ēdi?",
+    "english": "which one?"
+  },
+  {
+    "id": "word-book",
+    "telugu": "పుస్తకం",
+    "transliteration": "pustakam",
+    "english": "book"
+  },
+  {
+    "id": "poss-my",
+    "telugu": "నా",
+    "transliteration": "nā",
+    "english": "my"
+  },
+  {
+    "id": "poss-your",
+    "telugu": "నీ",
+    "transliteration": "nī",
+    "english": "your (casual)"
+  },
+  {
+    "id": "poss-your-resp",
+    "telugu": "మీ",
+    "transliteration": "mī",
+    "english": "your (respectful)"
+  },
+  {
+    "id": "be-undi",
+    "telugu": "ఉంది",
+    "transliteration": "undi",
+    "english": "it is / there is"
+  },
+  {
+    "id": "be-unnanu",
+    "telugu": "ఉన్నాను",
+    "transliteration": "unnānu",
+    "english": "I am (somewhere)"
+  },
+  {
+    "id": "be-unnaru",
+    "telugu": "ఉన్నారు",
+    "transliteration": "unnāru",
+    "english": "you are / they are (respectful)"
+  },
+  {
+    "id": "loc-intlo",
+    "telugu": "ఇంట్లో",
+    "transliteration": "iṇṭlō",
+    "english": "at home / in the house"
+  },
+  {
+    "id": "dat-naaku",
+    "telugu": "నాకు",
+    "transliteration": "nāku",
+    "english": "to me"
+  },
+  {
+    "id": "dat-neeku",
+    "telugu": "నీకు",
+    "transliteration": "nīku",
+    "english": "to you (casual)"
+  },
+  {
+    "id": "dat-meeku",
+    "telugu": "మీకు",
+    "transliteration": "mīku",
+    "english": "to you (respectful)"
+  },
+  {
+    "id": "animal-dog",
+    "telugu": "కుక్క",
+    "transliteration": "kukka",
+    "english": "dog"
+  },
+  {
+    "id": "animal-cat",
+    "telugu": "పిల్లి",
+    "transliteration": "pilli",
+    "english": "cat"
+  },
+  {
+    "id": "animal-cow",
+    "telugu": "ఆవు",
+    "transliteration": "āvu",
+    "english": "cow"
+  },
+  {
+    "id": "animal-bird",
+    "telugu": "పక్షి",
+    "transliteration": "pakṣi",
+    "english": "bird"
+  },
+  {
+    "id": "animal-fish",
+    "telugu": "చేప",
+    "transliteration": "chēpa",
+    "english": "fish"
+  },
+  {
+    "id": "body-head",
+    "telugu": "తల",
+    "transliteration": "tala",
+    "english": "head"
+  },
+  {
+    "id": "body-eye",
+    "telugu": "కన్ను",
+    "transliteration": "kannu",
+    "english": "eye"
+  },
+  {
+    "id": "body-hand",
+    "telugu": "చెయ్యి",
+    "transliteration": "cheyyi",
+    "english": "hand"
+  },
+  {
+    "id": "body-leg",
+    "telugu": "కాలు",
+    "transliteration": "kālu",
+    "english": "leg / foot"
+  },
+  {
+    "id": "body-mouth",
+    "telugu": "నోరు",
+    "transliteration": "nōru",
+    "english": "mouth"
+  },
+  {
+    "id": "nature-rain",
+    "telugu": "వాన",
+    "transliteration": "vāna",
+    "english": "rain"
+  },
+  {
+    "id": "nature-sun",
+    "telugu": "ఎండ",
+    "transliteration": "eṇḍa",
+    "english": "sunshine / heat"
+  },
+  {
+    "id": "nature-tree",
+    "telugu": "చెట్టు",
+    "transliteration": "cheṭṭu",
+    "english": "tree"
+  },
+  {
+    "id": "nature-flower",
+    "telugu": "పువ్వు",
+    "transliteration": "puvvu",
+    "english": "flower"
+  },
+  {
+    "id": "nature-sky",
+    "telugu": "ఆకాశం",
+    "transliteration": "ākāśam",
+    "english": "sky"
+  },
+  {
+    "id": "sent-milk-drink",
+    "telugu": "నేను పాలు తాగుతున్నాను",
+    "transliteration": "nēnu pālu tāgutunnānu",
+    "english": "I am drinking milk"
+  },
+  {
+    "id": "sent-rice-eat",
+    "telugu": "నేను అన్నం తింటున్నాను",
+    "transliteration": "nēnu annam tiṇṭunnānu",
+    "english": "I am eating rice"
+  },
+  {
+    "id": "sent-book-read",
+    "telugu": "నేను పుస్తకం చదువుతున్నాను",
+    "transliteration": "nēnu pustakam chaduvutunnānu",
+    "english": "I am reading a book"
+  },
+  {
+    "id": "sent-school-go",
+    "telugu": "నేను బడికి వెళ్తున్నాను",
+    "transliteration": "nēnu baḍiki veḷtunnānu",
+    "english": "I am going to school"
+  },
+  {
+    "id": "plural-pandlu",
+    "telugu": "పండ్లు",
+    "transliteration": "paṇḍlu",
+    "english": "fruits",
+    "notes": "from పండు (fruit)"
+  },
+  {
+    "id": "plural-pustakalu",
+    "telugu": "పుస్తకాలు",
+    "transliteration": "pustakālu",
+    "english": "books",
+    "notes": "from పుస్తకం (book)"
+  },
+  {
+    "id": "plural-gadulu",
+    "telugu": "గదులు",
+    "transliteration": "gadulu",
+    "english": "rooms",
+    "notes": "from గది (room)"
+  },
+  {
+    "id": "plural-rojulu",
+    "telugu": "రోజులు",
+    "transliteration": "rōjulu",
+    "english": "days",
+    "notes": "from రోజు (day)"
+  },
+  {
+    "id": "conj-mariyu",
+    "telugu": "మరియు",
+    "transliteration": "mariyu",
+    "english": "and",
+    "notes": "Common in writing; in speech people often just pause instead."
+  },
+  {
+    "id": "conj-kuda",
+    "telugu": "కూడా",
+    "transliteration": "kūḍā",
+    "english": "also / too"
+  },
+  {
+    "id": "conj-kani",
+    "telugu": "కానీ",
+    "transliteration": "kānī",
+    "english": "but"
+  },
+  {
+    "id": "gram-q-vastara",
+    "telugu": "వస్తారా?",
+    "transliteration": "vastārā?",
+    "english": "will you come? (respectful)"
+  },
+  {
+    "id": "gram-q-tintara",
+    "telugu": "తింటారా?",
+    "transliteration": "tiṇṭārā?",
+    "english": "will you eat? (respectful)"
+  },
+  {
+    "id": "gram-q-unnara",
+    "telugu": "ఉన్నారా?",
+    "transliteration": "unnārā?",
+    "english": "are you there? (respectful)"
+  },
+  {
+    "id": "verb-went",
+    "telugu": "వెళ్ళాను",
+    "transliteration": "veḷḷānu",
+    "english": "I went"
+  },
+  {
+    "id": "verb-will-go",
+    "telugu": "వెళ్తాను",
+    "transliteration": "veḷtānu",
+    "english": "I will go"
+  },
+  {
+    "id": "verb-ate",
+    "telugu": "తిన్నాను",
+    "transliteration": "tinnānu",
+    "english": "I ate"
+  },
+  {
+    "id": "verb-will-come",
+    "telugu": "వస్తాను",
+    "transliteration": "vastānu",
+    "english": "I will come"
+  }
+]

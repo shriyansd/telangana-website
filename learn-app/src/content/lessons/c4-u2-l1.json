@@ -1,0 +1,299 @@
+{
+  "id": "c4-u2-l1",
+  "courseId": "course-4",
+  "unitId": "c4-u2",
+  "title": "Today, Tomorrow, Yesterday",
+  "teluguTitle": "ఈరోజు రేపు నిన్న",
+  "description": "Place yourself in time.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "time-today",
+    "time-tomorrow",
+    "time-yesterday",
+    "time-now",
+    "time-later"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c4-u2-l1-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "time-today"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u2/time-today-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఈరోజు",
+        "transliteration": "īrōju",
+        "english": "today"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఈరోజు",
+          "transliteration": "īrōju"
+        },
+        {
+          "id": "b",
+          "telugu": "రేపు",
+          "transliteration": "rēpu"
+        },
+        {
+          "id": "c",
+          "telugu": "నిన్న",
+          "transliteration": "ninna"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-tomorrow"
+      ],
+      "prompt": "How do you say “tomorrow”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రేపు",
+          "transliteration": "rēpu"
+        },
+        {
+          "id": "b",
+          "telugu": "నిన్న",
+          "transliteration": "ninna",
+          "whyWrong": "నిన్న means “yesterday”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఇప్పుడు",
+          "transliteration": "ippuḍu",
+          "whyWrong": "ఇప్పుడు means “now”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "time-yesterday"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u2/time-yesterday-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "నిన్న",
+        "transliteration": "ninna",
+        "english": "yesterday"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నిన్న",
+          "transliteration": "ninna"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇప్పుడు",
+          "transliteration": "ippuḍu"
+        },
+        {
+          "id": "c",
+          "telugu": "తరువాత",
+          "transliteration": "taruvāta"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "time-today",
+        "time-tomorrow",
+        "time-yesterday",
+        "time-now"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఈరోజు",
+            "transliteration": "īrōju"
+          },
+          "b": {
+            "telugu": "today"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రేపు",
+            "transliteration": "rēpu"
+          },
+          "b": {
+            "telugu": "tomorrow"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నిన్న",
+            "transliteration": "ninna"
+          },
+          "b": {
+            "telugu": "yesterday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇప్పుడు",
+            "transliteration": "ippuḍu"
+          },
+          "b": {
+            "telugu": "now"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-now"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "ఇప్పుడు",
+        "transliteration": "ippuḍu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "now"
+        },
+        {
+          "id": "b",
+          "english": "later / afterwards",
+          "whyWrong": "“later / afterwards” is తరువాత."
+        },
+        {
+          "id": "c",
+          "english": "today",
+          "whyWrong": "“today” is ఈరోజు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-later"
+      ],
+      "prompt": "How do you say “later / afterwards”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తరువాత",
+          "transliteration": "taruvāta"
+        },
+        {
+          "id": "b",
+          "telugu": "ఈరోజు",
+          "transliteration": "īrōju",
+          "whyWrong": "ఈరోజు means “today”."
+        },
+        {
+          "id": "c",
+          "telugu": "రేపు",
+          "transliteration": "rēpu",
+          "whyWrong": "రేపు means “tomorrow”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "time-today",
+        "time-tomorrow"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "___ బడి లేదు",
+        "transliteration": "rēpu baḍi lēdu",
+        "english": "There is no school tomorrow"
+      },
+      "answer": "రేపు",
+      "choices": [
+        "రేపు",
+        "ఈరోజు",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "time-today",
+        "time-tomorrow"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "రేపు బడి లేదు",
+        "transliteration": "rēpu baḍi lēdu",
+        "english": "There is no school tomorrow"
+      },
+      "tiles": [
+        "రేపు",
+        "బడి",
+        "లేదు"
+      ]
+    },
+    {
+      "id": "c4-u2-l1-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "time-today"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఈరోజు",
+        "transliteration": "īrōju"
+      },
+      "acceptedAnswers": [
+        "today"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

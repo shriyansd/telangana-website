@@ -1,0 +1,292 @@
+{
+  "id": "c11-u1-review",
+  "courseId": "course-11",
+  "unitId": "c11-u1",
+  "title": "Unit Review: Sentence Craft",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c11-u1-l1",
+    "c11-u1-l2",
+    "c11-u1-l3",
+    "c11-u1-l4",
+    "c11-u1-l5"
+  ],
+  "conceptIds": [
+    "sent-milk-drink",
+    "sent-rice-eat",
+    "sent-book-read",
+    "sent-school-go",
+    "plural-pandlu",
+    "plural-pustakalu",
+    "plural-gadulu",
+    "plural-rojulu"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c11-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "sent-milk-drink"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "నేను పాలు తాగుతున్నాను",
+        "transliteration": "nēnu pālu tāgutunnānu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "I am drinking milk"
+        },
+        {
+          "id": "b",
+          "english": "I am eating rice"
+        },
+        {
+          "id": "c",
+          "english": "I am reading a book"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "sent-rice-eat"
+      ],
+      "prompt": "How do you say “I am eating rice”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నేను అన్నం తింటున్నాను",
+          "transliteration": "nēnu annam tiṇṭunnānu"
+        },
+        {
+          "id": "b",
+          "telugu": "నేను పుస్తకం చదువుతున్నాను",
+          "transliteration": "nēnu pustakam chaduvutunnānu"
+        },
+        {
+          "id": "c",
+          "telugu": "నేను బడికి వెళ్తున్నాను",
+          "transliteration": "nēnu baḍiki veḷtunnānu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "sent-book-read"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "నేను పుస్తకం చదువుతున్నాను",
+        "transliteration": "nēnu pustakam chaduvutunnānu"
+      },
+      "acceptedAnswers": [
+        "I am reading a book"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "sent-school-go"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "నేను బడికి వెళ్తున్నాను",
+        "transliteration": "nēnu baḍiki veḷtunnānu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "I am going to school"
+        },
+        {
+          "id": "b",
+          "english": "fruits"
+        },
+        {
+          "id": "c",
+          "english": "books"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "plural-pandlu"
+      ],
+      "prompt": "How do you say “fruits”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పండ్లు",
+          "transliteration": "paṇḍlu"
+        },
+        {
+          "id": "b",
+          "telugu": "పుస్తకాలు",
+          "transliteration": "pustakālu"
+        },
+        {
+          "id": "c",
+          "telugu": "గదులు",
+          "transliteration": "gadulu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "plural-pustakalu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "పుస్తకాలు",
+        "transliteration": "pustakālu"
+      },
+      "acceptedAnswers": [
+        "books"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "plural-gadulu"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "గదులు",
+        "transliteration": "gadulu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "rooms"
+        },
+        {
+          "id": "b",
+          "english": "days"
+        },
+        {
+          "id": "c",
+          "english": "I am drinking milk"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "plural-rojulu"
+      ],
+      "prompt": "How do you say “days”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రోజులు",
+          "transliteration": "rōjulu"
+        },
+        {
+          "id": "b",
+          "telugu": "నేను పాలు తాగుతున్నాను",
+          "transliteration": "nēnu pālu tāgutunnānu"
+        },
+        {
+          "id": "c",
+          "telugu": "నేను అన్నం తింటున్నాను",
+          "transliteration": "nēnu annam tiṇṭunnānu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "sent-milk-drink",
+        "sent-rice-eat",
+        "sent-book-read",
+        "sent-school-go"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "నేను పాలు తాగుతున్నాను",
+            "transliteration": "nēnu pālu tāgutunnānu"
+          },
+          "b": {
+            "telugu": "I am drinking milk"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నేను అన్నం తింటున్నాను",
+            "transliteration": "nēnu annam tiṇṭunnānu"
+          },
+          "b": {
+            "telugu": "I am eating rice"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నేను పుస్తకం చదువుతున్నాను",
+            "transliteration": "nēnu pustakam chaduvutunnānu"
+          },
+          "b": {
+            "telugu": "I am reading a book"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నేను బడికి వెళ్తున్నాను",
+            "transliteration": "nēnu baḍiki veḷtunnānu"
+          },
+          "b": {
+            "telugu": "I am going to school"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

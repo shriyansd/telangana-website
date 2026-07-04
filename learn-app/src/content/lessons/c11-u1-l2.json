@@ -1,0 +1,276 @@
+{
+  "id": "c11-u1-l2",
+  "courseId": "course-11",
+  "unitId": "c11-u1",
+  "title": "One & Many",
+  "teluguTitle": "బహువచనం",
+  "description": "Make anything plural with -లు.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "plural-pandlu",
+    "plural-pustakalu",
+    "plural-gadulu",
+    "plural-rojulu"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c11-u1-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "plural-pandlu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/plural-pandlu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "పండ్లు",
+        "transliteration": "paṇḍlu",
+        "english": "fruits"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పండ్లు",
+          "transliteration": "paṇḍlu"
+        },
+        {
+          "id": "b",
+          "telugu": "పుస్తకాలు",
+          "transliteration": "pustakālu"
+        },
+        {
+          "id": "c",
+          "telugu": "గదులు",
+          "transliteration": "gadulu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "plural-pustakalu"
+      ],
+      "prompt": "How do you say “books”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పుస్తకాలు",
+          "transliteration": "pustakālu"
+        },
+        {
+          "id": "b",
+          "telugu": "గదులు",
+          "transliteration": "gadulu",
+          "whyWrong": "గదులు means “rooms”."
+        },
+        {
+          "id": "c",
+          "telugu": "రోజులు",
+          "transliteration": "rōjulu",
+          "whyWrong": "రోజులు means “days”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "plural-gadulu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/plural-gadulu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "గదులు",
+        "transliteration": "gadulu",
+        "english": "rooms"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "గదులు",
+          "transliteration": "gadulu"
+        },
+        {
+          "id": "b",
+          "telugu": "రోజులు",
+          "transliteration": "rōjulu"
+        },
+        {
+          "id": "c",
+          "telugu": "పండ్లు",
+          "transliteration": "paṇḍlu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "plural-pandlu",
+        "plural-pustakalu",
+        "plural-gadulu",
+        "plural-rojulu"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "పండ్లు",
+            "transliteration": "paṇḍlu"
+          },
+          "b": {
+            "telugu": "fruits"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పుస్తకాలు",
+            "transliteration": "pustakālu"
+          },
+          "b": {
+            "telugu": "books"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గదులు",
+            "transliteration": "gadulu"
+          },
+          "b": {
+            "telugu": "rooms"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రోజులు",
+            "transliteration": "rōjulu"
+          },
+          "b": {
+            "telugu": "days"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "plural-rojulu"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "రోజులు",
+        "transliteration": "rōjulu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "days"
+        },
+        {
+          "id": "b",
+          "english": "fruits",
+          "whyWrong": "“fruits” is పండ్లు."
+        },
+        {
+          "id": "c",
+          "english": "books",
+          "whyWrong": "“books” is పుస్తకాలు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e6",
+      "type": "fill_blank",
+      "conceptIds": [
+        "plural-pandlu",
+        "plural-pustakalu"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "నాకు రెండు ___ కావాలి",
+        "transliteration": "nāku reṇḍu pustakālu kāvāli",
+        "english": "I want two books"
+      },
+      "answer": "పుస్తకాలు",
+      "choices": [
+        "పుస్తకాలు",
+        "పండ్లు",
+        "గదులు"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e7",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "plural-pandlu",
+        "plural-pustakalu"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నాకు రెండు పుస్తకాలు కావాలి",
+        "transliteration": "nāku reṇḍu pustakālu kāvāli",
+        "english": "I want two books"
+      },
+      "tiles": [
+        "నాకు",
+        "రెండు",
+        "పుస్తకాలు",
+        "కావాలి"
+      ]
+    },
+    {
+      "id": "c11-u1-l2-e8",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "plural-pandlu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "పండ్లు",
+        "transliteration": "paṇḍlu"
+      },
+      "acceptedAnswers": [
+        "fruits"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02",
+  "grammarNotes": [
+    {
+      "id": "c11-u1-l2-g1",
+      "title": "The -లు ending",
+      "body": "పండు (fruit) → పండ్లు (fruits). పుస్తకం (book) → పుస్తకాలు (books). గది (room) → గదులు (rooms). The ending bends a little to fit the word, but the -లు is always there."
+    }
+  ]
+}

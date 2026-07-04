@@ -1,0 +1,229 @@
+{
+  "id": "c6-u5-review",
+  "courseId": "course-6",
+  "unitId": "c6-u5",
+  "title": "Unit Review: Double Letters",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c6-u5-l1"
+  ],
+  "conceptIds": [
+    "script-vattu-kka",
+    "script-vattu-mma",
+    "script-vattu-nna",
+    "script-vattu-lla-v",
+    "script-vattu-tta-v",
+    "script-vattu-dda-v"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c6-u5-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-vattu-kka"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "క్క",
+        "transliteration": "kka"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the doubled kka"
+        },
+        {
+          "id": "b",
+          "english": "the doubled mma"
+        },
+        {
+          "id": "c",
+          "english": "the doubled nna"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-vattu-mma"
+      ],
+      "prompt": "How do you say “the doubled mma”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మ్మ",
+          "transliteration": "mma"
+        },
+        {
+          "id": "b",
+          "telugu": "న్న",
+          "transliteration": "nna"
+        },
+        {
+          "id": "c",
+          "telugu": "ల్ల",
+          "transliteration": "lla"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-vattu-nna"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "న్న",
+        "transliteration": "nna"
+      },
+      "acceptedAnswers": [
+        "the doubled nna"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-vattu-lla-v"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ల్ల",
+        "transliteration": "lla"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the doubled lla"
+        },
+        {
+          "id": "b",
+          "english": "the doubled ṭṭa"
+        },
+        {
+          "id": "c",
+          "english": "the doubled dda"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-vattu-tta-v"
+      ],
+      "prompt": "How do you say “the doubled ṭṭa”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ట్ట",
+          "transliteration": "ṭṭa"
+        },
+        {
+          "id": "b",
+          "telugu": "ద్ద",
+          "transliteration": "dda"
+        },
+        {
+          "id": "c",
+          "telugu": "క్క",
+          "transliteration": "kka"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-vattu-dda-v"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ద్ద",
+        "transliteration": "dda"
+      },
+      "acceptedAnswers": [
+        "the doubled dda"
+      ]
+    },
+    {
+      "id": "c6-u5-review-e7",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "script-vattu-kka",
+        "script-vattu-mma",
+        "script-vattu-nna",
+        "script-vattu-lla-v"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "క్క",
+            "transliteration": "kka"
+          },
+          "b": {
+            "telugu": "the doubled kka"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మ్మ",
+            "transliteration": "mma"
+          },
+          "b": {
+            "telugu": "the doubled mma"
+          }
+        },
+        {
+          "a": {
+            "telugu": "న్న",
+            "transliteration": "nna"
+          },
+          "b": {
+            "telugu": "the doubled nna"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ల్ల",
+            "transliteration": "lla"
+          },
+          "b": {
+            "telugu": "the doubled lla"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

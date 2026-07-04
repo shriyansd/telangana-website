@@ -1,0 +1,259 @@
+{
+  "id": "c3-u1-l2",
+  "courseId": "course-3",
+  "unitId": "c3-u1",
+  "title": "Numbers 6–10",
+  "teluguTitle": "౬ ౭ ౮ ౯ ౧౦",
+  "description": "Count to ten.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "num-6",
+    "num-7",
+    "num-8",
+    "num-9",
+    "num-10"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c3-u1-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-6"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-6-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఆరు",
+        "transliteration": "āru",
+        "english": "six"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆరు",
+          "transliteration": "āru"
+        },
+        {
+          "id": "b",
+          "telugu": "ఏడు",
+          "transliteration": "ēḍu"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎనిమిది",
+          "transliteration": "enimidi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-7"
+      ],
+      "prompt": "How do you say “seven”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఏడు",
+          "transliteration": "ēḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "ఎనిమిది",
+          "transliteration": "enimidi",
+          "whyWrong": "ఎనిమిది means “eight”."
+        },
+        {
+          "id": "c",
+          "telugu": "తొమ్మిది",
+          "transliteration": "tommidi",
+          "whyWrong": "తొమ్మిది means “nine”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-8"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-8-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఎనిమిది",
+        "transliteration": "enimidi",
+        "english": "eight"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఎనిమిది",
+          "transliteration": "enimidi"
+        },
+        {
+          "id": "b",
+          "telugu": "తొమ్మిది",
+          "transliteration": "tommidi"
+        },
+        {
+          "id": "c",
+          "telugu": "పది",
+          "transliteration": "padi"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "num-6",
+        "num-7",
+        "num-8",
+        "num-9"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఆరు",
+            "transliteration": "āru"
+          },
+          "b": {
+            "telugu": "six"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఏడు",
+            "transliteration": "ēḍu"
+          },
+          "b": {
+            "telugu": "seven"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఎనిమిది",
+            "transliteration": "enimidi"
+          },
+          "b": {
+            "telugu": "eight"
+          }
+        },
+        {
+          "a": {
+            "telugu": "తొమ్మిది",
+            "transliteration": "tommidi"
+          },
+          "b": {
+            "telugu": "nine"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-9"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "తొమ్మిది",
+        "transliteration": "tommidi"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "nine"
+        },
+        {
+          "id": "b",
+          "english": "ten",
+          "whyWrong": "“ten” is పది."
+        },
+        {
+          "id": "c",
+          "english": "six",
+          "whyWrong": "“six” is ఆరు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-10"
+      ],
+      "prompt": "How do you say “ten”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పది",
+          "transliteration": "padi"
+        },
+        {
+          "id": "b",
+          "telugu": "ఆరు",
+          "transliteration": "āru",
+          "whyWrong": "ఆరు means “six”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఏడు",
+          "transliteration": "ēḍu",
+          "whyWrong": "ఏడు means “seven”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l2-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "num-6"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఆరు",
+        "transliteration": "āru"
+      },
+      "acceptedAnswers": [
+        "six"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

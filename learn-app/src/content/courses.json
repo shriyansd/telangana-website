@@ -1,0 +1,366 @@
+[
+  {
+    "id": "course-0",
+    "title": "Orientation",
+    "teluguTitle": "పరిచయం",
+    "description": "How Telugu sounds, how this platform works, and a quick skill check.",
+    "order": 0,
+    "units": [
+      {
+        "id": "c0-u1",
+        "title": "Welcome",
+        "lessonIds": [
+          "c0-u1-l1",
+          "c0-u1-l2",
+          "c0-u1-review"
+        ],
+        "communicationGoal": "Understand how Telugu works and where to start.",
+        "canDoStatement": "I know what the course covers and where my starting point is."
+      }
+    ]
+  },
+  {
+    "id": "course-6",
+    "title": "The Telugu Script",
+    "teluguTitle": "తెలుగు లిపి",
+    "description": "Every letter, from అ to క్ష — vowels, consonants, vowel signs, and double letters.",
+    "order": 1,
+    "units": [
+      {
+        "id": "c6-u1",
+        "title": "First Letters",
+        "lessonIds": [
+          "c6-u1-l1",
+          "c6-u1-l2",
+          "c6-u1-review"
+        ],
+        "communicationGoal": "Recognize your first Telugu letters inside real words.",
+        "canDoStatement": "I can recognize అ, ఆ, ఇ, క and మ, and read అమ్మ."
+      },
+      {
+        "id": "c6-u2",
+        "title": "Vowels · అచ్చులు",
+        "lessonIds": [
+          "c6-u2-l1",
+          "c6-u2-l2",
+          "c6-u2-l3",
+          "c6-u2-review"
+        ],
+        "communicationGoal": "Recognize every Telugu vowel by sight and sound.",
+        "canDoStatement": "I can name all the Telugu vowels when I see or hear them."
+      },
+      {
+        "id": "c6-u3",
+        "title": "Consonants · హల్లులు",
+        "lessonIds": [
+          "c6-u3-l1",
+          "c6-u3-l2",
+          "c6-u3-l3",
+          "c6-u3-l4",
+          "c6-u3-l5",
+          "c6-u3-l6",
+          "c6-u3-l7",
+          "c6-u3-review"
+        ],
+        "communicationGoal": "Recognize the Telugu consonants row by row.",
+        "canDoStatement": "I can identify the consonants and tell hard (ట) from soft (త) sounds."
+      },
+      {
+        "id": "c6-u4",
+        "title": "Vowel Signs · గుణింతాలు",
+        "lessonIds": [
+          "c6-u4-l1",
+          "c6-u4-l2",
+          "c6-u4-l3",
+          "c6-u4-review"
+        ],
+        "communicationGoal": "Read any consonant with any vowel sign.",
+        "canDoStatement": "I can read syllables like కా, కి, మా, తో on sight."
+      },
+      {
+        "id": "c6-u5",
+        "title": "Double Letters · వత్తులు",
+        "lessonIds": [
+          "c6-u5-l1",
+          "c6-u5-review"
+        ],
+        "communicationGoal": "Read doubled letters (vattulu) inside words.",
+        "canDoStatement": "I can read words with doubles like అక్క and అమ్మ."
+      },
+      {
+        "id": "c6-u6",
+        "title": "Reading Real Words",
+        "lessonIds": [
+          "c6-u6-l1",
+          "c6-u6-l2",
+          "c6-u6-review",
+          "c6-u6-l3"
+        ],
+        "communicationGoal": "Read real Telugu words without help.",
+        "canDoStatement": "I can read familiar words — అమ్మ, పాలు, నమస్కారం — without transliteration.",
+        "finalPerformanceTaskLessonId": "c6-u6-l3"
+      }
+    ]
+  },
+  {
+    "id": "course-1",
+    "title": "First Conversations",
+    "teluguTitle": "మొదటి మాటలు",
+    "description": "Greetings, names, how are you, yes and no, and your family.",
+    "order": 2,
+    "units": [
+      {
+        "id": "c1-u1",
+        "title": "Saying Hello",
+        "communicationGoal": "Greet an elder respectfully, introduce yourself, and ask how they are.",
+        "canDoStatement": "I can greet someone respectfully, say my name, ask theirs, ask how they are, and say goodbye.",
+        "realWorldScenario": "Meeting a relative or an elder at a family gathering.",
+        "finalPerformanceTaskLessonId": "c1-u1-l6",
+        "lessonIds": [
+          "c1-u1-l1",
+          "c1-u1-l2",
+          "c1-u1-l3",
+          "c1-u1-l4",
+          "c1-u1-l5",
+          "c1-u1-l6"
+        ]
+      },
+      {
+        "id": "c1-u2",
+        "title": "Politeness & Family",
+        "lessonIds": [
+          "c1-u2-l1",
+          "c1-u2-l2",
+          "c1-u2-review"
+        ],
+        "communicationGoal": "Answer politely and talk about your family.",
+        "canDoStatement": "I can say yes and no politely and name the people in my family.",
+        "finalPerformanceTaskLessonId": "c1-u2-task"
+      }
+    ]
+  },
+  {
+    "id": "course-10",
+    "title": "Building Blocks",
+    "teluguTitle": "పునాది మాటలు",
+    "description": "Pronouns, my and your, is and there-is — the glue of every sentence.",
+    "units": [
+      {
+        "id": "c10-u1",
+        "title": "The Glue Words",
+        "lessonIds": [
+          "c10-u1-l1",
+          "c10-u1-l2",
+          "c10-u1-l3",
+          "c10-u1-l4",
+          "c10-u1-l5",
+          "c10-u1-review"
+        ],
+        "communicationGoal": "Use the little words that glue every sentence together.",
+        "canDoStatement": "I can point things out, say what is mine and yours, and say where people are.",
+        "finalPerformanceTaskLessonId": "c10-u1-task"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "id": "course-3",
+    "title": "Numbers & Counting",
+    "teluguTitle": "అంకెలు",
+    "description": "Count from one to one hundred.",
+    "order": 4,
+    "units": [
+      {
+        "id": "c3-u1",
+        "title": "Counting",
+        "lessonIds": [
+          "c3-u1-l1",
+          "c3-u1-l2",
+          "c3-u1-l3",
+          "c3-u1-l4",
+          "c3-u1-review"
+        ],
+        "communicationGoal": "Count and use numbers in real requests.",
+        "canDoStatement": "I can count to one hundred and ask for a number of things.",
+        "finalPerformanceTaskLessonId": "c3-u1-task"
+      }
+    ]
+  },
+  {
+    "id": "course-2",
+    "title": "Everyday Needs",
+    "teluguTitle": "రోజువారీ అవసరాలు",
+    "description": "Food, asking for things, likes and dislikes, home, and colors.",
+    "order": 5,
+    "units": [
+      {
+        "id": "c2-u1",
+        "title": "Food & Wants",
+        "lessonIds": [
+          "c2-u1-l1",
+          "c2-u1-l2",
+          "c2-u1-l3",
+          "c2-u1-review"
+        ],
+        "communicationGoal": "Ask for food and drink and say what you like.",
+        "canDoStatement": "I can ask for what I want at the table and say what I like or have had enough of.",
+        "finalPerformanceTaskLessonId": "c2-u1-task"
+      },
+      {
+        "id": "c2-u2",
+        "title": "Home & Colors",
+        "lessonIds": [
+          "c2-u2-l1",
+          "c2-u2-l2",
+          "c2-u2-review"
+        ],
+        "communicationGoal": "Describe your home and the colors around you.",
+        "canDoStatement": "I can name the rooms and things at home and the colors I see."
+      }
+    ]
+  },
+  {
+    "id": "course-4",
+    "title": "Days & Time",
+    "teluguTitle": "సమయం",
+    "description": "Days of the week, today and tomorrow, morning to night.",
+    "order": 6,
+    "units": [
+      {
+        "id": "c4-u1",
+        "title": "The Week",
+        "lessonIds": [
+          "c4-u1-l1",
+          "c4-u1-l2",
+          "c4-u1-review"
+        ],
+        "communicationGoal": "Talk about the days of the week.",
+        "canDoStatement": "I can say which day it is and name the whole week."
+      },
+      {
+        "id": "c4-u2",
+        "title": "When?",
+        "lessonIds": [
+          "c4-u2-l1",
+          "c4-u2-l2",
+          "c4-u2-review"
+        ],
+        "communicationGoal": "Place events in time.",
+        "canDoStatement": "I can say today, tomorrow, yesterday, and the time of day."
+      }
+    ]
+  },
+  {
+    "id": "course-9",
+    "title": "The World Around You",
+    "teluguTitle": "చుట్టూ ప్రపంచం",
+    "description": "Animals, your body, and the weather outside.",
+    "units": [
+      {
+        "id": "c9-u1",
+        "title": "Living Things & Nature",
+        "lessonIds": [
+          "c9-u1-l1",
+          "c9-u1-l2",
+          "c9-u1-l3",
+          "c9-u1-review"
+        ]
+      }
+    ],
+    "order": 7
+  },
+  {
+    "id": "course-5",
+    "title": "People & Places",
+    "teluguTitle": "మనుషులు, చోట్లు",
+    "description": "Question words, places around town, and giving directions.",
+    "order": 8,
+    "units": [
+      {
+        "id": "c5-u1",
+        "title": "Asking Questions",
+        "lessonIds": [
+          "c5-u1-l1",
+          "c5-u1-review"
+        ],
+        "communicationGoal": "Ask the five essential questions.",
+        "canDoStatement": "I can ask what, who, where, why and how."
+      },
+      {
+        "id": "c5-u2",
+        "title": "Around Town",
+        "lessonIds": [
+          "c5-u2-l1",
+          "c5-u2-l2",
+          "c5-u2-review"
+        ],
+        "communicationGoal": "Talk about places and where things are.",
+        "canDoStatement": "I can name places in town and say if they are near, far, left or right."
+      }
+    ]
+  },
+  {
+    "id": "course-8",
+    "title": "Doing Words",
+    "teluguTitle": "క్రియలు",
+    "description": "First verbs, polite requests, and saying what you're doing.",
+    "order": 9,
+    "units": [
+      {
+        "id": "c8-u1",
+        "title": "Actions",
+        "lessonIds": [
+          "c8-u1-l1",
+          "c8-u1-l2",
+          "c8-u1-l3",
+          "c8-u1-review"
+        ],
+        "communicationGoal": "Use everyday verbs and make polite requests.",
+        "canDoStatement": "I can use basic verbs, make respectful requests, and say what I am doing."
+      }
+    ]
+  },
+  {
+    "id": "course-11",
+    "title": "Making Sentences",
+    "teluguTitle": "వాక్యాలు",
+    "description": "Word order, plurals, questions, and your first past and future.",
+    "units": [
+      {
+        "id": "c11-u1",
+        "title": "Sentence Craft",
+        "lessonIds": [
+          "c11-u1-l1",
+          "c11-u1-l2",
+          "c11-u1-l3",
+          "c11-u1-l4",
+          "c11-u1-l5",
+          "c11-u1-review"
+        ],
+        "communicationGoal": "Build your own correct Telugu sentences.",
+        "canDoStatement": "I can build sentences with the verb last, make plurals, join ideas, ask yes/no questions, and use past and future.",
+        "finalPerformanceTaskLessonId": "c11-u1-task"
+      }
+    ],
+    "order": 10
+  },
+  {
+    "id": "course-7",
+    "title": "Real Conversations",
+    "teluguTitle": "నిజమైన సంభాషణలు",
+    "description": "Speaking with grandparents, visiting homes, and daily life.",
+    "order": 11,
+    "units": [
+      {
+        "id": "c7-u1",
+        "title": "With Family Elders",
+        "lessonIds": [
+          "c7-u1-l1",
+          "c7-u1-review"
+        ],
+        "communicationGoal": "Hold a warm conversation with family elders.",
+        "canDoStatement": "I can visit an elder, respond politely, and follow everyday family talk."
+      }
+    ]
+  }
+]

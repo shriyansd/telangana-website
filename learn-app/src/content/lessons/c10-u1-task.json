@@ -1,0 +1,75 @@
+{
+  "id": "c10-u1-task",
+  "courseId": "course-10",
+  "unitId": "c10-u1",
+  "title": "Show What You Can Do: The House Tour",
+  "teluguTitle": "ఇల్లు చూపిద్దాం",
+  "description": "A young cousin visits for the first time — point things out and answer their questions.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": ["complete-beginner", "heritage-learner", "family"],
+  "prerequisites": ["c10-u1-review"],
+  "conceptIds": ["pron-this", "pron-that", "poss-my", "be-undi", "dat-naaku", "loc-intlo"],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c10u1t-e1",
+      "type": "dialogue",
+      "conceptIds": ["pron-this", "poss-my"],
+      "newContext": true,
+      "context": "Your little cousin points at a room.",
+      "turns": [
+        { "speaker": "చిన్ను", "line": { "telugu": "ఇది ఏమిటి?", "transliteration": "idi ēmiṭi?", "english": "What is this?" } }
+      ],
+      "responseMode": "tiles",
+      "tiles": ["ఇది", "నా", "గది"],
+      "acceptedAnswers": ["ఇది నా గది"],
+      "feedback": { "grammar": "ఇది నా గది — this (is) my room. No “is” needed." }
+    },
+    {
+      "id": "c10u1t-e2",
+      "type": "dialogue",
+      "conceptIds": ["pron-that"],
+      "newContext": true,
+      "context": "They point across the hall at the kitchen door.",
+      "turns": [
+        { "speaker": "చిన్ను", "line": { "telugu": "అది ఏమిటి?", "transliteration": "adi ēmiṭi?", "english": "What is that?" } }
+      ],
+      "responseMode": "select",
+      "choices": [
+        { "id": "a", "telugu": "అది తలుపు", "transliteration": "adi talupu", "english": "That is a door" },
+        { "id": "b", "telugu": "ఇది తలుపు", "transliteration": "idi talupu", "whyWrong": "ఇది is for things near YOU — they pointed across the hall, so అది." },
+        { "id": "c", "telugu": "అది తెలుపు", "transliteration": "adi telupu", "whyWrong": "తెలుపు is the color white — తలుపు is the door. One vowel apart!" }
+      ],
+      "correctChoiceIds": ["a"]
+    },
+    {
+      "id": "c10u1t-e3",
+      "type": "dialogue",
+      "conceptIds": ["be-undi", "loc-intlo"],
+      "newContext": true,
+      "turns": [
+        { "speaker": "చిన్ను", "line": { "telugu": "అమ్మమ్మ ఎక్కడ?", "transliteration": "ammamma ekkaḍa?", "english": "Where's grandma?" } }
+      ],
+      "responseMode": "tiles",
+      "tiles": ["అమ్మమ్మ", "ఇంట్లో", "ఉంది"],
+      "acceptedAnswers": ["అమ్మమ్మ ఇంట్లో ఉంది", "ఇంట్లో ఉంది అమ్మమ్మ"],
+      "feedback": { "grammar": "person + place + ఉంది: she is in the house." }
+    },
+    {
+      "id": "c10u1t-e4",
+      "type": "translate",
+      "conceptIds": ["dat-naaku", "want-kavali"],
+      "newContext": true,
+      "prompt": "The tour ends in the kitchen and you're thirsty. Ask for water.",
+      "source": { "english": "I want water" },
+      "direction": "to-telugu",
+      "acceptedAnswers": ["నాకు నీళ్లు కావాలి"],
+      "acceptedRomanizations": ["naku nillu kavali", "nāku nīḷḷu kāvāli", "naaku neellu kaavaali"]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

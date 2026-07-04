@@ -1,0 +1,43 @@
+{
+  "id": "c1-u1-l4",
+  "courseId": "course-1",
+  "unitId": "c1-u1",
+  "title": "Speak It Out",
+  "teluguTitle": "మాట్లాడండి",
+  "description": "Record yourself saying this unit's phrases and compare with the model.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": ["complete-beginner", "heritage-learner", "family"],
+  "prerequisites": ["c1-u1-l3"],
+  "conceptIds": ["greet-namaskaram", "ask-name-respectful", "i-am-fine"],
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c1l4-e1",
+      "type": "speaking",
+      "conceptIds": ["greet-namaskaram"],
+      "prompt": "Listen to the model, then record yourself greeting someone.",
+      "model": { "telugu": "నమస్కారం", "transliteration": "namaskāram", "english": "hello" },
+      "audio": { "normal": "audio/course-1/c1-u1/namaskaram-normal.mp3", "slow": "audio/course-1/c1-u1/namaskaram-slow.mp3", "reviewStatus": "draft" }
+    },
+    {
+      "id": "c1l4-e2",
+      "type": "speaking",
+      "conceptIds": ["ask-name-respectful"],
+      "prompt": "Ask “What is your name?” out loud. Aim for the rise on ఏమిటి?",
+      "model": { "telugu": "మీ పేరు ఏమిటి?", "transliteration": "mī pēru ēmiṭi?", "english": "what is your name?" },
+      "audio": { "normal": "audio/course-1/c1-u1/mee-peru-emiti-normal.mp3", "slow": "audio/course-1/c1-u1/mee-peru-emiti-slow.mp3", "reviewStatus": "draft" }
+    },
+    {
+      "id": "c1l4-e3",
+      "type": "speaking",
+      "conceptIds": ["i-am-fine"],
+      "prompt": "Say “I am fine.” Long ā in bāgunnānu — let it breathe.",
+      "model": { "telugu": "నేను బాగున్నాను", "transliteration": "nēnu bāgunnānu", "english": "I am fine" },
+      "audio": { "normal": "audio/course-1/c1-u1/nenu-bagunnanu-normal.mp3", "reviewStatus": "draft" }
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

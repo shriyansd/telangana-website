@@ -1,0 +1,290 @@
+{
+  "id": "c6-u6-review",
+  "courseId": "course-6",
+  "unitId": "c6-u6",
+  "title": "Unit Review: Reading Real Words",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c6-u6-l1",
+    "c6-u6-l2",
+    "c6-u6-l3"
+  ],
+  "conceptIds": [
+    "fam-amma",
+    "fam-nanna",
+    "fam-akka",
+    "fam-anna",
+    "fam-tata",
+    "word-milk",
+    "word-water",
+    "house-illu"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c6-u6-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-amma"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అమ్మ",
+        "transliteration": "amma"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "mother"
+        },
+        {
+          "id": "b",
+          "english": "father"
+        },
+        {
+          "id": "c",
+          "english": "older sister"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-nanna"
+      ],
+      "prompt": "How do you say “father”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నాన్న",
+          "transliteration": "nānna"
+        },
+        {
+          "id": "b",
+          "telugu": "అక్క",
+          "transliteration": "akka"
+        },
+        {
+          "id": "c",
+          "telugu": "అన్న",
+          "transliteration": "anna"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "fam-akka"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "అక్క",
+        "transliteration": "akka"
+      },
+      "acceptedAnswers": [
+        "older sister"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-anna"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అన్న",
+        "transliteration": "anna"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "older brother"
+        },
+        {
+          "id": "b",
+          "english": "grandfather"
+        },
+        {
+          "id": "c",
+          "english": "milk"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-tata"
+      ],
+      "prompt": "How do you say “grandfather”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తాత",
+          "transliteration": "tāta"
+        },
+        {
+          "id": "b",
+          "telugu": "పాలు",
+          "transliteration": "pālu"
+        },
+        {
+          "id": "c",
+          "telugu": "నీళ్లు",
+          "transliteration": "nīḷḷu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "word-milk"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "పాలు",
+        "transliteration": "pālu"
+      },
+      "acceptedAnswers": [
+        "milk"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "word-water"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "నీళ్లు",
+        "transliteration": "nīḷḷu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "water"
+        },
+        {
+          "id": "b",
+          "english": "house / home"
+        },
+        {
+          "id": "c",
+          "english": "mother"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "house-illu"
+      ],
+      "prompt": "How do you say “house / home”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇల్లు",
+          "transliteration": "illu"
+        },
+        {
+          "id": "b",
+          "telugu": "అమ్మ",
+          "transliteration": "amma"
+        },
+        {
+          "id": "c",
+          "telugu": "నాన్న",
+          "transliteration": "nānna"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u6-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "fam-amma",
+        "fam-nanna",
+        "fam-akka",
+        "fam-anna"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "అమ్మ",
+            "transliteration": "amma"
+          },
+          "b": {
+            "telugu": "mother"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నాన్న",
+            "transliteration": "nānna"
+          },
+          "b": {
+            "telugu": "father"
+          }
+        },
+        {
+          "a": {
+            "telugu": "అక్క",
+            "transliteration": "akka"
+          },
+          "b": {
+            "telugu": "older sister"
+          }
+        },
+        {
+          "a": {
+            "telugu": "అన్న",
+            "transliteration": "anna"
+          },
+          "b": {
+            "telugu": "older brother"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

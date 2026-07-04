@@ -1,0 +1,4 @@
+node_modules/
+learn-app/dist/
+*.log
+.DS_Store

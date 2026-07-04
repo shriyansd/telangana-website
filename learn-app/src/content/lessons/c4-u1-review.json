@@ -1,0 +1,289 @@
+{
+  "id": "c4-u1-review",
+  "courseId": "course-4",
+  "unitId": "c4-u1",
+  "title": "Unit Review: The Week",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c4-u1-l1",
+    "c4-u1-l2"
+  ],
+  "conceptIds": [
+    "day-mon",
+    "day-tue",
+    "day-wed",
+    "day-thu",
+    "day-fri",
+    "day-sat",
+    "day-sun",
+    "word-varam"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c4-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-mon"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "సోమవారం",
+        "transliteration": "sōmavāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "Monday"
+        },
+        {
+          "id": "b",
+          "english": "Tuesday"
+        },
+        {
+          "id": "c",
+          "english": "Wednesday"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-tue"
+      ],
+      "prompt": "How do you say “Tuesday”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మంగళవారం",
+          "transliteration": "maṅgaḷavāram"
+        },
+        {
+          "id": "b",
+          "telugu": "బుధవారం",
+          "transliteration": "budhavāram"
+        },
+        {
+          "id": "c",
+          "telugu": "గురువారం",
+          "transliteration": "guruvāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "day-wed"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "బుధవారం",
+        "transliteration": "budhavāram"
+      },
+      "acceptedAnswers": [
+        "Wednesday"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-thu"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "గురువారం",
+        "transliteration": "guruvāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "Thursday"
+        },
+        {
+          "id": "b",
+          "english": "Friday"
+        },
+        {
+          "id": "c",
+          "english": "Saturday"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-fri"
+      ],
+      "prompt": "How do you say “Friday”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "శుక్రవారం",
+          "transliteration": "śukravāram"
+        },
+        {
+          "id": "b",
+          "telugu": "శనివారం",
+          "transliteration": "śanivāram"
+        },
+        {
+          "id": "c",
+          "telugu": "ఆదివారం",
+          "transliteration": "ādivāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "day-sat"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "శనివారం",
+        "transliteration": "śanivāram"
+      },
+      "acceptedAnswers": [
+        "Saturday"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-sun"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఆదివారం",
+        "transliteration": "ādivāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "Sunday"
+        },
+        {
+          "id": "b",
+          "english": "week"
+        },
+        {
+          "id": "c",
+          "english": "Monday"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "word-varam"
+      ],
+      "prompt": "How do you say “week”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "వారం",
+          "transliteration": "vāram"
+        },
+        {
+          "id": "b",
+          "telugu": "సోమవారం",
+          "transliteration": "sōmavāram"
+        },
+        {
+          "id": "c",
+          "telugu": "మంగళవారం",
+          "transliteration": "maṅgaḷavāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "day-mon",
+        "day-tue",
+        "day-wed",
+        "day-thu"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "సోమవారం",
+            "transliteration": "sōmavāram"
+          },
+          "b": {
+            "telugu": "Monday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మంగళవారం",
+            "transliteration": "maṅgaḷavāram"
+          },
+          "b": {
+            "telugu": "Tuesday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "బుధవారం",
+            "transliteration": "budhavāram"
+          },
+          "b": {
+            "telugu": "Wednesday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గురువారం",
+            "transliteration": "guruvāram"
+          },
+          "b": {
+            "telugu": "Thursday"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

@@ -1,0 +1,308 @@
+{
+  "id": "c10-u1-l4",
+  "courseId": "course-10",
+  "unitId": "c10-u1",
+  "title": "Is & There Is",
+  "teluguTitle": "ఉంది ఉన్నాను",
+  "description": "The being-verb ఉండు — where things and people are.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "be-undi",
+    "be-unnanu",
+    "be-unnaru",
+    "loc-intlo",
+    "no-ledu"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c10-u1-l4-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "be-undi"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-10/c10-u1/be-undi-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఉంది",
+        "transliteration": "undi",
+        "english": "it is / there is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఉంది",
+          "transliteration": "undi"
+        },
+        {
+          "id": "b",
+          "telugu": "ఉన్నాను",
+          "transliteration": "unnānu"
+        },
+        {
+          "id": "c",
+          "telugu": "ఉన్నారు",
+          "transliteration": "unnāru"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "be-unnanu"
+      ],
+      "prompt": "How do you say “I am (somewhere)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఉన్నాను",
+          "transliteration": "unnānu"
+        },
+        {
+          "id": "b",
+          "telugu": "ఉన్నారు",
+          "transliteration": "unnāru",
+          "whyWrong": "ఉన్నారు means “you are / they are (respectful)”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఇంట్లో",
+          "transliteration": "iṇṭlō",
+          "whyWrong": "ఇంట్లో means “at home / in the house”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "be-unnaru"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-10/c10-u1/be-unnaru-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఉన్నారు",
+        "transliteration": "unnāru",
+        "english": "you are / they are (respectful)"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఉన్నారు",
+          "transliteration": "unnāru"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇంట్లో",
+          "transliteration": "iṇṭlō"
+        },
+        {
+          "id": "c",
+          "telugu": "లేదు",
+          "transliteration": "lēdu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "be-undi",
+        "be-unnanu",
+        "be-unnaru",
+        "loc-intlo"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఉంది",
+            "transliteration": "undi"
+          },
+          "b": {
+            "telugu": "it is / there is"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఉన్నాను",
+            "transliteration": "unnānu"
+          },
+          "b": {
+            "telugu": "I am (somewhere)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఉన్నారు",
+            "transliteration": "unnāru"
+          },
+          "b": {
+            "telugu": "you are / they are (respectful)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇంట్లో",
+            "transliteration": "iṇṭlō"
+          },
+          "b": {
+            "telugu": "at home / in the house"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "loc-intlo"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "ఇంట్లో",
+        "transliteration": "iṇṭlō"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "at home / in the house"
+        },
+        {
+          "id": "b",
+          "english": "no (there isn’t / didn’t)",
+          "whyWrong": "“no (there isn’t / didn’t)” is లేదు."
+        },
+        {
+          "id": "c",
+          "english": "it is / there is",
+          "whyWrong": "“it is / there is” is ఉంది."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "no-ledu"
+      ],
+      "prompt": "How do you say “no (there isn’t / didn’t)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "లేదు",
+          "transliteration": "lēdu"
+        },
+        {
+          "id": "b",
+          "telugu": "ఉంది",
+          "transliteration": "undi",
+          "whyWrong": "ఉంది means “it is / there is”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఉన్నాను",
+          "transliteration": "unnānu",
+          "whyWrong": "ఉన్నాను means “I am (somewhere)”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "be-undi",
+        "be-unnanu"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "అమ్మ ఇంట్లో ___",
+        "transliteration": "amma iṇṭlō undi",
+        "english": "Mom is at home"
+      },
+      "answer": "ఉంది",
+      "choices": [
+        "ఉంది",
+        "ఉన్నాను",
+        "ఉన్నారు"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "be-undi",
+        "be-unnanu"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "అమ్మ ఇంట్లో ఉంది",
+        "transliteration": "amma iṇṭlō undi",
+        "english": "Mom is at home"
+      },
+      "tiles": [
+        "అమ్మ",
+        "ఇంట్లో",
+        "ఉంది"
+      ]
+    },
+    {
+      "id": "c10-u1-l4-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "be-undi"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఉంది",
+        "transliteration": "undi"
+      },
+      "acceptedAnswers": [
+        "it is / there is",
+        "it is",
+        "there is"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02",
+  "grammarNotes": [
+    {
+      "id": "c10-u1-l4-g1",
+      "title": "ఉంది and its family",
+      "body": "ఉంది = “it is / there is”. ఉన్నాను = “I am (somewhere)”. ఉన్నారు = “you are / they are” (respectful). And లేదు is its opposite: “there isn’t”."
+    }
+  ]
+}

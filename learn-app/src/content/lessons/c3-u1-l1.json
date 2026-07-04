@@ -1,0 +1,300 @@
+{
+  "id": "c3-u1-l1",
+  "courseId": "course-3",
+  "unitId": "c3-u1",
+  "title": "Numbers 1–5",
+  "teluguTitle": "౧ ౨ ౩ ౪ ౫",
+  "description": "Count to five.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "num-1",
+    "num-2",
+    "num-3",
+    "num-4",
+    "num-5"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c3-u1-l1-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-1"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-1-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఒకటి",
+        "transliteration": "okaṭi",
+        "english": "one"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఒకటి",
+          "transliteration": "okaṭi"
+        },
+        {
+          "id": "b",
+          "telugu": "రెండు",
+          "transliteration": "reṇḍu"
+        },
+        {
+          "id": "c",
+          "telugu": "మూడు",
+          "transliteration": "mūḍu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-2"
+      ],
+      "prompt": "How do you say “two”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రెండు",
+          "transliteration": "reṇḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "మూడు",
+          "transliteration": "mūḍu",
+          "whyWrong": "మూడు means “three”."
+        },
+        {
+          "id": "c",
+          "telugu": "నాలుగు",
+          "transliteration": "nālugu",
+          "whyWrong": "నాలుగు means “four”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-3"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-3-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "మూడు",
+        "transliteration": "mūḍu",
+        "english": "three"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మూడు",
+          "transliteration": "mūḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "నాలుగు",
+          "transliteration": "nālugu"
+        },
+        {
+          "id": "c",
+          "telugu": "ఐదు",
+          "transliteration": "aidu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "num-1",
+        "num-2",
+        "num-3",
+        "num-4"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఒకటి",
+            "transliteration": "okaṭi"
+          },
+          "b": {
+            "telugu": "one"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రెండు",
+            "transliteration": "reṇḍu"
+          },
+          "b": {
+            "telugu": "two"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మూడు",
+            "transliteration": "mūḍu"
+          },
+          "b": {
+            "telugu": "three"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నాలుగు",
+            "transliteration": "nālugu"
+          },
+          "b": {
+            "telugu": "four"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-4"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "నాలుగు",
+        "transliteration": "nālugu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "four"
+        },
+        {
+          "id": "b",
+          "english": "five",
+          "whyWrong": "“five” is ఐదు."
+        },
+        {
+          "id": "c",
+          "english": "one",
+          "whyWrong": "“one” is ఒకటి."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-5"
+      ],
+      "prompt": "How do you say “five”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఐదు",
+          "transliteration": "aidu"
+        },
+        {
+          "id": "b",
+          "telugu": "ఒకటి",
+          "transliteration": "okaṭi",
+          "whyWrong": "ఒకటి means “one”."
+        },
+        {
+          "id": "c",
+          "telugu": "రెండు",
+          "transliteration": "reṇḍu",
+          "whyWrong": "రెండు means “two”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "num-1",
+        "num-2"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "నాకు ___ పండ్లు కావాలి",
+        "transliteration": "nāku reṇḍu paṇḍlu kāvāli",
+        "english": "I want two fruits"
+      },
+      "answer": "రెండు",
+      "choices": [
+        "రెండు",
+        "ఒకటి",
+        "మూడు"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "num-1",
+        "num-2"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నాకు రెండు పండ్లు కావాలి",
+        "transliteration": "nāku reṇḍu paṇḍlu kāvāli",
+        "english": "I want two fruits"
+      },
+      "tiles": [
+        "నాకు",
+        "రెండు",
+        "పండ్లు",
+        "కావాలి"
+      ]
+    },
+    {
+      "id": "c3-u1-l1-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "num-1"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఒకటి",
+        "transliteration": "okaṭi"
+      },
+      "acceptedAnswers": [
+        "one"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

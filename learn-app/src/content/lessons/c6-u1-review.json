@@ -1,0 +1,289 @@
+{
+  "id": "c6-u1-review",
+  "courseId": "course-6",
+  "unitId": "c6-u1",
+  "title": "Unit Review: First Letters",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c6-u1-l1",
+    "c6-u1-l2"
+  ],
+  "conceptIds": [
+    "script-a",
+    "script-aa",
+    "script-i",
+    "script-ka",
+    "script-ka-matra",
+    "script-ma",
+    "sound-ta-dental",
+    "sound-ta-retroflex"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c6-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-a"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అ",
+        "transliteration": "a"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the vowel a"
+        },
+        {
+          "id": "b",
+          "english": "the vowel ā (long)"
+        },
+        {
+          "id": "c",
+          "english": "the vowel i"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-aa"
+      ],
+      "prompt": "How do you say “the vowel ā (long)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆ",
+          "transliteration": "ā"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇ",
+          "transliteration": "i"
+        },
+        {
+          "id": "c",
+          "telugu": "క",
+          "transliteration": "ka"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-i"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇ",
+        "transliteration": "i"
+      },
+      "acceptedAnswers": [
+        "the vowel i"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ka"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "క",
+        "transliteration": "ka"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the consonant ka"
+        },
+        {
+          "id": "b",
+          "english": "ka + ā vowel sign"
+        },
+        {
+          "id": "c",
+          "english": "the consonant ma"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ka-matra"
+      ],
+      "prompt": "How do you say “ka + ā vowel sign”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కా",
+          "transliteration": "kā"
+        },
+        {
+          "id": "b",
+          "telugu": "మ",
+          "transliteration": "ma"
+        },
+        {
+          "id": "c",
+          "telugu": "త",
+          "transliteration": "ta (soft, dental)"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-ma"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "మ",
+        "transliteration": "ma"
+      },
+      "acceptedAnswers": [
+        "the consonant ma"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "sound-ta-dental"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "త",
+        "transliteration": "ta (soft, dental)"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "soft ta — tongue touches the teeth"
+        },
+        {
+          "id": "b",
+          "english": "hard ṭa — tongue curls back"
+        },
+        {
+          "id": "c",
+          "english": "the vowel a"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "sound-ta-retroflex"
+      ],
+      "prompt": "How do you say “hard ṭa — tongue curls back”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ట",
+          "transliteration": "ṭa (retroflex)"
+        },
+        {
+          "id": "b",
+          "telugu": "అ",
+          "transliteration": "a"
+        },
+        {
+          "id": "c",
+          "telugu": "ఆ",
+          "transliteration": "ā"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u1-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "script-a",
+        "script-aa",
+        "script-i",
+        "script-ka"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "అ",
+            "transliteration": "a"
+          },
+          "b": {
+            "telugu": "the vowel a"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఆ",
+            "transliteration": "ā"
+          },
+          "b": {
+            "telugu": "the vowel ā (long)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇ",
+            "transliteration": "i"
+          },
+          "b": {
+            "telugu": "the vowel i"
+          }
+        },
+        {
+          "a": {
+            "telugu": "క",
+            "transliteration": "ka"
+          },
+          "b": {
+            "telugu": "the consonant ka"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

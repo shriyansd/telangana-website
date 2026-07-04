@@ -1,0 +1,295 @@
+{
+  "id": "c1-u2-review",
+  "courseId": "course-1",
+  "unitId": "c1-u2",
+  "title": "Unit Review: Politeness & Family",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c1-u2-l1",
+    "c1-u2-l2"
+  ],
+  "conceptIds": [
+    "yes",
+    "no",
+    "no-ledu",
+    "okay",
+    "please",
+    "sorry",
+    "fam-amma",
+    "fam-nanna"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c1-u2-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "yes"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అవును",
+        "transliteration": "avunu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "yes"
+        },
+        {
+          "id": "b",
+          "english": "no (it is not)"
+        },
+        {
+          "id": "c",
+          "english": "no (there isn't / didn't)"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "no"
+      ],
+      "prompt": "How do you say “no (it is not)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కాదు",
+          "transliteration": "kādu"
+        },
+        {
+          "id": "b",
+          "telugu": "లేదు",
+          "transliteration": "lēdu"
+        },
+        {
+          "id": "c",
+          "telugu": "సరే",
+          "transliteration": "sarē"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "no-ledu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "లేదు",
+        "transliteration": "lēdu"
+      },
+      "acceptedAnswers": [
+        "no (there isn't / didn't)",
+        "no (there isn't",
+        "didn't)",
+        "no"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "okay"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "సరే",
+        "transliteration": "sarē"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "okay"
+        },
+        {
+          "id": "b",
+          "english": "please"
+        },
+        {
+          "id": "c",
+          "english": "sorry / excuse me (respectful)"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "please"
+      ],
+      "prompt": "How do you say “please”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "దయచేసి",
+          "transliteration": "dayachēsi"
+        },
+        {
+          "id": "b",
+          "telugu": "క్షమించండి",
+          "transliteration": "kṣaminchaṇḍi"
+        },
+        {
+          "id": "c",
+          "telugu": "అమ్మ",
+          "transliteration": "amma"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "sorry"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "క్షమించండి",
+        "transliteration": "kṣaminchaṇḍi"
+      },
+      "acceptedAnswers": [
+        "sorry / excuse me (respectful)",
+        "sorry",
+        "excuse me (respectful)",
+        "sorry / excuse me"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-amma"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "అమ్మ",
+        "transliteration": "amma"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "mother"
+        },
+        {
+          "id": "b",
+          "english": "father"
+        },
+        {
+          "id": "c",
+          "english": "yes"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "fam-nanna"
+      ],
+      "prompt": "How do you say “father”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నాన్న",
+          "transliteration": "nānna"
+        },
+        {
+          "id": "b",
+          "telugu": "అవును",
+          "transliteration": "avunu"
+        },
+        {
+          "id": "c",
+          "telugu": "కాదు",
+          "transliteration": "kādu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c1-u2-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "yes",
+        "no",
+        "no-ledu",
+        "okay"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "అవును",
+            "transliteration": "avunu"
+          },
+          "b": {
+            "telugu": "yes"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కాదు",
+            "transliteration": "kādu"
+          },
+          "b": {
+            "telugu": "no (it is not)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "లేదు",
+            "transliteration": "lēdu"
+          },
+          "b": {
+            "telugu": "no (there isn't / didn't)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "సరే",
+            "transliteration": "sarē"
+          },
+          "b": {
+            "telugu": "okay"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

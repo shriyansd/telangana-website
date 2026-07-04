@@ -1,0 +1,297 @@
+{
+  "id": "c11-u1-l3",
+  "courseId": "course-11",
+  "unitId": "c11-u1",
+  "title": "And, Also, But",
+  "teluguTitle": "మరియు కూడా కానీ",
+  "description": "Join your words into bigger thoughts.",
+  "estimatedMinutes": 8,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "conj-mariyu",
+    "conj-kuda",
+    "conj-kani"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c11-u1-l3-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "conj-mariyu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/conj-mariyu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "మరియు",
+        "transliteration": "mariyu",
+        "english": "and"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మరియు",
+          "transliteration": "mariyu"
+        },
+        {
+          "id": "b",
+          "telugu": "కూడా",
+          "transliteration": "kūḍā"
+        },
+        {
+          "id": "c",
+          "telugu": "కానీ",
+          "transliteration": "kānī"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "conj-kuda"
+      ],
+      "prompt": "How do you say “also / too”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కూడా",
+          "transliteration": "kūḍā"
+        },
+        {
+          "id": "b",
+          "telugu": "కానీ",
+          "transliteration": "kānī",
+          "whyWrong": "కానీ means “but”."
+        },
+        {
+          "id": "c",
+          "telugu": "మరియు",
+          "transliteration": "mariyu",
+          "whyWrong": "మరియు means “and”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "conj-kani"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/conj-kani-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "కానీ",
+        "transliteration": "kānī",
+        "english": "but"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కానీ",
+          "transliteration": "kānī"
+        },
+        {
+          "id": "b",
+          "telugu": "మరియు",
+          "transliteration": "mariyu"
+        },
+        {
+          "id": "c",
+          "telugu": "కూడా",
+          "transliteration": "kūḍā"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "conj-mariyu",
+        "conj-kuda",
+        "conj-kani"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "మరియు",
+            "transliteration": "mariyu"
+          },
+          "b": {
+            "telugu": "and"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కూడా",
+            "transliteration": "kūḍā"
+          },
+          "b": {
+            "telugu": "also / too"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కానీ",
+            "transliteration": "kānī"
+          },
+          "b": {
+            "telugu": "but"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "conj-mariyu"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "మరియు",
+        "transliteration": "mariyu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "and"
+        },
+        {
+          "id": "b",
+          "english": "also / too",
+          "whyWrong": "“also / too” is కూడా."
+        },
+        {
+          "id": "c",
+          "english": "but",
+          "whyWrong": "“but” is కానీ."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e6",
+      "type": "fill_blank",
+      "conceptIds": [
+        "conj-mariyu",
+        "conj-kuda"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "అమ్మ ___ నాన్న",
+        "transliteration": "amma mariyu nānna",
+        "english": "Mom and Dad"
+      },
+      "answer": "మరియు",
+      "choices": [
+        "మరియు",
+        "కూడా",
+        "కానీ"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e7",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "conj-mariyu",
+        "conj-kuda"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "అమ్మ మరియు నాన్న",
+        "transliteration": "amma mariyu nānna",
+        "english": "Mom and Dad"
+      },
+      "tiles": [
+        "అమ్మ",
+        "మరియు",
+        "నాన్న"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e8",
+      "type": "fill_blank",
+      "conceptIds": [
+        "conj-mariyu",
+        "conj-kuda"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "నాకు ___ కావాలి",
+        "transliteration": "nāku kūḍā kāvāli",
+        "english": "I want (some) too"
+      },
+      "answer": "కూడా",
+      "choices": [
+        "కూడా",
+        "మరియు",
+        "కానీ"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e9",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "conj-mariyu",
+        "conj-kuda"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నాకు కూడా కావాలి",
+        "transliteration": "nāku kūḍā kāvāli",
+        "english": "I want (some) too"
+      },
+      "tiles": [
+        "నాకు",
+        "కూడా",
+        "కావాలి"
+      ]
+    },
+    {
+      "id": "c11-u1-l3-e10",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "conj-mariyu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "మరియు",
+        "transliteration": "mariyu"
+      },
+      "acceptedAnswers": [
+        "and"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

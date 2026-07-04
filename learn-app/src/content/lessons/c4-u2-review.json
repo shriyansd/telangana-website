@@ -1,0 +1,289 @@
+{
+  "id": "c4-u2-review",
+  "courseId": "course-4",
+  "unitId": "c4-u2",
+  "title": "Unit Review: When?",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c4-u2-l1",
+    "c4-u2-l2"
+  ],
+  "conceptIds": [
+    "time-today",
+    "time-tomorrow",
+    "time-yesterday",
+    "time-now",
+    "time-later",
+    "time-morning",
+    "time-night",
+    "time-hour"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c4-u2-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-today"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఈరోజు",
+        "transliteration": "īrōju"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "today"
+        },
+        {
+          "id": "b",
+          "english": "tomorrow"
+        },
+        {
+          "id": "c",
+          "english": "yesterday"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-tomorrow"
+      ],
+      "prompt": "How do you say “tomorrow”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రేపు",
+          "transliteration": "rēpu"
+        },
+        {
+          "id": "b",
+          "telugu": "నిన్న",
+          "transliteration": "ninna"
+        },
+        {
+          "id": "c",
+          "telugu": "ఇప్పుడు",
+          "transliteration": "ippuḍu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "time-yesterday"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "నిన్న",
+        "transliteration": "ninna"
+      },
+      "acceptedAnswers": [
+        "yesterday"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-now"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఇప్పుడు",
+        "transliteration": "ippuḍu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "now"
+        },
+        {
+          "id": "b",
+          "english": "later / afterwards"
+        },
+        {
+          "id": "c",
+          "english": "morning"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-later"
+      ],
+      "prompt": "How do you say “later / afterwards”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తరువాత",
+          "transliteration": "taruvāta"
+        },
+        {
+          "id": "b",
+          "telugu": "ఉదయం",
+          "transliteration": "udayam"
+        },
+        {
+          "id": "c",
+          "telugu": "రాత్రి",
+          "transliteration": "rātri"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "time-morning"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఉదయం",
+        "transliteration": "udayam"
+      },
+      "acceptedAnswers": [
+        "morning"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-night"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "రాత్రి",
+        "transliteration": "rātri"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "night"
+        },
+        {
+          "id": "b",
+          "english": "hour / o’clock"
+        },
+        {
+          "id": "c",
+          "english": "today"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e8",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-hour"
+      ],
+      "prompt": "How do you say “hour / o’clock”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "గంట",
+          "transliteration": "gaṇṭa"
+        },
+        {
+          "id": "b",
+          "telugu": "ఈరోజు",
+          "transliteration": "īrōju"
+        },
+        {
+          "id": "c",
+          "telugu": "రేపు",
+          "transliteration": "rēpu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-review-e9",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "time-today",
+        "time-tomorrow",
+        "time-yesterday",
+        "time-now"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఈరోజు",
+            "transliteration": "īrōju"
+          },
+          "b": {
+            "telugu": "today"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రేపు",
+            "transliteration": "rēpu"
+          },
+          "b": {
+            "telugu": "tomorrow"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నిన్న",
+            "transliteration": "ninna"
+          },
+          "b": {
+            "telugu": "yesterday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఇప్పుడు",
+            "transliteration": "ippuḍu"
+          },
+          "b": {
+            "telugu": "now"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

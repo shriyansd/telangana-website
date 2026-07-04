@@ -1,0 +1,228 @@
+{
+  "id": "c4-u1-l2",
+  "courseId": "course-4",
+  "unitId": "c4-u1",
+  "title": "Days: Friday–Sunday",
+  "teluguTitle": "వారాంతం",
+  "description": "Finish the week — plus the word for “week” itself.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "day-fri",
+    "day-sat",
+    "day-sun",
+    "word-varam"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c4-u1-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "day-fri"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u1/day-fri-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "శుక్రవారం",
+        "transliteration": "śukravāram",
+        "english": "Friday"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "శుక్రవారం",
+          "transliteration": "śukravāram"
+        },
+        {
+          "id": "b",
+          "telugu": "శనివారం",
+          "transliteration": "śanivāram"
+        },
+        {
+          "id": "c",
+          "telugu": "ఆదివారం",
+          "transliteration": "ādivāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "day-sat"
+      ],
+      "prompt": "How do you say “Saturday”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "శనివారం",
+          "transliteration": "śanivāram"
+        },
+        {
+          "id": "b",
+          "telugu": "ఆదివారం",
+          "transliteration": "ādivāram",
+          "whyWrong": "ఆదివారం means “Sunday”."
+        },
+        {
+          "id": "c",
+          "telugu": "వారం",
+          "transliteration": "vāram",
+          "whyWrong": "వారం means “week”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "day-sun"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u1/day-sun-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఆదివారం",
+        "transliteration": "ādivāram",
+        "english": "Sunday"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఆదివారం",
+          "transliteration": "ādivāram"
+        },
+        {
+          "id": "b",
+          "telugu": "వారం",
+          "transliteration": "vāram"
+        },
+        {
+          "id": "c",
+          "telugu": "శుక్రవారం",
+          "transliteration": "śukravāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "day-fri",
+        "day-sat",
+        "day-sun",
+        "word-varam"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "శుక్రవారం",
+            "transliteration": "śukravāram"
+          },
+          "b": {
+            "telugu": "Friday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "శనివారం",
+            "transliteration": "śanivāram"
+          },
+          "b": {
+            "telugu": "Saturday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఆదివారం",
+            "transliteration": "ādivāram"
+          },
+          "b": {
+            "telugu": "Sunday"
+          }
+        },
+        {
+          "a": {
+            "telugu": "వారం",
+            "transliteration": "vāram"
+          },
+          "b": {
+            "telugu": "week"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4-u1-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "word-varam"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "వారం",
+        "transliteration": "vāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "week"
+        },
+        {
+          "id": "b",
+          "english": "Friday",
+          "whyWrong": "“Friday” is శుక్రవారం."
+        },
+        {
+          "id": "c",
+          "english": "Saturday",
+          "whyWrong": "“Saturday” is శనివారం."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u1-l2-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "day-fri"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "శుక్రవారం",
+        "transliteration": "śukravāram"
+      },
+      "acceptedAnswers": [
+        "Friday"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

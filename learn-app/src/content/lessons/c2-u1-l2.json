@@ -1,0 +1,301 @@
+{
+  "id": "c2-u1-l2",
+  "courseId": "course-2",
+  "unitId": "c2-u1",
+  "title": "Food & Drink",
+  "teluguTitle": "తిండి",
+  "description": "The words you meet at every Telugu table.",
+  "estimatedMinutes": 7,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "food-kura",
+    "food-pappu",
+    "food-perugu",
+    "food-rotte",
+    "food-karam"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c2-u1-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "food-kura"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-2/c2-u1/food-kura-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "కూర",
+        "transliteration": "kūra",
+        "english": "curry / vegetable dish"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కూర",
+          "transliteration": "kūra"
+        },
+        {
+          "id": "b",
+          "telugu": "పప్పు",
+          "transliteration": "pappu"
+        },
+        {
+          "id": "c",
+          "telugu": "పెరుగు",
+          "transliteration": "perugu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "food-pappu"
+      ],
+      "prompt": "How do you say “dal (lentils)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పప్పు",
+          "transliteration": "pappu"
+        },
+        {
+          "id": "b",
+          "telugu": "పెరుగు",
+          "transliteration": "perugu",
+          "whyWrong": "పెరుగు means “yogurt”."
+        },
+        {
+          "id": "c",
+          "telugu": "రొట్టె",
+          "transliteration": "roṭṭe",
+          "whyWrong": "రొట్టె means “flatbread / roti”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "food-perugu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-2/c2-u1/food-perugu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "పెరుగు",
+        "transliteration": "perugu",
+        "english": "yogurt"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పెరుగు",
+          "transliteration": "perugu"
+        },
+        {
+          "id": "b",
+          "telugu": "రొట్టె",
+          "transliteration": "roṭṭe"
+        },
+        {
+          "id": "c",
+          "telugu": "కారం",
+          "transliteration": "kāram"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "food-kura",
+        "food-pappu",
+        "food-perugu",
+        "food-rotte"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "కూర",
+            "transliteration": "kūra"
+          },
+          "b": {
+            "telugu": "curry / vegetable dish"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పప్పు",
+            "transliteration": "pappu"
+          },
+          "b": {
+            "telugu": "dal (lentils)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పెరుగు",
+            "transliteration": "perugu"
+          },
+          "b": {
+            "telugu": "yogurt"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రొట్టె",
+            "transliteration": "roṭṭe"
+          },
+          "b": {
+            "telugu": "flatbread / roti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "food-rotte"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "రొట్టె",
+        "transliteration": "roṭṭe"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "flatbread / roti"
+        },
+        {
+          "id": "b",
+          "english": "spicy / chili heat",
+          "whyWrong": "“spicy / chili heat” is కారం."
+        },
+        {
+          "id": "c",
+          "english": "curry / vegetable dish",
+          "whyWrong": "“curry / vegetable dish” is కూర."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "food-karam"
+      ],
+      "prompt": "How do you say “spicy / chili heat”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "కారం",
+          "transliteration": "kāram"
+        },
+        {
+          "id": "b",
+          "telugu": "కూర",
+          "transliteration": "kūra",
+          "whyWrong": "కూర means “curry / vegetable dish”."
+        },
+        {
+          "id": "c",
+          "telugu": "పప్పు",
+          "transliteration": "pappu",
+          "whyWrong": "పప్పు means “dal (lentils)”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e7",
+      "type": "fill_blank",
+      "conceptIds": [
+        "food-kura",
+        "food-pappu"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "నాకు ___ కావాలి",
+        "transliteration": "nāku pappu kāvāli",
+        "english": "I want dal"
+      },
+      "answer": "పప్పు",
+      "choices": [
+        "పప్పు",
+        "కూర",
+        "పెరుగు"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e8",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "food-kura",
+        "food-pappu"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నాకు పప్పు కావాలి",
+        "transliteration": "nāku pappu kāvāli",
+        "english": "I want dal"
+      },
+      "tiles": [
+        "నాకు",
+        "పప్పు",
+        "కావాలి"
+      ]
+    },
+    {
+      "id": "c2-u1-l2-e9",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "food-kura"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "కూర",
+        "transliteration": "kūra"
+      },
+      "acceptedAnswers": [
+        "curry / vegetable dish",
+        "curry",
+        "vegetable dish"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

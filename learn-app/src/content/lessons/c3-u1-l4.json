@@ -1,0 +1,259 @@
+{
+  "id": "c3-u1-l4",
+  "courseId": "course-3",
+  "unitId": "c3-u1",
+  "title": "Tens & One Hundred",
+  "teluguTitle": "ఇరవై నుంచి వంద వరకు",
+  "description": "Twenty, thirty… up to one hundred.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "num-20",
+    "num-30",
+    "num-40",
+    "num-50",
+    "num-100"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c3-u1-l4-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-20"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-20-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఇరవై",
+        "transliteration": "iravai",
+        "english": "twenty"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇరవై",
+          "transliteration": "iravai"
+        },
+        {
+          "id": "b",
+          "telugu": "ముప్పై",
+          "transliteration": "muppai"
+        },
+        {
+          "id": "c",
+          "telugu": "నలభై",
+          "transliteration": "nalabhai"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-30"
+      ],
+      "prompt": "How do you say “thirty”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ముప్పై",
+          "transliteration": "muppai"
+        },
+        {
+          "id": "b",
+          "telugu": "నలభై",
+          "transliteration": "nalabhai",
+          "whyWrong": "నలభై means “forty”."
+        },
+        {
+          "id": "c",
+          "telugu": "యాభై",
+          "transliteration": "yābhai",
+          "whyWrong": "యాభై means “fifty”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-40"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-40-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "నలభై",
+        "transliteration": "nalabhai",
+        "english": "forty"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నలభై",
+          "transliteration": "nalabhai"
+        },
+        {
+          "id": "b",
+          "telugu": "యాభై",
+          "transliteration": "yābhai"
+        },
+        {
+          "id": "c",
+          "telugu": "వంద",
+          "transliteration": "vanda"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "num-20",
+        "num-30",
+        "num-40",
+        "num-50"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఇరవై",
+            "transliteration": "iravai"
+          },
+          "b": {
+            "telugu": "twenty"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ముప్పై",
+            "transliteration": "muppai"
+          },
+          "b": {
+            "telugu": "thirty"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నలభై",
+            "transliteration": "nalabhai"
+          },
+          "b": {
+            "telugu": "forty"
+          }
+        },
+        {
+          "a": {
+            "telugu": "యాభై",
+            "transliteration": "yābhai"
+          },
+          "b": {
+            "telugu": "fifty"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-50"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "యాభై",
+        "transliteration": "yābhai"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "fifty"
+        },
+        {
+          "id": "b",
+          "english": "one hundred",
+          "whyWrong": "“one hundred” is వంద."
+        },
+        {
+          "id": "c",
+          "english": "twenty",
+          "whyWrong": "“twenty” is ఇరవై."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-100"
+      ],
+      "prompt": "How do you say “one hundred”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "వంద",
+          "transliteration": "vanda"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇరవై",
+          "transliteration": "iravai",
+          "whyWrong": "ఇరవై means “twenty”."
+        },
+        {
+          "id": "c",
+          "telugu": "ముప్పై",
+          "transliteration": "muppai",
+          "whyWrong": "ముప్పై means “thirty”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l4-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "num-20"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇరవై",
+        "transliteration": "iravai"
+      },
+      "acceptedAnswers": [
+        "twenty"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "c0-u1-review",
+  "courseId": "course-0",
+  "unitId": "c0-u1",
+  "title": "Unit Review: Welcome",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c0-u1-l1",
+    "c0-u1-l2"
+  ],
+  "conceptIds": [
+    "greet-namaskaram",
+    "pron-you-respectful",
+    "thanks",
+    "how-are-you",
+    "word-water",
+    "script-a",
+    "script-ka"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c0-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "greet-namaskaram"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "నమస్కారం",
+        "transliteration": "namaskāram"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "hello / greetings"
+        },
+        {
+          "id": "b",
+          "english": "you (respectful)"
+        },
+        {
+          "id": "c",
+          "english": "thank you"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "pron-you-respectful"
+      ],
+      "prompt": "How do you say “you (respectful)”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మీరు",
+          "transliteration": "mīru"
+        },
+        {
+          "id": "b",
+          "telugu": "ధన్యవాదాలు",
+          "transliteration": "dhanyavādālu"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎలా ఉన్నారు?",
+          "transliteration": "elā unnāru?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "thanks"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ధన్యవాదాలు",
+        "transliteration": "dhanyavādālu"
+      },
+      "acceptedAnswers": [
+        "thank you"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "how-are-you"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఎలా ఉన్నారు?",
+        "transliteration": "elā unnāru?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "how are you? (respectful)"
+        },
+        {
+          "id": "b",
+          "english": "water"
+        },
+        {
+          "id": "c",
+          "english": "the vowel a"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "word-water"
+      ],
+      "prompt": "How do you say “water”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "నీళ్లు",
+          "transliteration": "nīḷḷu"
+        },
+        {
+          "id": "b",
+          "telugu": "అ",
+          "transliteration": "a"
+        },
+        {
+          "id": "c",
+          "telugu": "క",
+          "transliteration": "ka"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e6",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "script-a"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "అ",
+        "transliteration": "a"
+      },
+      "acceptedAnswers": [
+        "the vowel a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ka"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "క",
+        "transliteration": "ka"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "the consonant ka"
+        },
+        {
+          "id": "b",
+          "english": "hello / greetings"
+        },
+        {
+          "id": "c",
+          "english": "you (respectful)"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c0-u1-review-e8",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "greet-namaskaram",
+        "pron-you-respectful",
+        "thanks",
+        "how-are-you"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "నమస్కారం",
+            "transliteration": "namaskāram"
+          },
+          "b": {
+            "telugu": "hello / greetings"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మీరు",
+            "transliteration": "mīru"
+          },
+          "b": {
+            "telugu": "you (respectful)"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ధన్యవాదాలు",
+            "transliteration": "dhanyavādālu"
+          },
+          "b": {
+            "telugu": "thank you"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఎలా ఉన్నారు?",
+            "transliteration": "elā unnāru?"
+          },
+          "b": {
+            "telugu": "how are you? (respectful)"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

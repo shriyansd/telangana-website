@@ -1,0 +1,212 @@
+{
+  "id": "c5-u1-review",
+  "courseId": "course-5",
+  "unitId": "c5-u1",
+  "title": "Unit Review: Asking Questions",
+  "teluguTitle": "పునశ్చరణ",
+  "description": "Everything from this unit, retrieved in a mixed order.",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [
+    "c5-u1-l1"
+  ],
+  "conceptIds": [
+    "q-what",
+    "q-who",
+    "q-where",
+    "q-why",
+    "q-how"
+  ],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c5-u1-review-e1",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "q-what"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఏమిటి?",
+        "transliteration": "ēmiṭi?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "what?"
+        },
+        {
+          "id": "b",
+          "english": "who?"
+        },
+        {
+          "id": "c",
+          "english": "where?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u1-review-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "q-who"
+      ],
+      "prompt": "How do you say “who?”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఎవరు?",
+          "transliteration": "evaru?"
+        },
+        {
+          "id": "b",
+          "telugu": "ఎక్కడ?",
+          "transliteration": "ekkaḍa?"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎందుకు?",
+          "transliteration": "enduku?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u1-review-e3",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "q-where"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఎక్కడ?",
+        "transliteration": "ekkaḍa?"
+      },
+      "acceptedAnswers": [
+        "where?"
+      ]
+    },
+    {
+      "id": "c5-u1-review-e4",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "q-why"
+      ],
+      "prompt": "Quick check — what does this mean?",
+      "question": {
+        "telugu": "ఎందుకు?",
+        "transliteration": "enduku?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "why?"
+        },
+        {
+          "id": "b",
+          "english": "how?"
+        },
+        {
+          "id": "c",
+          "english": "what?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u1-review-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "q-how"
+      ],
+      "prompt": "How do you say “how?”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఎలా?",
+          "transliteration": "elā?"
+        },
+        {
+          "id": "b",
+          "telugu": "ఏమిటి?",
+          "transliteration": "ēmiṭi?"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎవరు?",
+          "transliteration": "evaru?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c5-u1-review-e6",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "q-what",
+        "q-who",
+        "q-where",
+        "q-why"
+      ],
+      "prompt": "One last sweep — match them all.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఏమిటి?",
+            "transliteration": "ēmiṭi?"
+          },
+          "b": {
+            "telugu": "what?"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఎవరు?",
+            "transliteration": "evaru?"
+          },
+          "b": {
+            "telugu": "who?"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఎక్కడ?",
+            "transliteration": "ekkaḍa?"
+          },
+          "b": {
+            "telugu": "where?"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఎందుకు?",
+            "transliteration": "enduku?"
+          },
+          "b": {
+            "telugu": "why?"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

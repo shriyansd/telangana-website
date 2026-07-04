@@ -1,0 +1,76 @@
+{
+  "id": "c3-u1-task",
+  "courseId": "course-3",
+  "unitId": "c3-u1",
+  "title": "Show What You Can Do: At the Fruit Stall",
+  "teluguTitle": "పండ్ల దుకాణంలో",
+  "description": "Buy fruit with real numbers — how many, and did you hear the price right?",
+  "estimatedMinutes": 5,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": ["complete-beginner", "heritage-learner", "family"],
+  "prerequisites": ["c3-u1-review"],
+  "conceptIds": ["num-2", "num-5", "num-10", "num-20", "want-kavali"],
+  "newConceptLimit": 0,
+  "kind": "checkpoint",
+  "exercises": [
+    {
+      "id": "c3u1t-e1",
+      "type": "dialogue",
+      "conceptIds": ["num-2", "want-kavali"],
+      "newContext": true,
+      "context": "A fruit stall. Mangoes look good. You want two.",
+      "turns": [
+        { "speaker": "అమ్మి", "line": { "telugu": "ఏమి కావాలి?", "transliteration": "ēmi kāvāli?", "english": "What would you like?" } }
+      ],
+      "responseMode": "tiles",
+      "tiles": ["నాకు", "రెండు", "పండ్లు", "కావాలి"],
+      "acceptedAnswers": ["నాకు రెండు పండ్లు కావాలి"],
+      "feedback": { "grammar": "Number slots in before the noun: రెండు పండ్లు — two fruits." }
+    },
+    {
+      "id": "c3u1t-e2",
+      "type": "listen_select",
+      "conceptIds": ["num-20"],
+      "newContext": true,
+      "prompt": "She tells you the price. How much is it?",
+      "audio": { "normal": "audio/course-3/c3-u1/task-price-normal.mp3" },
+      "spoken": { "telugu": "ఇరవై రూపాయలు", "transliteration": "iravai rūpāyalu", "english": "twenty rupees" },
+      "choices": [
+        { "id": "a", "english": "20 rupees" },
+        { "id": "b", "english": "30 rupees", "whyWrong": "30 would be ముప్పై." },
+        { "id": "c", "english": "100 rupees", "whyWrong": "100 would be వంద — luckily not!" }
+      ],
+      "correctChoiceIds": ["a"]
+    },
+    {
+      "id": "c3u1t-e3",
+      "type": "dialogue",
+      "conceptIds": ["num-5"],
+      "newContext": true,
+      "context": "Your neighbour asked you to pick up bananas too — five of them.",
+      "turns": [
+        { "speaker": "అమ్మి", "line": { "telugu": "ఇంకా ఏమైనా?", "transliteration": "iṅkā ēmainā?", "english": "Anything else?" } }
+      ],
+      "responseMode": "type",
+      "acceptedAnswers": ["ఐదు అరటిపండ్లు", "ఐదు", "aidu aratipandlu", "aidu"],
+      "hint": "The number for five is ఐదు.",
+      "feedback": { "correct": "ఐదు అరటిపండ్లు — five bananas. Numbers unlock every market in Telangana." }
+    },
+    {
+      "id": "c3u1t-e4",
+      "type": "multiple_choice",
+      "conceptIds": ["num-10"],
+      "newContext": true,
+      "prompt": "You hand over 30 rupees for a 20-rupee bill. How much change should come back?",
+      "choices": [
+        { "id": "a", "telugu": "పది", "transliteration": "padi", "english": "ten" },
+        { "id": "b", "telugu": "ఇరవై", "transliteration": "iravai", "whyWrong": "That's twenty — she'd be keeping nothing!" },
+        { "id": "c", "telugu": "ఐదు", "transliteration": "aidu", "whyWrong": "That's five." }
+      ],
+      "correctChoiceIds": ["a"]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-03"
+}

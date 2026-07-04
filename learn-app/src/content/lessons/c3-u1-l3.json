@@ -1,0 +1,259 @@
+{
+  "id": "c3-u1-l3",
+  "courseId": "course-3",
+  "unitId": "c3-u1",
+  "title": "Numbers 11–15",
+  "teluguTitle": "౧౧–౧౫",
+  "description": "The teens are built from పది (ten).",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "num-11",
+    "num-12",
+    "num-13",
+    "num-14",
+    "num-15"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c3-u1-l3-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-11"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-11-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "పదకొండు",
+        "transliteration": "padakoṇḍu",
+        "english": "eleven"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పదకొండు",
+          "transliteration": "padakoṇḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "పన్నెండు",
+          "transliteration": "panneṇḍu"
+        },
+        {
+          "id": "c",
+          "telugu": "పదమూడు",
+          "transliteration": "padamūḍu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-12"
+      ],
+      "prompt": "How do you say “twelve”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పన్నెండు",
+          "transliteration": "panneṇḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "పదమూడు",
+          "transliteration": "padamūḍu",
+          "whyWrong": "పదమూడు means “thirteen”."
+        },
+        {
+          "id": "c",
+          "telugu": "పద్నాలుగు",
+          "transliteration": "padnālugu",
+          "whyWrong": "పద్నాలుగు means “fourteen”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "num-13"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-3/c3-u1/num-13-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "పదమూడు",
+        "transliteration": "padamūḍu",
+        "english": "thirteen"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పదమూడు",
+          "transliteration": "padamūḍu"
+        },
+        {
+          "id": "b",
+          "telugu": "పద్నాలుగు",
+          "transliteration": "padnālugu"
+        },
+        {
+          "id": "c",
+          "telugu": "పదిహేను",
+          "transliteration": "padihēnu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "num-11",
+        "num-12",
+        "num-13",
+        "num-14"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "పదకొండు",
+            "transliteration": "padakoṇḍu"
+          },
+          "b": {
+            "telugu": "eleven"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పన్నెండు",
+            "transliteration": "panneṇḍu"
+          },
+          "b": {
+            "telugu": "twelve"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పదమూడు",
+            "transliteration": "padamūḍu"
+          },
+          "b": {
+            "telugu": "thirteen"
+          }
+        },
+        {
+          "a": {
+            "telugu": "పద్నాలుగు",
+            "transliteration": "padnālugu"
+          },
+          "b": {
+            "telugu": "fourteen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-14"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "పద్నాలుగు",
+        "transliteration": "padnālugu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "fourteen"
+        },
+        {
+          "id": "b",
+          "english": "fifteen",
+          "whyWrong": "“fifteen” is పదిహేను."
+        },
+        {
+          "id": "c",
+          "english": "eleven",
+          "whyWrong": "“eleven” is పదకొండు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "num-15"
+      ],
+      "prompt": "How do you say “fifteen”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "పదిహేను",
+          "transliteration": "padihēnu"
+        },
+        {
+          "id": "b",
+          "telugu": "పదకొండు",
+          "transliteration": "padakoṇḍu",
+          "whyWrong": "పదకొండు means “eleven”."
+        },
+        {
+          "id": "c",
+          "telugu": "పన్నెండు",
+          "transliteration": "panneṇḍu",
+          "whyWrong": "పన్నెండు means “twelve”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c3-u1-l3-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "num-11"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "పదకొండు",
+        "transliteration": "padakoṇḍu"
+      },
+      "acceptedAnswers": [
+        "eleven"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

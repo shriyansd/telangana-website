@@ -1,0 +1,261 @@
+{
+  "id": "c2-u2-l1",
+  "courseId": "course-2",
+  "unitId": "c2-u2",
+  "title": "Around the House",
+  "teluguTitle": "ఇంట్లో",
+  "description": "House, room, door, window, bed.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "house-illu",
+    "house-gadi",
+    "house-talupu",
+    "house-kitiki",
+    "house-mancham"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c2-u2-l1-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "house-illu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-2/c2-u2/house-illu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఇల్లు",
+        "transliteration": "illu",
+        "english": "house / home"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఇల్లు",
+          "transliteration": "illu"
+        },
+        {
+          "id": "b",
+          "telugu": "గది",
+          "transliteration": "gadi"
+        },
+        {
+          "id": "c",
+          "telugu": "తలుపు",
+          "transliteration": "talupu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "house-gadi"
+      ],
+      "prompt": "How do you say “room”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "గది",
+          "transliteration": "gadi"
+        },
+        {
+          "id": "b",
+          "telugu": "తలుపు",
+          "transliteration": "talupu",
+          "whyWrong": "తలుపు means “door”."
+        },
+        {
+          "id": "c",
+          "telugu": "కిటికీ",
+          "transliteration": "kiṭikī",
+          "whyWrong": "కిటికీ means “window”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "house-talupu"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-2/c2-u2/house-talupu-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "తలుపు",
+        "transliteration": "talupu",
+        "english": "door"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తలుపు",
+          "transliteration": "talupu"
+        },
+        {
+          "id": "b",
+          "telugu": "కిటికీ",
+          "transliteration": "kiṭikī"
+        },
+        {
+          "id": "c",
+          "telugu": "మంచం",
+          "transliteration": "mañcham"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "house-illu",
+        "house-gadi",
+        "house-talupu",
+        "house-kitiki"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఇల్లు",
+            "transliteration": "illu"
+          },
+          "b": {
+            "telugu": "house / home"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గది",
+            "transliteration": "gadi"
+          },
+          "b": {
+            "telugu": "room"
+          }
+        },
+        {
+          "a": {
+            "telugu": "తలుపు",
+            "transliteration": "talupu"
+          },
+          "b": {
+            "telugu": "door"
+          }
+        },
+        {
+          "a": {
+            "telugu": "కిటికీ",
+            "transliteration": "kiṭikī"
+          },
+          "b": {
+            "telugu": "window"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "house-kitiki"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "కిటికీ",
+        "transliteration": "kiṭikī"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "window"
+        },
+        {
+          "id": "b",
+          "english": "bed",
+          "whyWrong": "“bed” is మంచం."
+        },
+        {
+          "id": "c",
+          "english": "house / home",
+          "whyWrong": "“house / home” is ఇల్లు."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "house-mancham"
+      ],
+      "prompt": "How do you say “bed”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మంచం",
+          "transliteration": "mañcham"
+        },
+        {
+          "id": "b",
+          "telugu": "ఇల్లు",
+          "transliteration": "illu",
+          "whyWrong": "ఇల్లు means “house / home”."
+        },
+        {
+          "id": "c",
+          "telugu": "గది",
+          "transliteration": "gadi",
+          "whyWrong": "గది means “room”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c2-u2-l1-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "house-illu"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఇల్లు",
+        "transliteration": "illu"
+      },
+      "acceptedAnswers": [
+        "house / home",
+        "house",
+        "home"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

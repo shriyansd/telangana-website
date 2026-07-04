@@ -1,0 +1,259 @@
+{
+  "id": "c4-u2-l2",
+  "courseId": "course-4",
+  "unitId": "c4-u2",
+  "title": "Morning to Night",
+  "teluguTitle": "ఉదయం నుంచి రాత్రి వరకు",
+  "description": "Times of day, hours and minutes, and asking “when?”.",
+  "estimatedMinutes": 6,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "time-morning",
+    "time-night",
+    "time-hour",
+    "time-minute",
+    "q-when"
+  ],
+  "newConceptLimit": 5,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c4-u2-l2-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "time-morning"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u2/time-morning-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఉదయం",
+        "transliteration": "udayam",
+        "english": "morning"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఉదయం",
+          "transliteration": "udayam"
+        },
+        {
+          "id": "b",
+          "telugu": "రాత్రి",
+          "transliteration": "rātri"
+        },
+        {
+          "id": "c",
+          "telugu": "గంట",
+          "transliteration": "gaṇṭa"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-night"
+      ],
+      "prompt": "How do you say “night”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "రాత్రి",
+          "transliteration": "rātri"
+        },
+        {
+          "id": "b",
+          "telugu": "గంట",
+          "transliteration": "gaṇṭa",
+          "whyWrong": "గంట means “hour / o’clock”."
+        },
+        {
+          "id": "c",
+          "telugu": "నిమిషం",
+          "transliteration": "nimiṣam",
+          "whyWrong": "నిమిషం means “minute”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "time-hour"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-4/c4-u2/time-hour-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "గంట",
+        "transliteration": "gaṇṭa",
+        "english": "hour / o’clock"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "గంట",
+          "transliteration": "gaṇṭa"
+        },
+        {
+          "id": "b",
+          "telugu": "నిమిషం",
+          "transliteration": "nimiṣam"
+        },
+        {
+          "id": "c",
+          "telugu": "ఎప్పుడు?",
+          "transliteration": "eppuḍu?"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "time-morning",
+        "time-night",
+        "time-hour",
+        "time-minute"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ఉదయం",
+            "transliteration": "udayam"
+          },
+          "b": {
+            "telugu": "morning"
+          }
+        },
+        {
+          "a": {
+            "telugu": "రాత్రి",
+            "transliteration": "rātri"
+          },
+          "b": {
+            "telugu": "night"
+          }
+        },
+        {
+          "a": {
+            "telugu": "గంట",
+            "transliteration": "gaṇṭa"
+          },
+          "b": {
+            "telugu": "hour / o’clock"
+          }
+        },
+        {
+          "a": {
+            "telugu": "నిమిషం",
+            "transliteration": "nimiṣam"
+          },
+          "b": {
+            "telugu": "minute"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "time-minute"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "నిమిషం",
+        "transliteration": "nimiṣam"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "minute"
+        },
+        {
+          "id": "b",
+          "english": "when?",
+          "whyWrong": "“when?” is ఎప్పుడు?."
+        },
+        {
+          "id": "c",
+          "english": "morning",
+          "whyWrong": "“morning” is ఉదయం."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e6",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "q-when"
+      ],
+      "prompt": "How do you say “when?”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఎప్పుడు?",
+          "transliteration": "eppuḍu?"
+        },
+        {
+          "id": "b",
+          "telugu": "ఉదయం",
+          "transliteration": "udayam",
+          "whyWrong": "ఉదయం means “morning”."
+        },
+        {
+          "id": "c",
+          "telugu": "రాత్రి",
+          "transliteration": "rātri",
+          "whyWrong": "రాత్రి means “night”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c4-u2-l2-e7",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "time-morning"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "ఉదయం",
+        "transliteration": "udayam"
+      },
+      "acceptedAnswers": [
+        "morning"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

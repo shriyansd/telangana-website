@@ -1,0 +1,489 @@
+{
+  "id": "c6-u3-l5",
+  "courseId": "course-6",
+  "unitId": "c6-u3",
+  "title": "ప ఫ బ భ మ — the p, b, m sounds",
+  "teluguTitle": "ప వర్గం",
+  "description": "The lip sounds — the last of the five classic rows.",
+  "estimatedMinutes": 10,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "script-pa",
+    "script-pha",
+    "script-ba",
+    "script-bha",
+    "script-ma"
+  ],
+  "newConceptLimit": 5,
+  "kind": "script",
+  "exercises": [
+    {
+      "id": "c6-u3-l5-e1",
+      "type": "script_build",
+      "mode": "identify",
+      "conceptIds": [
+        "script-pa"
+      ],
+      "prompt": "This is ప — it says “pa”. Which one is ప?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ప"
+        },
+        {
+          "id": "b",
+          "telugu": "ఫ",
+          "whyWrong": "ఫ says “pha”."
+        },
+        {
+          "id": "c",
+          "telugu": "బ",
+          "whyWrong": "బ says “ba”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-pa"
+      ],
+      "prompt": "పండు (paṇḍu) means “fruit”. Which letter does it start with?",
+      "question": {
+        "telugu": "పండు",
+        "transliteration": "paṇḍu",
+        "english": "fruit"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ప"
+        },
+        {
+          "id": "b",
+          "telugu": "ఫ"
+        },
+        {
+          "id": "c",
+          "telugu": "బ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e3",
+      "type": "script_build",
+      "mode": "identify",
+      "conceptIds": [
+        "script-pha"
+      ],
+      "prompt": "This is ఫ — it says “pha” (pa with a puff of breath). Which one is ఫ?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఫ"
+        },
+        {
+          "id": "b",
+          "telugu": "బ",
+          "whyWrong": "బ says “ba”."
+        },
+        {
+          "id": "c",
+          "telugu": "భ",
+          "whyWrong": "భ says “bha”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e4",
+      "type": "listen_select",
+      "conceptIds": [
+        "script-pha"
+      ],
+      "prompt": "Listen. Which letter do you hear?",
+      "audio": {
+        "normal": "audio/course-6/c6-u3/letter-pha-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ఫ",
+        "transliteration": "pha"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఫ"
+        },
+        {
+          "id": "b",
+          "telugu": "బ"
+        },
+        {
+          "id": "c",
+          "telugu": "భ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-pha"
+      ],
+      "prompt": "ఫోటో (phōṭō) means “photo”. Which letter does it start with?",
+      "question": {
+        "telugu": "ఫోటో",
+        "transliteration": "phōṭō",
+        "english": "photo"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "ఫ"
+        },
+        {
+          "id": "b",
+          "telugu": "బ"
+        },
+        {
+          "id": "c",
+          "telugu": "భ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e6",
+      "type": "script_build",
+      "mode": "identify",
+      "conceptIds": [
+        "script-ba"
+      ],
+      "prompt": "This is బ — it says “ba”. Which one is బ?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "బ"
+        },
+        {
+          "id": "b",
+          "telugu": "భ",
+          "whyWrong": "భ says “bha”."
+        },
+        {
+          "id": "c",
+          "telugu": "మ",
+          "whyWrong": "మ says “ma”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e7",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ba"
+      ],
+      "prompt": "బడి (baḍi) means “school”. Which letter does it start with?",
+      "question": {
+        "telugu": "బడి",
+        "transliteration": "baḍi",
+        "english": "school"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "బ"
+        },
+        {
+          "id": "b",
+          "telugu": "భ"
+        },
+        {
+          "id": "c",
+          "telugu": "మ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e8",
+      "type": "script_build",
+      "mode": "identify",
+      "conceptIds": [
+        "script-bha"
+      ],
+      "prompt": "This is భ — it says “bha” (ba with a puff of breath). Which one is భ?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "భ"
+        },
+        {
+          "id": "b",
+          "telugu": "మ",
+          "whyWrong": "మ says “ma”."
+        },
+        {
+          "id": "c",
+          "telugu": "ప",
+          "whyWrong": "ప says “pa”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e9",
+      "type": "listen_select",
+      "conceptIds": [
+        "script-bha"
+      ],
+      "prompt": "Listen. Which letter do you hear?",
+      "audio": {
+        "normal": "audio/course-6/c6-u3/letter-bha-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "భ",
+        "transliteration": "bha"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "భ"
+        },
+        {
+          "id": "b",
+          "telugu": "మ"
+        },
+        {
+          "id": "c",
+          "telugu": "ప"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e10",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-bha"
+      ],
+      "prompt": "భోజనం (bhōjanam) means “meal”. Which letter does it start with?",
+      "question": {
+        "telugu": "భోజనం",
+        "transliteration": "bhōjanam",
+        "english": "meal"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "భ"
+        },
+        {
+          "id": "b",
+          "telugu": "మ"
+        },
+        {
+          "id": "c",
+          "telugu": "ప"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e11",
+      "type": "script_build",
+      "mode": "identify",
+      "conceptIds": [
+        "script-ma"
+      ],
+      "prompt": "This is మ — it says “ma”. Which one is మ?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మ"
+        },
+        {
+          "id": "b",
+          "telugu": "ప",
+          "whyWrong": "ప says “pa”."
+        },
+        {
+          "id": "c",
+          "telugu": "ఫ",
+          "whyWrong": "ఫ says “pha”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e12",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "script-ma"
+      ],
+      "prompt": "మామిడి (māmiḍi) means “mango”. Which letter does it start with?",
+      "question": {
+        "telugu": "మామిడి",
+        "transliteration": "māmiḍi",
+        "english": "mango"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "మ"
+        },
+        {
+          "id": "b",
+          "telugu": "ప"
+        },
+        {
+          "id": "c",
+          "telugu": "ఫ"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e13",
+      "type": "dictation",
+      "conceptIds": [
+        "script-pa"
+      ],
+      "prompt": "Listen, then write the letter you hear.",
+      "audio": {
+        "normal": "audio/course-6/c6-u3/letter-pa-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "ప",
+        "transliteration": "pa"
+      },
+      "acceptedAnswers": [
+        "ప"
+      ],
+      "tiles": [
+        "ప",
+        "ఫ",
+        "బ",
+        "భ",
+        "మ"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e14",
+      "type": "dictation",
+      "conceptIds": [
+        "script-ba"
+      ],
+      "prompt": "Listen, then write the letter you hear.",
+      "audio": {
+        "normal": "audio/course-6/c6-u3/letter-ba-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "బ",
+        "transliteration": "ba"
+      },
+      "acceptedAnswers": [
+        "బ"
+      ],
+      "tiles": [
+        "ప",
+        "ఫ",
+        "బ",
+        "భ",
+        "మ"
+      ]
+    },
+    {
+      "id": "c6-u3-l5-e15",
+      "type": "match_pairs",
+      "mode": "telugu-transliteration",
+      "conceptIds": [
+        "script-pa",
+        "script-pha",
+        "script-ba",
+        "script-bha",
+        "script-ma"
+      ],
+      "prompt": "Match each letter to its sound.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "ప"
+          },
+          "b": {
+            "telugu": "pa"
+          }
+        },
+        {
+          "a": {
+            "telugu": "ఫ"
+          },
+          "b": {
+            "telugu": "pha"
+          }
+        },
+        {
+          "a": {
+            "telugu": "బ"
+          },
+          "b": {
+            "telugu": "ba"
+          }
+        },
+        {
+          "a": {
+            "telugu": "భ"
+          },
+          "b": {
+            "telugu": "bha"
+          }
+        },
+        {
+          "a": {
+            "telugu": "మ"
+          },
+          "b": {
+            "telugu": "ma"
+          }
+        }
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02"
+}

@@ -1,0 +1,314 @@
+{
+  "id": "c11-u1-l5",
+  "courseId": "course-11",
+  "unitId": "c11-u1",
+  "title": "Yesterday & Tomorrow",
+  "teluguTitle": "వెళ్ళాను వెళ్తాను",
+  "description": "A first taste of past and future.",
+  "estimatedMinutes": 8,
+  "status": "draft",
+  "difficulty": "beginner",
+  "learnerPaths": [
+    "complete-beginner",
+    "heritage-learner",
+    "family"
+  ],
+  "prerequisites": [],
+  "conceptIds": [
+    "verb-went",
+    "verb-will-go",
+    "verb-ate",
+    "verb-will-come"
+  ],
+  "newConceptLimit": 4,
+  "kind": "standard",
+  "exercises": [
+    {
+      "id": "c11-u1-l5-e1",
+      "type": "listen_select",
+      "conceptIds": [
+        "verb-went"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/verb-went-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "వెళ్ళాను",
+        "transliteration": "veḷḷānu",
+        "english": "I went"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "వెళ్ళాను",
+          "transliteration": "veḷḷānu"
+        },
+        {
+          "id": "b",
+          "telugu": "వెళ్తాను",
+          "transliteration": "veḷtānu"
+        },
+        {
+          "id": "c",
+          "telugu": "తిన్నాను",
+          "transliteration": "tinnānu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e2",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "verb-will-go"
+      ],
+      "prompt": "How do you say “I will go”?",
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "వెళ్తాను",
+          "transliteration": "veḷtānu"
+        },
+        {
+          "id": "b",
+          "telugu": "తిన్నాను",
+          "transliteration": "tinnānu",
+          "whyWrong": "తిన్నాను means “I ate”."
+        },
+        {
+          "id": "c",
+          "telugu": "వస్తాను",
+          "transliteration": "vastānu",
+          "whyWrong": "వస్తాను means “I will come”."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e3",
+      "type": "listen_select",
+      "conceptIds": [
+        "verb-ate"
+      ],
+      "prompt": "Listen. What did you hear?",
+      "audio": {
+        "normal": "audio/course-11/c11-u1/verb-ate-normal.mp3"
+      },
+      "spoken": {
+        "telugu": "తిన్నాను",
+        "transliteration": "tinnānu",
+        "english": "I ate"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "telugu": "తిన్నాను",
+          "transliteration": "tinnānu"
+        },
+        {
+          "id": "b",
+          "telugu": "వస్తాను",
+          "transliteration": "vastānu"
+        },
+        {
+          "id": "c",
+          "telugu": "వెళ్ళాను",
+          "transliteration": "veḷḷānu"
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e4",
+      "type": "match_pairs",
+      "mode": "telugu-english",
+      "conceptIds": [
+        "verb-went",
+        "verb-will-go",
+        "verb-ate",
+        "verb-will-come"
+      ],
+      "prompt": "Match the pairs.",
+      "pairs": [
+        {
+          "a": {
+            "telugu": "వెళ్ళాను",
+            "transliteration": "veḷḷānu"
+          },
+          "b": {
+            "telugu": "I went"
+          }
+        },
+        {
+          "a": {
+            "telugu": "వెళ్తాను",
+            "transliteration": "veḷtānu"
+          },
+          "b": {
+            "telugu": "I will go"
+          }
+        },
+        {
+          "a": {
+            "telugu": "తిన్నాను",
+            "transliteration": "tinnānu"
+          },
+          "b": {
+            "telugu": "I ate"
+          }
+        },
+        {
+          "a": {
+            "telugu": "వస్తాను",
+            "transliteration": "vastānu"
+          },
+          "b": {
+            "telugu": "I will come"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e5",
+      "type": "multiple_choice",
+      "conceptIds": [
+        "verb-will-come"
+      ],
+      "prompt": "What does this mean?",
+      "question": {
+        "telugu": "వస్తాను",
+        "transliteration": "vastānu"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "english": "I will come"
+        },
+        {
+          "id": "b",
+          "english": "I went",
+          "whyWrong": "“I went” is వెళ్ళాను."
+        },
+        {
+          "id": "c",
+          "english": "I will go",
+          "whyWrong": "“I will go” is వెళ్తాను."
+        }
+      ],
+      "correctChoiceIds": [
+        "a"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e6",
+      "type": "fill_blank",
+      "conceptIds": [
+        "verb-went",
+        "verb-will-go"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "నిన్న బడికి ___",
+        "transliteration": "ninna baḍiki veḷḷānu",
+        "english": "Yesterday I went to school"
+      },
+      "answer": "వెళ్ళాను",
+      "choices": [
+        "వెళ్ళాను",
+        "వెళ్తాను",
+        "తిన్నాను"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e7",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "verb-went",
+        "verb-will-go"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "నిన్న బడికి వెళ్ళాను",
+        "transliteration": "ninna baḍiki veḷḷānu",
+        "english": "Yesterday I went to school"
+      },
+      "tiles": [
+        "నిన్న",
+        "బడికి",
+        "వెళ్ళాను"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e8",
+      "type": "fill_blank",
+      "conceptIds": [
+        "verb-went",
+        "verb-will-go"
+      ],
+      "prompt": "Complete the sentence.",
+      "sentence": {
+        "telugu": "___ వస్తాను",
+        "transliteration": "rēpu vastānu",
+        "english": "I will come tomorrow"
+      },
+      "answer": "రేపు",
+      "choices": [
+        "రేపు",
+        "వెళ్ళాను",
+        "వెళ్తాను"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e9",
+      "type": "word_tiles",
+      "direction": "to-telugu",
+      "conceptIds": [
+        "verb-went",
+        "verb-will-go"
+      ],
+      "prompt": "Build the sentence in Telugu.",
+      "source": {
+        "telugu": "రేపు వస్తాను",
+        "transliteration": "rēpu vastānu",
+        "english": "I will come tomorrow"
+      },
+      "tiles": [
+        "రేపు",
+        "వస్తాను"
+      ]
+    },
+    {
+      "id": "c11-u1-l5-e10",
+      "type": "translate",
+      "direction": "to-english",
+      "conceptIds": [
+        "verb-went"
+      ],
+      "prompt": "Translate to English.",
+      "source": {
+        "telugu": "వెళ్ళాను",
+        "transliteration": "veḷḷānu"
+      },
+      "acceptedAnswers": [
+        "I went"
+      ]
+    }
+  ],
+  "author": "seed-content",
+  "updatedAt": "2026-07-02",
+  "grammarNotes": [
+    {
+      "id": "c11-u1-l5-g1",
+      "title": "Past and future live in the verb ending",
+      "body": "వెళ్తాను = I will go. వెళ్ళాను = I went. తింటాను = I will eat. తిన్నాను = I ate. Same verb, different tail — pair them with నిన్న (yesterday) and రేపు (tomorrow) and you can tell time-travel stories."
+    }
+  ]
+}
