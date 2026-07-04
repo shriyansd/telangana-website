@@ -479,8 +479,35 @@ footer {
   .festivals { grid-template-columns: 1fr 1fr; }
   .gallery-grid { grid-template-columns: 1fr 1fr; }
 }
+.nav-open, .nav-toggle { display: none; }
 @media (max-width: 600px) {
-  .nav-links, .nav-cta { display: none; }
+  nav { padding: 0 1.25rem; }
+  .nav-cta { display: none; }
+  .nav-toggle {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--saffron);
+    cursor: pointer;
+    padding: 6px 10px;
+    user-select: none;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+    background: rgba(253,246,235,0.98);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem 0 1.1rem;
+    gap: 0.25rem;
+  }
+  .nav-links a { font-size: 0.85rem; padding: 0.6rem 1rem; }
+  .nav-open:checked ~ .nav-links { display: flex; }
   .pillars { grid-template-columns: 1fr; }
   .hero-stats { flex-direction: column; }
   .hstat { border-right: none; border-bottom: 1px solid var(--border); }

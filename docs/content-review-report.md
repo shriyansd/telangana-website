@@ -1,6 +1,6 @@
 # Content review report — for native Telugu speakers
 
-**87 lessons · 683 unique Telugu strings awaiting review.**
+**87 lessons · 706 unique Telugu strings awaiting review.**
 
 Every lesson below is **unreviewed draft**. For each row: confirm or correct
 the Telugu, note formality/regional issues, and initial the Reviewed column.
@@ -1295,6 +1295,19 @@ Telangana/colloquial variants are welcome — label them, never "fix" them.
 | కన్ను | kannu |  | standard | |
 | చెయ్యి | cheyyi |  | standard | |
 
+## story: story-anil-school — Anil's School Morning (draft)
+
+| Telugu | Transliteration | English | Formality/Region | Reviewed |
+|--------|-----------------|---------|------------------|----------|
+| ఉదయం అయింది. | udayam ayindi. | It is morning. | standard | |
+| శుభోదయం! లే, నాన్నా! | śubhōdayam! lē, nānnā! | Good morning! Get up, dear! | standard | |
+| అమ్మా, ఈరోజు ఏమి వారం? | ammā, īrōju ēmi vāram? | Mom, what day is it today? | standard | |
+| ఈరోజు సోమవారం. బడి ఉంది! | īrōju sōmavāram. baḍi undi! | Today is Monday. There's school! | standard | |
+| అయ్యో! నా పుస్తకం ఎక్కడ? | ayyō! nā pustakam ekkaḍa? | Oh no! Where is my book? | standard | |
+| మంచం మీద ఉంది. ముందు తినండి. | mancham mīda undi. mundu tinaṇḍi. | It's on the bed. First, eat. | standard | |
+| సరే. నేను బడికి వెళ్తున్నాను! వెళ్ళొస్తాను! | sarē. nēnu baḍiki veḷtunnānu! veḷḷostānu! | Okay. I'm going to school! Bye! | standard | |
+| వెళ్ళిరా నాన్నా! | veḷḷirā nānnā! | Go and come back, dear! | standard | |
+
 ## story: story-ramu-mango — Ramu and the Mango (draft)
 
 | Telugu | Transliteration | English | Formality/Region | Reviewed |
@@ -1306,4 +1319,29 @@ Telangana/colloquial variants are welcome — label them, never "fix" them.
 | మామిడిపండు! మన చెట్టుది. | māmiḍipaṇḍu! mana cheṭṭudi. | A mango! From our own tree. | standard | |
 | చాలా తియ్యగా ఉంది! ఇంకా ఒకటి ఇవ్వండి! | chālā tiyyagā undi! inkā okaṭi ivvaṇḍi! | It's so sweet! Please give me one more! | standard | |
 | సరే సరే. ముందు అన్నం, తరువాత పండు! | sarē sarē. mundu annam, taruvāta paṇḍu! | Okay, okay. First food, then fruit! | standard | |
+
+## story: story-ravi-rain — Ravi and the Rain (draft)
+
+| Telugu | Transliteration | English | Formality/Region | Reviewed |
+|--------|-----------------|---------|------------------|----------|
+| ఈరోజు వాన వస్తుంది. | īrōju vāna vastundi. | Today it is raining. | standard | |
+| అమ్మా, చూడు! వాన! | ammā, chūḍu! vāna! | Mom, look! Rain! | standard | |
+| అవును నాన్నా. ఈరోజు బయటికి వద్దు. | avunu nānnā. īrōju bayaṭiki vaddu. | Yes, dear. No going outside today. | standard | |
+| సరే. టీ ఉందా? | sarē. ṭī undā? | Okay. Is there tea? | standard | |
+| టీ లేదు. పాలు తాగు. | ṭī lēdu. pālu tāgu. | There's no tea. Drink milk. | standard | |
+| సరే! నేను పాలు తాగుతున్నాను. | sarē! nēnu pālu tāgutunnānu. | Okay! I am drinking milk. | standard | |
+| బయట వాన. లోపల పాలు. అంతా బాగుంది. | bayaṭa vāna. lōpala pālu. antā bāgundi. | Rain outside. Milk inside. All is well. | standard | |
+
+## story: story-sita-market — Sita at the Market (draft)
+
+| Telugu | Transliteration | English | Formality/Region | Reviewed |
+|--------|-----------------|---------|------------------|----------|
+| ఈరోజు ఆదివారం. సీత సంతకి వెళ్తుంది. | īrōju ādivāram. Sīta santaki veḷtundi. | Today is Sunday. Sita goes to the market. | standard | |
+| నమస్కారం! | namaskāram! | Hello! | standard | |
+| రండి రండి! ఏమి కావాలి? | raṇḍi raṇḍi! ēmi kāvāli? | Come, come! What would you like? | standard | |
+| నాకు పండ్లు కావాలి. | nāku paṇḍlu kāvāli. | I want some fruit. | standard | |
+| ఎన్ని కావాలి? | enni kāvāli? | How many do you want? | standard | |
+| నాలుగు ఇవ్వండి. | nālugu ivvaṇḍi. | Please give me four. | standard | |
+| ఇదిగో. నాలుగు పండ్లు. | idigō. nālugu paṇḍlu. | Here you go. Four fruits. | standard | |
+| ధన్యవాదాలు! వెళ్ళొస్తాను! | dhanyavādālu! veḷḷostānu! | Thank you! Goodbye! | standard | |
 

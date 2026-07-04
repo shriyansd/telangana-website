@@ -1,0 +1,70 @@
+{
+  "id": "story-ravi-rain",
+  "title": "Ravi and the Rain",
+  "teluguTitle": "రవి - వాన",
+  "status": "draft",
+  "description": "It's raining, there's no tea, and milk saves the day — a cozy story about staying in.",
+  "vocabPreview": [
+    { "id": "story-chudu", "telugu": "చూడు", "transliteration": "chūḍu", "english": "look!" },
+    { "id": "story-bayata", "telugu": "బయట", "transliteration": "bayaṭa", "english": "outside" },
+    { "id": "story-lopala", "telugu": "లోపల", "transliteration": "lōpala", "english": "inside" }
+  ],
+  "lines": [
+    { "speaker": "కథ", "line": { "telugu": "ఈరోజు వాన వస్తుంది.", "transliteration": "īrōju vāna vastundi.", "english": "Today it is raining.", "audio": { "normal": "audio/stories/ravi-rain/line-1.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "రవి", "line": { "telugu": "అమ్మా, చూడు! వాన!", "transliteration": "ammā, chūḍu! vāna!", "english": "Mom, look! Rain!", "audio": { "normal": "audio/stories/ravi-rain/line-2.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "అవును నాన్నా. ఈరోజు బయటికి వద్దు.", "transliteration": "avunu nānnā. īrōju bayaṭiki vaddu.", "english": "Yes, dear. No going outside today.", "audio": { "normal": "audio/stories/ravi-rain/line-3.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "రవి", "line": { "telugu": "సరే. టీ ఉందా?", "transliteration": "sarē. ṭī undā?", "english": "Okay. Is there tea?", "audio": { "normal": "audio/stories/ravi-rain/line-4.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "టీ లేదు. పాలు తాగు.", "transliteration": "ṭī lēdu. pālu tāgu.", "english": "There's no tea. Drink milk.", "audio": { "normal": "audio/stories/ravi-rain/line-5.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "రవి", "line": { "telugu": "సరే! నేను పాలు తాగుతున్నాను.", "transliteration": "sarē! nēnu pālu tāgutunnānu.", "english": "Okay! I am drinking milk.", "audio": { "normal": "audio/stories/ravi-rain/line-6.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "కథ", "line": { "telugu": "బయట వాన. లోపల పాలు. అంతా బాగుంది.", "transliteration": "bayaṭa vāna. lōpala pālu. antā bāgundi.", "english": "Rain outside. Milk inside. All is well.", "audio": { "normal": "audio/stories/ravi-rain/line-7.mp3", "reviewStatus": "draft" } } }
+  ],
+  "checkpoints": [
+    {
+      "afterLine": 1,
+      "exercise": {
+        "id": "story-rain-cp1",
+        "type": "story_checkpoint",
+        "conceptIds": ["nature-rain"],
+        "prompt": "What is the weather like today?",
+        "question": { "telugu": "ఈరోజు వాన వస్తుంది.", "transliteration": "īrōju vāna vastundi." },
+        "choices": [
+          { "id": "a", "english": "It's raining" },
+          { "id": "b", "english": "It's sunny", "whyWrong": "వాన means rain — the story starts with rain coming down." },
+          { "id": "c", "english": "It's night" }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    },
+    {
+      "afterLine": 3,
+      "exercise": {
+        "id": "story-rain-cp2",
+        "type": "story_checkpoint",
+        "conceptIds": ["want-vaddu"],
+        "prompt": "Can Ravi go outside today?",
+        "question": { "telugu": "ఈరోజు బయటికి వద్దు." },
+        "choices": [
+          { "id": "a", "english": "No — Mom says not to" },
+          { "id": "b", "english": "Yes — Mom says go ahead", "whyWrong": "వద్దు is a gentle \"no / don't\" — she's keeping him in from the rain." }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    },
+    {
+      "afterLine": 6,
+      "exercise": {
+        "id": "story-rain-cp3",
+        "type": "story_checkpoint",
+        "conceptIds": ["word-milk"],
+        "prompt": "What is Ravi drinking?",
+        "question": { "telugu": "నేను పాలు తాగుతున్నాను.", "transliteration": "nēnu pālu tāgutunnānu." },
+        "choices": [
+          { "id": "a", "telugu": "పాలు", "english": "milk" },
+          { "id": "b", "telugu": "టీ", "english": "tea", "whyWrong": "He asked for tea, but టీ లేదు — there wasn't any, so it's milk." },
+          { "id": "c", "telugu": "నీళ్లు", "english": "water" }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "story-anil-school",
+  "title": "Anil's School Morning",
+  "teluguTitle": "అనిల్ - బడి",
+  "status": "draft",
+  "description": "A Monday-morning scramble: good morning, a missing book, and off to school.",
+  "vocabPreview": [
+    { "id": "story-badi", "telugu": "బడి", "transliteration": "baḍi", "english": "school" },
+    { "id": "story-le", "telugu": "లే", "transliteration": "lē", "english": "get up!" },
+    { "id": "story-ayyo", "telugu": "అయ్యో", "transliteration": "ayyō", "english": "oh no!" }
+  ],
+  "lines": [
+    { "speaker": "కథ", "line": { "telugu": "ఉదయం అయింది.", "transliteration": "udayam ayindi.", "english": "It is morning.", "audio": { "normal": "audio/stories/anil-school/line-1.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "శుభోదయం! లే, నాన్నా!", "transliteration": "śubhōdayam! lē, nānnā!", "english": "Good morning! Get up, dear!", "audio": { "normal": "audio/stories/anil-school/line-2.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అనిల్", "line": { "telugu": "అమ్మా, ఈరోజు ఏమి వారం?", "transliteration": "ammā, īrōju ēmi vāram?", "english": "Mom, what day is it today?", "audio": { "normal": "audio/stories/anil-school/line-3.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "ఈరోజు సోమవారం. బడి ఉంది!", "transliteration": "īrōju sōmavāram. baḍi undi!", "english": "Today is Monday. There's school!", "audio": { "normal": "audio/stories/anil-school/line-4.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అనిల్", "line": { "telugu": "అయ్యో! నా పుస్తకం ఎక్కడ?", "transliteration": "ayyō! nā pustakam ekkaḍa?", "english": "Oh no! Where is my book?", "audio": { "normal": "audio/stories/anil-school/line-5.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "మంచం మీద ఉంది. ముందు తినండి.", "transliteration": "mancham mīda undi. mundu tinaṇḍi.", "english": "It's on the bed. First, eat.", "audio": { "normal": "audio/stories/anil-school/line-6.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అనిల్", "line": { "telugu": "సరే. నేను బడికి వెళ్తున్నాను! వెళ్ళొస్తాను!", "transliteration": "sarē. nēnu baḍiki veḷtunnānu! veḷḷostānu!", "english": "Okay. I'm going to school! Bye!", "audio": { "normal": "audio/stories/anil-school/line-7.mp3", "reviewStatus": "draft" } } },
+    { "speaker": "అమ్మ", "line": { "telugu": "వెళ్ళిరా నాన్నా!", "transliteration": "veḷḷirā nānnā!", "english": "Go and come back, dear!", "audio": { "normal": "audio/stories/anil-school/line-8.mp3", "reviewStatus": "draft" } } }
+  ],
+  "checkpoints": [
+    {
+      "afterLine": 3,
+      "exercise": {
+        "id": "story-school-cp1",
+        "type": "story_checkpoint",
+        "conceptIds": ["day-mon"],
+        "prompt": "What day is it?",
+        "question": { "telugu": "ఈరోజు సోమవారం.", "transliteration": "īrōju sōmavāram." },
+        "choices": [
+          { "id": "a", "telugu": "సోమవారం", "english": "Monday" },
+          { "id": "b", "telugu": "ఆదివారం", "english": "Sunday", "whyWrong": "ఆదివారం is Sunday — no school then! Today is సోమవారం, Monday." },
+          { "id": "c", "telugu": "శుక్రవారం", "english": "Friday" }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    },
+    {
+      "afterLine": 4,
+      "exercise": {
+        "id": "story-school-cp2",
+        "type": "story_checkpoint",
+        "conceptIds": ["word-book", "q-where"],
+        "prompt": "What is Anil looking for?",
+        "question": { "telugu": "నా పుస్తకం ఎక్కడ?", "transliteration": "nā pustakam ekkaḍa?" },
+        "choices": [
+          { "id": "a", "telugu": "పుస్తకం", "english": "his book" },
+          { "id": "b", "telugu": "అన్నం", "english": "his food", "whyWrong": "పుస్తకం is book — the food comes next, when Mom says ముందు తినండి." },
+          { "id": "c", "telugu": "మంచం", "english": "his bed" }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    },
+    {
+      "afterLine": 6,
+      "exercise": {
+        "id": "story-school-cp3",
+        "type": "story_checkpoint",
+        "conceptIds": ["sent-school-go"],
+        "prompt": "Where is Anil going?",
+        "question": { "telugu": "నేను బడికి వెళ్తున్నాను!", "transliteration": "nēnu baḍiki veḷtunnānu!" },
+        "choices": [
+          { "id": "a", "english": "To school" },
+          { "id": "b", "english": "To the market", "whyWrong": "బడి is school — బడికి means \"to school.\"" },
+          { "id": "c", "english": "Back to bed" }
+        ],
+        "correctChoiceIds": ["a"]
+      }
+    }
+  ]
+}

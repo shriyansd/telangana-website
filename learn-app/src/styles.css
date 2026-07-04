@@ -67,7 +67,8 @@ body {
 }
 [lang='te'] { font-family: var(--font-telugu); }
 
-button { font-family: inherit; font-size: inherit; cursor: pointer; }
+/* color must be explicit: the UA default is black, which vanishes on dark-theme surfaces */
+button { font-family: inherit; font-size: inherit; cursor: pointer; color: var(--text); }
 button:disabled { cursor: default; }
 a { color: var(--teal); }
 
