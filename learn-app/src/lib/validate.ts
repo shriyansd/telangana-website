@@ -25,7 +25,7 @@ export function validateExercise(ex: Exercise, where: string, knownConcepts?: Se
 
   if (!ex.id) err('Exercise is missing an id.');
   if (!EXERCISE_TYPES.has(ex.type)) err(`Unknown exercise type "${ex.type}".`);
-  if (!Array.isArray(ex.conceptIds) || ex.conceptIds.length === 0) warn('Exercise has no conceptIds — it will not affect mastery.');
+  if (!Array.isArray(ex.conceptIds) || ex.conceptIds.length === 0) warn('Exercise has no conceptIds: it will not affect mastery.');
   if (knownConcepts) {
     for (const c of ex.conceptIds ?? []) {
       if (!knownConcepts.has(c)) err(`Unknown concept id "${c}".`);
@@ -80,7 +80,7 @@ export function validateLesson(lesson: Lesson, knownConcepts?: Set<string>): Val
 
   const newLimit = lesson.newConceptLimit ?? 4;
   if ((lesson.conceptIds?.length ?? 0) > newLimit + 4) {
-    warn(`Lesson introduces ${lesson.conceptIds.length} concepts — consider splitting (soft limit ${newLimit}).`);
+    warn(`Lesson introduces ${lesson.conceptIds.length} concepts: consider splitting (soft limit ${newLimit}).`);
   }
   return issues;
 }

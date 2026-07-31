@@ -46,12 +46,12 @@
         {
           "id": "b",
           "telugu": "ని",
-          "whyWrong": "ని is “ni” — that uses the sign ి."
+          "whyWrong": "ని is “ni”: that uses the sign ి."
         },
         {
           "id": "c",
           "telugu": "తో",
-          "whyWrong": "తో is “tō” — that uses the sign ో."
+          "whyWrong": "తో is “tō”: that uses the sign ో."
         }
       ],
       "correctChoiceIds": [
@@ -110,12 +110,12 @@
         {
           "id": "b",
           "telugu": "తో",
-          "whyWrong": "తో is “tō” — that uses the sign ో."
+          "whyWrong": "తో is “tō”: that uses the sign ో."
         },
         {
           "id": "c",
           "telugu": "రు",
-          "whyWrong": "రు is “ru” — that uses the sign ు."
+          "whyWrong": "రు is “ru”: that uses the sign ు."
         }
       ],
       "correctChoiceIds": [
@@ -174,12 +174,12 @@
         {
           "id": "b",
           "telugu": "రు",
-          "whyWrong": "రు is “ru” — that uses the sign ు."
+          "whyWrong": "రు is “ru”: that uses the sign ు."
         },
         {
           "id": "c",
           "telugu": "లే",
-          "whyWrong": "లే is “lē” — that uses the sign ే."
+          "whyWrong": "లే is “lē”: that uses the sign ే."
         }
       ],
       "correctChoiceIds": [
@@ -207,12 +207,12 @@
         {
           "id": "b",
           "telugu": "లే",
-          "whyWrong": "లే is “lē” — that uses the sign ే."
+          "whyWrong": "లే is “lē”: that uses the sign ే."
         },
         {
           "id": "c",
           "telugu": "పూ",
-          "whyWrong": "పూ is “pū” — that uses the sign ూ."
+          "whyWrong": "పూ is “pū”: that uses the sign ూ."
         }
       ],
       "correctChoiceIds": [
@@ -271,12 +271,12 @@
         {
           "id": "b",
           "telugu": "పూ",
-          "whyWrong": "పూ is “pū” — that uses the sign ూ."
+          "whyWrong": "పూ is “pū”: that uses the sign ూ."
         },
         {
           "id": "c",
           "telugu": "మా",
-          "whyWrong": "మా is “mā” — that uses the sign ా."
+          "whyWrong": "మా is “mā”: that uses the sign ా."
         }
       ],
       "correctChoiceIds": [
@@ -335,12 +335,12 @@
         {
           "id": "b",
           "telugu": "మా",
-          "whyWrong": "మా is “mā” — that uses the sign ా."
+          "whyWrong": "మా is “mā”: that uses the sign ా."
         },
         {
           "id": "c",
           "telugu": "ని",
-          "whyWrong": "ని is “ni” — that uses the sign ి."
+          "whyWrong": "ని is “ni”: that uses the sign ి."
         }
       ],
       "correctChoiceIds": [
@@ -498,7 +498,7 @@
         "script-gun-syl-lee",
         "script-gun-syl-puu"
       ],
-      "prompt": "And the rest — match syllable to sound.",
+      "prompt": "And the rest: match syllable to sound.",
       "pairs": [
         {
           "a": {

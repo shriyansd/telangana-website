@@ -39,7 +39,7 @@ export function Stories() {
             </div>
           </Link>
         ))}
-        {stories.length === 0 && <p>No stories available yet — check back soon!</p>}
+        {stories.length === 0 && <p>No stories available yet. Check back soon!</p>}
       </div>
     </div>
   );

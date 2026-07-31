@@ -37,7 +37,7 @@
       "conceptIds": [
         "want-kavali"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కావాలి",
         "transliteration": "kāvāli"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "word-rice-food"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అన్నం",
         "transliteration": "annam"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "food-kura"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కూర",
         "transliteration": "kūra"
@@ -244,7 +244,7 @@
         "word-water",
         "word-rice-food"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

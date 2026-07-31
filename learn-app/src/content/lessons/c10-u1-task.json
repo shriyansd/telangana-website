@@ -4,7 +4,7 @@
   "unitId": "c10-u1",
   "title": "Show What You Can Do: The House Tour",
   "teluguTitle": "ఇల్లు చూపిద్దాం",
-  "description": "A young cousin visits for the first time — point things out and answer their questions.",
+  "description": "A young cousin visits for the first time: point things out and answer their questions.",
   "estimatedMinutes": 5,
   "status": "draft",
   "difficulty": "beginner",
@@ -26,7 +26,7 @@
       "responseMode": "tiles",
       "tiles": ["ఇది", "నా", "గది"],
       "acceptedAnswers": ["ఇది నా గది"],
-      "feedback": { "grammar": "ఇది నా గది — this (is) my room. No “is” needed." }
+      "feedback": { "grammar": "ఇది నా గది: this (is) my room. No “is” needed." }
     },
     {
       "id": "c10u1t-e2",
@@ -40,8 +40,8 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "అది తలుపు", "transliteration": "adi talupu", "english": "That is a door" },
-        { "id": "b", "telugu": "ఇది తలుపు", "transliteration": "idi talupu", "whyWrong": "ఇది is for things near YOU — they pointed across the hall, so అది." },
-        { "id": "c", "telugu": "అది తెలుపు", "transliteration": "adi telupu", "whyWrong": "తెలుపు is the color white — తలుపు is the door. One vowel apart!" }
+        { "id": "b", "telugu": "ఇది తలుపు", "transliteration": "idi talupu", "whyWrong": "ఇది is for things near YOU: they pointed across the hall, so అది." },
+        { "id": "c", "telugu": "అది తెలుపు", "transliteration": "adi telupu", "whyWrong": "తెలుపు is the color white: తలుపు is the door. One vowel apart!" }
       ],
       "correctChoiceIds": ["a"]
     },

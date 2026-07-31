@@ -37,7 +37,7 @@
       "conceptIds": [
         "animal-dog"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కుక్క",
         "transliteration": "kukka"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "animal-bird"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "పక్షి",
         "transliteration": "pakṣi"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "body-eye"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కన్ను",
         "transliteration": "kannu"
@@ -244,7 +244,7 @@
         "animal-cow",
         "animal-bird"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

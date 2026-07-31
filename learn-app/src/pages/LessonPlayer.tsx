@@ -5,11 +5,11 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, navigate } from '../router';
 import { useApp } from '../AppContext';
 import { loadLesson, loadAllLessons, findLessonMeta, conceptById } from '../content';
-import type { Exercise, Lesson, Unit } from '../types/content';
+import type { Exercise, Lesson, TeluguString, Unit } from '../types/content';
 import { buildLessonSession, requeueMissed, planReview, exercisesForConcepts } from '../lib/session';
 import { masteryLabel } from '../lib/srs';
 import { ExerciseHost, ExerciseOutcome } from '../components/exercises/ExerciseHost';
-import { ProgressBar } from '../components/ui';
+import { ProgressBar, TeluguText } from '../components/ui';
 import { recordExerciseOutcome, recordSessionComplete, recordSpeakingRecording } from '../lib/progress-service';
 import { getLessonProgress, saveLessonProgress, getAllMastery, getMastery } from '../lib/storage';
 import { stopAudio } from '../lib/audio';
@@ -30,7 +30,7 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
   const [badgesNew, setBadgesNew] = useState<string[]>([]);
   const [summary, setSummary] = useState<{
     unit: Unit | null;
-    practiced: { telugu: string; english: string; label: string }[];
+    practiced: { telugu: string; english: string; label: string; example?: TeluguString }[];
     needsReview: string[];
   } | null>(null);
   const [confirmExit, setConfirmExit] = useState(false);
@@ -111,12 +111,12 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
     try {
       const meta = findLessonMeta(lesson.id);
       const unit = meta ? meta.course.units.find((u) => u.id === meta.unitId) ?? null : null;
-      const practiced: { telugu: string; english: string; label: string }[] = [];
+      const practiced: { telugu: string; english: string; label: string; example?: TeluguString }[] = [];
       for (const cid of lesson.conceptIds.slice(0, 8)) {
         const c = conceptById.get(cid);
         if (!c) continue;
         const m = await getMastery(cid);
-        practiced.push({ telugu: c.telugu, english: c.english, label: m ? masteryLabel(m.masteryScore) : 'new' });
+        practiced.push({ telugu: c.telugu, english: c.english, label: m ? masteryLabel(m.masteryScore) : 'new', example: c.example });
       }
       const needsReview: string[] = [];
       for (const exId of missedIds.current) {
@@ -191,7 +191,7 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
           </aside>
         ))}
         <button type="button" className="btn-primary big" onClick={() => setPhase('playing')} autoFocus>
-          Got it — let's practice →
+          Got it, let's practice →
         </button>
       </div>
     );
@@ -223,6 +223,11 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
                 <li key={p.telugu}>
                   <span lang="te">{p.telugu}</span> <span className="sc-en">{p.english}</span>
                   <span className={`mastery-chip m-${p.label}`}>{p.label}</span>
+                  {p.example && (
+                    <div className="word-example">
+                      <TeluguText value={p.example} mode={translitMode} showEnglish size="sm" />
+                    </div>
+                  )}
                 </li>
               ))}
             </ul>
@@ -230,7 +235,7 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
         )}
         {summary && summary.needsReview.length > 0 && (
           <p className="summary-note">
-            Worth another look soon: <span lang="te">{summary.needsReview.join(' · ')}</span> — these will come back in your reviews.
+            Worth another look soon: <span lang="te">{summary.needsReview.join(' · ')}</span>, these will come back in your reviews.
           </p>
         )}
         {wrong > 0 && (!summary || summary.needsReview.length === 0) && <p className="summary-note">Missed items were re-practiced and will return in your reviews at just the right time.</p>}
@@ -247,7 +252,7 @@ export function LessonPlayer({ lessonId }: { lessonId: string }) {
         ))}
         {lesson.status !== 'published' && (
           <p className="draft-note">
-            ⚠️ This lesson's Telugu is <strong>{lesson.status}</strong> — awaiting native-speaker review.
+            ⚠️ This lesson's Telugu is <strong>{lesson.status}</strong>: awaiting native-speaker review.
             Spot an issue? <ReportLink lesson={lesson} />
           </p>
         )}

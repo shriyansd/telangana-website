@@ -7,6 +7,7 @@ const TABS: { key: string; to: string; label: string; icon: string }[] = [
   { key: 'review', to: 'review', label: 'Review', icon: '🔁' },
   { key: 'script', to: 'script', label: 'Script', icon: 'అ' },
   { key: 'stories', to: 'stories', label: 'Stories', icon: '📖' },
+  { key: 'live', to: 'live', label: 'Live', icon: '🎥' },
   { key: 'settings', to: 'settings', label: 'You', icon: '⚙️' },
 ];
 

@@ -33,7 +33,7 @@
       "id": "c1l4-e3",
       "type": "speaking",
       "conceptIds": ["i-am-fine"],
-      "prompt": "Say “I am fine.” Long ā in bāgunnānu — let it breathe.",
+      "prompt": "Say “I am fine.” Long ā in bāgunnānu: let it breathe.",
       "model": { "telugu": "నేను బాగున్నాను", "transliteration": "nēnu bāgunnānu", "english": "I am fine" },
       "audio": { "normal": "audio/course-1/c1-u1/nenu-bagunnanu-normal.mp3", "reviewStatus": "draft" }
     }

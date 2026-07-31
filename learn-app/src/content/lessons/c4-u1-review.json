@@ -36,7 +36,7 @@
       "conceptIds": [
         "day-mon"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "సోమవారం",
         "transliteration": "sōmavāram"
@@ -109,7 +109,7 @@
       "conceptIds": [
         "day-thu"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "గురువారం",
         "transliteration": "guruvāram"
@@ -182,7 +182,7 @@
       "conceptIds": [
         "day-sun"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఆదివారం",
         "transliteration": "ādivāram"
@@ -243,7 +243,7 @@
         "day-wed",
         "day-thu"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

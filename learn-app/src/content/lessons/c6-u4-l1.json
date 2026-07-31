@@ -45,12 +45,12 @@
         {
           "id": "b",
           "telugu": "కి",
-          "whyWrong": "కి is “ki” — that uses the sign ి."
+          "whyWrong": "కి is “ki”: that uses the sign ి."
         },
         {
           "id": "c",
           "telugu": "కీ",
-          "whyWrong": "కీ is “kī” — that uses the sign ీ."
+          "whyWrong": "కీ is “kī”: that uses the sign ీ."
         }
       ],
       "correctChoiceIds": [
@@ -109,12 +109,12 @@
         {
           "id": "b",
           "telugu": "కీ",
-          "whyWrong": "కీ is “kī” — that uses the sign ీ."
+          "whyWrong": "కీ is “kī”: that uses the sign ీ."
         },
         {
           "id": "c",
           "telugu": "కు",
-          "whyWrong": "కు is “ku” — that uses the sign ు."
+          "whyWrong": "కు is “ku”: that uses the sign ు."
         }
       ],
       "correctChoiceIds": [
@@ -173,12 +173,12 @@
         {
           "id": "b",
           "telugu": "కు",
-          "whyWrong": "కు is “ku” — that uses the sign ు."
+          "whyWrong": "కు is “ku”: that uses the sign ు."
         },
         {
           "id": "c",
           "telugu": "కూ",
-          "whyWrong": "కూ is “kū” — that uses the sign ూ."
+          "whyWrong": "కూ is “kū”: that uses the sign ూ."
         }
       ],
       "correctChoiceIds": [
@@ -206,12 +206,12 @@
         {
           "id": "b",
           "telugu": "కూ",
-          "whyWrong": "కూ is “kū” — that uses the sign ూ."
+          "whyWrong": "కూ is “kū”: that uses the sign ూ."
         },
         {
           "id": "c",
           "telugu": "కా",
-          "whyWrong": "కా is “kā” — that uses the sign ా."
+          "whyWrong": "కా is “kā”: that uses the sign ా."
         }
       ],
       "correctChoiceIds": [
@@ -270,12 +270,12 @@
         {
           "id": "b",
           "telugu": "కా",
-          "whyWrong": "కా is “kā” — that uses the sign ా."
+          "whyWrong": "కా is “kā”: that uses the sign ా."
         },
         {
           "id": "c",
           "telugu": "కి",
-          "whyWrong": "కి is “ki” — that uses the sign ి."
+          "whyWrong": "కి is “ki”: that uses the sign ి."
         }
       ],
       "correctChoiceIds": [

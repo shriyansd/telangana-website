@@ -37,7 +37,7 @@
       "conceptIds": [
         "fam-amma"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అమ్మ",
         "transliteration": "amma"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "fam-anna"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అన్న",
         "transliteration": "anna"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "word-water"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నీళ్లు",
         "transliteration": "nīḷḷu"
@@ -244,7 +244,7 @@
         "fam-akka",
         "fam-anna"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

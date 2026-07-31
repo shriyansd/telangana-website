@@ -2,7 +2,7 @@
   "id": "c6-u3-l4",
   "courseId": "course-6",
   "unitId": "c6-u3",
-  "title": "త థ ద ధ న — the soft t sounds",
+  "title": "త థ ద ధ న, the soft t sounds",
   "teluguTitle": "త వర్గం",
   "description": "Dental sounds: the tongue touches the teeth. Compare with the ట row!",
   "estimatedMinutes": 10,
@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-ta"
       ],
-      "prompt": "This is త — it says “ta” (soft t — tongue on the teeth). Which one is త?",
+      "prompt": "This is త (it says “ta” (soft t) tongue on the teeth). Which one is త?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-tha"
       ],
-      "prompt": "This is థ — it says “tha” (ta with a puff of breath — rare). Which one is థ?",
+      "prompt": "This is థ, it says “tha” (ta with a puff of breath, rare). Which one is థ?",
       "choices": [
         {
           "id": "a",
@@ -149,7 +149,7 @@
       "conceptIds": [
         "script-da"
       ],
-      "prompt": "This is ద — it says “da” (soft d). Which one is ద?",
+      "prompt": "This is ద: it says “da” (soft d). Which one is ద?",
       "choices": [
         {
           "id": "a",
@@ -207,7 +207,7 @@
       "conceptIds": [
         "script-dha"
       ],
-      "prompt": "This is ధ — it says “dha” (da with a puff of breath). Which one is ధ?",
+      "prompt": "This is ధ: it says “dha” (da with a puff of breath). Which one is ధ?",
       "choices": [
         {
           "id": "a",
@@ -297,7 +297,7 @@
       "conceptIds": [
         "script-na"
       ],
-      "prompt": "This is న — it says “na”. Which one is న?",
+      "prompt": "This is న: it says “na”. Which one is న?",
       "choices": [
         {
           "id": "a",

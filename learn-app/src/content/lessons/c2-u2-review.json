@@ -36,7 +36,7 @@
       "conceptIds": [
         "house-illu"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఇల్లు",
         "transliteration": "illu"
@@ -109,7 +109,7 @@
       "conceptIds": [
         "house-kitiki"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కిటికీ",
         "transliteration": "kiṭikī"
@@ -182,7 +182,7 @@
       "conceptIds": [
         "color-green"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "పచ్చ",
         "transliteration": "pachcha"
@@ -243,7 +243,7 @@
         "house-talupu",
         "house-kitiki"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

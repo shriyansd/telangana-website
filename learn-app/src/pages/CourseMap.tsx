@@ -134,7 +134,7 @@ export function CourseMap() {
                             <span className="mc-lesson-min">
                               {lesson.estimatedMinutes} min
                               {lesson.status !== 'published' && (
-                                <i className="mc-draft" title="Awaiting native-speaker review" aria-label="draft — awaiting native-speaker review" />
+                                <i className="mc-draft" title="Awaiting native-speaker review" aria-label="draft: awaiting native-speaker review" />
                               )}
                             </span>
                           </Link>

@@ -1,0 +1,841 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telugu Bata — stroke-order review</title>
+<style>
+  :root { --ink:#251208; --muted:#6B4630; --saffron:#D95F0A; --teal:#006E6D; --cream:#FDF6EB; --card:#fff; --border:rgba(217,95,10,.2); }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'DM Sans',system-ui,sans-serif; background:var(--cream); color:var(--ink); line-height:1.5; }
+  header { padding:1.25rem 1rem; max-width:1100px; margin:0 auto; }
+  h1 { margin:.2rem 0; }
+  .lead { color:var(--muted); max-width:60ch; }
+  .lead b { color:var(--ink); }
+  .toolbar { position:sticky; top:0; z-index:5; background:var(--cream); border-bottom:1px solid var(--border); padding:.6rem 1rem; display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; max-width:1100px; margin:0 auto; }
+  .toolbar button { border:1.5px solid var(--teal); color:var(--teal); background:none; border-radius:10px; padding:.45rem .9rem; font:inherit; cursor:pointer; }
+  .count { color:var(--muted); font-size:.9rem; }
+  h2 { max-width:1100px; margin:1.5rem auto .5rem; padding:0 1rem; }
+  .grid { max-width:1100px; margin:0 auto; padding:0 1rem 3rem; display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:.75rem; }
+  .card.flagged { border-color:var(--saffron); box-shadow:0 0 0 2px rgba(217,95,10,.15); }
+  .card.done { opacity:.6; }
+  svg { width:100%; aspect-ratio:1; background:var(--cream); border-radius:10px; display:block; }
+  .glyph { font-size:72px; font-family:'Noto Sans Telugu','Nirmala UI','Gautami',sans-serif; fill:var(--ink); opacity:.14; }
+  .sp { fill:none; stroke:var(--teal); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+  .sp.draw { stroke:var(--saffron); }
+  .arrow { fill:none; stroke:var(--saffron); stroke-width:1.6; stroke-linecap:round; }
+  .num { font-size:7px; font-weight:700; fill:var(--saffron); }
+  .dot { fill:var(--saffron); }
+  figcaption { margin:.5rem 0 .35rem; }
+  figcaption b { font-size:1.4rem; font-family:'Noto Sans Telugu','Nirmala UI',sans-serif; }
+  .rom { color:var(--saffron); font-weight:700; margin-left:.35rem; }
+  .nm { color:var(--muted); font-size:.85rem; margin-left:.35rem; }
+  .cnt { display:block; color:var(--muted); font-size:.78rem; }
+  .row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; font-size:.85rem; }
+  .replay { border:1px solid var(--border); background:none; border-radius:8px; padding:.3rem .6rem; font:inherit; cursor:pointer; }
+  .flag { color:var(--saffron); }
+  .note { width:100%; margin-top:.5rem; min-height:2.2rem; border:1px solid var(--border); border-radius:8px; padding:.4rem; font:inherit; resize:vertical; display:none; }
+  .card.flagged .note { display:block; }
+</style></head>
+<body>
+<header>
+  <h1>Telugu Bata — stroke-order review</h1>
+  <p class="lead">Each letter animates in the <b>stroke order the app teaches</b>, drawn over the real font glyph (faded). Numbered arrows show where each stroke starts and which way it goes. Please check, for every letter: <b>(1)</b> the number of strokes, <b>(2)</b> the order, <b>(3)</b> the direction of each stroke, and <b>(4)</b> whether the strokes roughly match the real letter shape. Tick <b>looks right</b> or <b>⚑ wrong</b> + a note. Your ticks/notes are saved in this browser; use <b>Export notes</b> to send them back.</p>
+</header>
+<div class="toolbar">
+  <button id="replayAll" type="button">▶ Replay all</button>
+  <button id="export" type="button">⬇ Export notes</button>
+  <span class="count" id="progress"></span>
+</div>
+<h2>అచ్చులు · Vowels</h2>
+<div class="grid" id="vowels">
+  <figure class="card" data-i="0">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for అ"></svg>
+    <figcaption>
+      <b lang="te">అ</b> <span class="rom">a</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-0"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-0"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-0" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="1">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఆ"></svg>
+    <figcaption>
+      <b lang="te">ఆ</b> <span class="rom">ā</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-1"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-1"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-1" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="2">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఇ"></svg>
+    <figcaption>
+      <b lang="te">ఇ</b> <span class="rom">i</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-2"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-2"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-2" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="3">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఈ"></svg>
+    <figcaption>
+      <b lang="te">ఈ</b> <span class="rom">ī</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-3"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-3"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-3" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="4">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఉ"></svg>
+    <figcaption>
+      <b lang="te">ఉ</b> <span class="rom">u</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-4"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-4"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-4" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="5">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఊ"></svg>
+    <figcaption>
+      <b lang="te">ఊ</b> <span class="rom">ū</span>
+      
+      <span class="cnt">4 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-5"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-5"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-5" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="6">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఋ"></svg>
+    <figcaption>
+      <b lang="te">ఋ</b> <span class="rom">ru</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-6"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-6"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-6" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="7">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఎ"></svg>
+    <figcaption>
+      <b lang="te">ఎ</b> <span class="rom">e</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-7"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-7"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-7" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="8">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఏ"></svg>
+    <figcaption>
+      <b lang="te">ఏ</b> <span class="rom">ē</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-8"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-8"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-8" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="9">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఐ"></svg>
+    <figcaption>
+      <b lang="te">ఐ</b> <span class="rom">ai</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-9"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-9"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-9" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="10">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఒ"></svg>
+    <figcaption>
+      <b lang="te">ఒ</b> <span class="rom">o</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-10"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-10"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-10" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="11">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఓ"></svg>
+    <figcaption>
+      <b lang="te">ఓ</b> <span class="rom">ō</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-11"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-11"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-11" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="12">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఔ"></svg>
+    <figcaption>
+      <b lang="te">ఔ</b> <span class="rom">au</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-12"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-12"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-12" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="13">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for అం"></svg>
+    <figcaption>
+      <b lang="te">అం</b> <span class="rom">aṁ</span>
+      <span class="nm">anusvāra</span>
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-13"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-13"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-13" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="14">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for అః"></svg>
+    <figcaption>
+      <b lang="te">అః</b> <span class="rom">aḥ</span>
+      <span class="nm">visarga</span>
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-14"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-14"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-14" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="15">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for క"></svg>
+    <figcaption>
+      <b lang="te">క</b> <span class="rom">ka</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-15"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-15"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-15" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="16">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఖ"></svg>
+    <figcaption>
+      <b lang="te">ఖ</b> <span class="rom">kha</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-16"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-16"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-16" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="17">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for గ"></svg>
+    <figcaption>
+      <b lang="te">గ</b> <span class="rom">ga</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-17"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-17"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-17" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="18">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఘ"></svg>
+    <figcaption>
+      <b lang="te">ఘ</b> <span class="rom">gha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-18"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-18"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-18" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="19">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఙ"></svg>
+    <figcaption>
+      <b lang="te">ఙ</b> <span class="rom">ṅa</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-19"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-19"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-19" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="20">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for చ"></svg>
+    <figcaption>
+      <b lang="te">చ</b> <span class="rom">cha</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-20"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-20"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-20" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="21">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఛ"></svg>
+    <figcaption>
+      <b lang="te">ఛ</b> <span class="rom">chha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-21"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-21"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-21" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="22">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for జ"></svg>
+    <figcaption>
+      <b lang="te">జ</b> <span class="rom">ja</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-22"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-22"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-22" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="23">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఝ"></svg>
+    <figcaption>
+      <b lang="te">ఝ</b> <span class="rom">jha</span>
+      
+      <span class="cnt">4 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-23"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-23"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-23" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="24">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఞ"></svg>
+    <figcaption>
+      <b lang="te">ఞ</b> <span class="rom">ña</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-24"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-24"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-24" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="25">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ట"></svg>
+    <figcaption>
+      <b lang="te">ట</b> <span class="rom">ṭa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-25"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-25"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-25" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="26">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఠ"></svg>
+    <figcaption>
+      <b lang="te">ఠ</b> <span class="rom">ṭha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-26"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-26"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-26" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="27">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for డ"></svg>
+    <figcaption>
+      <b lang="te">డ</b> <span class="rom">ḍa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-27"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-27"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-27" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="28">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఢ"></svg>
+    <figcaption>
+      <b lang="te">ఢ</b> <span class="rom">ḍha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-28"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-28"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-28" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="29">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ణ"></svg>
+    <figcaption>
+      <b lang="te">ణ</b> <span class="rom">ṇa</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-29"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-29"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-29" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="30">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for త"></svg>
+    <figcaption>
+      <b lang="te">త</b> <span class="rom">ta</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-30"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-30"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-30" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="31">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for థ"></svg>
+    <figcaption>
+      <b lang="te">థ</b> <span class="rom">tha</span>
+      
+      <span class="cnt">4 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-31"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-31"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-31" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="32">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ద"></svg>
+    <figcaption>
+      <b lang="te">ద</b> <span class="rom">da</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-32"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-32"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-32" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="33">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ధ"></svg>
+    <figcaption>
+      <b lang="te">ధ</b> <span class="rom">dha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-33"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-33"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-33" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="34">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for న"></svg>
+    <figcaption>
+      <b lang="te">న</b> <span class="rom">na</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-34"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-34"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-34" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="35">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ప"></svg>
+    <figcaption>
+      <b lang="te">ప</b> <span class="rom">pa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-35"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-35"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-35" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="36">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఫ"></svg>
+    <figcaption>
+      <b lang="te">ఫ</b> <span class="rom">pha</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-36"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-36"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-36" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="37">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for బ"></svg>
+    <figcaption>
+      <b lang="te">బ</b> <span class="rom">ba</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-37"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-37"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-37" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="38">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for భ"></svg>
+    <figcaption>
+      <b lang="te">భ</b> <span class="rom">bha</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-38"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-38"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-38" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="39">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for మ"></svg>
+    <figcaption>
+      <b lang="te">మ</b> <span class="rom">ma</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-39"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-39"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-39" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="40">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for య"></svg>
+    <figcaption>
+      <b lang="te">య</b> <span class="rom">ya</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-40"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-40"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-40" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="41">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ర"></svg>
+    <figcaption>
+      <b lang="te">ర</b> <span class="rom">ra</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-41"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-41"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-41" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="42">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ల"></svg>
+    <figcaption>
+      <b lang="te">ల</b> <span class="rom">la</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-42"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-42"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-42" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="43">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for వ"></svg>
+    <figcaption>
+      <b lang="te">వ</b> <span class="rom">va</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-43"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-43"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-43" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="44">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for శ"></svg>
+    <figcaption>
+      <b lang="te">శ</b> <span class="rom">śa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-44"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-44"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-44" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="45">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ష"></svg>
+    <figcaption>
+      <b lang="te">ష</b> <span class="rom">ṣa</span>
+      
+      <span class="cnt">4 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-45"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-45"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-45" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="46">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for స"></svg>
+    <figcaption>
+      <b lang="te">స</b> <span class="rom">sa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-46"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-46"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-46" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="47">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for హ"></svg>
+    <figcaption>
+      <b lang="te">హ</b> <span class="rom">ha</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-47"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-47"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-47" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="48">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ళ"></svg>
+    <figcaption>
+      <b lang="te">ళ</b> <span class="rom">ḷa</span>
+      
+      <span class="cnt">2 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-48"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-48"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-48" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="49">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for క్ష"></svg>
+    <figcaption>
+      <b lang="te">క్ష</b> <span class="rom">kṣa</span>
+      
+      <span class="cnt">3 strokes</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-49"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-49"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-49" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure>
+  <figure class="card" data-i="50">
+    <svg viewBox="0 0 100 100" aria-label="Stroke order for ఱ"></svg>
+    <figcaption>
+      <b lang="te">ఱ</b> <span class="rom">ṟa</span>
+      
+      <span class="cnt">1 stroke</span>
+    </figcaption>
+    <div class="row">
+      <button class="replay" type="button">▶ Replay</button>
+      <label class="ok"><input type="checkbox" data-k="ok-50"> looks right</label>
+      <label class="flag"><input type="checkbox" data-k="flag-50"> ⚑ wrong</label>
+    </div>
+    <textarea class="note" data-k="note-50" placeholder="What's wrong? (stroke order, direction, shape…)"></textarea>
+  </figure></div>
+<script>
+const LETTERS = [{"telugu":"అ","roman":"a","name":"","strokes":[[[28.2,56.9],[36.4,59.1],[42.6,56.2],[43.2,51],[39.6,45.1],[32.9,44.1],[26.8,49.7],[26.2,61.7],[29,67.7],[35,73.6],[42.8,76.4],[59.8,76],[68.2,67.7],[70.2,59.5],[69.1,50.7],[62.9,44.6],[55.6,45],[51.8,51],[52.3,57.6],[57.4,61.7],[44.5,63.6]]],"group":"Vowel"},{"telugu":"ఆ","roman":"ā","name":"","strokes":[[[29.8,56.4],[35.6,58.6],[41.6,56],[42.7,51],[40.4,46.7],[31.8,45.7],[26.4,50.2],[25.1,58.8],[29.7,69.8],[41.3,76.8],[61.5,76],[70.2,71.5],[71.2,66.7],[59.2,56.7],[56.9,50.7],[59.4,46.4],[68.2,46.3],[71,52.3],[67.8,58.3],[44.8,63.9]]],"group":"Vowel"},{"telugu":"ఇ","roman":"i","name":"","strokes":[[[31.6,54.6],[32,49.7],[38.5,44],[45.7,47.9],[47.8,52.6],[49.4,47.8],[53.7,45],[63.9,45],[66.9,49.2],[67,61.3],[59.7,72.6],[46.2,76.1],[39,74.8],[33.5,67.9],[45.1,62.6],[56,63.5],[63.3,71.1],[64.9,84.3]]],"group":"Vowel"},{"telugu":"ఈ","roman":"ī","name":"","strokes":[[[38.1,45.6],[26.9,50.4],[23.1,63.7],[27.2,74.8],[40.6,77.6],[48.8,73.4],[53.2,59.9],[46.4,49.3],[35.6,45.8]],[[27.6,39.4],[36.4,44.4],[56.8,26.3]],[[18.5,58.8],[72.9,60],[77.5,62.8],[80.2,70.9],[73.6,75.7],[66.6,74.7],[63.2,66.3],[75.8,55.1],[75.5,48.1],[67.3,45.6],[64.2,47.4],[63.7,52]]],"group":"Vowel"},{"telugu":"ఉ","roman":"u","name":"","strokes":[[[61.5,49.1],[51.6,46.1],[38.2,47.8],[31.6,52.9],[27.9,60.6],[28.3,70.6],[35.6,77.1],[45,73.3],[47.1,67.1],[48.9,73.2],[53.2,76.3],[66.7,77.6],[71.2,70.5],[67.1,62.9],[60.6,62.1],[55.7,64.5],[55.9,72.8]],[[31,58.1],[73.9,57.1]],[[46.2,34.8],[47.3,44]]],"group":"Vowel"},{"telugu":"ఊ","roman":"ū","name":"","strokes":[[[51.5,48.5],[40.7,44.7],[25.3,46.6],[16,58],[17.3,71.5],[21.6,76.7],[26.5,77.8],[33.9,73.9],[36.9,68],[38.8,74.3],[42.8,77.5],[51.3,79.2],[57.5,77.2],[59.9,67.4],[55.6,62.5],[48.8,61.9],[43.7,66.4],[44,74.6],[48.3,74.7]],[[21,56.7],[76.5,59.1],[82.7,64.7],[78.5,73.4],[69.8,68],[82,53.7],[81.3,46.9],[71.6,45.9],[68.4,51.8],[71.2,53.3]],[[30.4,34.7],[31.9,42.3]],[[44.1,34.8],[41.7,36.3],[42.7,43.7]]],"group":"Vowel"},{"telugu":"ఋ","roman":"ru","name":"","strokes":[[[3.3,54.4],[3.5,49.4],[6.8,45.8],[15,45.1],[18.5,48.8],[16.6,55.3],[3.7,63.8],[2.9,68.6],[6.8,74],[16.9,75],[24.4,67.6],[28.6,74.6],[38.9,75.9],[45.7,70.9],[47,62],[43.7,53.9],[35.1,47.8]],[[47.2,65.7],[47.1,70.4],[52.3,74.4],[64.3,74.7],[70,70.3],[71.1,58.3],[60.1,48.6]],[[72.8,67.2],[71.5,66.2],[71.4,69.6],[74.3,73.6],[84.8,76.4],[92,75.1],[96.6,67.3],[97.4,62],[94.7,55.6],[85.2,47.3],[82.1,46.2],[82.9,47.7]]],"group":"Vowel"},{"telugu":"ఎ","roman":"e","name":"","strokes":[[[42.8,63.5],[35.1,60.5],[29.1,64.1],[28.4,72.8],[32.6,78.3],[39.5,79.1],[43.8,76.7],[45.2,70.1],[42.1,63.1]],[[44.6,64.9],[48.8,75.7],[58.5,79.5],[67.8,75],[69.7,65.9],[61.8,45.7],[48.2,33.8],[45,33.8]]],"group":"Vowel"},{"telugu":"ఏ","roman":"ē","name":"","strokes":[[[42,62.9],[37.4,59.9],[32,60.1],[27.9,69.1],[35.1,78.8],[43.5,77.1],[43.7,61.6]],[[44.5,65.3],[48.4,74.7],[57.7,79.2],[66.2,75.7],[69.5,64.9],[61.5,46.1],[44.7,32.4]],[[41.9,24.2],[37.4,25.6],[34.3,33.7],[36.2,38.8],[39.6,40.4]]],"group":"Vowel"},{"telugu":"ఐ","roman":"ai","name":"","strokes":[[[42.5,62.8],[32.9,61.1],[29.2,68.8],[33.8,78.1],[41.7,77.7],[44.4,71.7],[43,62.4]],[[44,64.8],[45.5,73],[51.2,77.1],[57.9,77.9],[65.5,74.1],[69.1,67.9],[69.1,60.9],[61.4,48],[51.7,45.9],[48,53.1],[46.4,48.3],[39.1,44.2],[31.5,47.5],[32.1,55.3]]],"group":"Vowel"},{"telugu":"ఒ","roman":"o","name":"","strokes":[[[29.3,53.6],[29.6,47.9],[33.7,44.7],[40.3,43.7],[44.6,48.9],[44.7,52.5],[29.4,66.7],[32.1,74.8],[36.3,78],[46.1,75.1],[49.5,67.4],[50.4,72.2],[54.4,75.5],[66.2,75.1],[69.9,66.8],[65.4,57.8]]],"group":"Vowel"},{"telugu":"ఓ","roman":"ō","name":"","strokes":[[[29.2,53.9],[29.4,48.9],[33.2,45.4],[39.7,44.3],[45.2,48.2],[43.9,54.5],[33.3,60.8],[29.2,66.1],[30.3,72.9],[37.3,77.7],[43.9,75.9],[48.1,66.9],[56.2,77.7],[61.4,79],[67.8,76.5],[71.3,70.5],[69.7,62.2],[59.1,56.9]],[[34,42.2],[32.3,36.6],[36.9,31.8],[42.1,31.7],[48.3,37.3]]],"group":"Vowel"},{"telugu":"ఔ","roman":"au","name":"","strokes":[[[31,54.8],[30.2,49.7],[35.2,44.9],[43.7,45.7],[46.6,49.7],[43.9,55.7],[31.4,64.5],[30.7,71.1],[34.4,77.3],[41.1,78.8],[47.5,75.8],[49.8,68.1],[56,79.8],[65,80.9],[70.8,77.7],[73.6,63.7],[62.1,52.7]],[[31.2,40.9],[41,46.1],[45.8,39.5],[42.1,30],[30.1,29],[66.2,29.4],[72,37.2],[69.1,46.2],[61.9,46.4],[57.3,41.3],[58.2,35.9],[63.6,32.8]]],"group":"Vowel"},{"telugu":"అం","roman":"aṁ","name":"anusvāra","strokes":[[[10.8,57.3],[19,58],[23.2,55.1],[24.6,48.7],[22.1,46.3],[15.5,45],[9.6,49.6],[8.2,54.7],[10.7,65.1],[23.9,73.7],[42.7,73.5],[51,67.3],[53.3,58.6],[49.8,48.8],[44.9,46],[38.3,47.1],[36.2,51.4],[37.1,56.7],[42.7,60.9],[29.9,63]],[[75.4,47.1],[66.3,47.4],[58.8,59.1],[60.3,69.7],[64.6,72.8],[71.9,73.1],[78.1,69],[81.1,58.7],[75.6,49],[68.3,47.7]]],"group":"Vowel"},{"telugu":"అః","roman":"aḥ","name":"visarga","strokes":[[[17.1,56.5],[21.5,58.8],[29.7,57.8],[33.6,50.6],[31,46],[22.8,44.7],[14.5,50],[14.3,60.3],[17.3,68.6],[30.5,77.5],[47.8,78],[58.1,72.2],[62.8,63.4],[62.5,54.8],[54.9,45.7],[43.7,48.5],[44.1,57.1],[50.9,61.9],[38.4,63.1]],[[79.6,46.1],[72.3,45.5],[68.3,51.7],[70,56.6],[76.8,59],[81.2,56.4],[81.5,49.3],[76.3,44.4],[72.6,46.2]],[[80.6,65.1],[76.1,63.5],[71.6,65.7],[69.4,72.4],[72.1,76.8],[78.9,77.5],[82.2,73.8],[81.7,66.8],[78.4,64.1]]],"group":"Vowel"},{"telugu":"క","roman":"ka","name":"","strokes":[[[63.6,51.8],[56.7,46.4],[48.2,44.8],[41.6,45.9],[36.7,50.4],[36.7,55.6],[39.8,59.1],[55.8,61],[61.6,64.5],[62.7,71],[58.2,76.6],[47.3,78.3],[40.7,76],[33.7,71.1],[35.7,67.9]],[[38.5,38.3],[43.5,42.9],[50.5,42.3],[64.6,30],[68.2,23.6],[71.5,25.6]]],"group":"Consonant"},{"telugu":"ఖ","roman":"kha","name":"","strokes":[[[41.5,49.9],[41.3,55.1],[35.7,59.2],[30.7,58.7],[28.1,54.3],[27.3,49.1],[32.9,44.9],[39.8,44.5],[45.8,47.4],[49.3,55.7],[47.5,70],[37,76.2],[28.5,73.5],[29.3,67.1],[33.9,65.3],[53.6,75.5],[64.2,75.7],[71.2,69],[71.2,60.3],[69.5,55.2],[61.9,47.7],[55.8,47]],[[47.4,79.6],[46.2,86.3]]],"group":"Consonant"},{"telugu":"గ","roman":"ga","name":"","strokes":[[[39.1,76.4],[36.7,56],[39.7,51.5],[49.4,47.3],[56.5,48.4],[62.1,54.9],[62.5,67.2],[59,75.8]],[[40.4,40.1],[45.4,45.1],[50.5,45.4],[69.5,30]]],"group":"Consonant"},{"telugu":"ఘ","roman":"gha","name":"","strokes":[[[30.3,63.8],[28.8,61.1],[22,59.8],[17.5,64.9],[17.4,71.7],[23.2,78.2],[30.2,77.5],[32.6,74.9],[31.4,63.2],[37.5,73.1],[45.3,76.5],[51.8,74.7],[56.3,63.8],[51.6,54.1],[44.8,50]],[[56.4,63.8],[54.4,64.6],[55.8,67.9],[61.9,74.5],[71.3,75.9],[77.8,73],[81.4,61.5],[78.4,54.5],[69.5,47.9]],[[20.6,38.1],[22.7,43.3],[28.6,43.9],[37,39.4],[47.4,28],[53.2,26.9]]],"group":"Consonant"},{"telugu":"ఙ","roman":"ṅa","name":"","strokes":[[[29.6,54.9],[30.4,48.4],[33.2,46.3],[41.5,44.6],[46.7,48.8],[43.5,56.2],[30.4,63.8],[31,72.3],[37.3,77.9],[47,74.6],[50.1,67.1],[54.3,75.4],[66.5,76.7],[70.3,70.8],[68.5,62.6]],[[47.4,55.8],[65.9,54.5]],[[56.7,43.4],[56.9,55.6]]],"group":"Consonant"},{"telugu":"చ","roman":"cha","name":"","strokes":[[[25.6,57.2],[37.9,56.1],[30.8,68.3],[36.2,76.9],[46.2,76.5],[49.6,72.5],[50.2,65.9],[52.3,72],[57.4,76.6],[67.1,75.5],[72.7,63.4],[71.1,56.8],[65.7,50.2],[43.3,39.4]],[[42.6,39.9],[46.1,44],[52.7,44],[70.3,25.9]]],"group":"Consonant"},{"telugu":"ఛ","roman":"chha","name":"","strokes":[[[25.1,57],[40.3,57.5],[34.6,60.3],[31.1,66.3],[31.5,73.1],[35.2,76.8],[40.2,79],[46.9,77.6],[50.4,68.7],[51.2,73.8],[57.9,78.6],[63,79.4],[69.1,76.5],[75.2,66],[71.4,54.5],[63.3,47.9],[43.4,42.9]],[[43.7,38.7],[47,43.1],[54.2,43.5],[74.7,25.8]],[[50,78.7],[50.6,86.1]]],"group":"Consonant"},{"telugu":"జ","roman":"ja","name":"","strokes":[[[30.3,55],[29.1,49.1],[34.2,44.2],[41.8,43.7],[48.4,49.2],[47.3,54.2],[30.3,66.1],[31.4,73.3],[37.8,79.1],[46.6,77.4],[50.1,69.6],[59.5,78.5],[68.2,76.8],[72.1,66.9],[68.2,60.8]],[[49.3,50],[52.1,53.9],[58.8,54.8],[62.2,50.8],[61.3,43.8]]],"group":"Consonant"},{"telugu":"ఝ","roman":"jha","name":"","strokes":[[[20,46.8],[13.3,48],[10.9,52.6],[9.6,61.1],[13.4,69.6],[25.1,75.9],[38.3,70.4],[40.9,63.9],[38.1,53.3],[28.7,45.4],[16.1,39.7],[19.2,43.6],[24.4,43.4],[43.2,27.5]],[[41.7,62.5],[42.2,67.7],[47,73.3],[55.5,75.3],[62,72.6],[64.4,60.5],[59.8,50.9],[53.5,48.5]],[[65.8,63.4],[64.8,67.2],[72.8,74.9],[83.3,75.2],[87.5,72.1],[90.2,65.6],[88.9,59.9],[81.8,49.3],[78.2,47.8]],[[67.1,80.2],[66.4,87.3]]],"group":"Consonant"},{"telugu":"ఞ","roman":"ña","name":"","strokes":[[[21.4,55.5],[21.6,49],[25.7,45.8],[34.1,47],[37.3,52.8],[42.7,46],[53.2,46.3],[56.8,53.7],[56.8,60.4],[47.7,74.9],[35,75.8],[26.7,67.8],[29.4,63.2],[34.8,61.7],[47.1,64.7],[54.3,74.4],[55.6,84.3]],[[58.2,55.7],[75.6,54.8]],[[65.6,44.7],[63.9,44.5],[65.5,55.5]]],"group":"Consonant"},{"telugu":"ట","roman":"ṭa","name":"","strokes":[[[29.2,54.8],[34.3,58.8],[41,58.5],[45.5,53.6],[43.8,47.5],[34.5,45.5],[28,50.5],[27.2,60.8],[30.9,70.8],[35.6,75.3],[42.2,76.2],[47.6,72.1],[48.7,65.6],[51.3,73.2],[61,76.2],[67.2,73.2],[69.5,63.3],[66,53.7],[59,49]],[[35.1,38],[37.2,46]]],"group":"Consonant"},{"telugu":"ఠ","roman":"ṭha","name":"","strokes":[[[50.8,45.5],[42.6,46.3],[36.9,50],[33.6,62.9],[35.9,69.5],[41.7,75.5],[54.9,76],[63.5,68],[64,57],[58.3,48.3],[48,46.5]],[[41,39.9],[44.7,43.9],[50.1,43.4],[67.6,27]],[[48.9,61.1],[48,60.7]]],"group":"Consonant"},{"telugu":"డ","roman":"ḍa","name":"","strokes":[[[65,50.1],[57.8,45.9],[42.6,46.1],[32.6,52.5],[30,62.1],[30.4,68.8],[35.2,76.1],[45.1,75.4],[48.3,71.4],[47.9,66.4],[51.8,74.3],[61.5,77.1],[68.1,75.5],[71.8,69.6],[66.4,60.8],[59.6,60.8],[57.3,65.7],[57.5,70.9],[62.8,73.2]],[[38.3,38.2],[44.2,44.7],[50,44.6],[71.3,27.2]]],"group":"Consonant"},{"telugu":"ఢ","roman":"ḍha","name":"","strokes":[[[65.7,49.7],[45.5,46.6],[35.8,50.2],[30.8,57],[29.9,67.2],[35.8,75.8],[45.4,74.5],[47.1,68.2],[55.7,76.7],[67.9,75.4],[71.1,71.1],[70.2,64],[66.7,60.2],[61.5,60.1],[56.2,64.1],[57.2,71.2]],[[47.3,81.3],[47.2,89.3],[49,88]],[[41.1,38.2],[43.5,43.9],[50.6,44.5],[70.1,27.3]]],"group":"Consonant"},{"telugu":"ణ","roman":"ṇa","name":"","strokes":[[[43.6,71.6],[40.6,75.8],[32.2,78.5],[24.9,74.2],[24.9,64],[29.1,61],[36.3,61.3],[31,60.4],[26,52.8],[26.3,47.9],[32.2,44.8],[42.6,47.1],[48.5,53.2],[50.9,48],[59.8,44.1],[69.8,50],[72.8,56.5],[71.8,72.2],[64.2,76.5],[57.2,76],[53.7,67.8],[54.8,64.4],[63.6,61.7],[69.6,63.9]]],"group":"Consonant"},{"telugu":"త","roman":"ta","name":"","strokes":[[[29.8,60.5],[39.4,62.6],[44,60.4],[45.7,54.1],[41,49.8],[32.5,50.7],[28,55.9],[27.9,63.1],[31.7,71.1],[39.7,75.7],[50.2,77.2],[67.1,73.3],[72.3,66.3],[71.1,55.8],[63.7,48.8],[56.3,53],[57.6,57.8],[65.9,61.1],[70.6,58.7],[70.2,51.8],[63.1,46.2],[46.6,40.1],[56.6,43.9],[73.1,29]]],"group":"Consonant"},{"telugu":"థ","roman":"tha","name":"","strokes":[[[48.3,45.9],[35.3,47.5],[29.9,54.4],[28,65.7],[34.2,76.2],[42.7,75.9],[48.4,67.9],[56.7,76.4],[64,76.2],[68,72.9],[70,62.8],[66.9,53.9],[61.7,48.9],[49,46.3]],[[42,40.9],[42.6,43.5],[47.5,44.9],[66.4,26.2],[67.2,28.4]],[[49.5,58.4],[47,58.8],[50.5,61],[49.4,57.8],[48.5,60.9]],[[49.4,79.9],[48.9,88.8]]],"group":"Consonant"},{"telugu":"ద","roman":"da","name":"","strokes":[[[51.5,45.7],[38.1,47.3],[30.6,54.4],[29.3,68.2],[33,74.6],[39.4,77.8],[48.1,72.9],[48.3,66.5],[52,75.5],[58.1,78],[64.5,75.2],[69.9,66.3],[69.6,59.3],[64,50.4],[56.2,45.8],[48.1,45.4]],[[38,39.8],[43,43.1],[48.9,42.3],[68,28.1]]],"group":"Consonant"},{"telugu":"ధ","roman":"dha","name":"","strokes":[[[47.1,46],[40.4,46.6],[33.7,51.3],[30.6,59.9],[31.2,70.5],[36.3,77.4],[39.7,78.3],[47.3,75],[49.2,68.5],[53.3,76],[61,78.8],[65.4,76.1],[68.6,68.3],[66.9,56.4],[62.9,50.5],[55.3,46.2],[44.9,46.4]],[[41,39],[43.3,42.4],[48.6,43.7],[66.5,29.9]],[[48.2,78.2],[50.6,89.7]]],"group":"Consonant"},{"telugu":"న","roman":"na","name":"","strokes":[[[33.2,78.6],[31.4,64.9],[35.1,61.5],[43.3,63.9],[55.3,76.6],[61.9,75.8],[67.2,70.6],[68.4,61.8],[62.8,52.7],[33.3,40.3],[38.1,42.9],[46.3,41.3],[65.4,24.7]]],"group":"Consonant"},{"telugu":"ప","roman":"pa","name":"","strokes":[[[44.2,66],[37.7,60.3],[31.3,62],[28.8,70.6],[36.2,78.2],[42.8,76.4],[44.4,66.1],[47.4,72.5],[52.9,76.7],[61.6,76.7],[66.9,71.8],[69.7,63],[67.9,57.7],[55.7,47.9]],[[32.1,41.6],[41,45.6],[49.6,38.7],[55.3,28.5],[59.9,29.4]]],"group":"Consonant"},{"telugu":"ఫ","roman":"pha","name":"","strokes":[[[42.9,64.5],[36,60.1],[29.8,63.1],[28.6,73.7],[32.8,77.5],[38.3,78.6],[42.9,75.8],[43.5,63],[48.6,72.6],[54.4,76.5],[61.1,77.8],[67.5,73.8],[69.3,66.8],[67.8,59.6],[56.4,49.3]],[[33.2,40.7],[36.2,45.6],[40.3,45.3],[63.5,25.8]],[[47.4,80.2],[47.1,89.6]]],"group":"Consonant"},{"telugu":"బ","roman":"ba","name":"","strokes":[[[28.8,54.9],[30.8,46.9],[40.3,45.7],[44,51.2],[31.4,62.5],[30.6,69.1],[33,73.8],[42.8,76.4],[47.9,71.7],[48.1,66.8],[51.5,74.4],[61.4,76.4],[67.4,72.5],[70.1,62.4],[65.8,52.3],[57.7,46.2]]],"group":"Consonant"},{"telugu":"భ","roman":"bha","name":"","strokes":[[[29.5,55.6],[30.4,47.1],[34.6,43.9],[41.6,44.4],[45.6,49.9],[44.4,54.8],[29.5,66.6],[29.9,72],[33.9,77.2],[40.8,79],[46,77],[49.3,70.5],[48.4,67.1],[52.8,76.1],[64.9,77.2],[70,72],[71.3,58.1],[59.7,46.3],[49.9,42.1],[55.5,47.1],[61.7,46],[74.5,30.7]],[[50.1,80.9],[47.9,80.9],[49.8,89.2]]],"group":"Consonant"},{"telugu":"మ","roman":"ma","name":"","strokes":[[[32.6,65.8],[24.7,59.3],[17.5,64.2],[17.7,71.4],[25.9,78.1],[32,74.4],[32.1,63.8],[35.4,71.5],[42.8,76.1],[51.3,75.6],[57.4,69.7],[58.1,61.2],[53,53.6],[46,48.1],[31.1,44.5],[23.5,39.6],[29.8,43.8],[35.4,43.7],[41.5,40.1],[47.9,28.5],[53.6,27.8]],[[58.2,65.5],[57.3,70.4],[64,76.2],[72.8,77.4],[79,73.6],[82.4,61.7],[77.8,52.3],[68.6,46.2],[72.3,47.1]]],"group":"Consonant"},{"telugu":"య","roman":"ya","name":"","strokes":[[[34.6,46.9],[23.5,42.3],[11.7,49.6],[9.2,59.8],[16.7,74.9],[28.6,76.4],[38.6,69.1],[39.9,61.7],[34.6,46.6],[44.5,71],[52.3,73.6],[57.5,72.3],[62.1,66.2],[63.8,57.4],[56.5,46.6],[43.1,39.4],[48.2,41.9],[53.9,41.2],[60.2,35.6],[64.1,27.7],[66.4,29.1]],[[63.6,58.2],[68.2,72.1],[74.8,75.3],[83.7,73.7],[88.4,67.8],[89.3,58.5],[87.8,53.5],[77,45]]],"group":"Consonant"},{"telugu":"ర","roman":"ra","name":"","strokes":[[[47.8,46.5],[39.4,48.2],[35.1,53.4],[33.9,63.9],[38.3,73.2],[48.1,77.4],[54.8,75.8],[63.3,70.2],[65.8,63.5],[64.5,53.9],[60.4,48.1],[38.3,39.9],[42,43.2],[43,41.8]],[[40.2,39.2],[42,42.1],[49.3,43.1],[70.2,28.4]]],"group":"Consonant"},{"telugu":"ల","roman":"la","name":"","strokes":[[[32,57.7],[43.2,59.1],[47,53.3],[46.3,48.4],[40,45.4],[32.3,49.2],[28.7,57.1],[30.5,65.4],[37.6,75.3],[49.8,78.4],[56.7,77.3],[65.2,70.5],[67.6,60.1],[63.8,50.7],[59.4,48]]],"group":"Consonant"},{"telugu":"వ","roman":"va","name":"","strokes":[[[43.7,64],[39.7,61.1],[34,61.4],[29.3,66.7],[32.2,75.4],[38.5,78.1],[43.4,75.1],[43.5,64.7]],[[44,64.4],[48.3,73.6],[59.5,78.4],[69,73.5],[70.9,63.2],[67.1,54.7],[58.6,49.1],[38.8,44.2]],[[35.9,40.6],[38.7,43],[44.3,42.1],[66.5,24.6]]],"group":"Consonant"},{"telugu":"శ","roman":"śa","name":"","strokes":[[[36.3,68],[34.7,63.3],[36.4,58.2],[43,54.6],[50.5,54.6],[61.7,60.3],[65,66.8],[65,73.6],[57.1,77.5],[48.4,72],[47.7,68.5],[51.2,62.5],[60,54.3],[56.5,46.9],[49.8,46.2]],[[43.8,41.6],[46,44.5],[51.4,43.9],[69.4,29.8]]],"group":"Consonant"},{"telugu":"ష","roman":"ṣa","name":"","strokes":[[[44.4,65.8],[37.8,60.2],[31.6,61.2],[28.8,68],[31.4,74.4],[40,77.8],[44.8,73],[44.9,66.3]],[[44.9,65.7],[46.2,70.1],[52.7,75.9],[61.5,76.7],[67.9,73],[67.7,60.3],[60.4,49.7],[55.2,46.9],[60.2,48.4]],[[68.4,64.1],[70.1,64.8],[67,83],[71.4,85.1],[77.1,83.4]],[[31.4,38.1],[34.2,42.6],[40.6,44.8],[54.5,31.5],[65.2,25]]],"group":"Consonant"},{"telugu":"స","roman":"sa","name":"","strokes":[[[32.4,76.7],[29.5,66.9],[31.7,62.5],[36.4,60.2],[42.6,63.5],[52.3,75.9],[59.1,76.5],[65.6,73.2],[69,63.4],[66.5,56.1],[61.5,51.2],[53.8,49.3]],[[33.5,40.7],[37.7,44.8],[41.5,44],[51.6,32.2],[59.7,28.5]]],"group":"Consonant"},{"telugu":"హ","roman":"ha","name":"","strokes":[[[34.1,65.7],[28.3,59.5],[19.9,60.7],[16.4,68.9],[21.3,76.6],[27.7,79.2],[32.7,77.1],[35.4,72.5],[34.5,63.6],[40.7,75.6],[46.6,78.7],[52,78],[58.2,69],[57.4,60.1],[43.7,46.5],[77.6,46.8],[80.7,57],[75.9,61.1],[69.3,58.8],[67.4,53.5],[68.8,48.5],[73.9,46.4],[74.6,48.2]],[[21.2,40.2],[30.6,45.6],[41.6,32.8],[52.5,25.2]]],"group":"Consonant"},{"telugu":"ళ","roman":"ḷa","name":"","strokes":[[[37.5,62.5],[46.4,58.5],[47.6,55.2],[45.3,50.7],[33.2,50.1],[30.2,54],[31.2,59],[36.4,62.9],[55.2,65.8],[58.9,71.5],[58.1,76.4],[48.3,77.9],[43.5,70],[49.2,66.1],[62.9,63.5],[67,57.7],[66.8,52.6],[60.2,46.9],[49.6,44.4]],[[46.3,41],[51.1,44],[58.2,42.3],[74.1,24.4]]],"group":"Consonant"},{"telugu":"క్ష","roman":"kṣa","name":"","strokes":[[[62,52.7],[58.3,47.1],[48.3,44.3],[38.4,48],[35.7,54.4],[38.8,59.8],[61,62.6],[64.2,68.1],[62.3,74.6],[48.8,77.5],[41.3,73.7],[38.8,67.4]],[[34.8,81.2],[37.5,91],[48.2,90.8],[50.6,82.8],[52.7,89.6],[61.2,91.9],[66.3,83],[64.5,89.9],[66.2,93.5],[69,95.2],[73.7,93.5]],[[39.1,37.3],[42,43.2],[50.9,43.3],[71.9,25.3]]],"group":"Consonant"},{"telugu":"ఱ","roman":"ṟa","name":"","strokes":[[[26.7,56.9],[36.1,59.2],[40.9,57.6],[43.8,51.6],[40.5,45.6],[32.1,46.2],[27.9,51.3],[26.5,61.9],[30.6,69.8],[34.3,73.5],[42.3,75.8],[48.4,72.7],[51.2,67.1],[50,69.3],[53.9,75],[64,75.9],[71,70.6],[74.8,58.6],[67.7,46.7],[62.8,44.5],[56.6,50.5],[60.1,59.8],[48,59.9]]],"group":"Consonant"}];
+const SVGNS = 'http://www.w3.org/2000/svg';
+function smoothPath(pts){ if(pts.length<2) return 'M '+pts[0][0]+' '+pts[0][1]; let d='M '+pts[0][0]+' '+pts[0][1]; for(let i=1;i<pts.length-1;i++){const mx=(pts[i][0]+pts[i+1][0])/2,my=(pts[i][1]+pts[i+1][1])/2; d+=' Q '+pts[i][0]+' '+pts[i][1]+' '+mx+' '+my;} const L=pts[pts.length-1]; return d+' L '+L[0]+' '+L[1]; }
+function startAngle(s){ const a=s[0], b=s[Math.min(2,s.length-1)]; return Math.atan2(b[1]-a[1], b[0]-a[0])*180/Math.PI; }
+function el(tag,attrs){ const e=document.createElementNS(SVGNS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); return e; }
+
+// split into two grids by group
+const grid = document.getElementById('vowels');
+const consHeading = document.createElement('h2'); consHeading.textContent='హల్లులు · Consonants';
+const consGrid = document.createElement('div'); consGrid.className='grid'; consGrid.id='cons';
+let placedCons=false;
+
+document.querySelectorAll('.card').forEach((card,i)=>{
+  const L=LETTERS[i];
+  if(L.group==='Consonant' && !placedCons){ grid.after(consHeading); consHeading.after(consGrid); placedCons=true; }
+  if(L.group==='Consonant') consGrid.appendChild(card);
+  const svg=card.querySelector('svg');
+  const text=el('text',{x:50,y:79,'text-anchor':'middle',class:'glyph',lang:'te'}); text.textContent=L.telugu; svg.appendChild(text);
+  const paths=[];
+  L.strokes.forEach((s,si)=>{
+    const p=el('path',{d:smoothPath(s),class:'sp'}); svg.appendChild(p); paths.push(p);
+    const g=el('g',{transform:'translate('+s[0][0]+' '+s[0][1]+')',class:'arrow-g'});
+    const a=el('g',{transform:'rotate('+startAngle(s)+')'});
+    a.appendChild(el('path',{d:'M -2 0 L 7 0 M 4 -3 L 7 0 L 4 3',class:'arrow'})); g.appendChild(a);
+    if(L.strokes.length>1){ const n=el('text',{x:-4,y:-3,class:'num'}); n.textContent=si+1; g.appendChild(n); }
+    svg.appendChild(g);
+  });
+  const dot=el('circle',{r:3,class:'dot',opacity:0}); svg.appendChild(dot);
+  card.animate=()=>{
+    let si=0; const start=performance.now();
+    paths.forEach(p=>{const len=p.getTotalLength(); p.style.strokeDasharray=len; p.style.strokeDashoffset=len; p.classList.add('draw');});
+    function frame(now){
+      if(si>=paths.length){ dot.setAttribute('opacity',0); paths.forEach(p=>{p.style.strokeDashoffset=0;p.classList.remove('draw');}); return; }
+      const p=paths[si], len=p.getTotalLength(), t=Math.min(1,(now-start-si*950)/850);
+      if(t<0){ requestAnimationFrame(frame); return; }
+      p.style.strokeDashoffset=len*(1-t);
+      const pt=p.getPointAtLength(len*t); dot.setAttribute('cx',pt.x); dot.setAttribute('cy',pt.y); dot.setAttribute('opacity',1);
+      if(t>=1) si++;
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  };
+  card.querySelector('.replay').onclick=card.animate;
+  setTimeout(card.animate, 150 + i*40);
+});
+
+// persistence
+const KEY='telugu-stroke-review';
+const state=JSON.parse(localStorage.getItem(KEY)||'{}');
+function refresh(){
+  let done=0, flagged=0;
+  document.querySelectorAll('.card').forEach((card,i)=>{
+    const ok=state['ok-'+i], fl=state['flag-'+i];
+    card.classList.toggle('flagged',!!fl); card.classList.toggle('done',!!ok&&!fl);
+    if(ok||fl) done++; if(fl) flagged++;
+  });
+  document.getElementById('progress').textContent=done+' / '+LETTERS.length+' reviewed · '+flagged+' flagged';
+}
+document.querySelectorAll('[data-k]').forEach(inp=>{
+  const k=inp.dataset.k;
+  if(inp.type==='checkbox'){ inp.checked=!!state[k]; inp.onchange=()=>{state[k]=inp.checked; localStorage.setItem(KEY,JSON.stringify(state)); refresh();}; }
+  else { inp.value=state[k]||''; inp.oninput=()=>{state[k]=inp.value; localStorage.setItem(KEY,JSON.stringify(state));}; }
+});
+refresh();
+document.getElementById('replayAll').onclick=()=>document.querySelectorAll('.card').forEach((c,i)=>setTimeout(c.animate,i*40));
+document.getElementById('export').onclick=()=>{
+  const lines=['# Stroke review notes',''];
+  LETTERS.forEach((L,i)=>{
+    const ok=state['ok-'+i], fl=state['flag-'+i], note=(state['note-'+i]||'').trim();
+    if(!ok&&!fl&&!note) return;
+    lines.push('- '+L.telugu+' ('+L.roman+'): '+(fl?'⚑ WRONG':'ok')+(note?' — '+note:''));
+  });
+  const blob=new Blob([lines.join('\n')],{type:'text/markdown'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='stroke-review-notes.md'; a.click();
+};
+</script>
+</body></html>

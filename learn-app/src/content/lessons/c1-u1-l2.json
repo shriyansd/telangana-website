@@ -23,13 +23,13 @@
       "spoken": { "telugu": "మీ పేరు ఏమిటి?", "transliteration": "mī pēru ēmiṭi?", "english": "what is your name?" },
       "choices": [
         { "id": "a", "english": "Your name" },
-        { "id": "b", "english": "Your age", "whyWrong": "Age would be వయసు. Listen for పేరు — name." },
+        { "id": "b", "english": "Your age", "whyWrong": "Age would be వయసు. Listen for పేరు: name." },
         { "id": "c", "english": "Your village" }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
         "correct": "పేరు means name. మీ పేరు ఏమిటి? = your name is what?",
-        "grammar": "Telugu questions keep normal word order — the question word ఏమిటి (what) just sits where the answer would."
+        "grammar": "Telugu questions keep normal word order: the question word ఏమిటి (what) just sits where the answer would."
       }
     },
     {
@@ -68,7 +68,7 @@
       "answer": "పేరు",
       "choices": ["పేరు", "మీరు", "ఏమిటి"],
       "feedback": {
-        "grammar": "No verb “is” needed: నా పేరు రవి — my name Ravi. Telugu drops the copula in such sentences."
+        "grammar": "No verb “is” needed: నా పేరు రవి, my name Ravi. Telugu drops the copula in such sentences."
       }
     },
     {
@@ -83,8 +83,8 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "నా పేరు సీత.", "transliteration": "nā pēru Sīta.", "english": "My name is Sita." },
-        { "id": "b", "telugu": "మీ పేరు సీత.", "transliteration": "mī pēru Sīta.", "english": "Your name is Sita.", "whyWrong": "మీ means your — you'd be telling her what her own name is!" },
-        { "id": "c", "telugu": "సరే.", "transliteration": "sarē.", "english": "Okay.", "whyWrong": "సరే just means okay — she asked for your name." }
+        { "id": "b", "telugu": "మీ పేరు సీత.", "transliteration": "mī pēru Sīta.", "english": "Your name is Sita.", "whyWrong": "మీ means your: you'd be telling her what her own name is!" },
+        { "id": "c", "telugu": "సరే.", "transliteration": "sarē.", "english": "Okay.", "whyWrong": "సరే just means okay: she asked for your name." }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {

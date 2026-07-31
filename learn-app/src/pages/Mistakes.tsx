@@ -38,7 +38,7 @@ export function Mistakes() {
         <section className="tricky-words">
           <h2>🐌 Tricky words</h2>
           <p className="mistakes-intro">
-            These keep slipping away — totally normal, every learner has a few. Try a different angle:
+            These keep slipping away. Totally normal, every learner has a few. Try a different angle:
             write a memory hook for them in the <Link to="words">Word Book</Link>, listen to them a few
             extra times, or study what they're confused with.
           </p>
@@ -63,11 +63,11 @@ export function Mistakes() {
         </section>
       )}
       {mistakes.length === 0 ? (
-        <p className="mistakes-empty">Nothing here — your recent answers have all been solid. 🎉</p>
+        <p className="mistakes-empty">Nothing here: your recent answers have all been solid. 🎉</p>
       ) : (
         <>
           <p className="mistakes-intro">
-            These tripped you up recently. That's exactly how learning works — one focused pass and most of them will stick.
+            These tripped you up recently. That's exactly how learning works, one focused pass and most of them will stick.
           </p>
           <ul className="mistake-list">
             {mistakes.map((m) => (

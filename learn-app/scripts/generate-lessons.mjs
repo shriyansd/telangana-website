@@ -27,7 +27,7 @@ const TODAY = '2026-07-02';
 const LETTER_LESSONS = [
   {
     id: 'c6-u2-l1', unitId: 'c6-u2', title: 'Vowels: అ to ఊ', teluguTitle: 'అ ఆ ఇ ఈ ఉ ఊ',
-    description: 'The first six vowels — short and long pairs.',
+    description: 'The first six vowels, short and long pairs.',
     letters: [
       { te: 'అ', roman: 'a', slug: 'a', hint: 'like “a” in about', word: { te: 'అమ్మ', tr: 'amma', en: 'mother' } },
       { te: 'ఆ', roman: 'ā', slug: 'aa', hint: 'a long “aa”, as in father', word: { te: 'ఆవు', tr: 'āvu', en: 'cow' } },
@@ -51,11 +51,11 @@ const LETTER_LESSONS = [
   },
   {
     id: 'c6-u2-l3', unitId: 'c6-u2', title: 'Rare Vowels & Review', teluguTitle: 'ఋ అం అః',
-    description: 'The rare ఋ, the nasal అం, the breathy అః — then a vowel review.',
+    description: 'The rare ఋ, the nasal అం, the breathy అః, then a vowel review.',
     letters: [
-      { te: 'ఋ', roman: 'ru', slug: 'ru', hint: 'vocalic r — rare, as in ఋషి (sage)', word: { te: 'ఋషి', tr: 'ṛṣi', en: 'sage' } },
-      { te: 'అం', roman: 'aṁ', slug: 'am', hint: 'a nasal hum at the end — the anusvāra', word: { te: 'అంగడి', tr: 'aṅgaḍi', en: 'shop' } },
-      { te: 'అః', roman: 'aḥ', slug: 'ah', hint: 'a light breath at the end — the visarga' },
+      { te: 'ఋ', roman: 'ru', slug: 'ru', hint: 'vocalic r, rare, as in ఋషి (sage)', word: { te: 'ఋషి', tr: 'ṛṣi', en: 'sage' } },
+      { te: 'అం', roman: 'aṁ', slug: 'am', hint: 'a nasal hum at the end, the anusvāra', word: { te: 'అంగడి', tr: 'aṅgaḍi', en: 'shop' } },
+      { te: 'అః', roman: 'aḥ', slug: 'ah', hint: 'a light breath at the end, the visarga' },
     ],
     reviewLetters: [
       { te: 'అ', roman: 'a' }, { te: 'ఆ', roman: 'ā' }, { te: 'ఇ', roman: 'i' }, { te: 'ఈ', roman: 'ī' },
@@ -63,52 +63,52 @@ const LETTER_LESSONS = [
     ],
   },
   {
-    id: 'c6-u3-l1', unitId: 'c6-u3', title: 'క ఖ గ ఘ — the k sounds', teluguTitle: 'క వర్గం',
+    id: 'c6-u3-l1', unitId: 'c6-u3', title: 'క ఖ గ ఘ, the k sounds', teluguTitle: 'క వర్గం',
     description: 'The first consonant row: plain, breathy, and voiced k sounds.',
     letters: [
       { te: 'క', roman: 'ka', slug: 'ka', word: { te: 'కలం', tr: 'kalam', en: 'pen' } },
       { te: 'ఖ', roman: 'kha', slug: 'kha', hint: 'ka with a puff of breath', word: { te: 'ఖాళీ', tr: 'khāḷī', en: 'empty' } },
       { te: 'గ', roman: 'ga', slug: 'ga', word: { te: 'గది', tr: 'gadi', en: 'room' } },
       { te: 'ఘ', roman: 'gha', slug: 'gha', hint: 'ga with a puff of breath', word: { te: 'ఘంట', tr: 'ghaṇṭa', en: 'bell' } },
-      { te: 'ఙ', roman: 'ṅa', slug: 'nga', hint: 'the “ng” sound — rare on its own' },
+      { te: 'ఙ', roman: 'ṅa', slug: 'nga', hint: 'the “ng” sound, rare on its own' },
     ],
   },
   {
-    id: 'c6-u3-l2', unitId: 'c6-u3', title: 'చ ఛ జ ఝ — the ch and j sounds', teluguTitle: 'చ వర్గం',
+    id: 'c6-u3-l2', unitId: 'c6-u3', title: 'చ ఛ జ ఝ, the ch and j sounds', teluguTitle: 'చ వర్గం',
     description: 'The second consonant row.',
     letters: [
       { te: 'చ', roman: 'cha', slug: 'cha', word: { te: 'చదువు', tr: 'chaduvu', en: 'study / education' } },
       { te: 'ఛ', roman: 'chha', slug: 'chha', hint: 'cha with a puff of breath' },
       { te: 'జ', roman: 'ja', slug: 'ja', word: { te: 'జంతువు', tr: 'jantuvu', en: 'animal' } },
-      { te: 'ఝ', roman: 'jha', slug: 'jha', hint: 'ja with a puff of breath — rare' },
-      { te: 'ఞ', roman: 'ña', slug: 'nya', hint: 'the “ny” sound — appears in combinations' },
+      { te: 'ఝ', roman: 'jha', slug: 'jha', hint: 'ja with a puff of breath, rare' },
+      { te: 'ఞ', roman: 'ña', slug: 'nya', hint: 'the “ny” sound, appears in combinations' },
     ],
   },
   {
-    id: 'c6-u3-l3', unitId: 'c6-u3', title: 'ట ఠ డ ఢ ణ — the hard t sounds', teluguTitle: 'ట వర్గం',
+    id: 'c6-u3-l3', unitId: 'c6-u3', title: 'ట ఠ డ ఢ ణ, the hard t sounds', teluguTitle: 'ట వర్గం',
     description: 'Retroflex sounds: the tongue curls back to the roof of the mouth.',
     letters: [
-      { te: 'ట', roman: 'ṭa', slug: 'tta', hint: 'hard t — tongue curls back', word: { te: 'టమాటా', tr: 'ṭamāṭā', en: 'tomato' } },
-      { te: 'ఠ', roman: 'ṭha', slug: 'ttha', hint: 'ṭa with a puff of breath — rare' },
-      { te: 'డ', roman: 'ḍa', slug: 'dda', hint: 'hard d — tongue curls back', word: { te: 'డబ్బు', tr: 'ḍabbu', en: 'money' } },
-      { te: 'ఢ', roman: 'ḍha', slug: 'ddha', hint: 'ḍa with a puff of breath — rare' },
-      { te: 'ణ', roman: 'ṇa', slug: 'nna-retro', hint: 'hard n — shows up inside words like బాణం' },
+      { te: 'ట', roman: 'ṭa', slug: 'tta', hint: 'hard t, tongue curls back', word: { te: 'టమాటా', tr: 'ṭamāṭā', en: 'tomato' } },
+      { te: 'ఠ', roman: 'ṭha', slug: 'ttha', hint: 'ṭa with a puff of breath, rare' },
+      { te: 'డ', roman: 'ḍa', slug: 'dda', hint: 'hard d, tongue curls back', word: { te: 'డబ్బు', tr: 'ḍabbu', en: 'money' } },
+      { te: 'ఢ', roman: 'ḍha', slug: 'ddha', hint: 'ḍa with a puff of breath, rare' },
+      { te: 'ణ', roman: 'ṇa', slug: 'nna-retro', hint: 'hard n, shows up inside words like బాణం' },
     ],
   },
   {
-    id: 'c6-u3-l4', unitId: 'c6-u3', title: 'త థ ద ధ న — the soft t sounds', teluguTitle: 'త వర్గం',
+    id: 'c6-u3-l4', unitId: 'c6-u3', title: 'త థ ద ధ న, the soft t sounds', teluguTitle: 'త వర్గం',
     description: 'Dental sounds: the tongue touches the teeth. Compare with the ట row!',
     letters: [
-      { te: 'త', roman: 'ta', slug: 'ta', hint: 'soft t — tongue on the teeth', word: { te: 'తల', tr: 'tala', en: 'head' } },
-      { te: 'థ', roman: 'tha', slug: 'tha', hint: 'ta with a puff of breath — rare' },
+      { te: 'త', roman: 'ta', slug: 'ta', hint: 'soft t, tongue on the teeth', word: { te: 'తల', tr: 'tala', en: 'head' } },
+      { te: 'థ', roman: 'tha', slug: 'tha', hint: 'ta with a puff of breath, rare' },
       { te: 'ద', roman: 'da', slug: 'da', hint: 'soft d', word: { te: 'దీపం', tr: 'dīpam', en: 'lamp' } },
       { te: 'ధ', roman: 'dha', slug: 'dha', hint: 'da with a puff of breath', word: { te: 'ధనం', tr: 'dhanam', en: 'wealth' } },
       { te: 'న', roman: 'na', slug: 'na', word: { te: 'నది', tr: 'nadi', en: 'river' } },
     ],
   },
   {
-    id: 'c6-u3-l5', unitId: 'c6-u3', title: 'ప ఫ బ భ మ — the p, b, m sounds', teluguTitle: 'ప వర్గం',
-    description: 'The lip sounds — the last of the five classic rows.',
+    id: 'c6-u3-l5', unitId: 'c6-u3', title: 'ప ఫ బ భ మ, the p, b, m sounds', teluguTitle: 'ప వర్గం',
+    description: 'The lip sounds, the last of the five classic rows.',
     letters: [
       { te: 'ప', roman: 'pa', slug: 'pa', word: { te: 'పండు', tr: 'paṇḍu', en: 'fruit' } },
       { te: 'ఫ', roman: 'pha', slug: 'pha', hint: 'pa with a puff of breath', word: { te: 'ఫోటో', tr: 'phōṭō', en: 'photo' } },
@@ -133,10 +133,10 @@ const LETTER_LESSONS = [
     description: 'The s sounds, the special ళ, and two rare letters.',
     letters: [
       { te: 'శ', roman: 'śa', slug: 'sha', hint: 'sh as in ship', word: { te: 'శనివారం', tr: 'śanivāram', en: 'Saturday' } },
-      { te: 'ష', roman: 'ṣa', slug: 'ssa', hint: 'a harder sh — tongue curled back', word: { te: 'భాష', tr: 'bhāṣa', en: 'language' }, wordMode: 'contains' },
+      { te: 'ష', roman: 'ṣa', slug: 'ssa', hint: 'a harder sh, tongue curled back', word: { te: 'భాష', tr: 'bhāṣa', en: 'language' }, wordMode: 'contains' },
       { te: 'స', roman: 'sa', slug: 'sa', word: { te: 'సరే', tr: 'sarē', en: 'okay' } },
-      { te: 'ళ', roman: 'ḷa', slug: 'lla', hint: 'retroflex l — the special Telugu l', word: { te: 'నీళ్లు', tr: 'nīḷḷu', en: 'water' }, wordMode: 'contains' },
-      { te: 'ఱ', roman: 'ṟa', slug: 'rra', hint: 'a strong trilled r — rare today' },
+      { te: 'ళ', roman: 'ḷa', slug: 'lla', hint: 'retroflex l, the special Telugu l', word: { te: 'నీళ్లు', tr: 'nīḷḷu', en: 'water' }, wordMode: 'contains' },
+      { te: 'ఱ', roman: 'ṟa', slug: 'rra', hint: 'a strong trilled r, rare today' },
       { te: 'క్ష', roman: 'kṣa', slug: 'ksha', hint: 'k + ṣa fused into one sign', word: { te: 'రిక్షా', tr: 'rikṣā', en: 'rickshaw' }, wordMode: 'contains' },
     ],
   },
@@ -188,7 +188,7 @@ const GUNINTA_LESSONS = [
 const READING_LESSONS = [
   {
     id: 'c6-u6-l1', unitId: 'c6-u6', title: 'Read: Family Words', teluguTitle: 'అమ్మ నాన్న అక్క',
-    description: 'Your first real reading — family words use the letters and doubles you know.',
+    description: 'Your first real reading, family words use the letters and doubles you know.',
     items: [
       { conceptId: 'fam-amma', te: 'అమ్మ', tr: 'amma', en: 'mother' },
       { conceptId: 'fam-nanna', te: 'నాన్న', tr: 'nānna', en: 'father' },
@@ -199,7 +199,7 @@ const READING_LESSONS = [
   },
   {
     id: 'c6-u6-l2', unitId: 'c6-u6', title: 'Read: Food & Home', teluguTitle: 'పాలు నీళ్లు ఇల్లు',
-    description: 'Read everyday words — vowel signs and doubles in the wild.',
+    description: 'Read everyday words, vowel signs and doubles in the wild.',
     items: [
       { conceptId: 'word-milk', te: 'పాలు', tr: 'pālu', en: 'milk' },
       { conceptId: 'word-water', te: 'నీళ్లు', tr: 'nīḷḷu', en: 'water' },
@@ -210,7 +210,7 @@ const READING_LESSONS = [
   },
   {
     id: 'c6-u6-l3', unitId: 'c6-u6', title: 'Read: Long Words', teluguTitle: 'నమస్కారం తెలుగు',
-    description: 'Longer words, one syllable at a time — including the big hello.',
+    description: 'Longer words, one syllable at a time, including the big hello.',
     items: [
       { conceptId: 'word-telugu', te: 'తెలుగు', tr: 'telugu', en: 'Telugu (the language)' },
       { conceptId: 'greet-namaskaram', te: 'నమస్కారం', tr: 'namaskāram', en: 'hello / greetings' },
@@ -350,7 +350,7 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c4-u1-l2', courseId: 'course-4', unitId: 'c4-u1', title: 'Days: Friday–Sunday', teluguTitle: 'వారాంతం',
-    description: 'Finish the week — plus the word for “week” itself.',
+    description: 'Finish the week, plus the word for “week” itself.',
     items: [
       { conceptId: 'day-fri', te: 'శుక్రవారం', tr: 'śukravāram', en: 'Friday' },
       { conceptId: 'day-sat', te: 'శనివారం', tr: 'śanivāram', en: 'Saturday' },
@@ -385,7 +385,7 @@ const VOCAB_LESSONS = [
   // ── course-5: People & Places ──
   {
     id: 'c5-u1-l1', courseId: 'course-5', unitId: 'c5-u1', title: 'Question Words', teluguTitle: 'ప్రశ్నలు',
-    description: 'What, who, where, why, how — the keys to every conversation.',
+    description: 'What, who, where, why, how, the keys to every conversation.',
     items: [
       { conceptId: 'q-what', te: 'ఏమిటి?', tr: 'ēmiṭi?', en: 'what?' },
       { conceptId: 'q-who', te: 'ఎవరు?', tr: 'evaru?', en: 'who?' },
@@ -397,7 +397,7 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c5-u2-l1', courseId: 'course-5', unitId: 'c5-u2', title: 'Places in Town', teluguTitle: 'ఊళ్లో',
-    description: 'School, temple, shop, hospital — and the town itself.',
+    description: 'School, temple, shop, hospital, and the town itself.',
     items: [
       { conceptId: 'place-uru', te: 'ఊరు', tr: 'ūru', en: 'village / hometown' },
       { conceptId: 'place-badi', te: 'బడి', tr: 'baḍi', en: 'school' },
@@ -423,7 +423,7 @@ const VOCAB_LESSONS = [
   // ── course-8: Doing Words ──
   {
     id: 'c8-u1-l1', courseId: 'course-8', unitId: 'c8-u1', title: 'Five First Verbs', teluguTitle: 'క్రియలు',
-    description: 'Eat, drink, go, come, see — the verbs of daily life.',
+    description: 'Eat, drink, go, come, see, the verbs of daily life.',
     items: [
       { conceptId: 'verb-eat', te: 'తిను', tr: 'tinu', en: 'eat' },
       { conceptId: 'verb-drink', te: 'తాగు', tr: 'tāgu', en: 'drink' },
@@ -450,7 +450,7 @@ const VOCAB_LESSONS = [
     description: 'The little words every sentence starts with.',
     grammar: {
       title: 'Two words for “you”',
-      body: 'Telugu has a casual you (నువ్వు) for friends and younger people, and a respectful you (మీరు) for elders and strangers. When in doubt, use మీరు — respect is never wrong.',
+      body: 'Telugu has a casual you (నువ్వు) for friends and younger people, and a respectful you (మీరు) for elders and strangers. When in doubt, use మీరు: respect is never wrong.',
     },
     items: [
       { conceptId: 'pron-i', te: 'నేను', tr: 'nēnu', en: 'I' },
@@ -465,10 +465,10 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c10-u1-l2', courseId: 'course-10', unitId: 'c10-u1', title: 'This & That', teluguTitle: 'ఇది అది',
-    description: 'Point at anything and name it — no verb needed.',
+    description: 'Point at anything and name it, no verb needed.',
     grammar: {
       title: 'No word for “is” needed',
-      body: 'To say “this is a book”, Telugu just puts the two words together: ఇది పుస్తకం — literally “this, book”. Simple and everywhere.',
+      body: 'To say “this is a book”, Telugu just puts the two words together: ఇది పుస్తకం, literally “this, book”. Simple and everywhere.',
     },
     items: [
       { conceptId: 'pron-this', te: 'ఇది', tr: 'idi', en: 'this' },
@@ -483,7 +483,7 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c10-u1-l3', courseId: 'course-10', unitId: 'c10-u1', title: 'My & Your', teluguTitle: 'నా నీ మీ',
-    description: 'You already say నా పేరు — here’s why it works.',
+    description: 'You already say నా పేరు, here’s why it works.',
     grammar: {
       title: 'Ownership is one small word',
       body: 'నా = my, నీ = your (casual), మీ = your (respectful). They sit right before the thing owned: నా పేరు (my name), మీ ఇల్లు (your house).',
@@ -501,7 +501,7 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c10-u1-l4', courseId: 'course-10', unitId: 'c10-u1', title: 'Is & There Is', teluguTitle: 'ఉంది ఉన్నాను',
-    description: 'The being-verb ఉండు — where things and people are.',
+    description: 'The being-verb ఉండు, where things and people are.',
     grammar: {
       title: 'ఉంది and its family',
       body: 'ఉంది = “it is / there is”. ఉన్నాను = “I am (somewhere)”. ఉన్నారు = “you are / they are” (respectful). And లేదు is its opposite: “there isn’t”.',
@@ -522,7 +522,7 @@ const VOCAB_LESSONS = [
     description: 'The pattern behind “I want” and “I like”.',
     grammar: {
       title: 'Wanting happens TO you',
-      body: 'Telugu says “to me, water is wanted”: నాకు నీళ్లు కావాలి. That -కు on నాకు means “to”. You’ll see this pattern with wanting, liking, and feeling — it’s one of the most Telugu things about Telugu.',
+      body: 'Telugu says “to me, water is wanted”: నాకు నీళ్లు కావాలి. That -కు on నాకు means “to”. You’ll see this pattern with wanting, liking, and feeling: it’s one of the most Telugu things about Telugu.',
     },
     items: [
       { conceptId: 'dat-naaku', te: 'నాకు', tr: 'nāku', en: 'to me' },
@@ -531,14 +531,14 @@ const VOCAB_LESSONS = [
       { conceptId: 'want-kavali', te: 'కావాలి', tr: 'kāvāli', en: 'want / need' },
     ],
     sentences: [
-      { te: 'నాకు నీళ్లు కావాలి', tr: 'nāku nīḷḷu kāvāli', en: 'I want water', blank: 'నాకు', note: 'Literally “to me, water is wanted” — the wanter takes -కు.' },
+      { te: 'నాకు నీళ్లు కావాలి', tr: 'nāku nīḷḷu kāvāli', en: 'I want water', blank: 'నాకు', note: 'Literally “to me, water is wanted”, the wanter takes -కు.' },
     ],
   },
 
   // ── course-9: The World Around You ──
   {
     id: 'c9-u1-l1', courseId: 'course-9', unitId: 'c9-u1', title: 'Animals', teluguTitle: 'జంతువులు',
-    description: 'Dog, cat, cow — the animals of every Telugu village.',
+    description: 'Dog, cat, cow, the animals of every Telugu village.',
     items: [
       { conceptId: 'animal-dog', te: 'కుక్క', tr: 'kukka', en: 'dog' },
       { conceptId: 'animal-cat', te: 'పిల్లి', tr: 'pilli', en: 'cat' },
@@ -552,7 +552,7 @@ const VOCAB_LESSONS = [
   },
   {
     id: 'c9-u1-l2', courseId: 'course-9', unitId: 'c9-u1', title: 'Head to Toe', teluguTitle: 'తల నుంచి కాలు వరకు',
-    description: 'Body words — you know తల from the script course already.',
+    description: 'Body words, you know తల from the script course already.',
     items: [
       { conceptId: 'body-head', te: 'తల', tr: 'tala', en: 'head' },
       { conceptId: 'body-eye', te: 'కన్ను', tr: 'kannu', en: 'eye' },
@@ -581,8 +581,8 @@ const VOCAB_LESSONS = [
     id: 'c11-u1-l1', courseId: 'course-11', unitId: 'c11-u1', title: 'Verb Goes Last', teluguTitle: 'పద క్రమం',
     description: 'Telugu word order: who, then what, then the action.',
     grammar: {
-      title: 'Subject — Object — Verb',
-      body: 'English says “I drink milk”. Telugu says నేను పాలు తాగుతున్నాను — “I milk am-drinking”. The verb always comes last. Once this clicks, every sentence you build will sound right.',
+      title: 'Subject (Object) Verb',
+      body: 'English says “I drink milk”. Telugu says నేను పాలు తాగుతున్నాను: “I milk am-drinking”. The verb always comes last. Once this clicks, every sentence you build will sound right.',
     },
     items: [
       { conceptId: 'sent-milk-drink', te: 'నేను పాలు తాగుతున్నాను', tr: 'nēnu pālu tāgutunnānu', en: 'I am drinking milk' },
@@ -591,7 +591,7 @@ const VOCAB_LESSONS = [
       { conceptId: 'sent-school-go', te: 'నేను బడికి వెళ్తున్నాను', tr: 'nēnu baḍiki veḷtunnānu', en: 'I am going to school' },
     ],
     sentences: [
-      { te: 'నేను పాలు తాగుతున్నాను', tr: 'nēnu pālu tāgutunnānu', en: 'I am drinking milk', blank: 'తాగుతున్నాను', note: 'The verb తాగుతున్నాను comes last — always.' },
+      { te: 'నేను పాలు తాగుతున్నాను', tr: 'nēnu pālu tāgutunnānu', en: 'I am drinking milk', blank: 'తాగుతున్నాను', note: 'The verb తాగుతున్నాను comes last, always.' },
       { te: 'నేను పుస్తకం చదువుతున్నాను', tr: 'nēnu pustakam chaduvutunnānu', en: 'I am reading a book', blank: 'పుస్తకం' },
     ],
   },
@@ -630,7 +630,7 @@ const VOCAB_LESSONS = [
     description: 'Turn any statement into a question with one sound.',
     grammar: {
       title: 'The magic -ā',
-      body: 'Add -ా to the end of a verb and it becomes a question. వస్తారు (you will come) → వస్తారా? (will you come?). No “do” or “will” words needed — just the rising -ā.',
+      body: 'Add -ా to the end of a verb and it becomes a question. వస్తారు (you will come) → వస్తారా? (will you come?). No “do” or “will” words needed, just the rising -ā.',
     },
     items: [
       { conceptId: 'gram-q-vastara', te: 'వస్తారా?', tr: 'vastārā?', en: 'will you come? (respectful)' },
@@ -647,7 +647,7 @@ const VOCAB_LESSONS = [
     description: 'A first taste of past and future.',
     grammar: {
       title: 'Past and future live in the verb ending',
-      body: 'వెళ్తాను = I will go. వెళ్ళాను = I went. తింటాను = I will eat. తిన్నాను = I ate. Same verb, different tail — pair them with నిన్న (yesterday) and రేపు (tomorrow) and you can tell time-travel stories.',
+      body: 'వెళ్తాను = I will go. వెళ్ళాను = I went. తింటాను = I will eat. తిన్నాను = I ate. Same verb, different tail: pair them with నిన్న (yesterday) and రేపు (tomorrow) and you can tell time-travel stories.',
     },
     items: [
       { conceptId: 'verb-went', te: 'వెళ్ళాను', tr: 'veḷḷānu', en: 'I went' },
@@ -720,7 +720,7 @@ function makeLetterLesson(def) {
     ex.push({
       id: eid(), type: 'script_build', mode: 'identify',
       conceptIds: [`script-${l.slug}`],
-      prompt: `This is ${l.te} — it says “${l.roman}”${l.hint ? ` (${l.hint})` : ''}. Which one is ${l.te}?`,
+      prompt: `This is ${l.te}, it says “${l.roman}”${l.hint ? ` (${l.hint})` : ''}. Which one is ${l.te}?`,
       choices: [
         { id: 'a', telugu: l.te },
         ...ds.map((d, j) => ({ id: 'bc'[j], telugu: d.te, whyWrong: `${d.te} says “${d.roman}”.` })),
@@ -781,7 +781,7 @@ function makeLetterLesson(def) {
     ex.push({
       id: eid(), type: 'match_pairs', mode: 'telugu-transliteration',
       conceptIds: L.map((l) => `script-${l.slug}`),
-      prompt: 'One more round — match letter to sound.',
+      prompt: 'One more round, match letter to sound.',
       pairs: pairsSource.slice(5, 10).map((l) => ({ a: { telugu: l.te }, b: { telugu: l.roman } })),
     });
   }
@@ -807,7 +807,7 @@ function makeGunintaLesson(def) {
       parts: [base, it.sign],
       choices: [
         { id: 'a', telugu: it.example, transliteration: it.roman },
-        ...ds.map((d, j) => ({ id: 'bc'[j], telugu: d.example, whyWrong: `${d.example} is “${d.roman}” — that uses the sign ${d.sign}.` })),
+        ...ds.map((d, j) => ({ id: 'bc'[j], telugu: d.example, whyWrong: `${d.example} is “${d.roman}”, that uses the sign ${d.sign}.` })),
       ],
       correctChoiceIds: ['a'],
     });
@@ -848,7 +848,7 @@ function makeGunintaLesson(def) {
     ex.push({
       id: eid(), type: 'match_pairs', mode: 'telugu-transliteration',
       conceptIds: items.map((it) => `script-gun-${it.slug}`),
-      prompt: 'And the rest — match syllable to sound.',
+      prompt: 'And the rest, match syllable to sound.',
       pairs: items.slice(5, 10).map((it) => ({ a: { telugu: it.example }, b: { telugu: it.roman } })),
     });
   }

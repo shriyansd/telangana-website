@@ -32,7 +32,7 @@
       "conceptIds": [
         "script-sha"
       ],
-      "prompt": "This is శ — it says “śa” (sh as in ship). Which one is శ?",
+      "prompt": "This is శ: it says “śa” (sh as in ship). Which one is శ?",
       "choices": [
         {
           "id": "a",
@@ -90,7 +90,7 @@
       "conceptIds": [
         "script-ssa"
       ],
-      "prompt": "This is ష — it says “ṣa” (a harder sh — tongue curled back). Which one is ష?",
+      "prompt": "This is ష (it says “ṣa” (a harder sh) tongue curled back). Which one is ష?",
       "choices": [
         {
           "id": "a",
@@ -180,7 +180,7 @@
       "conceptIds": [
         "script-sa"
       ],
-      "prompt": "This is స — it says “sa”. Which one is స?",
+      "prompt": "This is స: it says “sa”. Which one is స?",
       "choices": [
         {
           "id": "a",
@@ -238,7 +238,7 @@
       "conceptIds": [
         "script-lla"
       ],
-      "prompt": "This is ళ — it says “ḷa” (retroflex l — the special Telugu l). Which one is ళ?",
+      "prompt": "This is ళ (it says “ḷa” (retroflex l) the special Telugu l). Which one is ళ?",
       "choices": [
         {
           "id": "a",
@@ -328,7 +328,7 @@
       "conceptIds": [
         "script-rra"
       ],
-      "prompt": "This is ఱ — it says “ṟa” (a strong trilled r — rare today). Which one is ఱ?",
+      "prompt": "This is ఱ (it says “ṟa” (a strong trilled r) rare today). Which one is ఱ?",
       "choices": [
         {
           "id": "a",
@@ -356,7 +356,7 @@
       "conceptIds": [
         "script-ksha"
       ],
-      "prompt": "This is క్ష — it says “kṣa” (k + ṣa fused into one sign). Which one is క్ష?",
+      "prompt": "This is క్ష: it says “kṣa” (k + ṣa fused into one sign). Which one is క్ష?",
       "choices": [
         {
           "id": "a",
@@ -559,7 +559,7 @@
         "script-rra",
         "script-ksha"
       ],
-      "prompt": "One more round — match letter to sound.",
+      "prompt": "One more round: match letter to sound.",
       "pairs": [
         {
           "a": {

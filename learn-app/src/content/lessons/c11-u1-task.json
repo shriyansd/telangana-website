@@ -4,7 +4,7 @@
   "unitId": "c11-u1",
   "title": "Show What You Can Do: Making Weekend Plans",
   "teluguTitle": "ప్లాన్ చేద్దాం",
-  "description": "A friend calls about the weekend — questions, plurals, past and future, all in one chat.",
+  "description": "A friend calls about the weekend: questions, plurals, past and future, all in one chat.",
   "estimatedMinutes": 6,
   "status": "draft",
   "difficulty": "beginner",
@@ -39,8 +39,8 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "నిన్న బడికి వెళ్ళాను", "transliteration": "ninna baḍiki veḷḷānu", "english": "Yesterday I went to school" },
-        { "id": "b", "telugu": "రేపు బడికి వెళ్తాను", "transliteration": "rēpu baḍiki veḷtānu", "whyWrong": "That's the future — వెళ్తాను — but they asked about yesterday." },
-        { "id": "c", "telugu": "బడి అక్కడ ఉంది", "whyWrong": "“The school is there” — true, but not what they asked." }
+        { "id": "b", "telugu": "రేపు బడికి వెళ్తాను", "transliteration": "rēpu baḍiki veḷtānu", "whyWrong": "That's the future (వెళ్తాను) but they asked about yesterday." },
+        { "id": "c", "telugu": "బడి అక్కడ ఉంది", "whyWrong": "“The school is there”: true, but not what they asked." }
       ],
       "correctChoiceIds": ["a"]
     },
@@ -74,7 +74,7 @@
     {
       "id": "cc-sentences",
       "title": "You're building sentences now",
-      "body": "Questions, answers, past, future, plurals, and 'me too' — you just used the core machinery of Telugu grammar in one phone call."
+      "body": "Questions, answers, past, future, plurals, and 'me too': you just used the core machinery of Telugu grammar in one phone call."
     }
   ],
   "author": "seed-content",

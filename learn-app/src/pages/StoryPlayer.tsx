@@ -74,7 +74,7 @@ export function StoryPlayer({ storyId }: { storyId: string }) {
         <div className="summary-stats">
           <div className="sum-stat"><strong>+{xpEarned}</strong><span>XP</span></div>
         </div>
-        <p className="summary-note">Replay it any time — listening twice is worth more than reading ten times.</p>
+        <p className="summary-note">Replay it any time: listening twice is worth more than reading ten times.</p>
         <div className="summary-actions">
           <button type="button" className="btn-primary big" onClick={() => navigate('stories')}>Done →</button>
           <button type="button" className="btn-ghost" onClick={() => { setVisibleLines(1); doneCheckpoints.current.clear(); setPhase('playing'); }}>Replay</button>

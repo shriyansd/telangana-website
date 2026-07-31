@@ -33,7 +33,7 @@
       "conceptIds": [
         "script-vattu-kka"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "క్క",
         "transliteration": "kka"
@@ -106,7 +106,7 @@
       "conceptIds": [
         "script-vattu-lla-v"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ల్ల",
         "transliteration": "lla"
@@ -183,7 +183,7 @@
         "script-vattu-nna",
         "script-vattu-lla-v"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

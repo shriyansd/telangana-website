@@ -37,7 +37,7 @@
       "conceptIds": [
         "script-gun-kaa"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కా",
         "transliteration": "kā"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "script-gun-ku"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కు",
         "transliteration": "ku"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "script-gun-kee"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కే",
         "transliteration": "kē"
@@ -244,7 +244,7 @@
         "script-gun-kii",
         "script-gun-ku"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

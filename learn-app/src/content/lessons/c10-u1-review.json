@@ -39,7 +39,7 @@
       "conceptIds": [
         "pron-i"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నేను",
         "transliteration": "nēnu"
@@ -113,7 +113,7 @@
       "conceptIds": [
         "pron-he"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అతను",
         "transliteration": "atanu"
@@ -186,7 +186,7 @@
       "conceptIds": [
         "pron-that"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అది",
         "transliteration": "adi"
@@ -247,7 +247,7 @@
         "pron-you-respectful",
         "pron-he"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

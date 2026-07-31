@@ -36,7 +36,7 @@
       "conceptIds": [
         "script-a"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అ",
         "transliteration": "a"
@@ -109,7 +109,7 @@
       "conceptIds": [
         "script-ka"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "క",
         "transliteration": "ka"
@@ -182,7 +182,7 @@
       "conceptIds": [
         "sound-ta-dental"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "త",
         "transliteration": "ta (soft, dental)"
@@ -190,11 +190,11 @@
       "choices": [
         {
           "id": "a",
-          "english": "soft ta — tongue touches the teeth"
+          "english": "soft ta: tongue touches the teeth"
         },
         {
           "id": "b",
-          "english": "hard ṭa — tongue curls back"
+          "english": "hard ṭa: tongue curls back"
         },
         {
           "id": "c",
@@ -211,7 +211,7 @@
       "conceptIds": [
         "sound-ta-retroflex"
       ],
-      "prompt": "How do you say “hard ṭa — tongue curls back”?",
+      "prompt": "How do you say “hard ṭa: tongue curls back”?",
       "choices": [
         {
           "id": "a",
@@ -243,7 +243,7 @@
         "script-i",
         "script-ka"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

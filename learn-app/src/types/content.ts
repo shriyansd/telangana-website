@@ -219,6 +219,9 @@ export interface Concept {
   notes?: string;
   /** concepts commonly confused with this one */
   confusableWith?: string[];
+  /** One simple example sentence (SVO, everyday register) showing the word in
+   *  context. Written to reuse vocabulary from earlier lessons where possible. */
+  example?: TeluguString;
 }
 
 export interface CultureCard {

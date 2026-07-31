@@ -2,7 +2,7 @@
   "id": "c6-u3-l3",
   "courseId": "course-6",
   "unitId": "c6-u3",
-  "title": "ట ఠ డ ఢ ణ — the hard t sounds",
+  "title": "ట ఠ డ ఢ ణ, the hard t sounds",
   "teluguTitle": "ట వర్గం",
   "description": "Retroflex sounds: the tongue curls back to the roof of the mouth.",
   "estimatedMinutes": 10,
@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-tta"
       ],
-      "prompt": "This is ట — it says “ṭa” (hard t — tongue curls back). Which one is ట?",
+      "prompt": "This is ట (it says “ṭa” (hard t) tongue curls back). Which one is ట?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-ttha"
       ],
-      "prompt": "This is ఠ — it says “ṭha” (ṭa with a puff of breath — rare). Which one is ఠ?",
+      "prompt": "This is ఠ, it says “ṭha” (ṭa with a puff of breath, rare). Which one is ఠ?",
       "choices": [
         {
           "id": "a",
@@ -149,7 +149,7 @@
       "conceptIds": [
         "script-dda"
       ],
-      "prompt": "This is డ — it says “ḍa” (hard d — tongue curls back). Which one is డ?",
+      "prompt": "This is డ (it says “ḍa” (hard d) tongue curls back). Which one is డ?",
       "choices": [
         {
           "id": "a",
@@ -207,7 +207,7 @@
       "conceptIds": [
         "script-ddha"
       ],
-      "prompt": "This is ఢ — it says “ḍha” (ḍa with a puff of breath — rare). Which one is ఢ?",
+      "prompt": "This is ఢ, it says “ḍha” (ḍa with a puff of breath, rare). Which one is ఢ?",
       "choices": [
         {
           "id": "a",
@@ -267,7 +267,7 @@
       "conceptIds": [
         "script-nna-retro"
       ],
-      "prompt": "This is ణ — it says “ṇa” (hard n — shows up inside words like బాణం). Which one is ణ?",
+      "prompt": "This is ణ (it says “ṇa” (hard n) shows up inside words like బాణం). Which one is ణ?",
       "choices": [
         {
           "id": "a",

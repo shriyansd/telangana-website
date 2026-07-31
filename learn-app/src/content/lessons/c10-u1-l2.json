@@ -4,7 +4,7 @@
   "unitId": "c10-u1",
   "title": "This & That",
   "teluguTitle": "ఇది అది",
-  "description": "Point at anything and name it — no verb needed.",
+  "description": "Point at anything and name it, no verb needed.",
   "estimatedMinutes": 8,
   "status": "draft",
   "difficulty": "beginner",
@@ -310,7 +310,7 @@
     {
       "id": "c10-u1-l2-g1",
       "title": "No word for “is” needed",
-      "body": "To say “this is a book”, Telugu just puts the two words together: ఇది పుస్తకం — literally “this, book”. Simple and everywhere."
+      "body": "To say “this is a book”, Telugu just puts the two words together: ఇది పుస్తకం, literally “this, book”. Simple and everywhere."
     }
   ]
 }

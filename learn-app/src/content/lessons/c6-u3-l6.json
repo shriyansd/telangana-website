@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-ya"
       ],
-      "prompt": "This is య — it says “ya”. Which one is య?",
+      "prompt": "This is య: it says “ya”. Which one is య?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-ra"
       ],
-      "prompt": "This is ర — it says “ra”. Which one is ర?",
+      "prompt": "This is ర: it says “ra”. Which one is ర?",
       "choices": [
         {
           "id": "a",
@@ -179,7 +179,7 @@
       "conceptIds": [
         "script-la"
       ],
-      "prompt": "This is ల — it says “la”. Which one is ల?",
+      "prompt": "This is ల: it says “la”. Which one is ల?",
       "choices": [
         {
           "id": "a",
@@ -237,7 +237,7 @@
       "conceptIds": [
         "script-va"
       ],
-      "prompt": "This is వ — it says “va”. Which one is వ?",
+      "prompt": "This is వ: it says “va”. Which one is వ?",
       "choices": [
         {
           "id": "a",
@@ -327,7 +327,7 @@
       "conceptIds": [
         "script-ha"
       ],
-      "prompt": "This is హ — it says “ha”. Which one is హ?",
+      "prompt": "This is హ: it says “ha”. Which one is హ?",
       "choices": [
         {
           "id": "a",

@@ -28,7 +28,7 @@ const UNIT_DESIGNS = {
   'c6-u3': { goal: 'Recognize the Telugu consonants row by row.', canDo: 'I can identify the consonants and tell hard (ట) from soft (త) sounds.' },
   'c6-u4': { goal: 'Read any consonant with any vowel sign.', canDo: 'I can read syllables like కా, కి, మా, తో on sight.' },
   'c6-u5': { goal: 'Read doubled letters (vattulu) inside words.', canDo: 'I can read words with doubles like అక్క and అమ్మ.' },
-  'c6-u6': { goal: 'Read real Telugu words without help.', canDo: 'I can read familiar words — అమ్మ, పాలు, నమస్కారం — without transliteration.', task: 'c6-u6-l3' },
+  'c6-u6': { goal: 'Read real Telugu words without help.', canDo: 'I can read familiar words (అమ్మ, పాలు, నమస్కారం) without transliteration.', task: 'c6-u6-l3' },
   'c1-u1': { goal: 'Greet an elder respectfully, introduce yourself, and ask how they are.', canDo: 'I can greet someone respectfully, say my name, ask theirs, ask how they are, and say goodbye.', task: 'c1-u1-l6', skipReview: true },
   'c1-u2': { goal: 'Answer politely and talk about your family.', canDo: 'I can say yes and no politely and name the people in my family.', task: 'c1-u2-task' },
   'c10-u1': { goal: 'Use the little words that glue every sentence together.', canDo: 'I can point things out, say what is mine and yours, and say where people are.', task: 'c10-u1-task' },
@@ -62,7 +62,7 @@ function reviewLesson(courseId, unit, conceptIds) {
     if (i % 3 === 0) {
       ex.push({
         id: eid(), type: 'multiple_choice', conceptIds: [c.id],
-        prompt: 'Quick check — what does this mean?',
+        prompt: 'Quick check, what does this mean?',
         question: { telugu: c.telugu, transliteration: c.transliteration },
         choices: [{ id: 'a', english: c.english }, ...ds.map((d, j) => ({ id: 'bc'[j], english: d.english }))],
         correctChoiceIds: ['a'],
@@ -86,7 +86,7 @@ function reviewLesson(courseId, unit, conceptIds) {
   ex.push({
     id: eid(), type: 'match_pairs', mode: 'telugu-english',
     conceptIds: pick.slice(0, 4).map((c) => c.id),
-    prompt: 'One last sweep — match them all.',
+    prompt: 'One last sweep, match them all.',
     pairs: pick.slice(0, 4).map((c) => ({ a: { telugu: c.telugu, transliteration: c.transliteration }, b: { telugu: c.english } })),
   });
 

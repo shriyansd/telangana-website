@@ -36,7 +36,7 @@
       "conceptIds": [
         "place-uru"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఊరు",
         "transliteration": "ūru"
@@ -109,7 +109,7 @@
       "conceptIds": [
         "place-dukanam"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "దుకాణం",
         "transliteration": "dukāṇam"
@@ -182,7 +182,7 @@
       "conceptIds": [
         "dir-there"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అక్కడ",
         "transliteration": "akkaḍa"
@@ -243,7 +243,7 @@
         "place-gudi",
         "place-dukanam"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

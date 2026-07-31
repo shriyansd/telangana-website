@@ -23,7 +23,7 @@
     "id": "course-6",
     "title": "The Telugu Script",
     "teluguTitle": "తెలుగు లిపి",
-    "description": "Every letter, from అ to క్ష — vowels, consonants, vowel signs, and double letters.",
+    "description": "Every letter, from అ to క్ష: vowels, consonants, vowel signs, and double letters.",
     "order": 1,
     "units": [
       {
@@ -97,7 +97,7 @@
           "c6-u6-l3"
         ],
         "communicationGoal": "Read real Telugu words without help.",
-        "canDoStatement": "I can read familiar words — అమ్మ, పాలు, నమస్కారం — without transliteration.",
+        "canDoStatement": "I can read familiar words (అమ్మ, పాలు, నమస్కారం) without transliteration.",
         "finalPerformanceTaskLessonId": "c6-u6-l3"
       }
     ]
@@ -143,7 +143,7 @@
     "id": "course-10",
     "title": "Building Blocks",
     "teluguTitle": "పునాది మాటలు",
-    "description": "Pronouns, my and your, is and there-is — the glue of every sentence.",
+    "description": "Pronouns, my and your, is and there-is, the glue of every sentence.",
     "units": [
       {
         "id": "c10-u1",

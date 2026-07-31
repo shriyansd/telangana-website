@@ -36,7 +36,7 @@
       "conceptIds": [
         "time-today"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఈరోజు",
         "transliteration": "īrōju"
@@ -109,7 +109,7 @@
       "conceptIds": [
         "time-now"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఇప్పుడు",
         "transliteration": "ippuḍu"
@@ -182,7 +182,7 @@
       "conceptIds": [
         "time-night"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "రాత్రి",
         "transliteration": "rātri"
@@ -243,7 +243,7 @@
         "time-yesterday",
         "time-now"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

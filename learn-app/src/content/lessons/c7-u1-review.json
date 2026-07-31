@@ -32,7 +32,7 @@
       "conceptIds": [
         "come-here"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఇక్కడికి రండి",
         "transliteration": "ikkaḍiki raṇḍi"
@@ -105,7 +105,7 @@
       "conceptIds": [
         "well-done"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "చాలా బాగుంది",
         "transliteration": "chālā bāgundi"
@@ -166,7 +166,7 @@
         "hunger",
         "well-done"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

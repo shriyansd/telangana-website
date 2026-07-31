@@ -39,7 +39,7 @@ function buildItems(): Item[] {
   const vocabulary: Item[] = [
     ['fam-ammamma', ['grandmother (mother\'s side)', 'older sister', 'aunt']],
     ['word-rice-food', ['rice / a meal', 'milk', 'fruit']],
-    ['no-ledu', ['no — there isn\'t', 'no — it is not', 'don\'t want']],
+    ['no-ledu', ['no (there isn\'t)', 'no (it is not)', 'don\'t want']],
     ['eat-respectful', ['eat (respectful request)', 'come here', 'sit down']],
   ].map(([id, opts]) => ({
     section: 'vocabulary' as Section,
@@ -142,12 +142,12 @@ export function Placement() {
         </ul>
         <p className="placement-note">
           {reading === 'new' && (scores.listening.right + scores.vocabulary.right) >= 5
-            ? 'You clearly know spoken Telugu — start with The Telugu Script course and you\'ll be reading words you already know within a few lessons.'
+            ? 'You clearly know spoken Telugu: start with The Telugu Script course and you\'ll be reading words you already know within a few lessons.'
             : reading !== 'new'
-              ? 'You can already read some Telugu — feel free to move quickly through the script course and jump into conversations.'
-              : 'Starting from the beginning is perfect — the course builds up letter by letter.'}
+              ? 'You can already read some Telugu: feel free to move quickly through the script course and jump into conversations.'
+              : 'Starting from the beginning is perfect, the course builds up letter by letter.'}
         </p>
-        <p className="placement-note">What you answered correctly is already credited — those words will appear less often and be reviewed on a normal schedule.</p>
+        <p className="placement-note">What you answered correctly is already credited: those words will appear less often and be reviewed on a normal schedule.</p>
         <button type="button" className="btn-primary big" onClick={() => navigate('dashboard')}>To my dashboard →</button>
       </div>
     );
@@ -159,7 +159,7 @@ export function Placement() {
       <header className="placement-head">
         <h1>Quick skill check</h1>
         <p>{SECTION_LABEL[it.section]} · {i + 1}/{items.length}</p>
-        <button type="button" className="btn-ghost" onClick={skip}>Skip — start from the beginning</button>
+        <button type="button" className="btn-ghost" onClick={skip}>Skip and start from the beginning</button>
       </header>
       <div className="placement-item">
         <p className="exercise-prompt">{it.prompt}</p>

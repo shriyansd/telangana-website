@@ -48,6 +48,17 @@ const courses = loadJson(join(contentDir, 'courses.json'), 'courses.json') ?? []
 const conceptIdDupes = concepts.map((c) => c.id).filter((id, i, a) => a.indexOf(id) !== i);
 for (const d of new Set(conceptIdDupes)) err('concepts.json', `duplicate concept id "${d}"`);
 
+// example sentences: must have all three faces of the display pattern
+for (const c of concepts) {
+  if (c.example === undefined) continue;
+  const where = `concepts.json:${c.id}`;
+  for (const key of ['telugu', 'transliteration', 'english']) {
+    if (typeof c.example[key] !== 'string' || c.example[key].trim() === '') {
+      err(where, `example is missing "${key}" — sentences need Telugu, romanization and English`);
+    }
+  }
+}
+
 // ── audio helpers ──
 const missingAudio = new Set();
 function checkAudio(ref, where) {

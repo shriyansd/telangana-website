@@ -115,6 +115,57 @@ async function saveStreakNow(now: Date) {
   return s;
 }
 
+/** Tracing stages map onto the existing support ladder (R4): guided tracing is
+ *  a full model; drawing from memory is independent production. So handwriting
+ *  practice feeds the same per-letter mastery the review system already uses. */
+const TRACE_SUPPORT: Record<1 | 2 | 3 | 4, SupportLevel> = {
+  1: 'full-model',
+  2: 'guided-recall',
+  3: 'partial-production',
+  4: 'independent-production',
+};
+
+export async function recordTraceAttempt(
+  conceptId: string,
+  stage: 1 | 2 | 3 | 4,
+  outcome: { correct: boolean; usedHint: boolean; responseTimeMs: number },
+): Promise<void> {
+  const now = new Date();
+  const exerciseId = `trace-${conceptId}-s${stage}`;
+  const existing = (await getMastery(conceptId)) ?? newMastery(conceptId);
+  const updated = applyAttempt(existing, {
+    correct: outcome.correct,
+    firstTry: true,
+    usedHint: outcome.usedHint,
+    responseTimeMs: outcome.responseTimeMs,
+    exerciseType: 'trace',
+    exerciseId,
+    skillDimension: 'script',
+    supportLevel: TRACE_SUPPORT[stage],
+  }, now);
+  await saveMastery(updated);
+
+  await logAttempt({
+    exerciseId,
+    lessonId: 'trace-practice',
+    conceptIds: [conceptId],
+    correct: outcome.correct,
+    firstAttemptCorrect: outcome.correct && !outcome.usedHint,
+    usedHint: outcome.usedHint,
+    responseTimeMs: outcome.responseTimeMs,
+    skillDimension: 'script',
+    supportLevel: TRACE_SUPPORT[stage],
+    at: now.toISOString(),
+  });
+
+  let amount = XP.exercise;
+  if (outcome.correct && !outcome.usedHint) amount += XP.firstTryBonus;
+  const xp = await getXP();
+  await saveXP(addXP(xp, Math.max(1, amount), now));
+  const streak = await getStreak();
+  await saveStreak(updateStreak(streak, now));
+}
+
 export async function recordSpeakingRecording(): Promise<void> {
   const xp = await getXP();
   await saveXP({ ...xp, speakingRecordings: xp.speakingRecordings + 1 });

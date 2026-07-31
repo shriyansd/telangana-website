@@ -4,7 +4,7 @@
   "unitId": "c2-u1",
   "title": "I Want Water",
   "teluguTitle": "నాకు కావాలి",
-  "description": "One powerful sentence pattern — నాకు ___ కావాలి — and the food words to use in it.",
+  "description": "One powerful sentence pattern (నాకు ___ కావాలి) and the food words to use in it.",
   "estimatedMinutes": 9,
   "status": "draft",
   "difficulty": "beginner",
@@ -29,7 +29,7 @@
       "correctChoiceIds": ["a"],
       "feedback": {
         "correct": "నాకు (to me) నీళ్లు (water) కావాలి (is wanted).",
-        "grammar": "Wanting in Telugu is “to me X is wanted” — the wanter takes -కు, not the subject position."
+        "grammar": "Wanting in Telugu is “to me X is wanted”: the wanter takes -కు, not the subject position."
       }
     },
     {
@@ -68,7 +68,7 @@
       "answer": "అన్నం",
       "choices": ["అన్నం", "నీళ్లు", "పేరు"],
       "feedback": {
-        "correct": "Same frame, new word — this one pattern orders food, asks for help, and requests anything.",
+        "correct": "Same frame, new word: this one pattern orders food, asks for help, and requests anything.",
         "incorrect": "You want food: అన్నం. (పేరు is “name”!)"
       }
     },
@@ -124,7 +124,7 @@
     {
       "id": "cc-annam",
       "title": "అన్నం is more than rice",
-      "body": "అన్నం literally means cooked rice, but “అన్నం తిన్నావా?” (did you eat rice?) simply asks whether you've eaten — rice stands for the whole meal in Telugu homes."
+      "body": "అన్నం literally means cooked rice, but “అన్నం తిన్నావా?” (did you eat rice?) simply asks whether you've eaten: rice stands for the whole meal in Telugu homes."
     }
   ],
   "author": "seed-content",

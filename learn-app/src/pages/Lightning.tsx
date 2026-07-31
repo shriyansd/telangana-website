@@ -126,7 +126,7 @@ export function Lightning() {
     return (
       <div className="lightning intro">
         <h1>⚡ Lightning round</h1>
-        <p>How many meanings can you get in {ROUND_SECONDS} seconds? Wrong answers cost nothing — speed and streaks are everything.</p>
+        <p>How many meanings can you get in {ROUND_SECONDS} seconds? Wrong answers cost nothing: speed and streaks are everything.</p>
         {best > 0 && <p className="lightning-best">Your best: <strong>{best}</strong></p>}
         <button type="button" className="btn-primary big" onClick={() => void start()}>Start ⚡</button>
         <button type="button" className="btn-ghost" onClick={() => navigate('dashboard')}>Back</button>

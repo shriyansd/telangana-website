@@ -3,7 +3,7 @@
   "title": "Sita at the Market",
   "teluguTitle": "సీత - సంత",
   "status": "draft",
-  "description": "Sita goes to the Sunday market and buys fruit — greetings, numbers, and a polite goodbye.",
+  "description": "Sita goes to the Sunday market and buys fruit: greetings, numbers, and a polite goodbye.",
   "vocabPreview": [
     { "id": "story-santa", "telugu": "సంత", "transliteration": "santa", "english": "market" },
     { "id": "story-enni", "telugu": "ఎన్ని?", "transliteration": "enni?", "english": "how many?" },
@@ -30,7 +30,7 @@
         "question": { "telugu": "ఏమి కావాలి?", "transliteration": "ēmi kāvāli?" },
         "choices": [
           { "id": "a", "english": "What would you like?" },
-          { "id": "b", "english": "How are you?", "whyWrong": "That would be ఎలా ఉన్నారు? — here he asks ఏమి కావాలి, what do you want." },
+          { "id": "b", "english": "How are you?", "whyWrong": "That would be ఎలా ఉన్నారు?: here he asks ఏమి కావాలి, what do you want." },
           { "id": "c", "english": "Where are you going?" }
         ],
         "correctChoiceIds": ["a"]
@@ -46,7 +46,7 @@
         "question": { "telugu": "నాలుగు ఇవ్వండి.", "transliteration": "nālugu ivvaṇḍi." },
         "choices": [
           { "id": "a", "telugu": "నాలుగు", "english": "four" },
-          { "id": "b", "telugu": "రెండు", "english": "two", "whyWrong": "రెండు is two — Sita says నాలుగు, four." },
+          { "id": "b", "telugu": "రెండు", "english": "two", "whyWrong": "రెండు is two, Sita says నాలుగు, four." },
           { "id": "c", "telugu": "పది", "english": "ten" }
         ],
         "correctChoiceIds": ["a"]
@@ -61,7 +61,7 @@
         "prompt": "How does Sita say goodbye?",
         "question": { "telugu": "వెళ్ళొస్తాను!" },
         "choices": [
-          { "id": "a", "english": "\"I'll go and come back\" — the warm Telugu goodbye" },
+          { "id": "a", "english": "\"I'll go and come back\", the warm Telugu goodbye" },
           { "id": "b", "english": "\"Good night\"", "whyWrong": "Good night is శుభరాత్రి. వెళ్ళొస్తాను literally means \"I'll go and come.\"" }
         ],
         "correctChoiceIds": ["a"]

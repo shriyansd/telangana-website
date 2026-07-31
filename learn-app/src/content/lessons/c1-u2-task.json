@@ -4,7 +4,7 @@
   "unitId": "c1-u2",
   "title": "Show What You Can Do: Who's Who at Home",
   "teluguTitle": "మా కుటుంబం",
-  "description": "A cousin video-calls and asks about the family — answer politely.",
+  "description": "A cousin video-calls and asks about the family: answer politely.",
   "estimatedMinutes": 5,
   "status": "draft",
   "difficulty": "beginner",
@@ -26,11 +26,11 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "అవును, మా అమ్మ", "transliteration": "avunu, mā amma", "english": "Yes, my mom" },
-        { "id": "b", "telugu": "లేదు", "transliteration": "lēdu", "whyWrong": "లేదు denies existence — for “yes it is her”, agree with అవును." },
+        { "id": "b", "telugu": "లేదు", "transliteration": "lēdu", "whyWrong": "లేదు denies existence: for “yes it is her”, agree with అవును." },
         { "id": "c", "telugu": "వెళ్ళొస్తాను", "whyWrong": "That's goodbye!" }
       ],
       "correctChoiceIds": ["a"],
-      "feedback": { "grammar": "మా అమ్మ — “our mom” — is how Telugu families naturally say “my mom”." }
+      "feedback": { "grammar": "మా అమ్మ (“our mom”) is how Telugu families naturally say “my mom”." }
     },
     {
       "id": "c1u2t-e2",
@@ -43,7 +43,7 @@
       "responseMode": "tiles",
       "tiles": ["కాదు", "మా", "నాన్న"],
       "acceptedAnswers": ["కాదు మా నాన్న"],
-      "hint": "It is NOT grandfather — so start with the identity-no.",
+      "hint": "It is NOT grandfather, so start with the identity-no.",
       "feedback": { "grammar": "కాదు rejects an identity: “no, (that is) our dad.”" }
     },
     {
@@ -57,7 +57,7 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "బాగున్నారు", "transliteration": "bāgunnāru", "english": "She is well (respectful)" },
-        { "id": "b", "telugu": "బాగున్నాను", "transliteration": "bāgunnānu", "whyWrong": "బాగున్నాను means *I* am fine — the question was about ammamma." },
+        { "id": "b", "telugu": "బాగున్నాను", "transliteration": "bāgunnānu", "whyWrong": "బాగున్నాను means *I* am fine, the question was about ammamma." },
         { "id": "c", "telugu": "సరే", "whyWrong": "సరే is “okay” for agreeing to something." }
       ],
       "correctChoiceIds": ["a"],

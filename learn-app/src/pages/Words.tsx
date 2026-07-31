@@ -102,11 +102,17 @@ export function Words() {
                 <TeluguText value={{ telugu: c.telugu, transliteration: c.transliteration }} mode={translitMode} />
                 <span className="word-english">{c.english}</span>
                 {c.notes && <span className="word-notes">{c.notes}</span>}
+                {c.example && (
+                  <div className="word-example">
+                    <TeluguText value={c.example} mode={translitMode} showEnglish size="sm" />
+                    <SpeakButton telugu={c.example.telugu} />
+                  </div>
+                )}
                 {editingHook === c.id ? (
                   <span className="word-hook-edit">
                     <input
                       value={hookDraft} autoFocus maxLength={140}
-                      placeholder="Your memory hook, e.g. “kāvāli — I ‘cave in’ to what I want”"
+                      placeholder="Your memory hook, e.g. “kāvāli, I ‘cave in’ to what I want”"
                       onChange={(e) => setHookDraft(e.target.value)}
                       onKeyDown={(e) => { if (e.key === 'Enter') void saveHook(c.id); if (e.key === 'Escape') setEditingHook(null); }}
                       aria-label={`Memory hook for ${c.telugu}`}
@@ -139,7 +145,7 @@ export function Words() {
             </li>
           );
         })}
-        {list.length === 0 && <li className="words-empty">Nothing matches — try a different search.</li>}
+        {list.length === 0 && <li className="words-empty">Nothing matches: try a different search.</li>}
       </ul>
     </div>
   );

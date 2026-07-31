@@ -2,9 +2,9 @@
   "id": "c6-u3-l5",
   "courseId": "course-6",
   "unitId": "c6-u3",
-  "title": "ప ఫ బ భ మ — the p, b, m sounds",
+  "title": "ప ఫ బ భ మ, the p, b, m sounds",
   "teluguTitle": "ప వర్గం",
-  "description": "The lip sounds — the last of the five classic rows.",
+  "description": "The lip sounds, the last of the five classic rows.",
   "estimatedMinutes": 10,
   "status": "draft",
   "difficulty": "beginner",
@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-pa"
       ],
-      "prompt": "This is ప — it says “pa”. Which one is ప?",
+      "prompt": "This is ప: it says “pa”. Which one is ప?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-pha"
       ],
-      "prompt": "This is ఫ — it says “pha” (pa with a puff of breath). Which one is ఫ?",
+      "prompt": "This is ఫ: it says “pha” (pa with a puff of breath). Which one is ఫ?",
       "choices": [
         {
           "id": "a",
@@ -179,7 +179,7 @@
       "conceptIds": [
         "script-ba"
       ],
-      "prompt": "This is బ — it says “ba”. Which one is బ?",
+      "prompt": "This is బ: it says “ba”. Which one is బ?",
       "choices": [
         {
           "id": "a",
@@ -237,7 +237,7 @@
       "conceptIds": [
         "script-bha"
       ],
-      "prompt": "This is భ — it says “bha” (ba with a puff of breath). Which one is భ?",
+      "prompt": "This is భ: it says “bha” (ba with a puff of breath). Which one is భ?",
       "choices": [
         {
           "id": "a",
@@ -327,7 +327,7 @@
       "conceptIds": [
         "script-ma"
       ],
-      "prompt": "This is మ — it says “ma”. Which one is మ?",
+      "prompt": "This is మ: it says “ma”. Which one is మ?",
       "choices": [
         {
           "id": "a",

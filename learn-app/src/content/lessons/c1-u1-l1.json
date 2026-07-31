@@ -27,8 +27,8 @@
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "correct": "శుభోదయం = śubha (auspicious) + udayam (sunrise) — a good morning.",
-        "incorrect": "Listen for udayam — sunrise. శుభోదయం means good morning."
+        "correct": "శుభోదయం = śubha (auspicious) + udayam (sunrise), a good morning.",
+        "incorrect": "Listen for udayam: sunrise. శుభోదయం means good morning."
       }
     },
     {
@@ -39,12 +39,12 @@
       "question": { "telugu": "వెళ్ళొస్తాను", "transliteration": "veḷḷostānu" },
       "choices": [
         { "id": "a", "english": "I'll go and come back" },
-        { "id": "b", "english": "Go away", "whyWrong": "That would be rude — this word is warm, not dismissive." },
+        { "id": "b", "english": "Go away", "whyWrong": "That would be rude: this word is warm, not dismissive." },
         { "id": "c", "english": "Good night" }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "correct": "Leaving is softened into a promise to return — వెళ్ళి + వస్తాను.",
+        "correct": "Leaving is softened into a promise to return: వెళ్ళి + వస్తాను.",
         "grammar": "Compound verbs like this are everywhere in Telugu: two actions joined into one word."
       }
     },
@@ -70,7 +70,7 @@
       "answer": "ధన్యవాదాలు",
       "choices": ["ధన్యవాదాలు", "వెళ్ళొస్తాను", "శుభోదయం"],
       "feedback": {
-        "correct": "అండి after a word adds politeness — like adding “ji” in Hindi.",
+        "correct": "అండి after a word adds politeness: like adding “ji” in Hindi.",
         "incorrect": "You want to thank them: ధన్యవాదాలు."
       }
     },
@@ -85,7 +85,7 @@
       "distractors": ["నాన్న"],
       "acceptedOrders": [["అమ్మా", "శుభోదయం"], ["శుభోదయం", "అమ్మా"]],
       "feedback": {
-        "correct": "Both orders work — Telugu word order is flexible. Calling out to mom, అమ్మ becomes అమ్మా."
+        "correct": "Both orders work, Telugu word order is flexible. Calling out to mom, అమ్మ becomes అమ్మా."
       }
     },
     {
@@ -113,7 +113,7 @@
     {
       "id": "cc-goodbye",
       "title": "Never just “bye”",
-      "body": "Saying a final goodbye is considered inauspicious in Telugu homes. వెళ్ళొస్తాను — “I'll go and come back” — keeps the door open. Guests say it, hosts answer వెళ్ళిరండి — “go and return.”"
+      "body": "Saying a final goodbye is considered inauspicious in Telugu homes. వెళ్ళొస్తాను (“I'll go and come back”) keeps the door open. Guests say it, hosts answer వెళ్ళిరండి: “go and return.”"
     }
   ],
   "author": "seed-content",

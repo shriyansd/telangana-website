@@ -48,20 +48,20 @@
         {
           "id": "a",
           "telugu": "త",
-          "transliteration": "ta — soft, dental"
+          "transliteration": "ta: soft, dental"
         },
         {
           "id": "b",
           "telugu": "ట",
-          "transliteration": "ṭa — hard, retroflex",
-          "whyWrong": "ట curls the tongue back to the roof of the mouth — a harder sound."
+          "transliteration": "ṭa: hard, retroflex",
+          "whyWrong": "ట curls the tongue back to the roof of the mouth, a harder sound."
         }
       ],
       "correctChoiceIds": [
         "a"
       ],
       "feedback": {
-        "correct": "త touches the teeth (like Spanish t); ట curls back. English “t” is between them — closer to ట."
+        "correct": "త touches the teeth (like Spanish t); ట curls back. English “t” is between them: closer to ట."
       }
     },
     {
@@ -126,7 +126,7 @@
           "id": "b",
           "telugu": "ద",
           "transliteration": "da",
-          "whyWrong": "ద is soft as in దండం. Money is ḍabbu — hard డ."
+          "whyWrong": "ద is soft as in దండం. Money is ḍabbu: hard డ."
         }
       ],
       "correctChoiceIds": [
@@ -156,20 +156,20 @@
         {
           "id": "a",
           "telugu": "ళ",
-          "transliteration": "ḷa — retroflex"
+          "transliteration": "ḷa: retroflex"
         },
         {
           "id": "b",
           "telugu": "ల",
-          "transliteration": "la — plain",
-          "whyWrong": "నీళ్లు uses the deep retroflex ళ — tongue curled well back."
+          "transliteration": "la: plain",
+          "whyWrong": "నీళ్లు uses the deep retroflex ళ: tongue curled well back."
         }
       ],
       "correctChoiceIds": [
         "a"
       ],
       "feedback": {
-        "correct": "ళ appears in some of the most Telugu words there are: నీళ్లు, తెలుగుళో? — no, తెలుగులో! But గోళీలు, వాళ్ళు — yes."
+        "correct": "ళ appears in some of the most Telugu words there are: నీళ్లు, తెలుగుళో? (no, తెలుగులో! But గోళీలు, వాళ్ళు) yes."
       }
     },
     {
@@ -192,7 +192,7 @@
         {
           "id": "b",
           "telugu": "టల",
-          "whyWrong": "టల isn't a Telugu word — the soft త makes తల (head)."
+          "whyWrong": "టల isn't a Telugu word, the soft త makes తల (head)."
         }
       ],
       "correctChoiceIds": [
@@ -206,7 +206,7 @@
         "sound-ta-dental",
         "sound-ta-retroflex"
       ],
-      "prompt": "Listen carefully — soft or hard? Write the letter you hear.",
+      "prompt": "Listen carefully: soft or hard? Write the letter you hear.",
       "audio": {
         "normal": "audio/course-6/c6-u1/letter-ta-dental-normal.mp3"
       },

@@ -32,7 +32,7 @@
       "conceptIds": [
         "q-what"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఏమిటి?",
         "transliteration": "ēmiṭi?"
@@ -105,7 +105,7 @@
       "conceptIds": [
         "q-why"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఎందుకు?",
         "transliteration": "enduku?"
@@ -166,7 +166,7 @@
         "q-where",
         "q-why"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

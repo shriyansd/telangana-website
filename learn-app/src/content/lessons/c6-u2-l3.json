@@ -4,7 +4,7 @@
   "unitId": "c6-u2",
   "title": "Rare Vowels & Review",
   "teluguTitle": "ఋ అం అః",
-  "description": "The rare ఋ, the nasal అం, the breathy అః — then a vowel review.",
+  "description": "The rare ఋ, the nasal అం, the breathy అః, then a vowel review.",
   "estimatedMinutes": 8,
   "status": "draft",
   "difficulty": "beginner",
@@ -29,7 +29,7 @@
       "conceptIds": [
         "script-ru"
       ],
-      "prompt": "This is ఋ — it says “ru” (vocalic r — rare, as in ఋషి (sage)). Which one is ఋ?",
+      "prompt": "This is ఋ (it says “ru” (vocalic r) rare, as in ఋషి (sage)). Which one is ఋ?",
       "choices": [
         {
           "id": "a",
@@ -87,7 +87,7 @@
       "conceptIds": [
         "script-am"
       ],
-      "prompt": "This is అం — it says “aṁ” (a nasal hum at the end — the anusvāra). Which one is అం?",
+      "prompt": "This is అం, it says “aṁ” (a nasal hum at the end, the anusvāra). Which one is అం?",
       "choices": [
         {
           "id": "a",
@@ -177,7 +177,7 @@
       "conceptIds": [
         "script-ah"
       ],
-      "prompt": "This is అః — it says “aḥ” (a light breath at the end — the visarga). Which one is అః?",
+      "prompt": "This is అః, it says “aḥ” (a light breath at the end, the visarga). Which one is అః?",
       "choices": [
         {
           "id": "a",
@@ -306,7 +306,7 @@
         "script-am",
         "script-ah"
       ],
-      "prompt": "One more round — match letter to sound.",
+      "prompt": "One more round: match letter to sound.",
       "pairs": [
         {
           "a": {

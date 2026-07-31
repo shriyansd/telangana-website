@@ -36,7 +36,7 @@
       "conceptIds": [
         "yes"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అవును",
         "transliteration": "avunu"
@@ -112,7 +112,7 @@
       "conceptIds": [
         "okay"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "సరే",
         "transliteration": "sarē"
@@ -188,7 +188,7 @@
       "conceptIds": [
         "fam-amma"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అమ్మ",
         "transliteration": "amma"
@@ -249,7 +249,7 @@
         "no-ledu",
         "okay"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

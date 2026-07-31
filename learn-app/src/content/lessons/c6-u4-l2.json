@@ -47,12 +47,12 @@
         {
           "id": "b",
           "telugu": "కే",
-          "whyWrong": "కే is “kē” — that uses the sign ే."
+          "whyWrong": "కే is “kē”: that uses the sign ే."
         },
         {
           "id": "c",
           "telugu": "కై",
-          "whyWrong": "కై is “kai” — that uses the sign ై."
+          "whyWrong": "కై is “kai”: that uses the sign ై."
         }
       ],
       "correctChoiceIds": [
@@ -80,12 +80,12 @@
         {
           "id": "b",
           "telugu": "కై",
-          "whyWrong": "కై is “kai” — that uses the sign ై."
+          "whyWrong": "కై is “kai”: that uses the sign ై."
         },
         {
           "id": "c",
           "telugu": "కొ",
-          "whyWrong": "కొ is “ko” — that uses the sign ొ."
+          "whyWrong": "కొ is “ko”: that uses the sign ొ."
         }
       ],
       "correctChoiceIds": [
@@ -144,12 +144,12 @@
         {
           "id": "b",
           "telugu": "కొ",
-          "whyWrong": "కొ is “ko” — that uses the sign ొ."
+          "whyWrong": "కొ is “ko”: that uses the sign ొ."
         },
         {
           "id": "c",
           "telugu": "కో",
-          "whyWrong": "కో is “kō” — that uses the sign ో."
+          "whyWrong": "కో is “kō”: that uses the sign ో."
         }
       ],
       "correctChoiceIds": [
@@ -177,12 +177,12 @@
         {
           "id": "b",
           "telugu": "కో",
-          "whyWrong": "కో is “kō” — that uses the sign ో."
+          "whyWrong": "కో is “kō”: that uses the sign ో."
         },
         {
           "id": "c",
           "telugu": "కౌ",
-          "whyWrong": "కౌ is “kau” — that uses the sign ౌ."
+          "whyWrong": "కౌ is “kau”: that uses the sign ౌ."
         }
       ],
       "correctChoiceIds": [
@@ -210,12 +210,12 @@
         {
           "id": "b",
           "telugu": "కౌ",
-          "whyWrong": "కౌ is “kau” — that uses the sign ౌ."
+          "whyWrong": "కౌ is “kau”: that uses the sign ౌ."
         },
         {
           "id": "c",
           "telugu": "కం",
-          "whyWrong": "కం is “kaṁ” — that uses the sign ం."
+          "whyWrong": "కం is “kaṁ”: that uses the sign ం."
         }
       ],
       "correctChoiceIds": [
@@ -274,12 +274,12 @@
         {
           "id": "b",
           "telugu": "కం",
-          "whyWrong": "కం is “kaṁ” — that uses the sign ం."
+          "whyWrong": "కం is “kaṁ”: that uses the sign ం."
         },
         {
           "id": "c",
           "telugu": "కె",
-          "whyWrong": "కె is “ke” — that uses the sign ె."
+          "whyWrong": "కె is “ke”: that uses the sign ె."
         }
       ],
       "correctChoiceIds": [
@@ -307,12 +307,12 @@
         {
           "id": "b",
           "telugu": "కె",
-          "whyWrong": "కె is “ke” — that uses the sign ె."
+          "whyWrong": "కె is “ke”: that uses the sign ె."
         },
         {
           "id": "c",
           "telugu": "కే",
-          "whyWrong": "కే is “kē” — that uses the sign ే."
+          "whyWrong": "కే is “kē”: that uses the sign ే."
         }
       ],
       "correctChoiceIds": [
@@ -443,7 +443,7 @@
         "script-gun-kau",
         "script-gun-kam"
       ],
-      "prompt": "And the rest — match syllable to sound.",
+      "prompt": "And the rest: match syllable to sound.",
       "pairs": [
         {
           "a": {

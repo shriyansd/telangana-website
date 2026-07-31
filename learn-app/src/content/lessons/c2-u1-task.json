@@ -4,7 +4,7 @@
   "unitId": "c2-u1",
   "title": "Show What You Can Do: At the Table",
   "teluguTitle": "భోజనం దగ్గర",
-  "description": "Dinner at a relative's house — ask for what you want, politely stop what you don't.",
+  "description": "Dinner at a relative's house: ask for what you want, politely stop what you don't.",
   "estimatedMinutes": 5,
   "status": "draft",
   "difficulty": "beginner",
@@ -39,7 +39,7 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "అవును! నాకు పప్పు ఇష్టం", "transliteration": "avunu! nāku pappu iṣṭam", "english": "Yes! I like dal" },
-        { "id": "b", "telugu": "అది మా అమ్మ", "whyWrong": "“That's my mom” — a surprising answer at dinner!" },
+        { "id": "b", "telugu": "అది మా అమ్మ", "whyWrong": "“That's my mom”, a surprising answer at dinner!" },
         { "id": "c", "telugu": "మీ పేరు ఏమిటి?", "whyWrong": "You know your aunt's name." }
       ],
       "correctChoiceIds": ["a"]
@@ -56,8 +56,8 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "చాలు, ధన్యవాదాలు!", "transliteration": "chālu, dhanyavādālu!", "english": "That's enough, thank you!" },
-        { "id": "b", "telugu": "కాదు", "transliteration": "kādu", "whyWrong": "కాదు rejects an identity — for “no more food”, చాలు or వద్దు is the polite move." },
-        { "id": "c", "telugu": "ఎక్కడ?", "whyWrong": "“Where?” — the dal is right in front of you." }
+        { "id": "b", "telugu": "కాదు", "transliteration": "kādu", "whyWrong": "కాదు rejects an identity: for “no more food”, చాలు or వద్దు is the polite move." },
+        { "id": "c", "telugu": "ఎక్కడ?", "whyWrong": "“Where?”: the dal is right in front of you." }
       ],
       "correctChoiceIds": ["a"],
       "feedback": { "grammar": "చాలు (enough) + thanks is the warm way to stop a generous host." }
@@ -67,7 +67,7 @@
       "type": "translate",
       "conceptIds": ["want-vaddu"],
       "newContext": true,
-      "prompt": "She offers spicy pickle. You don't want any — say it in Telugu.",
+      "prompt": "She offers spicy pickle. You don't want any: say it in Telugu.",
       "source": { "english": "don't want / no thanks" },
       "direction": "to-telugu",
       "acceptedAnswers": ["వద్దు", "నాకు వద్దు"],

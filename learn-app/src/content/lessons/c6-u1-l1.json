@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-a"
       ],
-      "prompt": "This is అ — the “a” in amma. Which letter is it?",
+      "prompt": "This is అ: the “a” in amma. Which letter is it?",
       "mode": "identify",
       "choices": [
         {
@@ -41,7 +41,7 @@
         {
           "id": "b",
           "telugu": "ఆ",
-          "whyWrong": "Close! ఆ has an extra stroke — it's the long ā."
+          "whyWrong": "Close! ఆ has an extra stroke: it's the long ā."
         },
         {
           "id": "c",
@@ -59,7 +59,7 @@
         "script-a",
         "script-aa"
       ],
-      "prompt": "అ vs ఆ: which one is the LONG vowel — the “aa” in nānna?",
+      "prompt": "అ vs ఆ: which one is the LONG vowel, the “aa” in nānna?",
       "mode": "identify",
       "choices": [
         {
@@ -125,7 +125,7 @@
         "script-ma",
         "script-ka"
       ],
-      "prompt": "Which letter says “ma” — the start of మామిడి (mango)?",
+      "prompt": "Which letter says “ma”, the start of మామిడి (mango)?",
       "mode": "identify",
       "choices": [
         {
@@ -152,7 +152,7 @@
         "script-ma",
         "script-ka-matra"
       ],
-      "prompt": "Build the word: “ammā” — అ + మ్మ + ా. Which is it?",
+      "prompt": "Build the word: “ammā”, అ + మ్మ + ా. Which is it?",
       "mode": "build-word",
       "parts": [
         "అ",
@@ -181,7 +181,7 @@
         "a"
       ],
       "feedback": {
-        "correct": "You just read your first Telugu word: అమ్మా — mom! The doubled మ్మ uses a small attached మ (a vattu)."
+        "correct": "You just read your first Telugu word: అమ్మా, mom! The doubled మ్మ uses a small attached మ (a vattu)."
       }
     },
     {

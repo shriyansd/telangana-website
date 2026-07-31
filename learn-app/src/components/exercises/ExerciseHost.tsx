@@ -91,7 +91,7 @@ export function ExerciseHost({
     const result = classifyAnswer(given, accepted);
     if (resultIsCorrect(result)) {
       const note =
-        result === 'nearly-correct-typo' ? `Almost perfect — check the spelling: ${accepted[0]}` :
+        result === 'nearly-correct-typo' ? `Almost perfect, check the spelling: ${accepted[0]}` :
         result === 'correct-alternative' ? `Also fine: ${accepted[0]}` : undefined;
       finish(true, given, undefined, { note });
       return;
@@ -101,10 +101,10 @@ export function ExerciseHost({
       if (settings.soundEffects) sfxWrong();
       setRetryMsg(
         result === 'wrong-word-order'
-          ? 'You have the right words — look at the order. In Telugu the verb usually comes last.'
+          ? 'You have the right words: look at the order. In Telugu the verb usually comes last.'
           : exercise.hint
-            ? `Not quite — one more try. 💡 ${exercise.hint}`
-            : 'Not quite — take another look and try once more.',
+            ? `Not quite, one more try. 💡 ${exercise.hint}`
+            : 'Not quite, take another look and try once more.',
       );
       return;
     }

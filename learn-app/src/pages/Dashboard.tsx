@@ -117,7 +117,7 @@ export function Dashboard() {
         </div>
         <div>
           <h2>Daily goal · {goalMinutes} min</h2>
-          <p>{todayXp} XP today {goalPct >= 100 ? '— goal met! 🎉' : ''}</p>
+          <p>{todayXp} XP today{goalPct >= 100 ? ', goal met! 🎉' : ''}</p>
           {streak && streak.current > 0 && <p className="streak-line">🔥 {streak.current}-day streak (best {streak.longest})</p>}
         </div>
       </section>
@@ -126,7 +126,7 @@ export function Dashboard() {
         <Link to="review" className={`action-card ${dueCount > 0 ? 'highlight' : ''}`}>
           <span className="action-icon">🔁</span>
           <strong>Review</strong>
-          <span>{dueCount > 0 ? `${dueCount} concept${dueCount === 1 ? '' : 's'} due` : 'Nothing due — nice!'}</span>
+          <span>{dueCount > 0 ? `${dueCount} concept${dueCount === 1 ? '' : 's'} due` : 'Nothing due, nice!'}</span>
         </Link>
         <Link to="mistakes" className="action-card">
           <span className="action-icon">🩹</span>
@@ -152,6 +152,11 @@ export function Dashboard() {
           <span className="action-icon">📚</span>
           <strong>Word book</strong>
           <span>Everything you've learned</span>
+        </Link>
+        <Link to="live" className="action-card">
+          <span className="action-icon">🎥</span>
+          <strong>Live session</strong>
+          <span>Book 30 min with a teacher</span>
         </Link>
       </section>
 

@@ -226,7 +226,7 @@
         "చదువుతున్నాను"
       ],
       "feedback": {
-        "grammar": "The verb తాగుతున్నాను comes last — always."
+        "grammar": "The verb తాగుతున్నాను comes last, always."
       }
     },
     {
@@ -311,8 +311,8 @@
   "grammarNotes": [
     {
       "id": "c11-u1-l1-g1",
-      "title": "Subject — Object — Verb",
-      "body": "English says “I drink milk”. Telugu says నేను పాలు తాగుతున్నాను — “I milk am-drinking”. The verb always comes last. Once this clicks, every sentence you build will sound right."
+      "title": "Subject (Object) Verb",
+      "body": "English says “I drink milk”. Telugu says నేను పాలు తాగుతున్నాను: “I milk am-drinking”. The verb always comes last. Once this clicks, every sentence you build will sound right."
     }
   ]
 }

@@ -130,7 +130,7 @@ export function Onboarding() {
       {steps[step]}
       <div className="ob-footer">
         {step > 0 && <button type="button" className="btn-ghost" onClick={() => setStep(step - 1)}>← Back</button>}
-        <button type="button" className="btn-ghost" onClick={() => finish(true)}>Skip — use defaults</button>
+        <button type="button" className="btn-ghost" onClick={() => finish(true)}>Skip and use defaults</button>
       </div>
       <p className="ob-privacy">No name, email, or age is collected. Everything can be changed in Settings.</p>
     </div>

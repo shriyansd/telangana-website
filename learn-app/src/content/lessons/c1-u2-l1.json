@@ -22,8 +22,8 @@
       "audio": { "normal": "audio/course-1/c1-u2/avunu-normal.mp3", "reviewStatus": "draft" },
       "spoken": { "telugu": "అవును", "transliteration": "avunu", "english": "yes" },
       "choices": [
-        { "id": "a", "english": "Agreeing — yes", "image": "👍" },
-        { "id": "b", "english": "Disagreeing — no", "image": "👎" }
+        { "id": "a", "english": "Agreeing: yes", "image": "👍" },
+        { "id": "b", "english": "Disagreeing, no", "image": "👎" }
       ],
       "correctChoiceIds": ["a"]
     },
@@ -34,12 +34,12 @@
       "prompt": "Telugu has two words for “no”. Someone asks: “Is this your bag?” It isn't. Which no?",
       "question": { "telugu": "ఇది మీ సంచా?", "english": "Is this your bag?" },
       "choices": [
-        { "id": "a", "telugu": "కాదు", "transliteration": "kādu", "english": "no — it is not (identity)" },
-        { "id": "b", "telugu": "లేదు", "transliteration": "lēdu", "english": "no — there isn't / it didn't happen", "whyWrong": "లేదు denies existence or happening. For “it is not X”, use కాదు." }
+        { "id": "a", "telugu": "కాదు", "transliteration": "kādu", "english": "no: it is not (identity)" },
+        { "id": "b", "telugu": "లేదు", "transliteration": "lēdu", "english": "no: there isn't / it didn't happen", "whyWrong": "లేదు denies existence or happening. For “it is not X”, use కాదు." }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "grammar": "కాదు answers “is it X?” — లేదు answers “is there X?” or “did X happen?” Mixing them is the classic learner mistake."
+        "grammar": "కాదు answers “is it X?”: లేదు answers “is there X?” or “did X happen?” Mixing them is the classic learner mistake."
       }
     },
     {

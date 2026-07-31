@@ -37,7 +37,7 @@
       "conceptIds": [
         "verb-eat"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "తిను",
         "transliteration": "tinu"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "verb-come"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "రా",
         "transliteration": "rā"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "req-kurchondi"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "కూర్చోండి",
         "transliteration": "kūrchōṇḍi"
@@ -244,7 +244,7 @@
         "verb-go",
         "verb-come"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

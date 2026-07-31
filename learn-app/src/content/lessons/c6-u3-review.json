@@ -41,7 +41,7 @@
       "conceptIds": [
         "script-ka"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "క",
         "transliteration": "ka"
@@ -114,7 +114,7 @@
       "conceptIds": [
         "script-gha"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఘ",
         "transliteration": "gha"
@@ -187,7 +187,7 @@
       "conceptIds": [
         "script-chha"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఛ",
         "transliteration": "chha"
@@ -248,7 +248,7 @@
         "script-ga",
         "script-gha"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

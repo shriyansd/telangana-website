@@ -4,7 +4,7 @@
   "unitId": "c1-u2",
   "title": "Family",
   "teluguTitle": "కుటుంబం",
-  "description": "Mother, father, siblings and grandparents — the words heritage learners hear every day.",
+  "description": "Mother, father, siblings and grandparents, the words heritage learners hear every day.",
   "estimatedMinutes": 9,
   "status": "draft",
   "difficulty": "beginner",
@@ -63,11 +63,11 @@
       "question": { "telugu": "నానమ్మ", "transliteration": "nānamma" },
       "choices": [
         { "id": "a", "english": "Father's mother" },
-        { "id": "b", "english": "Mother's sister", "whyWrong": "That's పిన్ని or పెద్దమ్మ — later lesson!" }
+        { "id": "b", "english": "Mother's sister", "whyWrong": "That's పిన్ని or పెద్దమ్మ: later lesson!" }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "correct": "నాన్న + అమ్మ = నానమ్మ. Telugu kinship words are precise — both grandmothers get their own word."
+        "correct": "నాన్న + అమ్మ = నానమ్మ. Telugu kinship words are precise: both grandmothers get their own word."
       }
     },
     {

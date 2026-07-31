@@ -4,7 +4,7 @@
   "unitId": "c3-u1",
   "title": "Show What You Can Do: At the Fruit Stall",
   "teluguTitle": "పండ్ల దుకాణంలో",
-  "description": "Buy fruit with real numbers — how many, and did you hear the price right?",
+  "description": "Buy fruit with real numbers: how many, and did you hear the price right?",
   "estimatedMinutes": 5,
   "status": "draft",
   "difficulty": "beginner",
@@ -26,7 +26,7 @@
       "responseMode": "tiles",
       "tiles": ["నాకు", "రెండు", "పండ్లు", "కావాలి"],
       "acceptedAnswers": ["నాకు రెండు పండ్లు కావాలి"],
-      "feedback": { "grammar": "Number slots in before the noun: రెండు పండ్లు — two fruits." }
+      "feedback": { "grammar": "Number slots in before the noun: రెండు పండ్లు, two fruits." }
     },
     {
       "id": "c3u1t-e2",
@@ -39,7 +39,7 @@
       "choices": [
         { "id": "a", "english": "20 rupees" },
         { "id": "b", "english": "30 rupees", "whyWrong": "30 would be ముప్పై." },
-        { "id": "c", "english": "100 rupees", "whyWrong": "100 would be వంద — luckily not!" }
+        { "id": "c", "english": "100 rupees", "whyWrong": "100 would be వంద: luckily not!" }
       ],
       "correctChoiceIds": ["a"]
     },
@@ -48,14 +48,14 @@
       "type": "dialogue",
       "conceptIds": ["num-5"],
       "newContext": true,
-      "context": "Your neighbour asked you to pick up bananas too — five of them.",
+      "context": "Your neighbour asked you to pick up bananas too: five of them.",
       "turns": [
         { "speaker": "అమ్మి", "line": { "telugu": "ఇంకా ఏమైనా?", "transliteration": "iṅkā ēmainā?", "english": "Anything else?" } }
       ],
       "responseMode": "type",
       "acceptedAnswers": ["ఐదు అరటిపండ్లు", "ఐదు", "aidu aratipandlu", "aidu"],
       "hint": "The number for five is ఐదు.",
-      "feedback": { "correct": "ఐదు అరటిపండ్లు — five bananas. Numbers unlock every market in Telangana." }
+      "feedback": { "correct": "ఐదు అరటిపండ్లు: five bananas. Numbers unlock every market in Telangana." }
     },
     {
       "id": "c3u1t-e4",
@@ -65,7 +65,7 @@
       "prompt": "You hand over 30 rupees for a 20-rupee bill. How much change should come back?",
       "choices": [
         { "id": "a", "telugu": "పది", "transliteration": "padi", "english": "ten" },
-        { "id": "b", "telugu": "ఇరవై", "transliteration": "iravai", "whyWrong": "That's twenty — she'd be keeping nothing!" },
+        { "id": "b", "telugu": "ఇరవై", "transliteration": "iravai", "whyWrong": "That's twenty: she'd be keeping nothing!" },
         { "id": "c", "telugu": "ఐదు", "transliteration": "aidu", "whyWrong": "That's five." }
       ],
       "correctChoiceIds": ["a"]

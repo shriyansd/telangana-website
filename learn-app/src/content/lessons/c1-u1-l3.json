@@ -23,7 +23,7 @@
       "spoken": { "telugu": "ఎలా ఉన్నారు?", "transliteration": "elā unnāru?", "english": "how are you?" },
       "choices": [
         { "id": "a", "telugu": "నేను బాగున్నాను", "transliteration": "nēnu bāgunnānu", "english": "I am fine" },
-        { "id": "b", "telugu": "నా పేరు రవి", "transliteration": "nā pēru Ravi", "english": "My name is Ravi", "whyWrong": "That answers “what's your name?” — this question asks how you are." }
+        { "id": "b", "telugu": "నా పేరు రవి", "transliteration": "nā pēru Ravi", "english": "My name is Ravi", "whyWrong": "That answers “what's your name?”: this question asks how you are." }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
@@ -55,7 +55,7 @@
       "tiles": ["నేను", "బాగున్నాను"],
       "distractors": ["మీరు", "ఏమిటి"],
       "feedback": {
-        "correct": "Subject first, verb last — the backbone of Telugu sentences."
+        "correct": "Subject first, verb last, the backbone of Telugu sentences."
       }
     },
     {
@@ -70,8 +70,8 @@
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "బాగున్నాను తాతా! మీరు ఎలా ఉన్నారు?", "transliteration": "bāgunnānu tātā! mīru elā unnāru?", "english": "I'm fine, grandpa! How are you?" },
-        { "id": "b", "telugu": "సరే.", "english": "Okay.", "whyWrong": "A bit cold for తాత! Tell him you're well — and ask him back." },
-        { "id": "c", "telugu": "నా పేరు సీత.", "english": "My name is Sita.", "whyWrong": "He knows your name — he asked how you are." }
+        { "id": "b", "telugu": "సరే.", "english": "Okay.", "whyWrong": "A bit cold for తాత! Tell him you're well, and ask him back." },
+        { "id": "c", "telugu": "నా పేరు సీత.", "english": "My name is Sita.", "whyWrong": "He knows your name: he asked how you are." }
       ],
       "correctChoiceIds": ["a"],
       "feedback": {

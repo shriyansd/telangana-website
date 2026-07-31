@@ -4,7 +4,7 @@
   "unitId": "c6-u2",
   "title": "Vowels: అ to ఊ",
   "teluguTitle": "అ ఆ ఇ ఈ ఉ ఊ",
-  "description": "The first six vowels — short and long pairs.",
+  "description": "The first six vowels: short and long pairs.",
   "estimatedMinutes": 10,
   "status": "draft",
   "difficulty": "beginner",
@@ -32,7 +32,7 @@
       "conceptIds": [
         "script-a"
       ],
-      "prompt": "This is అ — it says “a” (like “a” in about). Which one is అ?",
+      "prompt": "This is అ: it says “a” (like “a” in about). Which one is అ?",
       "choices": [
         {
           "id": "a",
@@ -90,7 +90,7 @@
       "conceptIds": [
         "script-aa"
       ],
-      "prompt": "This is ఆ — it says “ā” (a long “aa”, as in father). Which one is ఆ?",
+      "prompt": "This is ఆ: it says “ā” (a long “aa”, as in father). Which one is ఆ?",
       "choices": [
         {
           "id": "a",
@@ -180,7 +180,7 @@
       "conceptIds": [
         "script-i"
       ],
-      "prompt": "This is ఇ — it says “i” (like “i” in bit). Which one is ఇ?",
+      "prompt": "This is ఇ: it says “i” (like “i” in bit). Which one is ఇ?",
       "choices": [
         {
           "id": "a",
@@ -238,7 +238,7 @@
       "conceptIds": [
         "script-ii"
       ],
-      "prompt": "This is ఈ — it says “ī” (a long “ee”, as in feet). Which one is ఈ?",
+      "prompt": "This is ఈ: it says “ī” (a long “ee”, as in feet). Which one is ఈ?",
       "choices": [
         {
           "id": "a",
@@ -328,7 +328,7 @@
       "conceptIds": [
         "script-u"
       ],
-      "prompt": "This is ఉ — it says “u” (like “u” in put). Which one is ఉ?",
+      "prompt": "This is ఉ: it says “u” (like “u” in put). Which one is ఉ?",
       "choices": [
         {
           "id": "a",
@@ -386,7 +386,7 @@
       "conceptIds": [
         "script-uu"
       ],
-      "prompt": "This is ఊ — it says “ū” (a long “oo”, as in food). Which one is ఊ?",
+      "prompt": "This is ఊ: it says “ū” (a long “oo”, as in food). Which one is ఊ?",
       "choices": [
         {
           "id": "a",
@@ -589,7 +589,7 @@
         "script-u",
         "script-uu"
       ],
-      "prompt": "One more round — match letter to sound.",
+      "prompt": "One more round: match letter to sound.",
       "pairs": [
         {
           "a": {

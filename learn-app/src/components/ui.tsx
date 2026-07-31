@@ -77,7 +77,7 @@ export function AudioButton({
         🐢 <span>Slow</span>
       </button>
       {result === 'synth' && <span className="audio-note" title="A native-speaker recording hasn't been added yet.">synthetic voice (placeholder)</span>}
-      {result === 'unavailable' && <span className="audio-note">recording coming soon — read the text below</span>}
+      {result === 'unavailable' && <span className="audio-note">recording coming soon: read the text below</span>}
     </div>
   );
 }

@@ -27,7 +27,7 @@
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "correct": "నమస్కారం is the universal Telugu greeting — it works at any time of day, with anyone.",
+        "correct": "నమస్కారం is the universal Telugu greeting: it works at any time of day, with anyone.",
         "incorrect": "ధన్యవాదాలు means thank you. The greeting you heard was నమస్కారం."
       }
     },
@@ -60,7 +60,7 @@
       ],
       "correctChoiceIds": ["a"],
       "feedback": {
-        "correct": "You can show, hide, or tap-to-reveal transliteration any time in Settings — most learners hide it as reading improves."
+        "correct": "You can show, hide, or tap-to-reveal transliteration any time in Settings: most learners hide it as reading improves."
       }
     },
     {
@@ -80,7 +80,7 @@
     {
       "id": "cc-namaskaram",
       "title": "నమస్కారం and folded hands",
-      "body": "నమస్కారం often comes with folded hands (añjali). In Telangana you may also hear the warm 'బాగున్నారా?' straight away — asking how you are is itself a greeting.",
+      "body": "నమస్కారం often comes with folded hands (añjali). In Telangana you may also hear the warm 'బాగున్నారా?' straight away: asking how you are is itself a greeting.",
       "region": "Telangana"
     }
   ],

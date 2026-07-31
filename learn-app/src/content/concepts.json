@@ -3,44 +3,79 @@
     "id": "greet-namaskaram",
     "telugu": "నమస్కారం",
     "transliteration": "namaskāram",
-    "english": "hello / greetings"
+    "english": "hello / greetings",
+    "example": {
+      "telugu": "నమస్కారం, అమ్మ!",
+      "transliteration": "namaskāram, amma!",
+      "english": "Hello, Mom!"
+    }
   },
   {
     "id": "greet-good-morning",
     "telugu": "శుభోదయం",
     "transliteration": "śubhōdayam",
-    "english": "good morning"
+    "english": "good morning",
+    "example": {
+      "telugu": "శుభోదయం, నాన్న!",
+      "transliteration": "śubhōdayam, nānna!",
+      "english": "Good morning, Dad!"
+    }
   },
   {
     "id": "greet-goodbye",
     "telugu": "వెళ్ళొస్తాను",
     "transliteration": "veḷḷostānu",
     "english": "goodbye (I'll go and come back)",
-    "notes": "The usual Telugu way to say goodbye — literally a promise to return."
+    "notes": "The usual Telugu way to say goodbye: literally a promise to return.",
+    "example": {
+      "telugu": "నేను వెళ్ళొస్తాను, అమ్మ.",
+      "transliteration": "nēnu veḷḷostānu, amma.",
+      "english": "I'll be off, Mom: back soon."
+    }
   },
   {
     "id": "thanks",
     "telugu": "ధన్యవాదాలు",
     "transliteration": "dhanyavādālu",
-    "english": "thank you"
+    "english": "thank you",
+    "example": {
+      "telugu": "ధన్యవాదాలు, అక్క!",
+      "transliteration": "dhanyavādālu, akka!",
+      "english": "Thank you, older sister!"
+    }
   },
   {
     "id": "please",
     "telugu": "దయచేసి",
     "transliteration": "dayachēsi",
-    "english": "please"
+    "english": "please",
+    "example": {
+      "telugu": "దయచేసి నీళ్లు ఇవ్వండి.",
+      "transliteration": "dayachēsi nīḷḷu ivvaṇḍi.",
+      "english": "Please give me water."
+    }
   },
   {
     "id": "sorry",
     "telugu": "క్షమించండి",
     "transliteration": "kṣaminchaṇḍi",
-    "english": "sorry / excuse me (respectful)"
+    "english": "sorry / excuse me (respectful)",
+    "example": {
+      "telugu": "క్షమించండి, అది నా పేరు కాదు.",
+      "transliteration": "kṣaminchaṇḍi, adi nā pēru kādu.",
+      "english": "Sorry, that is not my name."
+    }
   },
   {
     "id": "yes",
     "telugu": "అవును",
     "transliteration": "avunu",
-    "english": "yes"
+    "english": "yes",
+    "example": {
+      "telugu": "అవును, నేను బాగున్నాను.",
+      "transliteration": "avunu, nēnu bāgunnānu.",
+      "english": "Yes, I am fine."
+    }
   },
   {
     "id": "no",
@@ -49,7 +84,12 @@
     "english": "no (it is not)",
     "confusableWith": [
       "no-ledu"
-    ]
+    ],
+    "example": {
+      "telugu": "ఇది టీ కాదు, పాలు.",
+      "transliteration": "idi ṭī kādu, pālu.",
+      "english": "This is not tea: it's milk."
+    }
   },
   {
     "id": "no-ledu",
@@ -58,49 +98,89 @@
     "english": "no (there isn't / didn't)",
     "confusableWith": [
       "no"
-    ]
+    ],
+    "example": {
+      "telugu": "అమ్మ ఇంట్లో లేదు.",
+      "transliteration": "amma iṇṭlō lēdu.",
+      "english": "Mom is not at home."
+    }
   },
   {
     "id": "okay",
     "telugu": "సరే",
     "transliteration": "sarē",
-    "english": "okay"
+    "english": "okay",
+    "example": {
+      "telugu": "సరే, వెళ్ళొస్తాను!",
+      "transliteration": "sarē, veḷḷostānu!",
+      "english": "Okay, I'll be off!"
+    }
   },
   {
     "id": "ask-name-respectful",
     "telugu": "మీ పేరు ఏమిటి?",
     "transliteration": "mī pēru ēmiṭi?",
-    "english": "what is your name? (respectful)"
+    "english": "what is your name? (respectful)",
+    "example": {
+      "telugu": "నమస్కారం! మీ పేరు ఏమిటి?",
+      "transliteration": "namaskāram! mī pēru ēmiṭi?",
+      "english": "Hello! What is your name?"
+    }
   },
   {
     "id": "say-my-name",
     "telugu": "నా పేరు ___",
     "transliteration": "nā pēru ___",
-    "english": "my name is ___"
+    "english": "my name is ___",
+    "example": {
+      "telugu": "నా పేరు రవి. మీ పేరు ఏమిటి?",
+      "transliteration": "nā pēru Ravi. mī pēru ēmiṭi?",
+      "english": "My name is Ravi. What is your name?"
+    }
   },
   {
     "id": "word-name",
     "telugu": "పేరు",
     "transliteration": "pēru",
-    "english": "name"
+    "english": "name",
+    "example": {
+      "telugu": "నా పేరు అను, అమ్మ పేరు లత.",
+      "transliteration": "nā pēru Anu, amma pēru Lata.",
+      "english": "My name is Anu; Mom's name is Latha."
+    }
   },
   {
     "id": "how-are-you",
     "telugu": "ఎలా ఉన్నారు?",
     "transliteration": "elā unnāru?",
-    "english": "how are you? (respectful)"
+    "english": "how are you? (respectful)",
+    "example": {
+      "telugu": "నమస్కారం, ఎలా ఉన్నారు?",
+      "transliteration": "namaskāram, elā unnāru?",
+      "english": "Hello: how are you?"
+    }
   },
   {
     "id": "i-am-fine",
     "telugu": "నేను బాగున్నాను",
     "transliteration": "nēnu bāgunnānu",
-    "english": "I am fine"
+    "english": "I am fine",
+    "example": {
+      "telugu": "నేను బాగున్నాను. మీరు ఎలా ఉన్నారు?",
+      "transliteration": "nēnu bāgunnānu. mīru elā unnāru?",
+      "english": "I am fine. How are you?"
+    }
   },
   {
     "id": "pron-i",
     "telugu": "నేను",
     "transliteration": "nēnu",
-    "english": "I"
+    "english": "I",
+    "example": {
+      "telugu": "నేను టీ తాగుతాను.",
+      "transliteration": "nēnu ṭī tāgutānu.",
+      "english": "I drink tea."
+    }
   },
   {
     "id": "pron-you-respectful",
@@ -112,25 +192,45 @@
     "id": "fam-amma",
     "telugu": "అమ్మ",
     "transliteration": "amma",
-    "english": "mother"
+    "english": "mother",
+    "example": {
+      "telugu": "మా అమ్మ పేరు లత.",
+      "transliteration": "mā amma pēru Lata.",
+      "english": "My mom's name is Latha."
+    }
   },
   {
     "id": "fam-nanna",
     "telugu": "నాన్న",
     "transliteration": "nānna",
-    "english": "father"
+    "english": "father",
+    "example": {
+      "telugu": "నాన్న బాగున్నారు.",
+      "transliteration": "nānna bāgunnāru.",
+      "english": "Dad is doing well."
+    }
   },
   {
     "id": "fam-akka",
     "telugu": "అక్క",
     "transliteration": "akka",
-    "english": "older sister"
+    "english": "older sister",
+    "example": {
+      "telugu": "అక్క పేరు సీత.",
+      "transliteration": "akka pēru Sīta.",
+      "english": "My older sister's name is Sita."
+    }
   },
   {
     "id": "fam-anna",
     "telugu": "అన్న",
     "transliteration": "anna",
-    "english": "older brother"
+    "english": "older brother",
+    "example": {
+      "telugu": "మా అన్న పేరు రాము.",
+      "transliteration": "mā anna pēru Rāmu.",
+      "english": "My older brother's name is Ramu."
+    }
   },
   {
     "id": "fam-thammudu",
@@ -148,13 +248,23 @@
     "id": "fam-tata",
     "telugu": "తాత",
     "transliteration": "tāta",
-    "english": "grandfather"
+    "english": "grandfather",
+    "example": {
+      "telugu": "తాత, నమస్కారం!",
+      "transliteration": "tāta, namaskāram!",
+      "english": "Hello, Grandpa!"
+    }
   },
   {
     "id": "fam-ammamma",
     "telugu": "అమ్మమ్మ",
     "transliteration": "ammamma",
-    "english": "grandmother (mother's mother)"
+    "english": "grandmother (mother's mother)",
+    "example": {
+      "telugu": "అమ్మమ్మ, ఎలా ఉన్నారు?",
+      "transliteration": "ammamma, elā unnāru?",
+      "english": "Grandma, how are you?"
+    }
   },
   {
     "id": "fam-nanamma",
@@ -166,7 +276,12 @@
     "id": "want-kavali",
     "telugu": "కావాలి",
     "transliteration": "kāvāli",
-    "english": "want / need"
+    "english": "want / need",
+    "example": {
+      "telugu": "అమ్మ, నాకు పాలు కావాలి.",
+      "transliteration": "amma, nāku pālu kāvāli.",
+      "english": "Mom, I want milk."
+    }
   },
   {
     "id": "want-water",
@@ -178,19 +293,34 @@
     "id": "word-water",
     "telugu": "నీళ్లు",
     "transliteration": "nīḷḷu",
-    "english": "water"
+    "english": "water",
+    "example": {
+      "telugu": "తాతకు నీళ్లు కావాలి.",
+      "transliteration": "tātaku nīḷḷu kāvāli.",
+      "english": "Grandpa wants water."
+    }
   },
   {
     "id": "word-rice-food",
     "telugu": "అన్నం",
     "transliteration": "annam",
-    "english": "rice / food (a meal)"
+    "english": "rice / food (a meal)",
+    "example": {
+      "telugu": "అమ్మ, అన్నం బాగుంది!",
+      "transliteration": "amma, annam bāgundi!",
+      "english": "Mom, the food is good!"
+    }
   },
   {
     "id": "word-milk",
     "telugu": "పాలు",
     "transliteration": "pālu",
-    "english": "milk"
+    "english": "milk",
+    "example": {
+      "telugu": "పాలు వద్దు, టీ కావాలి.",
+      "transliteration": "pālu vaddu, ṭī kāvāli.",
+      "english": "No milk, I want tea."
+    }
   },
   {
     "id": "word-fruit",
@@ -202,7 +332,12 @@
     "id": "word-tea",
     "telugu": "టీ",
     "transliteration": "ṭī",
-    "english": "tea"
+    "english": "tea",
+    "example": {
+      "telugu": "నాన్నకు టీ కావాలి.",
+      "transliteration": "nānnaku ṭī kāvāli.",
+      "english": "Dad wants tea."
+    }
   },
   {
     "id": "hunger",
@@ -250,7 +385,7 @@
     "id": "sound-ta-dental",
     "telugu": "త",
     "transliteration": "ta (soft, dental)",
-    "english": "soft ta — tongue touches the teeth",
+    "english": "soft ta: tongue touches the teeth",
     "confusableWith": [
       "sound-ta-retroflex"
     ]
@@ -259,7 +394,7 @@
     "id": "sound-ta-retroflex",
     "telugu": "ట",
     "transliteration": "ṭa (retroflex)",
-    "english": "hard ṭa — tongue curls back",
+    "english": "hard ṭa: tongue curls back",
     "confusableWith": [
       "sound-ta-dental"
     ]
@@ -392,21 +527,21 @@
     "telugu": "ఋ",
     "transliteration": "ru",
     "english": "the letter ru",
-    "notes": "vocalic r — rare, as in ఋషి (sage)"
+    "notes": "vocalic r: rare, as in ఋషి (sage)"
   },
   {
     "id": "script-am",
     "telugu": "అం",
     "transliteration": "aṁ",
     "english": "the letter aṁ",
-    "notes": "a nasal hum at the end — the anusvāra"
+    "notes": "a nasal hum at the end, the anusvāra"
   },
   {
     "id": "script-ah",
     "telugu": "అః",
     "transliteration": "aḥ",
     "english": "the letter aḥ",
-    "notes": "a light breath at the end — the visarga"
+    "notes": "a light breath at the end, the visarga"
   },
   {
     "id": "script-kha",
@@ -433,7 +568,7 @@
     "telugu": "ఙ",
     "transliteration": "ṅa",
     "english": "the letter ṅa",
-    "notes": "the “ng” sound — rare on its own"
+    "notes": "the “ng” sound: rare on its own"
   },
   {
     "id": "script-cha",
@@ -459,63 +594,63 @@
     "telugu": "ఝ",
     "transliteration": "jha",
     "english": "the letter jha",
-    "notes": "ja with a puff of breath — rare"
+    "notes": "ja with a puff of breath: rare"
   },
   {
     "id": "script-nya",
     "telugu": "ఞ",
     "transliteration": "ña",
     "english": "the letter ña",
-    "notes": "the “ny” sound — appears in combinations"
+    "notes": "the “ny” sound: appears in combinations"
   },
   {
     "id": "script-tta",
     "telugu": "ట",
     "transliteration": "ṭa",
     "english": "the letter ṭa",
-    "notes": "hard t — tongue curls back"
+    "notes": "hard t: tongue curls back"
   },
   {
     "id": "script-ttha",
     "telugu": "ఠ",
     "transliteration": "ṭha",
     "english": "the letter ṭha",
-    "notes": "ṭa with a puff of breath — rare"
+    "notes": "ṭa with a puff of breath: rare"
   },
   {
     "id": "script-dda",
     "telugu": "డ",
     "transliteration": "ḍa",
     "english": "the letter ḍa",
-    "notes": "hard d — tongue curls back"
+    "notes": "hard d: tongue curls back"
   },
   {
     "id": "script-ddha",
     "telugu": "ఢ",
     "transliteration": "ḍha",
     "english": "the letter ḍha",
-    "notes": "ḍa with a puff of breath — rare"
+    "notes": "ḍa with a puff of breath: rare"
   },
   {
     "id": "script-nna-retro",
     "telugu": "ణ",
     "transliteration": "ṇa",
     "english": "the letter ṇa",
-    "notes": "hard n — shows up inside words like బాణం"
+    "notes": "hard n: shows up inside words like బాణం"
   },
   {
     "id": "script-ta",
     "telugu": "త",
     "transliteration": "ta",
     "english": "the letter ta",
-    "notes": "soft t — tongue on the teeth"
+    "notes": "soft t: tongue on the teeth"
   },
   {
     "id": "script-tha",
     "telugu": "థ",
     "transliteration": "tha",
     "english": "the letter tha",
-    "notes": "ta with a puff of breath — rare"
+    "notes": "ta with a puff of breath: rare"
   },
   {
     "id": "script-da",
@@ -605,7 +740,7 @@
     "telugu": "ష",
     "transliteration": "ṣa",
     "english": "the letter ṣa",
-    "notes": "a harder sh — tongue curled back"
+    "notes": "a harder sh: tongue curled back"
   },
   {
     "id": "script-sa",
@@ -618,14 +753,14 @@
     "telugu": "ళ",
     "transliteration": "ḷa",
     "english": "the letter ḷa",
-    "notes": "retroflex l — the special Telugu l"
+    "notes": "retroflex l, the special Telugu l"
   },
   {
     "id": "script-rra",
     "telugu": "ఱ",
     "transliteration": "ṟa",
     "english": "the letter ṟa",
-    "notes": "a strong trilled r — rare today"
+    "notes": "a strong trilled r: rare today"
   },
   {
     "id": "script-ksha",
@@ -872,61 +1007,111 @@
     "id": "food-kura",
     "telugu": "కూర",
     "transliteration": "kūra",
-    "english": "curry / vegetable dish"
+    "english": "curry / vegetable dish",
+    "example": {
+      "telugu": "అమ్మ కూర బాగుంది.",
+      "transliteration": "amma kūra bāgundi.",
+      "english": "Mom's curry is good."
+    }
   },
   {
     "id": "food-pappu",
     "telugu": "పప్పు",
     "transliteration": "pappu",
-    "english": "dal (lentils)"
+    "english": "dal (lentils)",
+    "example": {
+      "telugu": "నాకు పప్పు అన్నం కావాలి.",
+      "transliteration": "nāku pappu annam kāvāli.",
+      "english": "I want dal and rice."
+    }
   },
   {
     "id": "food-perugu",
     "telugu": "పెరుగు",
     "transliteration": "perugu",
-    "english": "yogurt"
+    "english": "yogurt",
+    "example": {
+      "telugu": "నాకు పెరుగు కావాలి.",
+      "transliteration": "nāku perugu kāvāli.",
+      "english": "I want yogurt."
+    }
   },
   {
     "id": "food-rotte",
     "telugu": "రొట్టె",
     "transliteration": "roṭṭe",
-    "english": "flatbread / roti"
+    "english": "flatbread / roti",
+    "example": {
+      "telugu": "నాన్నకు రొట్టె కావాలి.",
+      "transliteration": "nānnaku roṭṭe kāvāli.",
+      "english": "Dad wants a roti."
+    }
   },
   {
     "id": "food-karam",
     "telugu": "కారం",
     "transliteration": "kāram",
-    "english": "spicy / chili heat"
+    "english": "spicy / chili heat",
+    "example": {
+      "telugu": "కూర కారంగా ఉంది!",
+      "transliteration": "kūra kāraṅgā undi!",
+      "english": "The curry is spicy!"
+    }
   },
   {
     "id": "like-ishtam",
     "telugu": "నాకు ఇష్టం",
     "transliteration": "nāku iṣṭam",
-    "english": "I like (it)"
+    "english": "I like (it)",
+    "example": {
+      "telugu": "నాకు పప్పు ఇష్టం.",
+      "transliteration": "nāku pappu iṣṭam.",
+      "english": "I like dal."
+    }
   },
   {
     "id": "want-vaddu",
     "telugu": "వద్దు",
     "transliteration": "vaddu",
-    "english": "don’t want / no thanks"
+    "english": "don’t want / no thanks",
+    "example": {
+      "telugu": "కారం వద్దు, పెరుగు కావాలి.",
+      "transliteration": "kāram vaddu, perugu kāvāli.",
+      "english": "No spice, I want yogurt."
+    }
   },
   {
     "id": "more-inka",
     "telugu": "ఇంకా",
     "transliteration": "iṅkā",
-    "english": "more / still"
+    "english": "more / still",
+    "example": {
+      "telugu": "నాకు ఇంకా అన్నం కావాలి.",
+      "transliteration": "nāku iṅkā annam kāvāli.",
+      "english": "I want more rice."
+    }
   },
   {
     "id": "enough-chalu",
     "telugu": "చాలు",
     "transliteration": "chālu",
-    "english": "enough"
+    "english": "enough",
+    "example": {
+      "telugu": "చాలు, ధన్యవాదాలు!",
+      "transliteration": "chālu, dhanyavādālu!",
+      "english": "That's enough, thank you!"
+    }
   },
   {
     "id": "taste-ruchi",
     "telugu": "రుచి",
     "transliteration": "ruchi",
-    "english": "taste"
+    "english": "taste",
+    "example": {
+      "telugu": "కూర రుచిగా ఉంది.",
+      "transliteration": "kūra ruchigā undi.",
+      "english": "The curry is tasty."
+    }
   },
   {
     "id": "house-illu",

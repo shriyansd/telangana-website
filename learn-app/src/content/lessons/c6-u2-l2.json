@@ -32,7 +32,7 @@
       "conceptIds": [
         "script-e"
       ],
-      "prompt": "This is ఎ — it says “e” (like “e” in bed). Which one is ఎ?",
+      "prompt": "This is ఎ: it says “e” (like “e” in bed). Which one is ఎ?",
       "choices": [
         {
           "id": "a",
@@ -90,7 +90,7 @@
       "conceptIds": [
         "script-ee"
       ],
-      "prompt": "This is ఏ — it says “ē” (a long “ay”, as in make). Which one is ఏ?",
+      "prompt": "This is ఏ: it says “ē” (a long “ay”, as in make). Which one is ఏ?",
       "choices": [
         {
           "id": "a",
@@ -180,7 +180,7 @@
       "conceptIds": [
         "script-ai"
       ],
-      "prompt": "This is ఐ — it says “ai” (like “i” in bite). Which one is ఐ?",
+      "prompt": "This is ఐ: it says “ai” (like “i” in bite). Which one is ఐ?",
       "choices": [
         {
           "id": "a",
@@ -238,7 +238,7 @@
       "conceptIds": [
         "script-o"
       ],
-      "prompt": "This is ఒ — it says “o” (like “o” in off). Which one is ఒ?",
+      "prompt": "This is ఒ: it says “o” (like “o” in off). Which one is ఒ?",
       "choices": [
         {
           "id": "a",
@@ -328,7 +328,7 @@
       "conceptIds": [
         "script-oo"
       ],
-      "prompt": "This is ఓ — it says “ō” (a long “o”, as in go). Which one is ఓ?",
+      "prompt": "This is ఓ: it says “ō” (a long “o”, as in go). Which one is ఓ?",
       "choices": [
         {
           "id": "a",
@@ -386,7 +386,7 @@
       "conceptIds": [
         "script-au"
       ],
-      "prompt": "This is ఔ — it says “au” (like “ow” in cow). Which one is ఔ?",
+      "prompt": "This is ఔ: it says “au” (like “ow” in cow). Which one is ఔ?",
       "choices": [
         {
           "id": "a",
@@ -589,7 +589,7 @@
         "script-oo",
         "script-au"
       ],
-      "prompt": "One more round — match letter to sound.",
+      "prompt": "One more round: match letter to sound.",
       "pairs": [
         {
           "a": {

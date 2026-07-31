@@ -2,7 +2,7 @@
   "id": "c6-u3-l2",
   "courseId": "course-6",
   "unitId": "c6-u3",
-  "title": "చ ఛ జ ఝ — the ch and j sounds",
+  "title": "చ ఛ జ ఝ, the ch and j sounds",
   "teluguTitle": "చ వర్గం",
   "description": "The second consonant row.",
   "estimatedMinutes": 10,
@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-cha"
       ],
-      "prompt": "This is చ — it says “cha”. Which one is చ?",
+      "prompt": "This is చ: it says “cha”. Which one is చ?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-chha"
       ],
-      "prompt": "This is ఛ — it says “chha” (cha with a puff of breath). Which one is ఛ?",
+      "prompt": "This is ఛ: it says “chha” (cha with a puff of breath). Which one is ఛ?",
       "choices": [
         {
           "id": "a",
@@ -149,7 +149,7 @@
       "conceptIds": [
         "script-ja"
       ],
-      "prompt": "This is జ — it says “ja”. Which one is జ?",
+      "prompt": "This is జ: it says “ja”. Which one is జ?",
       "choices": [
         {
           "id": "a",
@@ -207,7 +207,7 @@
       "conceptIds": [
         "script-jha"
       ],
-      "prompt": "This is ఝ — it says “jha” (ja with a puff of breath — rare). Which one is ఝ?",
+      "prompt": "This is ఝ, it says “jha” (ja with a puff of breath, rare). Which one is ఝ?",
       "choices": [
         {
           "id": "a",
@@ -267,7 +267,7 @@
       "conceptIds": [
         "script-nya"
       ],
-      "prompt": "This is ఞ — it says “ña” (the “ny” sound — appears in combinations). Which one is ఞ?",
+      "prompt": "This is ఞ (it says “ña” (the “ny” sound) appears in combinations). Which one is ఞ?",
       "choices": [
         {
           "id": "a",

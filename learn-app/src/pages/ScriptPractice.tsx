@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import { Link } from '../router';
 import { VOWELS, CONSONANTS, GUNINTALU, VATTULU, Letter } from '../content/script-data';
+import { LETTER_STROKES } from '../content/stroke-data';
 import { playPrompt } from '../lib/audio';
 
 type Tab = 'vowels' | 'consonants' | 'gunintalu' | 'vattulu';
@@ -33,7 +34,8 @@ export function ScriptPractice() {
       <h1>Telugu script</h1>
       <p className="script-intro">
         Tap a letter to hear it and see how it's used. For guided practice, take the
-        script lessons in <Link to="map">Reading Telugu</Link>.
+        script lessons in <Link to="map">Reading Telugu</Link>, or learn to write each
+        letter stroke by stroke in <Link to="trace">✍️ Writing practice</Link>.
       </p>
       <div className="script-tabs" role="tablist">
         {([
@@ -53,7 +55,7 @@ export function ScriptPractice() {
       {tab === 'consonants' && letterGrid(CONSONANTS)}
       {tab === 'gunintalu' && (
         <>
-          <p className="script-note">Every consonant carries a built-in “a”. A vowel sign swaps it — shown here on క:</p>
+          <p className="script-note">Every consonant carries a built-in “a”. A vowel sign swaps it, shown here on క:</p>
           <div className="script-grid">
             {GUNINTALU.map((g) => (
               <button type="button" key={g.roman} className="script-card" onClick={() => speak(g.example)}>
@@ -86,6 +88,11 @@ export function ScriptPractice() {
           <div>
             <strong>{detail.roman}</strong>{detail.name && <> · {detail.name}</>}
             {detail.hint && <p>{detail.hint}</p>}
+            {LETTER_STROKES[detail.telugu] && (
+              <Link to={`trace/${LETTER_STROKES[detail.telugu].conceptId}`} className="script-write-link">
+                ✍️ Practice writing {detail.telugu}
+              </Link>
+            )}
           </div>
         </aside>
       )}

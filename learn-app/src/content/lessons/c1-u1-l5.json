@@ -24,7 +24,7 @@
       "spoken": { "telugu": "నమస్కారం! ఎలా ఉన్నారు?", "transliteration": "namaskāram! elā unnāru?" },
       "choices": [
         { "id": "a", "english": "Hello! How are you?" },
-        { "id": "b", "english": "Goodbye! See you tomorrow.", "whyWrong": "That would be వెళ్ళొస్తాను — the goodbye phrase." },
+        { "id": "b", "english": "Goodbye! See you tomorrow.", "whyWrong": "That would be వెళ్ళొస్తాను, the goodbye phrase." },
         { "id": "c", "english": "What is your name?", "whyWrong": "That's మీ పేరు ఏమిటి?" }
       ],
       "correctChoiceIds": ["a"]
@@ -41,7 +41,7 @@
       "responseMode": "tiles",
       "tiles": ["నా", "పేరు", "రవి"],
       "acceptedAnswers": ["నా పేరు రవి"],
-      "feedback": { "correct": "నా పేరు ___ works with any name — yours included." }
+      "feedback": { "correct": "నా పేరు ___ works with any name: yours included." }
     },
     {
       "id": "c1u1l5-e3",
@@ -58,8 +58,8 @@
       "type": "word_tiles",
       "conceptIds": ["i-am-fine", "how-are-you"],
       "newContext": true,
-      "prompt": "Answer, then return the question — build the full reply.",
-      "source": { "telugu": "నేను బాగున్నాను మీరు ఎలా ఉన్నారు", "transliteration": "nēnu bāgunnānu, mīru elā unnāru?", "english": "I am fine — how are you?" },
+      "prompt": "Answer, then return the question: build the full reply.",
+      "source": { "telugu": "నేను బాగున్నాను మీరు ఎలా ఉన్నారు", "transliteration": "nēnu bāgunnānu, mīru elā unnāru?", "english": "I am fine: how are you?" },
       "tiles": ["నేను", "బాగున్నాను", "మీరు", "ఎలా", "ఉన్నారు"],
       "direction": "to-telugu"
     },
@@ -72,7 +72,7 @@
       "source": { "telugu": "వెళ్ళొస్తాను", "transliteration": "veḷḷostānu" },
       "direction": "to-english",
       "acceptedAnswers": ["goodbye", "i'll go and come back", "i will go and come back", "bye"],
-      "feedback": { "grammar": "Telugu goodbyes promise a return — literally “I'll go and come.”" }
+      "feedback": { "grammar": "Telugu goodbyes promise a return: literally “I'll go and come.”" }
     },
     {
       "id": "c1u1l5-e6",

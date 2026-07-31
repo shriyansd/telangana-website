@@ -14,7 +14,7 @@ export const VOWELS: Letter[] = [
   { telugu: 'ఈ', roman: 'ī', hint: 'like “ee” in feet' },
   { telugu: 'ఉ', roman: 'u', hint: 'like “u” in put' },
   { telugu: 'ఊ', roman: 'ū', hint: 'like “oo” in food' },
-  { telugu: 'ఋ', roman: 'ru', hint: 'vocalic r — rare, as in ఋషి' },
+  { telugu: 'ఋ', roman: 'ru', hint: 'vocalic r, rare, as in ఋషి' },
   { telugu: 'ఎ', roman: 'e', hint: 'like “e” in bed' },
   { telugu: 'ఏ', roman: 'ē', hint: 'like “a” in make' },
   { telugu: 'ఐ', roman: 'ai', hint: 'like “i” in bite' },
@@ -28,8 +28,8 @@ export const VOWELS: Letter[] = [
 export const CONSONANTS: Letter[] = [
   { telugu: 'క', roman: 'ka' }, { telugu: 'ఖ', roman: 'kha' }, { telugu: 'గ', roman: 'ga' }, { telugu: 'ఘ', roman: 'gha' }, { telugu: 'ఙ', roman: 'ṅa' },
   { telugu: 'చ', roman: 'cha' }, { telugu: 'ఛ', roman: 'chha' }, { telugu: 'జ', roman: 'ja' }, { telugu: 'ఝ', roman: 'jha' }, { telugu: 'ఞ', roman: 'ña' },
-  { telugu: 'ట', roman: 'ṭa', hint: 'hard — tongue curls back' }, { telugu: 'ఠ', roman: 'ṭha' }, { telugu: 'డ', roman: 'ḍa' }, { telugu: 'ఢ', roman: 'ḍha' }, { telugu: 'ణ', roman: 'ṇa' },
-  { telugu: 'త', roman: 'ta', hint: 'soft — tongue on teeth' }, { telugu: 'థ', roman: 'tha' }, { telugu: 'ద', roman: 'da' }, { telugu: 'ధ', roman: 'dha' }, { telugu: 'న', roman: 'na' },
+  { telugu: 'ట', roman: 'ṭa', hint: 'hard, tongue curls back' }, { telugu: 'ఠ', roman: 'ṭha' }, { telugu: 'డ', roman: 'ḍa' }, { telugu: 'ఢ', roman: 'ḍha' }, { telugu: 'ణ', roman: 'ṇa' },
+  { telugu: 'త', roman: 'ta', hint: 'soft, tongue on teeth' }, { telugu: 'థ', roman: 'tha' }, { telugu: 'ద', roman: 'da' }, { telugu: 'ధ', roman: 'dha' }, { telugu: 'న', roman: 'na' },
   { telugu: 'ప', roman: 'pa' }, { telugu: 'ఫ', roman: 'pha' }, { telugu: 'బ', roman: 'ba' }, { telugu: 'భ', roman: 'bha' }, { telugu: 'మ', roman: 'ma' },
   { telugu: 'య', roman: 'ya' }, { telugu: 'ర', roman: 'ra' }, { telugu: 'ల', roman: 'la' }, { telugu: 'వ', roman: 'va' },
   { telugu: 'శ', roman: 'śa' }, { telugu: 'ష', roman: 'ṣa' }, { telugu: 'స', roman: 'sa' }, { telugu: 'హ', roman: 'ha' },
@@ -56,14 +56,14 @@ export const GUNINTALU: { sign: string; roman: string; example: string }[] = [
 
 /** Common conjuncts / vattulu examples. */
 export const VATTULU: { telugu: string; roman: string; from: string }[] = [
-  { telugu: 'క్క', roman: 'kka', from: 'క + ్ + క — as in అక్క' },
-  { telugu: 'మ్మ', roman: 'mma', from: 'మ + ్ + మ — as in అమ్మ' },
-  { telugu: 'న్న', roman: 'nna', from: 'న + ్ + న — as in అన్నం' },
-  { telugu: 'ల్ల', roman: 'lla', from: 'ల + ్ + ల — as in చెల్లి' },
-  { telugu: 'ళ్ల', roman: 'ḷla', from: 'ళ + ్ + ల — as in నీళ్లు' },
-  { telugu: 'స్త', roman: 'sta', from: 'స + ్ + త — as in నమస్తే' },
-  { telugu: 'ట్ట', roman: 'ṭṭa', from: 'ట + ్ + ట — as in పట్టు' },
-  { telugu: 'ద్ద', roman: 'dda', from: 'ద + ్ + ద — as in పెద్ద' },
+  { telugu: 'క్క', roman: 'kka', from: 'క + ్ + క, as in అక్క' },
+  { telugu: 'మ్మ', roman: 'mma', from: 'మ + ్ + మ, as in అమ్మ' },
+  { telugu: 'న్న', roman: 'nna', from: 'న + ్ + న, as in అన్నం' },
+  { telugu: 'ల్ల', roman: 'lla', from: 'ల + ్ + ల, as in చెల్లి' },
+  { telugu: 'ళ్ల', roman: 'ḷla', from: 'ళ + ్ + ల, as in నీళ్లు' },
+  { telugu: 'స్త', roman: 'sta', from: 'స + ్ + త, as in నమస్తే' },
+  { telugu: 'ట్ట', roman: 'ṭṭa', from: 'ట + ్ + ట, as in పట్టు' },
+  { telugu: 'ద్ద', roman: 'dda', from: 'ద + ్ + ద, as in పెద్ద' },
 ];
 
 /** Layout for the on-screen Telugu keyboard. */

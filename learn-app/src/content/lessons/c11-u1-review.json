@@ -39,7 +39,7 @@
       "conceptIds": [
         "sent-milk-drink"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నేను పాలు తాగుతున్నాను",
         "transliteration": "nēnu pālu tāgutunnānu"
@@ -112,7 +112,7 @@
       "conceptIds": [
         "sent-school-go"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నేను బడికి వెళ్తున్నాను",
         "transliteration": "nēnu baḍiki veḷtunnānu"
@@ -185,7 +185,7 @@
       "conceptIds": [
         "plural-gadulu"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "గదులు",
         "transliteration": "gadulu"
@@ -246,7 +246,7 @@
         "sent-book-read",
         "sent-school-go"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

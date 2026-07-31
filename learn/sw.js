@@ -66,7 +66,7 @@ self.addEventListener('fetch', (event) => {
 
 function offlineFallback() {
   return new Response(
-    '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Offline — Telugu Bata</title><style>body{font-family:system-ui,sans-serif;background:#FDF6EB;color:#251208;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center;padding:2rem}h1{color:#D95F0A}</style></head><body><div><h1>మీరు ఆఫ్‌లైన్‌లో ఉన్నారు</h1><p>You are offline. Previously visited lessons still work — open the app again once you have a connection to load new content.</p></div></body></html>',
+    '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Offline | Telugu Bata</title><style>body{font-family:system-ui,sans-serif;background:#FDF6EB;color:#251208;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center;padding:2rem}h1{color:#D95F0A}</style></head><body><div><h1>మీరు ఆఫ్‌లైన్‌లో ఉన్నారు</h1><p>You are offline. Previously visited lessons still work. Open the app again once you have a connection to load new content.</p></div></body></html>',
     { headers: { 'Content-Type': 'text/html; charset=utf-8' } },
   );
 }

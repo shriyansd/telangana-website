@@ -45,7 +45,7 @@
         "question": { "telugu": "ఇది ఏమిటి?", "english": "What was it?" },
         "choices": [
           { "id": "a", "telugu": "మామిడిపండు", "english": "a mango" },
-          { "id": "b", "telugu": "అన్నం", "english": "rice", "whyWrong": "The rice comes later — first she gave a mango from their tree." },
+          { "id": "b", "telugu": "అన్నం", "english": "rice", "whyWrong": "The rice comes later: first she gave a mango from their tree." },
           { "id": "c", "telugu": "పాలు", "english": "milk" }
         ],
         "correctChoiceIds": ["a"]
@@ -61,7 +61,7 @@
         "question": { "telugu": "ముందు అన్నం, తరువాత పండు!" },
         "choices": [
           { "id": "a", "english": "Eat his meal" },
-          { "id": "b", "english": "Eat another mango", "whyWrong": "ముందు means first — the meal comes before more fruit." }
+          { "id": "b", "english": "Eat another mango", "whyWrong": "ముందు means first, the meal comes before more fruit." }
         ],
         "correctChoiceIds": ["a"]
       }

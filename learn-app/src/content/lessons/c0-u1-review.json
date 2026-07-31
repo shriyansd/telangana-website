@@ -35,7 +35,7 @@
       "conceptIds": [
         "greet-namaskaram"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నమస్కారం",
         "transliteration": "namaskāram"
@@ -108,7 +108,7 @@
       "conceptIds": [
         "how-are-you"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఎలా ఉన్నారు?",
         "transliteration": "elā unnāru?"
@@ -181,7 +181,7 @@
       "conceptIds": [
         "script-ka"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "క",
         "transliteration": "ka"
@@ -214,7 +214,7 @@
         "thanks",
         "how-are-you"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

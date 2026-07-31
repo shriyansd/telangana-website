@@ -68,7 +68,7 @@ export function Speaking({
     setTranscript(null);
     const text = await rec.listen('te-IN');
     setListening(false);
-    setTranscript(text ?? '(nothing recognized — that does not mean you were wrong!)');
+    setTranscript(text ?? '(nothing recognized: that does not mean you were wrong!)');
   };
 
   return (
@@ -77,7 +77,7 @@ export function Speaking({
       <AudioButton audio={exercise.audio} telugu={exercise.model.telugu} size="lg" />
 
       {!supported && (
-        <p className="mic-note">Recording isn't supported in this browser — practice out loud, then continue.</p>
+        <p className="mic-note">Recording isn't supported in this browser: practice out loud, then continue.</p>
       )}
       {micError && <p className="mic-note">{micError}</p>}
 
@@ -97,7 +97,7 @@ export function Speaking({
               <button type="button" className="btn-audio" onClick={playMine} disabled={state === 'playing'}>
                 ▶️ My recording
               </button>
-              <span className="rec-hint">Alternate between the model and yourself — match the rhythm.</span>
+              <span className="rec-hint">Alternate between the model and yourself: match the rhythm.</span>
             </>
           )}
         </div>
@@ -117,7 +117,7 @@ export function Speaking({
 
       <p className="mic-privacy">Recordings stay on your device and are discarded after this exercise.</p>
       <button type="button" className="btn-check" onClick={onDone}>
-        {recording ? 'Done — sounds good' : 'I practiced out loud'}
+        {recording ? 'Done, sounds good' : 'I practiced out loud'}
       </button>
     </div>
   );

@@ -38,7 +38,7 @@
       "conceptIds": [
         "num-1"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఒకటి",
         "transliteration": "okaṭi"
@@ -111,7 +111,7 @@
       "conceptIds": [
         "num-4"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "నాలుగు",
         "transliteration": "nālugu"
@@ -184,7 +184,7 @@
       "conceptIds": [
         "num-7"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఏడు",
         "transliteration": "ēḍu"
@@ -245,7 +245,7 @@
         "num-3",
         "num-4"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

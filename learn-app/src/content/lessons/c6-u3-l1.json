@@ -2,7 +2,7 @@
   "id": "c6-u3-l1",
   "courseId": "course-6",
   "unitId": "c6-u3",
-  "title": "క ఖ గ ఘ — the k sounds",
+  "title": "క ఖ గ ఘ, the k sounds",
   "teluguTitle": "క వర్గం",
   "description": "The first consonant row: plain, breathy, and voiced k sounds.",
   "estimatedMinutes": 10,
@@ -31,7 +31,7 @@
       "conceptIds": [
         "script-ka"
       ],
-      "prompt": "This is క — it says “ka”. Which one is క?",
+      "prompt": "This is క: it says “ka”. Which one is క?",
       "choices": [
         {
           "id": "a",
@@ -89,7 +89,7 @@
       "conceptIds": [
         "script-kha"
       ],
-      "prompt": "This is ఖ — it says “kha” (ka with a puff of breath). Which one is ఖ?",
+      "prompt": "This is ఖ: it says “kha” (ka with a puff of breath). Which one is ఖ?",
       "choices": [
         {
           "id": "a",
@@ -179,7 +179,7 @@
       "conceptIds": [
         "script-ga"
       ],
-      "prompt": "This is గ — it says “ga”. Which one is గ?",
+      "prompt": "This is గ: it says “ga”. Which one is గ?",
       "choices": [
         {
           "id": "a",
@@ -237,7 +237,7 @@
       "conceptIds": [
         "script-gha"
       ],
-      "prompt": "This is ఘ — it says “gha” (ga with a puff of breath). Which one is ఘ?",
+      "prompt": "This is ఘ: it says “gha” (ga with a puff of breath). Which one is ఘ?",
       "choices": [
         {
           "id": "a",
@@ -327,7 +327,7 @@
       "conceptIds": [
         "script-nga"
       ],
-      "prompt": "This is ఙ — it says “ṅa” (the “ng” sound — rare on its own). Which one is ఙ?",
+      "prompt": "This is ఙ (it says “ṅa” (the “ng” sound) rare on its own). Which one is ఙ?",
       "choices": [
         {
           "id": "a",

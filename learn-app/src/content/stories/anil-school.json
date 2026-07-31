@@ -30,7 +30,7 @@
         "question": { "telugu": "ఈరోజు సోమవారం.", "transliteration": "īrōju sōmavāram." },
         "choices": [
           { "id": "a", "telugu": "సోమవారం", "english": "Monday" },
-          { "id": "b", "telugu": "ఆదివారం", "english": "Sunday", "whyWrong": "ఆదివారం is Sunday — no school then! Today is సోమవారం, Monday." },
+          { "id": "b", "telugu": "ఆదివారం", "english": "Sunday", "whyWrong": "ఆదివారం is Sunday: no school then! Today is సోమవారం, Monday." },
           { "id": "c", "telugu": "శుక్రవారం", "english": "Friday" }
         ],
         "correctChoiceIds": ["a"]
@@ -46,7 +46,7 @@
         "question": { "telugu": "నా పుస్తకం ఎక్కడ?", "transliteration": "nā pustakam ekkaḍa?" },
         "choices": [
           { "id": "a", "telugu": "పుస్తకం", "english": "his book" },
-          { "id": "b", "telugu": "అన్నం", "english": "his food", "whyWrong": "పుస్తకం is book — the food comes next, when Mom says ముందు తినండి." },
+          { "id": "b", "telugu": "అన్నం", "english": "his food", "whyWrong": "పుస్తకం is book: the food comes next, when Mom says ముందు తినండి." },
           { "id": "c", "telugu": "మంచం", "english": "his bed" }
         ],
         "correctChoiceIds": ["a"]
@@ -62,7 +62,7 @@
         "question": { "telugu": "నేను బడికి వెళ్తున్నాను!", "transliteration": "nēnu baḍiki veḷtunnānu!" },
         "choices": [
           { "id": "a", "english": "To school" },
-          { "id": "b", "english": "To the market", "whyWrong": "బడి is school — బడికి means \"to school.\"" },
+          { "id": "b", "english": "To the market", "whyWrong": "బడి is school: బడికి means \"to school.\"" },
           { "id": "c", "english": "Back to bed" }
         ],
         "correctChoiceIds": ["a"]

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn Telugu — Telangana Initiative</title>
+  <title>Learn Telugu | Telangana Initiative</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,11 +26,11 @@
 
   <div class="page-hero">
     <p class="sec-label">Free Interactive Lessons</p>
-    <h1 class="sec-title">Learn Telugu —<br>India's Classical Tongue</h1>
+    <h1 class="sec-title">Learn Telugu:<br>India's Classical Tongue</h1>
     <p>Explore the alphabet, learn phrases, count to 1,000, and test yourself. No sign-up needed.</p>
     <div style="margin-top:1.75rem;">
-      <a href="learn/" class="btn-primary" style="font-size:0.95rem; padding:14px 30px;">🎓 New: Try Telugu Bata — our full interactive course →</a>
-      <p style="font-size:0.85rem; margin-top:0.75rem; color:rgba(253,246,235,0.55);">Lessons, listening, speaking practice, script building &amp; smart review — free, no account, works offline.</p>
+      <a href="learn/" class="btn-primary" style="font-size:0.95rem; padding:14px 30px;">🎓 New: Try Telugu Bata, our full interactive course →</a>
+      <p style="font-size:0.85rem; margin-top:0.75rem; color:rgba(253,246,235,0.55);">Lessons, listening, speaking practice, script building &amp; smart review. Free, no account, works offline.</p>
     </div>
   </div>
 
@@ -41,11 +41,11 @@
         <div>
           <p class="sec-label">About Telugu</p>
           <h2 class="sec-title" style="font-size:2rem;">The "Italian of the East"</h2>
-          <p class="sec-body">Telugu is one of India's oldest classical languages, spoken by over 80 million people across Telangana and Andhra Pradesh. Its script is uniquely melodic — every letter ends in a vowel sound, giving the language its famously flowing, musical quality. Whether you're reconnecting with your roots or learning for the first time, these free lessons are for you.</p>
+          <p class="sec-body">Telugu is one of India's oldest classical languages, spoken by over 80 million people across Telangana and Andhra Pradesh. Its script is uniquely melodic: every letter ends in a vowel sound, giving the language its famously flowing, musical quality. Whether you're reconnecting with your roots or learning for the first time, these free lessons are for you.</p>
         </div>
         <div class="did-you-know">
           <p class="dyk-label">Did You Know?</p>
-          <p class="dyk-text">Telugu is the only Indian language where every single letter ends in a vowel sound — which is why linguists nicknamed it the "Italian of the East." It has been a classical language since 2008.</p>
+          <p class="dyk-text">Telugu is the only Indian language where every single letter ends in a vowel sound, which is why linguists nicknamed it the "Italian of the East." It has been a classical language since 2008.</p>
           <div class="dyk-tel">అ ఆ ఇ ఈ ఉ</div>
         </div>
       </div>
@@ -61,7 +61,7 @@
 
       <!-- VOWELS -->
       <div class="panel on" id="panel-vowels">
-        <p class="panel-desc">Telugu has 16 vowels called <strong>achullu</strong> (అచ్చులు). They are the foundation of the script — click any letter to see its name and pronunciation.</p>
+        <p class="panel-desc">Telugu has 16 vowels called <strong>achullu</strong> (అచ్చులు). They are the foundation of the script. Click any letter to see its name and pronunciation.</p>
         <div class="alpha-group-label">అచ్చులు · Vowels</div>
         <div class="alpha-grid" id="vowel-grid"></div>
         <div class="letter-detail" id="vowel-detail">
@@ -140,51 +140,51 @@
 <script>
 const vowels = [
   {t:'అ',r:'a',n:'A',h:'Like "a" in "about"'},
-  {t:'ఆ',r:'aa',n:'Aa',h:'Like "a" in "father" — held longer'},
+  {t:'ఆ',r:'aa',n:'Aa',h:'Like "a" in "father", held longer'},
   {t:'ఇ',r:'i',n:'I',h:'Like "i" in "bit"'},
-  {t:'ఈ',r:'ee',n:'Ee',h:'Like "ee" in "feet" — held longer'},
+  {t:'ఈ',r:'ee',n:'Ee',h:'Like "ee" in "feet", held longer'},
   {t:'ఉ',r:'u',n:'U',h:'Like "u" in "put"'},
-  {t:'ఊ',r:'oo',n:'Oo',h:'Like "oo" in "food" — held longer'},
-  {t:'ఋ',r:'ru',n:'Ru',h:'A vocalic R — like "ru" in "ruby"'},
+  {t:'ఊ',r:'oo',n:'Oo',h:'Like "oo" in "food", held longer'},
+  {t:'ఋ',r:'ru',n:'Ru',h:'A vocalic R, like "ru" in "ruby"'},
   {t:'ఎ',r:'e',n:'E',h:'Like "e" in "bed"'},
   {t:'ఏ',r:'ae',n:'Ae',h:'Like "a" in "make"'},
   {t:'ఐ',r:'ai',n:'Ai',h:'Like "i" in "bite"'},
   {t:'ఒ',r:'o',n:'O',h:'Like "o" in "off"'},
   {t:'ఓ',r:'oo',n:'Oo',h:'Like "o" in "go"'},
   {t:'ఔ',r:'au',n:'Au',h:'Like "ow" in "cow"'},
-  {t:'అం',r:'am',n:'Am (Anusvara)',h:'Nasal ending — hum through your nose'},
+  {t:'అం',r:'am',n:'Am (Anusvara)',h:'Nasal ending: hum through your nose'},
   {t:'అః',r:'aha',n:'Aha (Visarga)',h:'A light aspirated breath at the end'},
 ];
 
 const consonants = [
   {t:'క',r:'ka',n:'Ka',h:'Like "k" in "kite"'},
-  {t:'ఖ',r:'kha',n:'Kha',h:'Aspirated K — with a puff of air'},
+  {t:'ఖ',r:'kha',n:'Kha',h:'Aspirated K, with a puff of air'},
   {t:'గ',r:'ga',n:'Ga',h:'Like "g" in "go"'},
-  {t:'ఘ',r:'gha',n:'Gha',h:'Aspirated G — with a puff of air'},
+  {t:'ఘ',r:'gha',n:'Gha',h:'Aspirated G, with a puff of air'},
   {t:'చ',r:'cha',n:'Cha',h:'Like "ch" in "chair"'},
   {t:'జ',r:'ja',n:'Ja',h:'Like "j" in "jar"'},
-  {t:'ట',r:'ta',n:'Ta',h:'Retroflex T — tongue curls back to roof'},
-  {t:'డ',r:'da',n:'Da',h:'Retroflex D — tongue curls back to roof'},
-  {t:'ణ',r:'na',n:'Na (Retroflex)',h:'Retroflex N — tongue curls back'},
-  {t:'త',r:'tha',n:'Tha',h:'Soft T — like "th" in "Thomas"'},
-  {t:'ద',r:'dha',n:'Dha',h:'Soft D sound — dental'},
+  {t:'ట',r:'ta',n:'Ta',h:'Retroflex T, tongue curls back to roof'},
+  {t:'డ',r:'da',n:'Da',h:'Retroflex D, tongue curls back to roof'},
+  {t:'ణ',r:'na',n:'Na (Retroflex)',h:'Retroflex N, tongue curls back'},
+  {t:'త',r:'tha',n:'Tha',h:'Soft T, like "th" in "Thomas"'},
+  {t:'ద',r:'dha',n:'Dha',h:'Soft D sound, dental'},
   {t:'న',r:'na',n:'Na',h:'Like "n" in "name"'},
   {t:'ప',r:'pa',n:'Pa',h:'Like "p" in "pen"'},
-  {t:'ఫ',r:'pha',n:'Pha',h:'Aspirated P — like "ph" in "phone"'},
+  {t:'ఫ',r:'pha',n:'Pha',h:'Aspirated P, like "ph" in "phone"'},
   {t:'బ',r:'ba',n:'Ba',h:'Like "b" in "ball"'},
-  {t:'భ',r:'bha',n:'Bha',h:'Aspirated B — with breath'},
+  {t:'భ',r:'bha',n:'Bha',h:'Aspirated B, with breath'},
   {t:'మ',r:'ma',n:'Ma',h:'Like "m" in "mom"'},
   {t:'య',r:'ya',n:'Ya',h:'Like "y" in "yes"'},
   {t:'ర',r:'ra',n:'Ra',h:'A rolled or flapped R'},
   {t:'ల',r:'la',n:'La',h:'Like "l" in "love"'},
   {t:'వ',r:'va',n:'Va',h:'Like "v" in "vine"'},
-  {t:'శ',r:'sha',n:'Sha (Palatal)',h:'Like "sh" in "shore" — palatal'},
-  {t:'ష',r:'sha',n:'Sha (Retroflex)',h:'Retroflex "sh" — tongue curled back'},
+  {t:'శ',r:'sha',n:'Sha (Palatal)',h:'Like "sh" in "shore", palatal'},
+  {t:'ష',r:'sha',n:'Sha (Retroflex)',h:'Retroflex "sh", tongue curled back'},
   {t:'స',r:'sa',n:'Sa',h:'Like "s" in "sun"'},
   {t:'హ',r:'ha',n:'Ha',h:'Like "h" in "hello"'},
-  {t:'ళ',r:'lla',n:'Lla',h:'Retroflex L — tongue curls back'},
+  {t:'ళ',r:'lla',n:'Lla',h:'Retroflex L, tongue curls back'},
   {t:'క్ష',r:'ksha',n:'Ksha',h:'Combined K + Sha sound'},
-  {t:'ఱ',r:'rra',n:'Rra',h:'A trilled R — stronger than regular R'},
+  {t:'ఱ',r:'rra',n:'Rra',h:'A trilled R, stronger than regular R'},
 ];
 
 const phrases = [
@@ -363,10 +363,10 @@ function nextQuestion() {
     document.getElementById('quiz-fb').textContent = '';
     document.getElementById('quiz-next').style.display = 'none';
     const pct = Math.round((score / shuffled.length) * 100);
-    document.getElementById('quiz-final').textContent = `${score} / ${shuffled.length} — ${pct}%`;
+    document.getElementById('quiz-final').textContent = `${score} / ${shuffled.length} (${pct}%)`;
     document.getElementById('quiz-msg').textContent =
       pct === 100 ? 'Perfect score! మీరు గొప్పవారు! 🎉' :
-      pct >= 70  ? 'Great job! Keep practicing.' : 'Keep going — you are making progress!';
+      pct >= 70  ? 'Great job! Keep practicing.' : 'Keep going, you are making progress!';
     document.getElementById('quiz-done').style.display = 'block';
   } else {
     renderQuestion();

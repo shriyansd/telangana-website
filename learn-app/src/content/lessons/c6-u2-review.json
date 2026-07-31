@@ -37,7 +37,7 @@
       "conceptIds": [
         "script-a"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "అ",
         "transliteration": "a"
@@ -110,7 +110,7 @@
       "conceptIds": [
         "script-ii"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఈ",
         "transliteration": "ī"
@@ -183,7 +183,7 @@
       "conceptIds": [
         "script-e"
       ],
-      "prompt": "Quick check — what does this mean?",
+      "prompt": "Quick check: what does this mean?",
       "question": {
         "telugu": "ఎ",
         "transliteration": "e"
@@ -244,7 +244,7 @@
         "script-i",
         "script-ii"
       ],
-      "prompt": "One last sweep — match them all.",
+      "prompt": "One last sweep: match them all.",
       "pairs": [
         {
           "a": {

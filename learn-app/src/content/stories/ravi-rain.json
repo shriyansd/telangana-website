@@ -3,7 +3,7 @@
   "title": "Ravi and the Rain",
   "teluguTitle": "రవి - వాన",
   "status": "draft",
-  "description": "It's raining, there's no tea, and milk saves the day — a cozy story about staying in.",
+  "description": "It's raining, there's no tea, and milk saves the day, a cozy story about staying in.",
   "vocabPreview": [
     { "id": "story-chudu", "telugu": "చూడు", "transliteration": "chūḍu", "english": "look!" },
     { "id": "story-bayata", "telugu": "బయట", "transliteration": "bayaṭa", "english": "outside" },
@@ -29,7 +29,7 @@
         "question": { "telugu": "ఈరోజు వాన వస్తుంది.", "transliteration": "īrōju vāna vastundi." },
         "choices": [
           { "id": "a", "english": "It's raining" },
-          { "id": "b", "english": "It's sunny", "whyWrong": "వాన means rain — the story starts with rain coming down." },
+          { "id": "b", "english": "It's sunny", "whyWrong": "వాన means rain: the story starts with rain coming down." },
           { "id": "c", "english": "It's night" }
         ],
         "correctChoiceIds": ["a"]
@@ -44,8 +44,8 @@
         "prompt": "Can Ravi go outside today?",
         "question": { "telugu": "ఈరోజు బయటికి వద్దు." },
         "choices": [
-          { "id": "a", "english": "No — Mom says not to" },
-          { "id": "b", "english": "Yes — Mom says go ahead", "whyWrong": "వద్దు is a gentle \"no / don't\" — she's keeping him in from the rain." }
+          { "id": "a", "english": "No, Mom says not to" },
+          { "id": "b", "english": "Yes, Mom says go ahead", "whyWrong": "వద్దు is a gentle \"no / don't\": she's keeping him in from the rain." }
         ],
         "correctChoiceIds": ["a"]
       }
@@ -60,7 +60,7 @@
         "question": { "telugu": "నేను పాలు తాగుతున్నాను.", "transliteration": "nēnu pālu tāgutunnānu." },
         "choices": [
           { "id": "a", "telugu": "పాలు", "english": "milk" },
-          { "id": "b", "telugu": "టీ", "english": "tea", "whyWrong": "He asked for tea, but టీ లేదు — there wasn't any, so it's milk." },
+          { "id": "b", "telugu": "టీ", "english": "tea", "whyWrong": "He asked for tea, but టీ లేదు: there wasn't any, so it's milk." },
           { "id": "c", "telugu": "నీళ్లు", "english": "water" }
         ],
         "correctChoiceIds": ["a"]

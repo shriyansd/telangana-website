@@ -4,7 +4,7 @@
   "unitId": "c1-u1",
   "title": "Show What You Can Do: Meeting Ammamma's Friend",
   "teluguTitle": "మాట్లాడదాం!",
-  "description": "A real conversation from start to finish — greet, introduce yourself, ask how they are, and say goodbye.",
+  "description": "A real conversation from start to finish: greet, introduce yourself, ask how they are, and say goodbye.",
   "estimatedMinutes": 5,
   "status": "draft",
   "difficulty": "beginner",
@@ -19,15 +19,15 @@
       "type": "dialogue",
       "conceptIds": ["greet-namaskaram"],
       "newContext": true,
-      "context": "You're visiting ammamma. Her friend arrives — an elder you've never met. She greets you first.",
+      "context": "You're visiting ammamma. Her friend arrives: an elder you've never met. She greets you first.",
       "turns": [
         { "speaker": "ఆంటీ", "line": { "telugu": "నమస్కారం!", "transliteration": "namaskāram!", "english": "Hello!", "audio": { "normal": "audio/course-1/c1-u1/task-hello-normal.mp3" } } }
       ],
       "responseMode": "select",
       "choices": [
         { "id": "a", "telugu": "నమస్కారం!", "transliteration": "namaskāram!" },
-        { "id": "b", "telugu": "వెళ్ళొస్తాను", "transliteration": "veḷḷostānu", "whyWrong": "That's goodbye — she just arrived!" },
-        { "id": "c", "telugu": "లేదు", "transliteration": "lēdu", "whyWrong": "లేదు means “there isn't” — not a greeting." }
+        { "id": "b", "telugu": "వెళ్ళొస్తాను", "transliteration": "veḷḷostānu", "whyWrong": "That's goodbye: she just arrived!" },
+        { "id": "c", "telugu": "లేదు", "transliteration": "lēdu", "whyWrong": "లేదు means “there isn't”, not a greeting." }
       ],
       "correctChoiceIds": ["a"]
     },
@@ -41,7 +41,7 @@
       ],
       "responseMode": "type",
       "acceptedAnswers": ["నా పేరు రవి", "నా పేరు", "na peru ravi", "naa peru ravi"],
-      "hint": "Start with నా పేరు … — “my name (is) …”. Any name works.",
+      "hint": "Start with నా పేరు …: “my name (is) …”. Any name works.",
       "feedback": { "correct": "మీ పేరు ఏమిటి? → నా పేరు ___. You've got the exchange." }
     },
     {
@@ -88,7 +88,7 @@
     {
       "id": "cc-full-circle",
       "title": "You just had a full Telugu conversation",
-      "body": "Greeting, introduction, wellbeing, farewell — that's the exact shape of thousands of daily conversations across Telangana. Every unit from here adds one more thing you can say inside it."
+      "body": "Greeting, introduction, wellbeing, farewell: that's the exact shape of thousands of daily conversations across Telangana. Every unit from here adds one more thing you can say inside it."
     }
   ],
   "author": "seed-content",
